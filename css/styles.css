@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Pilowlava';
+  src: url(../fonts/Pilowlava-Regular.woff2);
+}
+
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url(../fonts/CabinetGrotesk-Extralight.woff2);
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url(../fonts/CabinetGrotesk-Thin.woff2);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url(../fonts/CabinetGrotesk-Light.woff2);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url(../fonts/CabinetGrotesk-Regular.woff);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url(../fonts/CabinetGrotesk-Medium.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url(../fonts/CabinetGrotesk-Bold.woff2);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url(../fonts/CabinetGrotesk-Extrabold.woff2);
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url(../fonts/CabinetGrotesk-Black.woff2);
+  font-weight: 700;
+}
+
+h1{
+  font-family: 'Cabinet Grotesk';
+  font-weight: lighter;
+}
+
+h2{
+  font-family: 'Cabinet Grotesk';
+  font-weight: 100;
+}
+
+h3{
+  font-family: 'Cabinet Grotesk';
+  font-weight: 200;
+}
+
+h4{
+  font-family: 'Cabinet Grotesk';
+  font-weight: 300;
+}
+
+h5{
+  font-family: 'Cabinet Grotesk';
+  font-weight: 400;
+}
+
+h6{
+  font-family: 'Cabinet Grotesk';
+  font-weight: bold;
+}
+
+.extrabold{
+  font-family: 'Cabinet Grotesk';
+  font-weight: bolder;
+}
+
+p{
+  font-family: 'Cabinet Grotesk';
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.title{
+  font-family: 'Pilowlava';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-size: 24px;
+}
