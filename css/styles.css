@@ -11,13 +11,16 @@ nav {
   padding: 0;
 }
 a{
-  font-size: 12px;
+  font-size: 13px;
   color: black;
   text-decoration: none;
   display: inline-block;
   padding: 5px;
   justify-content: space-between;
   display: block;
+}
+.container{
+  padding-top: 0%;
 }
 .scroll-left {
     height: 50px; 
