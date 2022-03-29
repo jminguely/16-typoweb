@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Regasto Regasto';
+    src: url('Regasto-Regasto.woff2') format('woff2'),
+        url('Regasto-Regasto.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

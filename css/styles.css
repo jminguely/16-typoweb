@@ -1,0 +1,13 @@
+@font-face {
+  font-family:"regasto";
+  src: url("../fonts/Regasto-Regasto.woff") format(woff)
+       url("../fonts/Regasto-Regasto.woff2")format(woff2);
+       font-weight: 400;
+       font-style: normal;
+       font-display: fallback;
+}
+h1{
+  font-family: "regasto";
+  color: rgb(0, 119, 255);
+  text-align: center;
+}
