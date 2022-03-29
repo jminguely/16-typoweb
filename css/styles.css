@@ -1,74 +1,42 @@
-/* appel de la fonte de caractères Serifa Std 
-   en version Black */
-@font-face {
-  font-family: "Serifa Std";
-  src: url("../fonts/SerifaStd-Black.woff2") format("woff2"),
-    url("../fonts/SerifaStd-Black.woff2") format("woff");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
+/*
+font-family: lust-didone-fine, sans-serif;
+
+font-family: lust-display-didone, serif;
+
+font-family: lust-didone, serif;
+
+font-family: nunito-sans, sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/* appel de la fonte de caractères Serifa Std 
-   en version Bold */
-@font-face {
-  font-family: "Serifa Std";
-  src: url("../fonts/SerifaStd-Bold.woff2") format("woff2"),
-    url("../fonts/SerifaStd-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* appel de la fonte de caractères Serifa Std 
-   en version Roman */
-@font-face {
-  font-family: "Serifa Std";
-  src: url("../fonts/SerifaStd-Roman.woff2") format("woff2"),
-    url("../fonts/SerifaStd-Roman.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* appel de la fonte de caractères Serifa Std 
-   en version Italic */
-@font-face {
-  font-family: "Serifa Std";
-  src: url("../fonts/SerifaStd-Italic.woff2") format("woff2"),
-    url("../fonts/SerifaStd-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* appel de la fonte de caractères Serifa Std 
-   en version Light Italic */
-@font-face {
-  font-family: "Serifa Std";
-  src: url("../fonts/SerifaStd-LightItalic.woff2") format("woff2"),
-    url("../fonts/SerifaStd-LightItalic.woff") format("woff");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* appel de la fonte de caractères Serifa Std 
-   en version Light */
-@font-face {
-  font-family: "Serifa Std";
-  src: url("../fonts/SerifaStd-Light.woff2") format("woff2"),
-    url("../fonts/SerifaStd-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
+html {
+  scroll-behavior: smooth;
+  background-color: rgb(255, 241, 220);
 }
 
 body {
-  color: red;
-  font-family: "Serifa Std";
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-  font-size: 40px;
+  max-width: 375px;
+  margin: auto;
+}
+
+header {
+  background-color: rgb(206, 97, 113);
+}
+
+h1,
+p {
+  font-family:  lust-didone, serif;
+}
+
+nav {
+  font-family: "nunito-sans";
+}
+
+header p {
+  color: rgba(0, 0, 0, 0.404);
+  font-size: 44px;
 }
