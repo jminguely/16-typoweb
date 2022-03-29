@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Mongo Grotesque';
+  src: url('../fonts/MangoGrotesque-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mongo Grotesque';
+  src: url('../fonts/MangoGrotesque-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mongo Grotesque';
+  src: url('../fonts/MangoGrotesque-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mongo Grotesque';
+  src: url('../fonts/MangoGrotesque-MediumItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+
