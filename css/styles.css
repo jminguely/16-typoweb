@@ -1,14 +1,26 @@
 @font-face {
-  font-family: lato;
-  src: url('../font/Lato-Hairline.woff') format('woff'),
-  url('../font/Lato-Hairline.woff2') format('woff2');
+  font-family: 'essence-light';
+  src: url('../font/EssenceSans.woff') format('woff)'),
+  url('../font/EssenceSans.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'essence';
+  src: url('../font/EssenceSansBoldItalic.woff') format('woff'),
+  url('../font/EssenceSansBoldItalic.woff2') format('woff2');
+}
+
+h1 {
+  font-family: 'essence-light';
+  color: white;
+  text-align: center;
 }
 
 p {
-  font-family: 'lato';
+  font-family: 'essence';
   color: white;
-  font-size: 40px;
   text-align: center;
+  font-weight: lighter;
 }
 
 body {
