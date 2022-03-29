@@ -25,18 +25,60 @@ body {
 
 header {
   background-color: rgb(206, 97, 113);
-}
-
-h1,
-p {
-  font-family:  lust-didone, serif;
-}
-
-nav {
-  font-family: "nunito-sans";
+  height: 158px;
+  position: relative;
+  overflow: hidden;
 }
 
 header p {
   color: rgba(0, 0, 0, 0.404);
+  font-family: lust-didone, serif;
   font-size: 44px;
+  line-height: 105%;
+  white-space: nowrap;
+}
+
+header div {
+  position: absolute;
+  top: 0;
+}
+
+.defiling {
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.defiling-text-1,
+.defiling-text-3 {
+  animation-name: ChangeDirection1;
+}
+
+@keyframes ChangeDirection1 {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.defiling-text-2,
+.defiling-text-4 {
+  animation-name: ChangeDirection2;
+}
+
+@keyframes ChangeDirection2 {
+  0% {
+    transform: translateX(-70%);
+  }
+
+  100% {
+    transform: translateX(-20%);
+  }
+}
+
+nav {
+  font-family: "nunito-sans";
 }
