@@ -18,6 +18,13 @@
 
 html {
   scroll-behavior: smooth;
+  background: var(--color-main);
+}
+
+body {
+  max-width: 375px;
+  margin: auto;
+  box-shadow: var(--color-third) 0 0 10px;
 }
 
 /* for the header */
