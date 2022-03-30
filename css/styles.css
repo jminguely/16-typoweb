@@ -1,0 +1,26 @@
+@font-face {
+  font-family: mash;
+  src: url(../fonts/Mash-VariableVF.woff);
+  src: url(../fonts/Mash-VariableVF.woff2);
+}
+
+h1{
+  font-family: mash;
+  font-weight: 500;
+  font-size: 100px;
+}
+
+main {
+  padding: auto;
+  background-color: rgb(127, 204, 255);
+}
+
+h2{
+  font-family: mash;
+  font-weight: 900;
+}
+
+p{
+  font-family: mash;
+  font-weight: 600;
+}
