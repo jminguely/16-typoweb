@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'GT-Flexa';
+  src: url(../fonts/GT-Flexa-Regular-Trial.woff2), 
+       url(../fonts/GT-Flexa-Bold-Trial.woff2);
+}
+
+@font-face {
+  font-family: 'GT-Cinetype';
+  src: url(../fonts/GT-Cinetype-Regular.woff2), 
+       url(../fonts/GT-Cinetype-Bold.woff2);
+}
+
+:root {
+  --font-main: 'GT-Flexa';
+  --font-secondary: 'GT-Cinetype';
+}
+
+h1 {
+  font-family: var(--font-main);
+}
+
+span {
+  font-family: var(--font-secondary);
+}
