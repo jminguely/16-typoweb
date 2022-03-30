@@ -16,8 +16,15 @@
   --color-third: #000;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* for the header */
+
 header {
   padding: 5px;
+  background: var(--color-secondary);
 }
 
 .title-container {
@@ -36,4 +43,30 @@ header h1 {
 
 .menu-burger {
   width: 17%;
+}
+
+/* for the main */
+
+main {
+  background: var(--color-main);
+  padding: 5px;
+}
+
+.section-briefing {
+  background: var(--color-third);
+  color: var(--color-main);
+  padding: 29px;
+  font-family: var(--font-main)
+}
+
+.section-briefing h3 {
+  margin: 0 23px;
+  text-align: left;
+  font-size: 40px;
+}
+
+.section-briefing h3 span {
+  color: var(--color-third);
+  background: var(--color-main);
+  font-variation-settings: "wdth" 10, "wght" 100, "ital" 0;
 }
