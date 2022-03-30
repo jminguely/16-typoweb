@@ -56,7 +56,8 @@ main {
   background: var(--color-third);
   color: var(--color-main);
   padding: 29px;
-  font-family: var(--font-main)
+  font-family: var(--font-main);
+  margin: 0 0 5px;
 }
 
 .section-briefing h3 {
@@ -104,8 +105,22 @@ main {
 }
 
 .section-briefing h2 {
-  font-variation-settings: "wdth" 120, "wght" 300, "ital" 1;
+  font-variation-settings: "wdth" 120, "wght" 400, "ital" 1;
   font-size: 35px;
   letter-spacing: 2px;
   margin: 0 0 10px;
+}
+
+.section-title {
+  border: inset #000 2px;
+  padding: 2px;
+  margin: 0 0 2px;
+}
+
+.section-title h2 {
+  font-family: var(--font-main);
+  font-variation-settings: "wdth" 120, "wght" 400, "ital" 1;
+  font-size: 35px;
+  letter-spacing: 2px;
+  text-align: center;
 }
