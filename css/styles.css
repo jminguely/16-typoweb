@@ -75,6 +75,7 @@ main {
   background: var(--color-main);
   color: var(--color-third);
   padding: 13px;
+  margin: 0 0 30px;
 }
 
 .top-card {
@@ -85,7 +86,7 @@ main {
 }
 
 .card h4 {
-  font-variation-settings: "wdth" 120, "wght" 600, "ital" 100;
+  font-variation-settings: "wdth" 120, "wght" 600, "ital" 1;
   font-size: 10px;
 }
 
@@ -100,4 +101,11 @@ main {
 
 .card p {
   font-size: 14px;
+}
+
+.section-briefing h2 {
+  font-variation-settings: "wdth" 120, "wght" 300, "ital" 1;
+  font-size: 35px;
+  letter-spacing: 2px;
+  margin: 0 0 10px;
 }
