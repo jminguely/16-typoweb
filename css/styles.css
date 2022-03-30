@@ -2,3 +2,17 @@ body {
   max-width: 320px;
   margin: auto;
 }
+
+@font-face {
+  font-family: 'ApolloMTStd';
+  src: url('../fonts/ApolloMTStd-Italic.woff2') format('woff2'),
+  src: url('../fonts/ApolloMTStd-Italic.woff') format('woff');
+}
+
+h1 {
+  font-family: ApolloMTStd, italic;
+}
+
+p {
+  font-family: ApolloMTStd, italic;
+}
