@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'A Star Demo';
+    src: url('AStarDemoRegular.woff2') format('woff2'),
+        url('AStarDemoRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

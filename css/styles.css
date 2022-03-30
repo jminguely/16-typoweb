@@ -1,12 +1,24 @@
-@font-face { 
-  font-family:'Arsenica Trial';
-  src: url('../fonts/Arsenica\ T.html')format('woff2'),
-        url('../fonts/Arsenica\ T.html')format('woff');
-    }
-  
+
+
+
 h1 {
-  font-family: 'Arsenica Trial';
-  font-weight: bold;
-  font-style: normal;
-  font-size: 60px;
+font-family: 'ff-carina', sans-serif;
+font-weight: 700;
+font-style: normal;
 }
+
+h2 {
+  font-family: 'A Star Demo';
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'A Star Demo';
+  src: url('../fonts/transfonter.org-20220330-123229/AStarDemoRegular.woff');
+}
+
+font-family: 'MyWebFont';  
+
+  src:  url('../font/mywebfont.woff2') format('woff2'),  
+
+        url('../font/mywebfont.woff') format('woff');
