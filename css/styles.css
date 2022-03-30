@@ -106,10 +106,12 @@ main {
 }
 
 .section-briefing h2 {
-  font-variation-settings: "wdth" 120, "wght" 400, "ital" 1;
+  font-variation-settings: "wdth" 100, "wght" 600;
   font-size: 35px;
   letter-spacing: 2px;
   margin: 0 0 10px;
+  font-family: var(--font-secondary);
+  font-style: italic;
 }
 
 .section-title {
@@ -119,12 +121,13 @@ main {
 }
 
 .section-title h2 {
-  font-family: var(--font-main);
-  font-variation-settings: "wdth" 120, "wght" 400, "ital" 1;
+  font-family: var(--font-secondary);
+  font-variation-settings: "wdth" 120, "wght" 600;
   font-size: 35px;
   letter-spacing: 2px;
   text-align: left;
   margin: 0 0 0 25px;
+  font-style: italic;
 }
 
 .section-exhibition {
