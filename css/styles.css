@@ -10,9 +10,30 @@
 
 :root {
   --font-main: 'GT-Flexa';
-  --font-secondary: 'GT-Cinetype';
+  --font-secondary: 'SF';
+  --color-main: #00FF99;
+  --color-secondary: #fff;
+  --color-third: #000;
 }
 
-h1 {
-  font-family: var(--font-main);
+header {
+  padding: 5px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: inset #000 2px;
+  padding: 5px;
+}
+
+header h1 {
+  height: 56px;
+  width: 280px;
+}
+
+.menu-burger {
+  width: 17%;
 }
