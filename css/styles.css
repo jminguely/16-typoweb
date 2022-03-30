@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'MEGPHIS';
+    src: url('MEGPHIS.woff2') format('woff2'),;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+    h1 {
+        font-family: 'MEGPHIS';
+        font-size: 120px;
+        text-align: center;
+        color: blue;
+    }
+    body {
+        background-color: black;
+    }
