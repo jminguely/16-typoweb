@@ -145,3 +145,59 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.exhibition {
+  font-family: var(--font-main);
+}
+
+.lazer {
+  font-variation-settings: "wdth" 100, "wght" 100;
+}
+
+.thin {
+  font-variation-settings: "wdth" 100, "wght" 200;
+}
+
+.light {
+  font-variation-settings: "wdth" 100, "wght" 300;
+}
+
+.regular {
+  font-variation-settings: "wdth" 100, "wght" 400;
+}
+
+.medium {
+  font-variation-settings: "wdth" 100, "wght" 500;
+}
+
+.bold {
+  font-variation-settings: "wdth" 100, "wght" 600;
+}
+
+.black {
+  font-variation-settings: "wdth" 100, "wght" 700;
+}
+
+.x-compressed {
+  font-variation-settings: "wdth" 10, "wght" 400;
+}
+
+.compressed {
+  font-variation-settings: "wdth" 50, "wght" 400;
+}
+
+.condensed {
+  font-variation-settings: "wdth" 80, "wght" 400;
+}
+
+.extended {
+  font-variation-settings: "wdth" 150, "wght" 400;
+} 
+
+.expanded {
+  font-variation-settings: "wdth" 180, "wght" 400;
+}
+
+.x-expanded {
+  font-variation-settings: "wdth" 200, "wght" 400;
+}
