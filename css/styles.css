@@ -148,6 +148,7 @@ main {
 
 .exhibition {
   font-family: var(--font-main);
+  font-size: 26px;
 }
 
 .lazer {
@@ -200,4 +201,22 @@ main {
 
 .x-expanded {
   font-variation-settings: "wdth" 200, "wght" 400;
+}
+
+.italic-setting {
+  background: none;
+  border: none;
+  font-variation-settings: "wdth" 120, "wght" 600, "ital" 1;
+  letter-spacing: 5px;
+  font-size: 15px;
+  font-family: var(--font-main);
+  background: var(--color-main);
+  color: var(--color-third);
+  text-align: center;
+  margin: 10px 0 0;
+}
+
+.italic-setting:hover {
+  background: var(--color-secondary);
+  cursor: pointer;
 }
