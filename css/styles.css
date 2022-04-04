@@ -48,12 +48,12 @@ p{
   font-style: normal;
   display: flex;
   padding-left: 15px;
-  max-width: 80%;
+  max-width: 70%;
 }
 .container{
   padding-top: 0%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .created-by{
   font-family: "coolvetica", sans-serif;
@@ -62,6 +62,7 @@ p{
   display: flex;
   padding: 5px;
   margin: 0px;
+  align-items: center;
 }
 .author{
   display: flex;
@@ -70,6 +71,7 @@ p{
   font-style: normal;
   padding: 5px;
   margin: 0px;
+  align-items: center;
 }
 .styles{
   text-align: center;
@@ -80,10 +82,28 @@ p{
 font-weight: 300;
 font-style: normal;
 }
-
-
-
-
+h3{
+  font-family:"coolvetica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+input{
+  border: solid black 2px;
+  width: 350px;
+  display: flex;
+  height: 130px;
+  font-family: "coolvetica", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 60px;
+}
+::placeholder{
+  font-family: "coolvetica", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+}
 
 .scroll-left {
     height: 50px; 
@@ -128,4 +148,6 @@ font-style: normal;
     transform: translateX(-100%); 
   }
   }
+  
+
   
