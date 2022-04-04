@@ -1,15 +1,128 @@
-@font-face {
-  font-family: 'Ubahn';
-  src: url('Ubahn-Light.woff2') format('woff2'),
-      url('Ubahn-Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
+/* Semplicita Pro Bold
 
-h1 {
-  font-family: 'Ubahn', sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  text-align: center;
-}
+font-family: semplicitapro, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Semplicita Pro Bold Italic
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Semplicita Pro Italic
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Semplicita Pro Light
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+
+
+Semplicita Pro Light Italic
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 300;
+
+font-style: italic;
+
+
+Semplicita Pro Medium
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+
+
+Semplicita Pro Medium Italic
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 500;
+
+font-style: italic;
+
+
+Semplicita Pro Regular
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Semplicita Pro Semibold
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 600;
+
+font-style: normal;
+
+
+Semplicita Pro Semibold Italic
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 600;
+
+font-style: italic; */
+
+/* Rustica Semi Light
+
+font-family: rustica, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Rustica Semi Light Italic
+
+font-family: rustica, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Rustica Bold
+
+font-family: rustica, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Rustica Bold Italic
+
+font-family: rustica, sans-serif;
+
+font-weight: 700;
+
+font-style: italic; */
+
+
+
+
+
