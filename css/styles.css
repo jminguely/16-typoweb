@@ -126,4 +126,12 @@ html {
   scroll-behavior: smooth;
 }
 
-
+body {
+  max-width: 400px;
+  margin: auto;
+  background-color: #e7d7c4;
+  color: black;
+  font-family: rustica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
