@@ -39,7 +39,8 @@ h1{
   margin-top: 2px;
 }
 .verticalLine {
-  border-left: thick solid black;
+  border-left: solid black;
+  padding-bottom: 15px;
 }
 p{
   font-family: "mrs-eaves", serif;
@@ -52,7 +53,38 @@ p{
 .container{
   padding-top: 0%;
   display: flex;
+  flex-direction: column;
 }
+.created-by{
+  font-family: "coolvetica", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  padding: 5px;
+  margin: 0px;
+}
+.author{
+  display: flex;
+  font-weight: 700;
+  font-family: "coolvetica", sans-serif;
+  font-style: normal;
+  padding: 5px;
+  margin: 0px;
+}
+.styles{
+  text-align: center;
+  padding-bottom: 10px;
+}
+.styles h2 {
+  font-family:"coolvetica", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+
+
+
+
 .scroll-left {
     height: 50px; 
     overflow: hidden;
