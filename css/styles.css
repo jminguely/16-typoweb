@@ -166,3 +166,11 @@ h2 {
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.774);
   text-align: justify;
 }
+
+.type-face h1 {
+  border-bottom: 8px solid #bca68f;
+}
+
+.type-face {
+  border-left: 8px solid #bca68f;
+}
