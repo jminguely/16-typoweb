@@ -150,13 +150,17 @@ h1 {
 h1 
 h2 {
   font-family: rustica, sans-serif;
-
   font-weight: 400;
-
   font-style: normal;
+  text-transform: uppercase;
+
+
 }
 
 .history {
+  height: 380px;
+  overflow: hidden;
+  text-overflow: ellipsis;
   background-color: #bca68f;
   padding: 25px;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.774);
