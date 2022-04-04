@@ -147,6 +147,15 @@ h1 {
   padding: 25px;
 }
 
+.sommary a {
+  color: #e7d7c4;
+  text-decoration: none;
+}
+
+.sommary ul {
+  list-style-type: none;
+}
+
 h1 h2 {
   font-family: rustica, sans-serif;
   font-weight: 400;
@@ -201,5 +210,6 @@ footer {
 }
 
 footer a {
+  color: #e7d7c4;
   text-decoration: none;
 }
