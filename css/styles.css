@@ -204,7 +204,6 @@ main {
 }
 
 .italic-setting {
-  background: none;
   border: none;
   font-variation-settings: "wdth" 120, "wght" 600, "ital" 1;
   letter-spacing: 5px;
@@ -219,4 +218,32 @@ main {
 .italic-setting:hover {
   background: var(--color-secondary);
   cursor: pointer;
+}
+
+.italic-active {
+  font-style: italic;
+}
+
+.typetester-container {
+  background: var(--color-secondary);
+  border: inset var(--color-third) 2px;
+}
+
+.editable-space {
+  font-family: var(--font-main);
+  font-size: 20px;
+  font-variation-settings: "wdth" 200, "wght" 800, "ital" 1;
+  padding: 15px;
+}
+
+.variable-settings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.variable-setting-item {
+  background: none;
+  border: inset var(--color-third) 2px;
 }

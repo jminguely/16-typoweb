@@ -1,11 +1,7 @@
-document.getElementById("italic-toggler").onclick = function() {ItalicToggle()};
-
-function ItalicToggle() {
-  document.getElementById("italic-toggle").style.display = "none";
+function ItalicToggleWidth() {
+  document.getElementById("italic-toggle-width").classList.add('italic-active');
 }
 
-document.getElementById("italic-toggler-1").onclick = function() {ItalicToggle()};
-
-function ItalicToggle() {
-  document.getElementById("italic-toggle-1").style.display = "none";
+function ItalicToggleWeight() {
+  document.getElementById("italic-toggle-weight").classList.add('italic-active');
 }
