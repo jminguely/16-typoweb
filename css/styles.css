@@ -239,11 +239,21 @@ main {
 .variable-settings {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .variable-setting-item {
   background: none;
-  border: inset var(--color-third) 2px;
+  border:outset var(--color-third) 2px;
+  padding: 1px 20px;
+  font-family: var(--font-main);
+  font-variation-settings: "wdth" 50, "wght" 300;
+  font-size: 35px;
+}
+
+.variable-setting-item:hover,
+.variable-setting-item:active {
+  background: var(--color-third);
+  color: var(--color-secondary);
 }
