@@ -139,3 +139,10 @@ body {
 h1 {
   align-items: center;
 }
+
+.sommary {
+  background-color: #BCA68F;
+  color: #E7D7C4;
+  width: 370px;
+  padding: 25px;
+}
