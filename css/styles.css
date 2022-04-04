@@ -122,7 +122,8 @@ font-weight: 700;
 
 font-style: italic; */
 
-
-
+html {
+  scroll-behavior: smooth;
+}
 
 
