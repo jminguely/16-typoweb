@@ -103,7 +103,20 @@ input{
   font-weight: 700;
   font-style: normal;
   font-size: 60px;
+  padding-left: 7px;
 }
+.font-type{
+  border: solid black 1px;
+  font-family: "coolvetica", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  float: right;
+  padding: 3px;
+}
+
+
+
+
 
 .scroll-left {
     height: 50px; 
