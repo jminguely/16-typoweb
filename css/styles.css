@@ -17,7 +17,7 @@ font-family: nunito-sans, sans-serif;
   --font-presentaion : lust-didone, serif;
   --font-presentation-fine : lust-didone-fine, sans-serif;
   --font-presentation-display : lust-display-didone, serif;
-  --font-titration : nunito-sans, sans-serif;
+  --font-secondary : nunito-sans, sans-serif;
   --background-color-main : rgb(255, 241, 220);
   --background-color-secondary : rgb(206, 97, 113);
   --color-transparent :rgba(0, 0, 0, 0.247);
@@ -116,5 +116,8 @@ nav {
 
 /* main */
 
+main {
+  font-family: var(--font-secondary);
+}
 
 /* footer */
