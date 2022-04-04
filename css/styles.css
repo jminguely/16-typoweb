@@ -13,9 +13,19 @@ font-family: nunito-sans, sans-serif;
   padding: 0;
 }
 
+:root {
+  --font-presentaion : lust-didone, serif;
+  --font-presentation-fine : lust-didone-fine, sans-serif;
+  --font-presentation-display : lust-display-didone, serif;
+  --font-titration : nunito-sans, sans-serif;
+  --background-color-main : rgb(255, 241, 220);
+  --background-color-secondary : rgb(206, 97, 113);
+  --color-transparent :rgba(0, 0, 0, 0.247);
+}
+
 html {
   scroll-behavior: smooth;
-  background-color: rgb(255, 241, 220);
+  background-color: var(--background-color-main);
 }
 
 body {
@@ -23,19 +33,28 @@ body {
   margin: auto;
 }
 
+/* header */
+
 header {
-  background-color: rgb(206, 97, 113);
+  background-color: var(--background-color-secondary);
   height: 158px;
   position: relative;
   overflow: hidden;
 }
 
+header h1 {
+  text-align: center;
+  padding: 40px;
+  font-family: var(--font-presentaion);
+  font-size: 40px;
+}
+
 header p {
-  color: rgba(0, 0, 0, 0.404);
-  font-family: lust-didone, serif;
-  font-size: 44px;
-  line-height: 105%;
-  white-space: nowrap;
+  color: var(--color-transparent);
+  font-family : var(--font-presentaion);
+  font-size : 44px;
+  line-height : 105%;
+  white-space : nowrap;
 }
 
 header div {
@@ -44,7 +63,7 @@ header div {
 }
 
 .defiling {
-  animation-duration: 4s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -82,3 +101,9 @@ header div {
 nav {
   font-family: "nunito-sans";
 }
+
+/* main */
+
+
+
+/* footer */
