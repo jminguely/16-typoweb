@@ -17,6 +17,7 @@ html {
 body {
   max-width: 320px;
   margin: auto;
+  background-color: #1C1C1E;
 }
 
 header h1 {
@@ -38,10 +39,22 @@ header p {
   padding-bottom: 150px;
 }
 
-header {
+.title-container {
   background-image: url(../img/header-monsterra-size.jpg);
   background-position: center;
   background-size: 100%;
   background-size: cover;
   background-color: aqua;
+}
+
+.element {
+  width: 180px;
+}
+
+.container-sparkle {
+  display: flex;
+  flex-direction: row;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  justify-content: center;
 }
