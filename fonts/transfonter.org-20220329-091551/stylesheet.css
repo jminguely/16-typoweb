@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'American Text';
+    src: url('AmericanText.woff2') format('woff2'),
+        url('AmericanText.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
