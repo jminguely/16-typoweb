@@ -73,10 +73,70 @@ main {
   font-size: 40px;
 }
 
-.section-briefing h3 span {
-  color: var(--color-third);
+.all-in-container {
+  padding: 11px;
   background: var(--color-main);
-  font-variation-settings: "wdth" 10, "wght" 100, "ital" 0;
+  width: 250px;
+  height: 42px;
+  position: absolute;
+  top: 203px;
+  left: 128px;
+}
+
+.all-in {
+  animation-name: all-variable;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  color: var(--color-third);
+  font-size: 55px;
+  position: relative;
+}
+
+@keyframes all-variable {
+  0% {
+    font-variation-settings: "wdth" 10, "wght" 100, "ital" 0;
+  }
+  
+  10% {
+    font-variation-settings: "wdth" 20, "wght" 200, "ital" 0.1;
+  }
+
+  20% {
+    font-variation-settings: "wdth" 30, "wght" 400, "ital" 0.3;
+  }
+
+  30% {
+    font-variation-settings: "wdth" 40, "wght" 500, "ital" 0.5;
+  }
+
+  40% {
+    font-variation-settings: "wdth" 60, "wght" 600, "ital" 0.7;
+  }
+
+  50% {
+    font-variation-settings: "wdth" 100, "wght" 700, "ital" 1;
+  }
+
+  60% {
+    font-variation-settings: "wdth" 70, "wght" 800, "ital" 0.7;
+  }
+
+  70% {
+    font-variation-settings: "wdth" 60, "wght" 700, "ital" 0.5;
+  }
+
+  80% {
+    font-variation-settings: "wdth" 40, "wght" 500, "ital" 0.3;
+  }
+
+  90% {
+    font-variation-settings: "wdth" 20, "wght" 300, "ital" 0.1;
+  }
+
+  100% {
+    font-variation-settings: "wdth" 10, "wght" 100, "ital" 0;
+  }
 }
 
 .card {
