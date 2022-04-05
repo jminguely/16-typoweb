@@ -6,6 +6,44 @@ font-family: lust-display-didone, serif;
 font-family: lust-didone, serif;
 
 font-family: nunito-sans, sans-serif;
+-------
+Lust Didone Regular
+
+font-family: lust-didone,serif;
+font-weight: 700;
+font-style: normal;
+-------
+Lust Didone Italic
+
+font-family: lust-didone,serif;
+font-weight: 700;
+font-style: italic;
+-------
+Lust Didone Fine Italic
+
+font-family: lust-didone-fine,sans-serif;
+font-weight: 100;
+font-style: italic;
+-------
+Lust Didone Fine
+
+font-family: lust-didone-fine,sans-serif;
+font-weight: 100;
+font-style: normal;
+-------
+Lust Didone Display 
+
+font-family: lust-display-didone,serif;
+font-weight: 400;
+font-style: normal;
+-------
+Lust Didone Display Italic
+
+font-family: lust-display-didone,serif;
+font-weight: 400;
+font-style: italic;
+
+
 */
 
 * {
@@ -18,14 +56,14 @@ font-family: nunito-sans, sans-serif;
   --font-presentation-fine : lust-didone-fine, sans-serif;
   --font-presentation-display : lust-display-didone, serif;
   --font-secondary : nunito-sans, sans-serif;
-  --background-color-main : rgb(255, 241, 220);
-  --background-color-secondary : rgb(206, 97, 113);
+  --color-main : rgb(255, 241, 220);
+  --color-secondary : rgb(206, 97, 113);
   --color-transparent :rgba(0, 0, 0, 0.247);
 }
 
 html {
   scroll-behavior: smooth;
-  background-color: var(--background-color-main);
+  background-color: var(--color-main);
 }
 
 body {
@@ -36,7 +74,7 @@ body {
 /* header */
 
 header {
-  background-color: var(--background-color-secondary);
+  background-color: var(--color-secondary);
   height: 132px;
   position: relative;
   overflow: hidden;
@@ -62,13 +100,13 @@ header div {
   top: 0;
   user-select: none;
 }
-
+/* 
 .defiling {
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-}
-
+} */
+/* 
 .defiling-text-1 {
   animation-name: ChangeDirection1;
 }
@@ -81,7 +119,7 @@ header div {
   100% {
     transform: translateX(-50%);
   }
-}
+} */
 /* 
 .defiling-text-2 {
   animation-name: ChangeDirection2;
@@ -121,4 +159,18 @@ main {
   font-family: var(--font-secondary);
 }
 
+/* main styles */
+
+
+
+/* main try */
+
+
+
+/* main alternatives */
+
+
+
 /* footer */
+
+
