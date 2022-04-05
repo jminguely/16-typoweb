@@ -44,6 +44,7 @@ font-weight: 400;
 font-style: italic;
 
 
+
 */
 
 * {
@@ -52,7 +53,7 @@ font-style: italic;
 }
 
 :root {
-  --font-presentaion : lust-didone, serif;
+  --font-presentaion-regular : lust-didone, serif;
   --font-presentation-fine : lust-didone-fine, sans-serif;
   --font-presentation-display : lust-display-didone, serif;
   --font-secondary : nunito-sans, sans-serif;
@@ -83,13 +84,13 @@ header {
 header h1 {
   text-align: center;
   padding: 40px;
-  font-family: var(--font-presentaion);
+  font-family: var(--font-presentaion-regular);
   font-size: 40px;
 }
 
 header p {
   color: var(--color-transparent);
-  font-family : var(--font-presentaion);
+  font-family : var(--font-presentaion-regular);
   font-size : 44px;
   line-height : 103%;
   white-space : nowrap;
@@ -159,7 +160,76 @@ main {
   font-family: var(--font-secondary);
 }
 
+main h2 {
+  padding: 60px 0;
+  text-align: center;
+  font-style: bold;
+}
+
 /* main styles */
+
+.presentation {
+  padding: 0 77px;
+  
+}
+
+.presentation a {
+  font-size: 45px;
+}
+
+.presentation p {
+  font-size: 13px;
+}
+
+.container-box-styles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.badge {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 30px;
+  font-family: var(--font-secondary);
+}
+
+.icon {
+  background-color: var(--color-secondary);
+  max-width: 95px;
+  max-height: 95px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.icon-regular {
+  font-family: var(--font-presentaion-regular);
+}
+
+.icon-italic {
+  font-family: var(--font-presentaion-regular);
+  font-style: italic;
+}
+
+.icon-display {
+  font-family: var(--font-presentation-display);
+}
+
+.icon-display-italic {
+  font-family: var(--font-presentation-display);
+  font-style: italic;
+}
+
+.icon-fine {
+  font-family: var(--font-presentation-fine);
+}
+
+.icon-fine-italic {
+  font-family: var(--font-presentation-fine);
+  font-style: italic;
+}
 
 
 
@@ -169,8 +239,15 @@ main {
 
 /* main alternatives */
 
-
+.caracters {
+  font-family: var(--font-presentaion-regular);
+}
 
 /* footer */
 
+footer {
+  font-family: var(--font-secondary);
+  text-align: center;
+  background-color: var(--color-secondary);
+}
 
