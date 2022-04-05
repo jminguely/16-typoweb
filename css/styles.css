@@ -50,13 +50,14 @@ font-style: italic;s
 }
 
 :root {
-  --font-presentaion-normal : lust-didone, serif;
+  --font-presentation-normal : lust-didone, serif;
   --font-presentation-fine : lust-didone-fine, sans-serif;
   --font-presentation-display : lust-display-didone, serif;
   --font-secondary : nunito-sans, sans-serif;
   --color-main : rgb(255, 241, 220);
   --color-secondary : rgb(206, 97, 113);
-  --color-transparent :rgba(0, 0, 0, 0.247);
+  --color-more-transparent :rgba(0, 0, 0, 0.247);
+  --color-transparent :rgba(0, 0, 0, 0.553);
   --color-visited :rgba(0, 0, 0, 0.72);
 }
 
@@ -82,13 +83,13 @@ header {
 header h1 {
   text-align: center;
   padding: 40px;
-  font-family: var(--font-presentaion-normal);
+  font-family: var(--font-presentation-normal);
   font-size: 40px;
 }
 
 header p {
-  color: var(--color-transparent);
-  font-family : var(--font-presentaion-normal);
+  color: var(--color-more-transparent);
+  font-family : var(--font-presentation-normal);
   font-size : 44px;
   line-height : 103%;
   white-space : nowrap;
@@ -192,6 +193,13 @@ main h3 {
   font-size: 17px;
 }
 
+main h4 {
+  margin: 20px 0 2px 0;
+  font-weight: 400;
+  font-size: 17px;
+  color: var(--color-transparent);
+}
+
 /* main introduction */
 
 .introduction {
@@ -211,6 +219,12 @@ main h3 {
 
 .presentation a {
   font-size: 45px;
+  text-decoration: none; 
+  color: black;
+}
+.presentation a:visited {
+  text-decoration: none; 
+  color: black
 }
 
 .presentation p {
@@ -241,11 +255,11 @@ main h3 {
 }
 
 .icon-regular {
-  font-family: var(--font-presentaion-normal);
+  font-family: var(--font-presentation-normal);
 }
 
 .icon-italic {
-  font-family: var(--font-presentaion-normal);
+  font-family: var(--font-presentation-normal);
   font-style: italic;
 }
 
@@ -267,9 +281,51 @@ main h3 {
   font-style: italic;
 }
 
-/* main try */
+/* main tester */
 
-/* padding: 0 45px; */
+.try {
+  padding: 0 45px;
+}
+
+input::placeholder {
+  color: var(--color-more-transparent);
+}
+
+.try-text {
+  border: none;
+  padding:  10px 10px 5px;
+  font-size: 24px;
+  max-height: 50px;
+  max-width: 291px;
+  text-overflow: ellipsis;
+}
+
+.try-text-regular {
+  font-family: var(--font-presentation-normal);
+}
+
+.try-text-italic {
+  font-family: var(--font-presentation-normal);
+  font-style: italic;
+}
+
+.try-text-fine {
+  font-family: var(--font-presentation-fine);
+}
+
+.try-text-fine-italic {
+  font-family: var(--font-presentation-fine);
+  font-style: italic;
+}
+
+.try-text-display {
+  font-family: var(--font-presentation-display);
+}
+
+.try-text-display-italic {
+  font-family: var(--font-presentation-display);
+  font-style: italic;
+}
 
 /* main alternatives */
 
