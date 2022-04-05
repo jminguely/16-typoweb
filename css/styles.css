@@ -41,10 +41,7 @@ Lust Didone Display Italic
 
 font-family: lust-display-didone,serif;
 font-weight: 400;
-font-style: italic;
-
-
-
+font-style: italic;s
 */
 
 * {
@@ -60,6 +57,7 @@ font-style: italic;
   --color-main : rgb(255, 241, 220);
   --color-secondary : rgb(206, 97, 113);
   --color-transparent :rgba(0, 0, 0, 0.247);
+  --color-visited :rgba(0, 0, 0, 0.72);
 }
 
 html {
@@ -101,13 +99,13 @@ header div {
   top: 0;
   user-select: none;
 }
-/* 
+
 .defiling {
-  animation-duration: 5s;
+  animation-duration: 100s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-} */
-/* 
+} 
+
 .defiling-text-1 {
   animation-name: ChangeDirection1;
 }
@@ -120,8 +118,8 @@ header div {
   100% {
     transform: translateX(-50%);
   }
-} */
-/* 
+} 
+
 .defiling-text-2 {
   animation-name: ChangeDirection2;
 }
@@ -148,30 +146,61 @@ header div {
   100% {
     transform: translateX(-70%);
   }
-} */
+}
+
+/* main nav */
 
 nav {
   font-family: "nunito-sans";
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
 }
+
+hr {
+  border : solid  0.5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:visited {
+  text-decoration: none;
+  color: var(--color-visited)
+}
+
 
 /* main */
 
 main {
   font-family: var(--font-secondary);
-  padding: 0 45px;
 }
 
 main h2 {
-  padding: 60px 0;
+  margin: 50px 0;
   text-align: center;
-  font-style: bold;
+  font-weight: 700;
+}
+
+/* main introduction */
+
+.introduction {
+  margin: 35px 45px;
+}
+
+.introduction hr {
+  margin: 10px 0;
+  border : solid  1px var(--color-secondary);
 }
 
 /* main styles */
 
 .presentation {
-  padding: 0 15px;
-  
+  padding: 0 60px;
 }
 
 .presentation a {
@@ -234,9 +263,11 @@ main h2 {
 
 /* main try */
 
-
+padding: 0 45px;
 
 /* main alternatives */
+
+padding: 0 45px;
 
 .caracters {
   font-family: var(--font-presentaion-normal);
@@ -250,3 +281,11 @@ footer {
   background-color: var(--color-secondary);
 }
 
+footer a {
+  text-decoration: none; 
+  color: black;
+}
+footer a:visited {
+  text-decoration: none; 
+  color: var(--color-visited)
+}
