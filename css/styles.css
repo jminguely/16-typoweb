@@ -53,7 +53,7 @@ font-style: italic;
 }
 
 :root {
-  --font-presentaion-regular : lust-didone, serif;
+  --font-presentaion-normal : lust-didone, serif;
   --font-presentation-fine : lust-didone-fine, sans-serif;
   --font-presentation-display : lust-display-didone, serif;
   --font-secondary : nunito-sans, sans-serif;
@@ -84,13 +84,13 @@ header {
 header h1 {
   text-align: center;
   padding: 40px;
-  font-family: var(--font-presentaion-regular);
+  font-family: var(--font-presentaion-normal);
   font-size: 40px;
 }
 
 header p {
   color: var(--color-transparent);
-  font-family : var(--font-presentaion-regular);
+  font-family : var(--font-presentaion-normal);
   font-size : 44px;
   line-height : 103%;
   white-space : nowrap;
@@ -158,6 +158,7 @@ nav {
 
 main {
   font-family: var(--font-secondary);
+  padding: 0 45px;
 }
 
 main h2 {
@@ -169,7 +170,7 @@ main h2 {
 /* main styles */
 
 .presentation {
-  padding: 0 77px;
+  padding: 0 15px;
   
 }
 
@@ -192,7 +193,7 @@ main h2 {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin: 30px;
+  margin: 10px;
   font-family: var(--font-secondary);
 }
 
@@ -205,11 +206,11 @@ main h2 {
 }
 
 .icon-regular {
-  font-family: var(--font-presentaion-regular);
+  font-family: var(--font-presentaion-normal);
 }
 
 .icon-italic {
-  font-family: var(--font-presentaion-regular);
+  font-family: var(--font-presentaion-normal);
   font-style: italic;
 }
 
@@ -231,8 +232,6 @@ main h2 {
   font-style: italic;
 }
 
-
-
 /* main try */
 
 
@@ -240,7 +239,7 @@ main h2 {
 /* main alternatives */
 
 .caracters {
-  font-family: var(--font-presentaion-regular);
+  font-family: var(--font-presentaion-normal);
 }
 
 /* footer */
