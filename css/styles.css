@@ -209,20 +209,18 @@ h2 {
 }
 
 .type-face .element-5 {
-  font-weight: 300;
-  font-style: normal;
-}
-
-.type-face .element-6 {
-  font-family: semplicitapro, sans-serif;
   font-weight: 600;
   font-style: italic;
 }
 
-.type-face .element-7 {
-  font-family: semplicitapro, sans-serif;
+.type-face .element-6 {
   font-weight: 700;
   font-style: italic;
+}
+
+.type-face .element-7 {
+  font-weight: 300;
+  font-style: normal;
 }
 
 .type-face .element-8 {
@@ -232,12 +230,15 @@ h2 {
 }
 
 .type-face .element-9 {
+  font-family: semplicitapro, sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .type-face .element-10 {
-}
-
-.type-face .element-10 {
+  font-family: semplicitapro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .test {
