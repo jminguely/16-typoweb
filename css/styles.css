@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'HeavyHeapRg-Regular';
+  src: url('../fonts/HeavyHeapRg-Regular.woff') format('woff'),
+   url('../fonts/HeavyHeapRg-Regular.woff2') format('woff2');
+}
