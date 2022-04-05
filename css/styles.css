@@ -85,7 +85,7 @@ main {
 
 .all-in {
   animation-name: all-variable;
-  animation-duration: 4s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   color: var(--color-third);
