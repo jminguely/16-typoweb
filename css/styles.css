@@ -308,3 +308,64 @@ input[type=range]::-webkit-progress-bar {
   border: var(--color-third) inset 1px;
 }
 
+footer {
+  background: var(--color-secondary);
+  padding: 5px;
+}
+
+.logo-container {
+  padding: 10px 40px;
+  border: var(--color-third) inset 2px;
+}
+
+.logo-container img {
+  max-width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.link-contact-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.link-contact {
+  font-family: var(--font-secondary);
+  color: var(--color-third);
+  background: var(--color-secondary);
+  border: inset var(--color-third) 1px;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  margin: 5px 0;
+  width: 115px;
+}
+
+.link-contact:hover,
+.link-contact:active {
+  background: var(--color-third);
+  color: var(--color-secondary);
+  width: 300px;
+  transition: 0.3s;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-family: var(--font-secondary);
+  font-size: 10px;
+  width: 300px;
+  margin: auto;
+}
+
+.copyright img {
+  width: 100px;
+}
