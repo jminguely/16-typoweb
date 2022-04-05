@@ -32,6 +32,17 @@ width: 375px;
 padding-right: 22px;
 }
 
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #33ff41;
+}
+
+.font-tester::placeholder {
+  color: black;
+}
 
 /* font-weight: bold;
 font-style: normal; */
