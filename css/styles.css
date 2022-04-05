@@ -10,19 +10,38 @@
   url('../font/EssenceSansBoldItalic.woff2') format('woff2');
 }
 
-h1 {
-  font-family: 'essence-light';
-  color: white;
-  text-align: center;
-}
-
-p {
-  font-family: 'essence';
-  color: white;
-  text-align: center;
-  font-weight: lighter;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background-color: black;
+  max-width: 320px;
+  margin: auto;
+}
+
+header h1 {
+  font-family: essence-light;
+  font-weight: lighter;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 160px;
+  color: #EECAA2;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+header p {
+  font-family: lato-hairline;
+  font-size: 15px;
+  color: #EECAA2;
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+header {
+  background-image: url(../img/header-monsterra-size.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-size: cover;
+  background-color: aqua;
 }
