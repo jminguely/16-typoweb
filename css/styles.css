@@ -213,6 +213,7 @@ main {
   color: var(--color-third);
   text-align: center;
   margin: 10px 0 0;
+  padding: 5px 20px;
 }
 
 .italic-setting:hover {
@@ -222,6 +223,13 @@ main {
 
 .italic-active {
   font-style: italic;
+}
+
+.italic-toggle-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .typetester-container {
@@ -260,9 +268,8 @@ main {
 
 input[type=range] {
   -webkit-appearance: none;
-  width: 100%;
-  background: transparent; 
-  margin: 15px 0;
+  width: 340px;
+  margin: 15px 10px;
 }
 
 input[type=range]:focus {
@@ -284,4 +291,8 @@ input[type=range]::-webkit-slider-runnable-track {
   cursor: pointer;
   background: var(--color-secondary);
   border: 2px solid var(--color-third);
+}
+
+input[type=range]::-webkit-progress-bar {
+  background: var(--color-third);
 }
