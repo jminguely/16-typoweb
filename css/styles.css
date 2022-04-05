@@ -49,7 +49,7 @@ header h1 {
 }
 
 .menu-burger {
-  width: 17%;
+  width: 14%;
 }
 
 /* for the main */
@@ -304,9 +304,11 @@ input[type=range]::-webkit-progress-bar {
   background: var(--color-third);
 }
 
-.typetester-container hr {
+hr {
   border: var(--color-third) inset 1px;
 }
+
+/* for the footer */
 
 footer {
   background: var(--color-secondary);
@@ -368,4 +370,54 @@ footer {
 
 .copyright img {
   width: 100px;
+}
+
+/* for the menu */
+
+.menu header {
+  position: relative;
+  overflow: hidden;
+}
+
+.menu main {
+  animation-name: defiling-slider;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0, 0, 0.27, 0.98);
+}
+
+@keyframes defiling-slider {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.menu main nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu main nav a {
+  font-family: var(--font-main);
+  text-decoration: none;
+  color: var(--color-third);
+  text-transform: uppercase;
+  padding: 30px 10px;
+  font-size: 40px;
+  text-align: right;
+}
+
+.menu main nav a:hover,
+.menu main nav a:active {
+  font-variation-settings: "wdth" 100, "wght" 800, "ital" 1;
+  transition: all 2s;
+}
+
+.menu nav hr {
+  width: 300px;
+  margin: auto;
 }
