@@ -60,10 +60,11 @@ header p {
 header div {
   position: absolute;
   top: 0;
+  user-select: none;
 }
 
 .defiling {
-  animation-duration: 6s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -81,7 +82,7 @@ header div {
     transform: translateX(-50%);
   }
 }
-
+/* 
 .defiling-text-2 {
   animation-name: ChangeDirection2;
 }
@@ -108,7 +109,7 @@ header div {
   100% {
     transform: translateX(-70%);
   }
-}
+} */
 
 nav {
   font-family: "nunito-sans";
