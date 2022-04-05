@@ -13,3 +13,7 @@ function ItalicToggleNone() {
 function ToggleItalicNone() {
   document.getElementById("toggle-italic").classList.remove('italic-active')
 }
+
+function WidthModifier() {
+  document.getElementById("editable-content").style.fontVariationSettings('"wdth" 80')
+}

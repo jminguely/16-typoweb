@@ -48,7 +48,9 @@
         <h2>TYPEFACE:</h2>
         <img src="img/grid.svg" alt="grille de glyphes">
       </div>
-      <div class="section-title"><h2>WEIGHT AXIS :</h2></div>
+      <div class="section-title">
+        <h2>WEIGHT AXIS :</h2>
+      </div>
       <div class="section-exhibition" id="toggle-italic">
         <span class="exhibition lazer">LAZER</span>
         <span class="exhibition thin">THIN</span>
@@ -76,23 +78,39 @@
           <button class="italic-setting" id="italic-toggler-reverse" onclick="ItalicToggleNone()">NORMAL</button>
         </div>
       </div>
-      <div class="section-title"><h2>TYPETESTER :</h2></div>
+      <div class="section-title">
+        <h2>TYPETESTER :</h2>
+      </div>
       <div class="typetester-container">
         <div class="editable-space">
-          <span contenteditable>
+          <span contenteditable id="editable-content">
             START TYPING HERE...
           </span>
         </div>
+        <hr>
         <div class="variable-settings">
-          <button class="variable-setting-item">WIDTH</button>
-          <button class="variable-setting-item">WEIGHT</button>
-          <button class="variable-setting-item">ITALIC</button>
-        </div>
-        <input 
+          <span class="variable-setting-item">WIDTH</span>
+          <input 
           type="range" 
           name="settings-bar" 
           id="settings-bar" 
-          class="settings-bar">
+          class="settings-bar-width"
+          ondrag="WidthModifier()">
+          <span class="variable-setting-item">WEIGHT</span>
+          <input 
+          type="range" 
+          name="settings-bar" 
+          id="settings-bar" 
+          class="settings-bar-weight"
+          ondrag="WeightModifier()">
+          <span class="variable-setting-item">ITALIC</span>
+          <input 
+          type="range" 
+          name="settings-bar" 
+          id="settings-bar" 
+          class="settings-bar-italic"
+          ondrag="ItalicModifier()">
+        </div>
       </div>
     </main>
     <footer>

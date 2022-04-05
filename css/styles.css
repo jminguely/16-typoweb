@@ -255,30 +255,28 @@ main {
 
 .variable-settings {
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .variable-setting-item {
   background: none;
-  border:outset var(--color-third) 2px;
+  border: none;
   padding: 1px 20px;
   font-family: var(--font-main);
   font-variation-settings: "wdth" 50, "wght" 300;
-  font-size: 35px;
-}
-
-.variable-setting-item:hover,
-.variable-setting-item:active {
-  background: var(--color-third);
-  color: var(--color-secondary);
+  font-size: 28px;
+  margin: 0 10px;
 }
 
 input[type=range] {
   -webkit-appearance: none;
-  width: 340px;
+  width: 189px;
   margin: 15px 10px;
+  justify-items: flex-end;
 }
 
 input[type=range]:focus {
@@ -304,5 +302,9 @@ input[type=range]::-webkit-slider-runnable-track {
 
 input[type=range]::-webkit-progress-bar {
   background: var(--color-third);
+}
+
+.typetester-container hr {
+  border: var(--color-third) inset 1px;
 }
 
