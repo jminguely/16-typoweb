@@ -17,6 +17,8 @@ font-family: adobe-jenson-pro, serif;
 
 header {
   background-image: url(../img/header-background.webp);
+  padding: 130px 60px;
+  border-bottom: 2px solid white;
 }
 
 header h1 {
@@ -29,6 +31,13 @@ header h1 {
   line-height: 55px;
 }
 
+header p { 
+  font-family: adobe-jenson-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
 header h1 strong {
   font-size: 80px;
 }
@@ -37,12 +46,20 @@ header h1 strong {
   padding: 0px 50px 0px 50px;
 }
 
+.informations-section p {
+  font-family: adobe-jenson-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+
 .container {
   display: flex;
   flex-direction: row;
   background-image: url(../img/ornement-background.webp);
   border-top: 2px solid white;
   border-bottom: 2px solid white ;
+  padding: 0px 0px 0px 25px;
 }
 
 .ornaments .signs {
@@ -51,7 +68,7 @@ header h1 strong {
 }
 
 img {
-  width: 60%;
+  width: 85%;
 }
 
 .alphabet-section {
