@@ -1,11 +1,15 @@
 @font-face {
   font-family: "BauhausStd";
-  src: url('../fonts/converti/BauhausStd-Heavy.woff2') format('woff2'),
-  url('../fonts/BauhausStd-Bold.woff') format('woff');
+  src: url('../fonts/BauhausStd-Heavy.woff2') format('woff2'),
+  url('../fonts/BauhausStd-Heavy.woff') format('woff');
   font-display: fallback;
 }
 
-header {
+@font-face {
+  font-family: "KabelLTStd";
+  src: url('../fonts/KabelLTStd-Book.woff2') format('woff2'),
+  url('../fonts/KabelLTStd-Book.woff') format('woff');
+  font-display: fallback;
 }
 
 h1 {
