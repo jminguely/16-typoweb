@@ -244,6 +244,15 @@ main {
   padding: 15px;
 }
 
+.editable-space span {
+  color: #0000003f;
+}
+
+.editable-space span:active,
+.editable-space span:focus {
+  color: var(--color-third);
+}
+
 .variable-settings {
   display: flex;
   flex-direction: row;
@@ -296,3 +305,4 @@ input[type=range]::-webkit-slider-runnable-track {
 input[type=range]::-webkit-progress-bar {
   background: var(--color-third);
 }
+
