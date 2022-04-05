@@ -49,7 +49,7 @@
         <img src="img/grid.svg" alt="grille de glyphes">
       </div>
       <div class="section-title"><h2>WEIGHT AXIS :</h2></div>
-      <div class="section-exhibition" id="itlaic-toggle-weight">
+      <div class="section-exhibition" id="toggle-italic">
         <span class="exhibition lazer">LAZER</span>
         <span class="exhibition thin">THIN</span>
         <span class="exhibition light">LIGHT</span>
@@ -57,10 +57,13 @@
         <span class="exhibition medium">MEDIUM</span>
         <span class="exhibition bold">BOLD</span>
         <span class="exhibition black">BLACK</span>
-        <button class="italic-setting" id="italic-toggler-weight" onclick="ItalicToggleWeight()">ITALIC</button>
+        <div class="italic-toggle-container">
+          <button class="italic-setting" id="italic-toggler" onclick="ToggleItalic()">ITALIC</button>
+          <button class="italic-setting" id="italic-toggler-reverse" onclick="ToggleItalicNone()">NORMAL</button>
+        </div>
       </div>
       <div class="section-title"><h2>WIDTH AXIS :</h2></div>
-      <div class="section-exhibition" id="italic-toggle-width">
+      <div class="section-exhibition" id="italic-toggle">
         <span class="exhibition x-compressed">X COMPRESSED</span>
         <span class="exhibition compressed" >COMPRESSED</span>
         <span class="exhibition condensed">CONDENSED</span>
@@ -68,7 +71,10 @@
         <span class="exhibition extended">EXTENDED</span>
         <span class="exhibition expanded">EXPANDED</span>
         <span class="exhibition x-expanded">X EXPANDED</span>
-        <button class="italic-setting" id="italic-toggler-width" onclick="ItalicToggleWidht()">ITALIC</button>
+        <div class="italic-toggle-container">
+          <button class="italic-setting" id="italic-toggler" onclick="ItalicToggle()">ITALIC</button>
+          <button class="italic-setting" id="italic-toggler-reverse" onclick="ItalicToggleNone()">NORMAL</button>
+        </div>
       </div>
       <div class="section-title"><h2>TYPETESTER :</h2></div>
       <div class="typetester-container">
