@@ -288,6 +288,7 @@ footer {
   font-family: var(--font-secondary);
   text-align: center;
   background-color: var(--color-secondary);
+  padding: 20px 0;
 }
 
 footer a {
