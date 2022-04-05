@@ -1,16 +1,46 @@
+
 @font-face {
-    font-family: 'MEGPHIS';
-    src: url('MEGPHIS.woff2') format('woff2'),;
+    font-family: 'Milkman';
+    src: url('MilkmanLight.woff2') format('woff2'),
+        url('MilkmanLight.woff') format('woff'),
+        url('MilkmanLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milkman';
+    src: url('MilkmanBold.woff2') format('woff2'),
+        url('MilkmanBold.woff') format('woff'),
+        url('MilkmanBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milkman';
+    src: url('MilkmanRegular.woff2') format('woff2'),
+        url('MilkmanRegular.woff') format('woff'),
+        url('MilkmanRegular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+body {
+background-image: url(file:///Users/berzanurozen/Desktop/finder/site/Sans%20titre/16-typoweb/img/Noe%CC%81%20Cotter.jpg);
+background-size: cover;
+background-position: center;
+opacity: 35%;
+}
     h1 {
-        font-family: 'MEGPHIS';
-        font-size: 120px;
+        font-family: 'Milkman';
+        font-size: 71px;
         text-align: center;
-        color: blue;
+        color: rgba(0, 0, 0, 0.726) ;
     }
-    body {
-        background-color: black;
+    .about {
+        background-color: white;
+        opacity: 40%;
     }
