@@ -42,8 +42,15 @@ header h1 strong {
   font-size: 80px;
 }
 
-.informations-section {
-  padding: 40px 50px;
+.informations-section h1,
+.informations-section p {
+  padding: 10px 50px;
+}
+
+.informations-section img {
+  padding: 0;
+  width: 100%;
+  border-bottom: 2px solid white;
 }
 
 .informations-section p {
@@ -114,4 +121,32 @@ textarea {
 
 .in-use-section img {
 width: 100;
+}
+
+.footer-container {
+  display: flex;
+  padding: 0px 50px;
+}
+
+.footer-container div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-img {
+  width: 29%;
+}
+
+footer img {
+  width: 65%;
+}
+
+
+
+.footer-container p {
+  font-family: garamond-atf-subhead, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
 }
