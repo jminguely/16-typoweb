@@ -3,3 +3,53 @@
   src: url('../fonts/HeavyHeapRg-Regular.woff') format('woff'),
    url('../fonts/HeavyHeapRg-Regular.woff2') format('woff2');
 }
+
+body {
+  margin: 0px;
+}
+
+header {
+    background-color:#edbeb8 ;
+}
+header div {
+  background-color: #2d3446;
+}
+h1 {
+  margin: 0 0 -20px 0;
+  font-family: capitol, sans-serif;
+  font-size: 50px;
+  color: #d4777f;
+  text-align: center;
+}
+.capitol-band {
+  font-size: 35px;
+  display: flex;
+  flex-direction: row;
+  background-color:#edbeb8 ;
+  justify-content: space-between;
+}
+.text-intro {
+  font-size: 12px;
+  font-family: sans-serif;
+  padding: 0 20px 0 30px;
+  color: #d4777f;
+}
+header p {
+  font-family: capitol, sans-serif;
+  color: #916576;
+}
+
+header img {
+  position: relative;
+  left: 85px;
+}
+main {
+  margin: -40px 0 0 0;
+  color:#edbeb8 ;
+  padding: 10px;
+  background-color: #2d3446;
+}
+
+.presentation-font {
+  font-family: sans-serif;
+}
