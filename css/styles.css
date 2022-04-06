@@ -11,3 +11,63 @@ font-style: normal; */
 /* font-family: itc-avant-garde-gothic-pro, sans-serif;
 font-weight: 700;
 font-style: normal; */
+
+body {
+    margin: 0;
+}
+
+.position-menu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items: flex-end;
+}
+
+.menu {
+    background-color: #e2e2e2;
+    writing-mode: vertical-rl;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 40px;
+    height: 667px;
+    position: fixed;
+}
+
+.text-appointed a {
+    text-decoration: none;
+    color: #0835f2;
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 500;
+}
+
+.arrow {
+    width: 200px;
+    height: auto
+}
+
+.sectiongrey {
+    background-color: #e2e2e2;
+    height: 667px;
+    width: 375px;
+}
+
+.sectionblue {
+    background-color: #0835f2;
+    height: 667px;
+    width: 375px;
+}
+
+.sectionimg {
+    height: 667px;
+    width: 375px;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    padding: 0 50px;
+}
