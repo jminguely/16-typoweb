@@ -27,6 +27,17 @@ body {
   box-shadow: var(--color-third) 0 0 10px;
 }
 
+p::selection,
+span::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+strong::selection {
+  background-color: var(--color-secondary);
+  color: var(--color-third);
+}
+
 /* for the header */
 
 header {
@@ -49,7 +60,11 @@ header h1 {
 }
 
 .menu-burger {
-  width: 14%;
+  width: 16%;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: none;
 }
 
 /* for the main */
@@ -73,24 +88,16 @@ main {
   font-size: 40px;
 }
 
-.all-in-container {
-  padding: 11px;
-  background: var(--color-main);
-  width: 250px;
-  height: 42px;
-  position: absolute;
-  top: 203px;
-  left: 50px;
-}
-
 .all-in {
   animation-name: all-variable;
-  animation-duration: 7s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   color: var(--color-third);
-  font-size: 55px;
-  position: relative;
+  font-size: 50px;
+  padding: 12px;
+  background: var(--color-main);
+  margin-top: 5px;
 }
 
 @keyframes all-variable {
@@ -98,40 +105,8 @@ main {
     font-variation-settings: "wdth" 10, "wght" 100, "ital" 0;
   }
   
-  10% {
-    font-variation-settings: "wdth" 20, "wght" 200, "ital" 0.1;
-  }
-
-  20% {
-    font-variation-settings: "wdth" 30, "wght" 400, "ital" 0.3;
-  }
-
-  30% {
-    font-variation-settings: "wdth" 40, "wght" 500, "ital" 0.5;
-  }
-
-  40% {
-    font-variation-settings: "wdth" 60, "wght" 600, "ital" 0.7;
-  }
-
   50% {
-    font-variation-settings: "wdth" 100, "wght" 700, "ital" 1;
-  }
-
-  60% {
-    font-variation-settings: "wdth" 70, "wght" 800, "ital" 0.7;
-  }
-
-  70% {
-    font-variation-settings: "wdth" 60, "wght" 700, "ital" 0.5;
-  }
-
-  80% {
-    font-variation-settings: "wdth" 40, "wght" 500, "ital" 0.3;
-  }
-
-  90% {
-    font-variation-settings: "wdth" 20, "wght" 300, "ital" 0.1;
+    font-variation-settings: "wdth" 100, "wght" 800, "ital" 1;
   }
 
   100% {
@@ -297,20 +272,12 @@ main {
   border: inset var(--color-third) 2px;
 }
 
-.editable-space {
+.editable-space input{
   font-family: var(--font-main);
-  font-size: 20px;
+  font-size: 10px;
   font-variation-settings: "wdth" 200, "wght" 800, "ital" 1;
   padding: 15px;
-}
-
-.editable-space span {
-  color: #0000003f;
-}
-
-.editable-space span:active,
-.editable-space span:focus {
-  color: var(--color-third);
+  border: none;
 }
 
 .variable-settings {
@@ -434,15 +401,16 @@ footer {
 
 /* for the menu */
 
-.menu header {
-  position: relative;
-  overflow: hidden;
-}
-
-.menu main {
+.menu-slider {
   animation-name: defiling-slider;
   animation-duration: 1s;
   animation-timing-function: cubic-bezier(0, 0, 0.27, 0.98);
+  background: var(--color-main);
+  display: none;
+}
+
+.open {
+  display: block;
 }
 
 @keyframes defiling-slider {
@@ -455,13 +423,13 @@ footer {
   }
 }
 
-.menu main nav {
+.menu-slider nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.menu main nav a {
+.menu-slider nav a {
   font-family: var(--font-main);
   text-decoration: none;
   color: var(--color-third);
@@ -471,13 +439,13 @@ footer {
   text-align: right;
 }
 
-.menu main nav a:hover,
-.menu main nav a:active {
+.menu-slider nav a:hover,
+.menu-slider nav a:active {
   font-variation-settings: "wdth" 100, "wght" 800, "ital" 1;
   transition: all 2s;
 }
 
-.menu nav hr {
+.menu-slider nav hr {
   width: 300px;
   margin: auto;
 }
