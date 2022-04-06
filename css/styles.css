@@ -93,7 +93,7 @@ main {
   animation-name: all-variable;
   animation-duration: 10s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-timing-function: cubic-bezier(0, 2.25, 1, -0.2);
   color: var(--color-third);
   font-size: 50px;
   padding: 12px;
@@ -284,11 +284,24 @@ main {
 
 .variable-settings {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: center;
+}
+
+.variable-settings-item-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 361px;
+  align-items: center;
+}
+
+.variable-settings-item-row:active,
+.variable-settings-item-row:hover,
+.variable-settings-item-row::selection {
+  color: var(--color-secondary);
+  background-color: var(--color-third);
 }
 
 .variable-setting-item {
@@ -319,7 +332,6 @@ input[type=range]::-webkit-slider-thumb {
   background: var(--color-third);
   cursor: pointer;
   margin-top: -10px;
-  range: end;
 }
 
 input[type=range]::-webkit-slider-runnable-track {
