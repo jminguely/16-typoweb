@@ -108,8 +108,10 @@
             name="settings-bar" 
             id="settings-bar" 
             class="settings-bar-width"
-            aria-valuenow="WidthModifier()"
-            value="100">
+            onchange="WidthModifier(this.value)"
+            value="200"
+            min="25"
+            max="200">
           </div>
           <div class="variable-settings-item-row" id="range-setting">
             <span class="variable-setting-item">WEIGHT</span>
@@ -118,8 +120,10 @@
             name="settings-bar" 
             id="settings-bar" 
             class="settings-bar-weight"
-            aria-valuenow="WeightModifier()"
-            value="100">
+            onchange="WeightModifier(this.value)"
+            value="800"
+            min="120"
+            max="800">
           </div>
           <div class="variable-settings-item-row" id="range-setting">
             <span class="variable-setting-item">ITALIC</span>
@@ -128,8 +132,10 @@
             name="settings-bar" 
             id="settings-bar" 
             class="settings-bar-italic"
-            aria-valuenow="ItalicModifier()"
-            value="100">
+            onchange="ItalicModifier(this.value)"
+            value="100"
+            min="0"
+            max="100">
           </div>
         </div>
       </div>
