@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sentence-ex {
+  border-bottom: 2px lightgrey solid;
+  padding: 20px 60px 20px 60px;
+}
+
+@font-face { 
+  font-family: 'Neco'; 
+  src:  url('../fonts/Neco-Medium.woff2');
+  font-weight: 500;
+} 
+
+@font-face { 
+  font-family: 'Neco'; 
+  src:  url('../fonts/Neco-Regular.woff2');
+  font-weight: 400;
+} 
+
+@font-face { 
+  font-family: 'Neco'; 
+  src:  url('../fonts/Neco-Bold.woff2');
+  font-weight: 700;
+} 
+
+
+h1 {
+  font-family: Kindred;
+}
+
+h2 {
+  font-family: Neco;
+  font-style: italic;
+}
+
+.typeface-title {
+  font-size: 30px;
+  font-family: neue-kabel, sans-serif;
+  font-weight: 600;
+  font-style: normal; 
+  text-align: center;
+}
+
+.overview-ex {
+  background-color: #f9f9f9;
+}
+
+.overview-ex p {
+  font-size: 25px;
+}
+
+.font-regular {
+  font-family: Neco;
+  font-weight: 400;
+}
+
+.glyphs h2 {
+  font-size: 30px;
+  font-family: neue-kabel, sans-serif;
+  font-weight: 600;
+  font-style: normal; 
+  text-align: center;
+}
+
+
