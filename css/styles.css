@@ -280,6 +280,11 @@ main {
   border: none;
   width: 331px;
   appearance: none;
+  outline: none;
+}
+
+::placeholder {
+  color: var(--color-main);
 }
 
 .variable-settings {
