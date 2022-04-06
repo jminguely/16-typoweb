@@ -17,18 +17,30 @@
         <h1>
           <img src="img/logo-typoweb-gtflexa.svg" alt="logo du site">
         </h1>
-        <a href="pages/menu.html" class="menu-burger">
+        <button class="menu-burger" onclick="MenuSliderOpen()">
           <img src="img/menu-burger.svg" alt="menu" role="navigation">
-        </a>
+        </button>
       </div>
     </header>
     <hr>
+    <div class="menu-slider" id="menu-slider">
+      <nav>
+        <a href="../index.html#typeface">Typeface</a>
+        <hr>
+        <a href="../index.html#weight-axis">Weight Axis</a>
+        <hr>
+        <a href="../index.html#width-axis">Width Axis</a>
+        <hr>
+        <a href="../index.html#type-tester">Type Tester</a>
+        <hr>
+        <a href="../index.html#contact">Contact Us</a>
+      </nav>
+    </div>
     <main>
       <div class="section-briefing">
         <h3>
           FLEXIBILITY IS
           <br>
-          <span class="all-in-container"></span>
           <span class="all-in">RELIGION</span>
         </h3>
         <div class="card">
@@ -65,10 +77,7 @@
         <span class="exhibition medium">MEDIUM</span>
         <span class="exhibition bold">BOLD</span>
         <span class="exhibition black">BLACK</span>
-        <div class="italic-toggle-container">
-          <button class="italic-setting" id="italic-toggler" onclick="ToggleItalic()">ITALIC</button>
-          <button class="italic-setting" id="italic-toggler-reverse" onclick="ToggleItalicNone()">NORMAL</button>
-        </div>
+        <button class="italic-setting" id="italic-toggler" onclick="ToggleItalic()">ITALIC</button>
       </div>
       <div class="section-title">
         <h2 id="width-axis">WIDTH AXIS :</h2>
@@ -81,43 +90,47 @@
         <span class="exhibition extended">EXTENDED</span>
         <span class="exhibition expanded">EXPANDED</span>
         <span class="exhibition x-expanded">X EXPANDED</span>
-        <div class="italic-toggle-container">
-          <button class="italic-setting" id="italic-toggler" onclick="ItalicToggle()">ITALIC</button>
-          <button class="italic-setting" id="italic-toggler-reverse" onclick="ItalicToggleNone()">NORMAL</button>
-        </div>
+        <button class="italic-setting" id="italic-toggler" onclick="ItalicToggle()">ITALIC</button>
       </div>
       <div class="section-title">
         <h2 id="type-tester">TYPETESTER :</h2>
       </div>
       <div class="typetester-container">
         <div class="editable-space">
-          <span contenteditable id="editable-content">
-            START TYPING HERE...
-          </span>
+          <input placeholder="START TYPING HERE" id="editable-content">
         </div>
         <hr>
         <div class="variable-settings">
-          <span class="variable-setting-item">WIDTH</span>
-          <input 
-          type="range" 
-          name="settings-bar" 
-          id="settings-bar" 
-          class="settings-bar-width"
-          ondrag="WidthModifier()">
-          <span class="variable-setting-item">WEIGHT</span>
-          <input 
-          type="range" 
-          name="settings-bar" 
-          id="settings-bar" 
-          class="settings-bar-weight"
-          ondrag="WeightModifier()">
-          <span class="variable-setting-item">ITALIC</span>
-          <input 
-          type="range" 
-          name="settings-bar" 
-          id="settings-bar" 
-          class="settings-bar-italic"
-          ondrag="ItalicModifier()">
+          <div class="variable-settings-item-row" id="range-setting">
+            <span class="variable-setting-item">WIDTH</span>
+            <input 
+            type="range" 
+            name="settings-bar" 
+            id="settings-bar" 
+            class="settings-bar-width"
+            aria-valuenow="WidthModifier()"
+            value="100">
+          </div>
+          <div class="variable-settings-item-row" id="range-setting">
+            <span class="variable-setting-item">WEIGHT</span>
+            <input 
+            type="range" 
+            name="settings-bar" 
+            id="settings-bar" 
+            class="settings-bar-weight"
+            aria-valuenow="WeightModifier()"
+            value="100">
+          </div>
+          <div class="variable-settings-item-row" id="range-setting">
+            <span class="variable-setting-item">ITALIC</span>
+            <input 
+            type="range" 
+            name="settings-bar" 
+            id="settings-bar" 
+            class="settings-bar-italic"
+            aria-valuenow="ItalicModifier()"
+            value="100">
+          </div>
         </div>
       </div>
     </main>
