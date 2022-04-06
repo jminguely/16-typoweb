@@ -16,28 +16,38 @@ margin: 0;
   color: #FBD2B4;
   text-align: center;
   font-size: 90px;
+  padding-top: 30px;
 }
 
-h2 {
+.site-description {
   margin: 0;
   text-align: center;
   font-size: 15px;
   color: white;
   padding-bottom: 30px;
   padding-bottom: 50px;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-h3 {
+.site-quote {
   margin: 0;
   text-align: center;
   font-size: 30px;
   color: white;
   padding-bottom: 50px;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 p {
-  margin: 50px;
+
   color: #FBD2B4;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .font-box {
@@ -63,10 +73,12 @@ p {
   background-color: #3B1E0F;
 }
 
-.chocolate-publicity h2 {
+h2 {
   font-size: 80px;
   color: white;
   text-align: center;
+  font-family: 'ff-carina', sans-serif;
+  font-weight: 700;
 }
 
 .chocolate-publicity p {
@@ -77,7 +89,8 @@ p {
 }
 
 img {
-  text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .card-quote {
@@ -108,10 +121,52 @@ h5 {
   padding-bottom: 30px;
 }
 
+.text-box {
+  background-color: #FDEAE4;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 25px;
+}
+
+
+.font-tester {
+  background-color: none;
+  color: #3B1E0F;
+  
+}
+
+.font-tester:focus {
+  outline: 2px solid #3B1E0F;
+}
+
+.font-text {
+  font-size: 50px;
+  font-family: 'ff-carina', sans-serif;
+  padding: 10px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: -50px;
+  box-sizing: border-box;
+}
+
 .button-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
   margin-bottom: 5px;
+} 
+
+.light-card {
+  background-color: #fdeae454;
+}
+
+.lettrine::first-letter {
+  font-size: 100px;
+  float: left;
+}
+
+.text-bold {
+  font-family: 'ff-carina', sans-serif; 
+  font-weight: 700;
 }
