@@ -9,13 +9,39 @@
   src: url(../fonts/anson-regular-webfont.woff);
 }
 
-
 body {
   margin: auto;
+}
+
+.title-web {
+  display: flex;
+  background-color: #BBBAE4;
+  box-shadow: 1px 20px 30px black;
+  padding: 5px 0 0 0;
+}
+
+.picture-flower {
+  width: 20px;
+  animation: flower 4s linear infinite;
 
 }
 
-header h1{
+.picture-name {
+  padding: 0 0 0 250px;
+}
+
+@keyframes flower {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.picture-name {
+  width: 100px;
+}
+
+header h1 { 
   font-family: mash;
   font-size: 90px;
   font-weight: 555px;
@@ -26,6 +52,7 @@ header h1{
   background-image: url(../img/header-fleur.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  position: sticky;
 }
 
 .variable h2 {
@@ -50,7 +77,6 @@ header h1{
 }
 
 @keyframes variable {
-
   20%{
     font-variation-settings: 'wght' 90, 'wdth' 700;
   }
@@ -87,11 +113,11 @@ h3 {
 
 .defiling-1 {
   font-family: mash;
-  font-weight: 800px;
+  font-weight: 800;
   font-size: 60px;
   margin: 0;
   color: #7375D3;
-  animation: defilement 5s infinite forwards;
+  animation: defilement 5s linear infinite;
   animation-name: defilement-1;
   white-space: nowrap;
   animation-direction: alternate;
@@ -99,42 +125,42 @@ h3 {
 }
 
 @keyframes defilement-1 {
-  from { transform: translateX(-100%);}
+  from { transform: translateX(-200%);}
   to { transform: translateX(0%);}
 }
 
 .defiling-2 {
   font-family: mash;
   font-size: 40px;
-  font-weight: 300px;
+  font-weight: 300;
   margin: 0;
   color: #8888EA;
-  animation: defilement 5s infinite forwards;
+  animation: defilement 5s linear infinite;
   animation-name: defilement-2;
   white-space: nowrap;
-  animation-direction: alternate;
   letter-spacing: 1px;
+  animation-direction: alternate;
 }
 
 @keyframes defilement-2 {
   from { transform: translateX(0%);}
-  to { transform: translateX(-100%);}
+  to { transform: translateX(-200%);}
 }
 
 .defiling-3 {
   font-family: mash;
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: 100;
   margin: 0;
   color: #8888EA;
-  animation: defilement 5s infinite forwards;
-  animation-name: defilement-1;
+  animation: defilement 5s linear infinite;
+  animation-name: defilement-3;
   white-space: nowrap;
-  animation-direction: alternate;
   letter-spacing: 1px;
+  animation-direction: alternate;
 }
 
 @keyframes defilement-3 {
-  from { transform: translateX(-1%);}
-  to { transform: translateX(10%);}
+  from { transform: translateX(-100%);}
+  to { transform: translateX(0%);}
 }
