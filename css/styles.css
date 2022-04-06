@@ -61,19 +61,12 @@ p {
 .font-box p {
   color: black;
 }
-
-.font-box h4 {
-  font-family: 'ff-carina', sans-serif;
-  font-weight: 400;
-  font-size: 50px;
  
-}
-
 .chocolate-publicity {
   background-color: #3B1E0F;
 }
 
-h2 {
+h5 {
   font-size: 80px;
   color: white;
   text-align: center;
@@ -112,7 +105,7 @@ img {
   background-color: white;
 }
 
-h5 {
+h6 {
   font-size: 50px;
   color: #FDEAE4;
   text-align: center;
@@ -145,8 +138,9 @@ h5 {
   padding: 10px;
   width: 100%;
   margin-top: 50px;
-  margin-bottom: -50px;
+  margin-bottom: -90px;
   box-sizing: border-box;
+  color: #3B1E0F;
 }
 
 .button-container {
@@ -169,4 +163,22 @@ h5 {
 .text-bold {
   font-family: 'ff-carina', sans-serif; 
   font-weight: 700;
+}
+
+h2 {
+  font-family: 'ff-carina', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+h3{
+  font-family: 'ff-carina', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+h4  {
+  font-family: 'ff-carina', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
 }
