@@ -1,3 +1,17 @@
+:root {
+  --blue: #19232F;
+  --green: #CFE5CC;
+  --pink: #F0838F;
+  --white: #FFFF;
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  max-width: 380px;
+  text-align: center;
+  margin: auto;
+  box-shadow: 0 0 20px rgb(0 0 0 / 30%);
 }
