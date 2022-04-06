@@ -47,7 +47,7 @@ header h1 strong {
   padding: 10px 50px;
 }
 
-.informations-section img {
+.gif-font-presentation {
   padding: 0;
   width: 100%;
   border-bottom: 2px solid white;
@@ -103,11 +103,16 @@ div p {
 
 .test-section {
   background-image: url(../img/text-area-background.webp);
-  padding: 75px 95px;
+  padding: 75px 75px;
   border-top: 2px solid white;
 }
 
 textarea {
+  padding: 40px 20px 40px 10px;
+  background: black;
+  border: 2px solid white;
+  text-align: center;
+  color: white;
   font-family: adobe-jenson-pro, serif;
   font-weight: 700;
   font-style: normal;
