@@ -43,7 +43,7 @@ header h1 strong {
 }
 
 .informations-section {
-  padding: 0px 50px 0px 50px;
+  padding: 40px 50px;
 }
 
 .informations-section p {
@@ -97,6 +97,7 @@ div p {
 .test-section {
   background-image: url(../img/text-area-background.webp);
   padding: 75px 95px;
+  border-top: 2px solid white;
 }
 
 textarea {
@@ -104,4 +105,13 @@ textarea {
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
+}
+
+.in-use-section {
+  padding: 50px 0px 50px 50px;
+  border-top: 2px solid white;
+}
+
+.in-use-section img {
+width: 100;
 }
