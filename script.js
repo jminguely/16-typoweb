@@ -17,3 +17,11 @@ function ToggleItalicNone() {
 function WidthModifier() {
   document.getElementById("editable-content").style.fontVariationSettings('"wdth" 80')
 }
+
+function MenuSliderOpen() {
+  document.getElementsById("menu-slider").classList.add('open')
+}
+
+ActiveRange() {
+  document.getElementById('range-setting').classList.add('active-range')
+}
