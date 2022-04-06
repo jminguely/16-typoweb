@@ -1,9 +1,7 @@
 
 @font-face {
     font-family: 'Milkman';
-    src: url('MilkmanLight.woff2') format('woff2'),
-        url('MilkmanLight.woff') format('woff'),
-        url('MilkmanLight.ttf') format('truetype');
+    src: url('MilkmanLight.woff2') format('woff2'),;
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -11,9 +9,7 @@
 
 @font-face {
     font-family: 'Milkman';
-    src: url('MilkmanBold.woff2') format('woff2'),
-        url('MilkmanBold.woff') format('woff'),
-        url('MilkmanBold.ttf') format('truetype');
+    src: url('MilkmanBold.woff2') format('woff2'),;
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -21,26 +17,110 @@
 
 @font-face {
     font-family: 'Milkman';
-    src: url('MilkmanRegular.woff2') format('woff2'),
-        url('MilkmanRegular.woff') format('woff'),
-        url('MilkmanRegular.ttf') format('truetype');
+    src: url('MilkmanRegular.woff2') format('woff2'),;
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'AppearsDEMO-Regular';
+    src: url('AppearsDEMO-Regular.woff2') format('woff2'),
+        url('AppearsDEMO-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 body {
 background-image: url(file:///Users/berzanurozen/Desktop/finder/site/Sans%20titre/16-typoweb/img/Noe%CC%81%20Cotter.jpg);
 background-size: cover;
-background-position: center;
-opacity: 35%;
+padding: 20px;
+
+
 }
+
     h1 {
         font-family: 'Milkman';
+        font-weight: 300;
         font-size: 71px;
         text-align: center;
-        color: rgba(0, 0, 0, 0.726) ;
+        color: rgba(0, 0, 0, 0.603);
+
+       margin: 11px;
+    }
+    h2 {
+        font-family: 'AppearsDEMO-Regular';
+        font-size: 71px;
+        text-align: left;
+        color: white;
+    }
+    h3 {
+        font-size: 71px;
+        text-align: center;
+        color: white;
+        opacity: 50%;
+    }
+    h4 {
+        font-family: 'Milkman';
+        font-weight: lighter;
+        font-size: 70px;
+        margin: auto;
     }
     .about {
         background-color: white;
         opacity: 40%;
+        font-family: 'Milkman';
+        text-align: left;
+        font-size: 12px ;
+        padding:78px 45px 80px 48px ;
     }
+    .nav {
+        background-color: white;
+        opacity: 40%;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.747);
+        
+        font-size: 15px;
+        padding: 13px 16px 18px 13px;
+
+
+    }
+    footer {
+        color: white;
+        opacity: 50%;
+        text-align: center;
+        margin: 0px;
+       
+    }
+    .about-me {
+    font-size: 11px;
+    font-family: 'Milkman';
+    font-weight: lighter;
+    margin: initial;
+    } 
+    .map {
+        background-color: white;
+        opacity: 45%;
+        width: 300px;
+        height: 200px;
+        border: 1px solid black;
+        overflow: scroll;
+}
+
+.transition {
+    color: black;
+    font-family: 'Milkman';
+}
+.light {
+    font-weight: lighter;
+    font-size: 48px;
+}
+.regular {
+    font-size: 58px;
+}
+.bold {
+    font-size: 78px;
+    font-weight: bold;
+}
