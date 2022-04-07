@@ -1,0 +1,18 @@
+
+@font-face {
+  font-family: archetype, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-family: archetype, serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+body {
+  font-size: 50px;
+  font-family:  'Archetype', serif;
+}
+
+div {
+
+}
