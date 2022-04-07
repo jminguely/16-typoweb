@@ -1,9 +1,55 @@
 @font-face {
-  font-family: 'ApolloMTStd';
-  src: url('../fonts/ApolloMTStd-Italic.woff2') format('woff2')
-       url('../fonts/ApolloMTStd-Italic.woff') format('woff')
+  font-family: 'Trap';
+  src: url('../fonts/Trap-Light.woff')
+       url('../fonts/Trap-Light.woff2');
+       font-weight: 300;
 }
 
+@font-face {
+  font-family: 'Trap';
+  src: url('../fonts/Trap-Regular.woff') format('woff2')
+       url('../fonts/Trap-Regular.woff2') format('woff');
+       font-weight: 400;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trap';
+  src: url('../fonts/Trap-Medium.woff')
+       url('../fonts/Trap-Medium.woff2');
+      }
+      
+@font-face {
+ font-family: 'Trap';
+ src: url('../fonts/Trap-Bold.woff')
+      url('../fonts/Trap-Bold.woff2');
+      font-weight: 500;
+      font-style: normal;
+}
+      
+@font-face {
+ font-family: 'Trap';
+ src: url('../fonts/Trap-ExtraBold.woff')
+      url('../fonts/Trap-ExtraBold.woff2');
+      font-weight: 600;
+      font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Trap';
+  src: url('../fonts/Trap-SemiBold.woff')
+       url('../fonts/Trap-SemiBold.woff2');
+       font-weight: 800;
+      font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trap';
+  src: url('../fonts/Trap-Black.woff')
+       url('../fonts/Trap-Black.woff2');
+       font-weight: 900;
+}
 /* Garamond Premier Pro Regular
 
 font-family: garamond-premier-pro, serif;

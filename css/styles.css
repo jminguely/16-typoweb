@@ -1,18 +1,60 @@
 body {
   max-width: 320px;
   margin: auto;
+  background-color: #fcf8ec;
 }
 
 h1 {
   font-family: ApolloMTStd, italic;
+  color: black;
+  margin: 30pxpx;
+}
+
+h2 {
+  color: white;
 }
 
 p {
-  font-family: garamond-premier-pro, serif;
+  font-family: 'Trap';
   font-weight: 400;
-  font-style: normal;
-
-
+  color: white;
 }
 
+.flag-container {
+  display: flex;
+  flex-direction: row;
+}
 
+.flag-img {
+  width: 40px;
+}
+
+.font-style-presentation-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.fonderie-presentation {
+  background-color: #0c35c3;
+  margin: 0px;
+  padding: 30px;
+}
+
+.font-style-presentation {
+  border: 2px solid #0c35c3;
+}
+
+.flag-img-presentation {
+  width: 97px;
+}
+
+.font-style-name {
+  border: 2px solid #0c35c3;
+  padding: 15px;
+}
+
+.font-style-presentation p {
+  color: black;
+  font-size: 37px;
+}
