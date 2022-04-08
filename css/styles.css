@@ -10,4 +10,14 @@
 
 body {
   font-family: "americantext";
+  background-color: #eb8029;
+  text-align: center;
+}
+
+header nav {
+  border-width: 2px;
+  border-color: black;
+  background: black;
+  border-style: solid;
+  color: #df0672;
 }
