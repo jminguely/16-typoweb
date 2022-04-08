@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 
 @font-face {
   font-family: "americantext";
@@ -12,6 +15,9 @@ body {
   font-family: "americantext";
   background-color: #eb8029;
   text-align: center;
+  max-width: 320px;
+  margin: auto;
+  padding: 20px;
 }
 
 header nav {
@@ -20,4 +26,40 @@ header nav {
   background: black;
   border-style: solid;
   color: #df0672;
+}
+
+main h2 {
+  color: #df0672;
+}
+
+main div  {
+  border-width: 2px;
+  border-color: black;
+  background: black;
+  border-style: solid;
+  color: white;
+}
+
+hr {
+  background: black;
+}
+
+h4 {
+  color: #8774aa;
+}
+
+.A {
+  color: #8774aa;
+}
+
+footer {
+  border-width: 2px;
+  border-color: black;
+  background: black;
+  border-style: solid;
+  color: white;
+}
+
+.hr {
+  margin: 20px;
 }
