@@ -51,56 +51,47 @@
   font-weight: 700;
 }
 
+html{
+  scroll-behavior: smooth;
+  max-width: 380px;
+  margin: auto;
+}
+
+header{
+  background-color: #003333;
+  padding: 120px 25px 60px;
+}
+
 h1{
-  font-family: 'Cabinet Grotesk';
-  font-weight: lighter;
-}
-
-h2{
-  font-family: 'Cabinet Grotesk';
-  font-weight: 100;
-}
-
-h3{
-  font-family: 'Cabinet Grotesk';
-  font-weight: 200;
-}
-
-h4{
-  font-family: 'Cabinet Grotesk';
-  font-weight: 300;
-}
-
-h5{
-  font-family: 'Cabinet Grotesk';
-  font-weight: 400;
-}
-
-h6{
-  font-family: 'Cabinet Grotesk';
-  font-weight: bold;
-}
-
-.extrabold{
+  font-size: 85px;
   font-family: 'Cabinet Grotesk';
   font-weight: bolder;
+  color: white;
+  margin: 0 0 120px;
+  text-align: center;
 }
 
-p{
+header a{
   font-family: 'Cabinet Grotesk';
-  font-weight: 700;
-  font-size: 24px;
+  font-weight: 400;
+  color: #111111;
+  font-size: 14px;
+  text-decoration: none;
 }
 
-.title{
-  font-family: 'Pilowlava';
+.button-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
-  font-size: 24px;
+.button{
+  background-color: #ffffff66;
+  padding: 5px 8px;
+}
+
+.button:active{
+  color: #fc4100;
 }
