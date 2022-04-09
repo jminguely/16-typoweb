@@ -5,6 +5,15 @@
   --white: #FFFF;
 }
 
+h1 {
+  font-family: roc-grotesk-extrawide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  font-size: 55px;
+  color: var(--white);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -14,4 +23,17 @@ body {
   text-align: center;
   margin: auto;
   box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+}
+
+a {
+  display: flex;
+  writing-mode: vertical-rl;
+  text-orientation:sideways;
+}
+
+.background-header-title {
+  background-image: url(../img/background_colored_image.webp);
+  background-size: cover;
+  padding-top: 1px;
+  padding-bottom: 28px;
 }
