@@ -1,0 +1,52 @@
+body {
+  max-width: 370px;
+  margin: auto;
+  border-top: solid 8px black;
+}
+
+header {
+  background: #FF7900;
+  padding-bottom: 68px;
+}
+
+header img {
+  height: 230px;
+  padding: 13px 96px 30px 105px;
+}
+
+.title-aviano {
+  text-align: center;
+  font-family: aviano-future, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  margin: 0px 20px;
+  font-size: 50px;
+}
+
+.main-version {
+  background-color: black;
+  padding-top: 5px;
+}
+
+.description {
+  text-align: center;
+  font-family: 'Cairo', sans-serif;
+  font-size: 20px;
+  margin: 30px 30px;
+  background: #FF7900;
+  padding: 1px;
+}
+
+.description strong {
+  font-family: aviano-future, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.title-description-two {
+  font-family: 'Cairo', sans-serif;
+  color: #FF7900;
+  font-size: 20px;
+  text-align: center;
+}
