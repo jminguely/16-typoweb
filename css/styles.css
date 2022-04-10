@@ -16,11 +16,6 @@ body {
     margin: 0;
 }
 
-.v-slider-bloc {
-    overflow-y: hidden;
-    scroll-snap-type: y mandatory;
-}
-
 .position-menu {
     display: flex;
     flex-direction: row-reverse;
@@ -51,7 +46,7 @@ body {
     overflow: hidden;
     display: flex;
     transform: translateY(-50%);
-    padding-top: 70px;
+    margin-top: 50px;
     margin-right: 50px;
 }
 
@@ -99,7 +94,6 @@ body {
     background-color: #e2e2e2;
     height: 667px;
     width: 375px;
-    scroll-snap-align: center;
 }
 
 .sectionblue {
@@ -212,6 +206,22 @@ body {
 .sectiongrey-fonttester {
     color: #0835f2;
     background-color: #e2e2e2;
+}
+
+.sectionblue-mapcharacter {
+    background-color: #0835f2;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.mapcharacter {
+    width: 250px;
+    height: auto;
+    padding-right: 30px;
 }
 
 .fonttester-text {
