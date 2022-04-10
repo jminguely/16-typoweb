@@ -42,12 +42,26 @@ body {
     font-weight: 500;
 }
 
+.title_avantgarde {
+    width: 275px;
+    height: auto;
+    padding-top: 50px;
+}
+
+.container-arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 30px 0 0;
+}
+
 .arrow {
     width: 200px;
-    height: auto
+    height: auto;
 }
 
 .sectiongrey {
+    color: #0835f2;
     background-color: #e2e2e2;
     height: 667px;
     width: 375px;
@@ -55,6 +69,7 @@ body {
 
 .sectionblue {
     background-color: #0835f2;
+    color: white;
     height: 667px;
     width: 375px;
 }
@@ -64,10 +79,33 @@ body {
     width: 375px;
 }
 
-.container-text {
+.sectionblue-text {
     display: flex;
     flex-direction: row;
     justify-items: center;
     align-items: center;
-    padding: 0 50px;
+}
+
+.container-text {
+    padding: 0 80px 0 40px;
+    text-align: justify;
+}
+
+.sectionimg {
+    background-image: url(../img/img_typotext_375x667px.webp);
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+
+.backgroundarchitecture {
+    padding: 0 80px 0 40px;
+}
+
+.sectionblue-condensed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
