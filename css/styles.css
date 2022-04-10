@@ -109,3 +109,68 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.condensed {
+    font-size: 30px;
+}
+
+.ultralight-condensed {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 300;
+}
+
+.book-condensed {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 300;
+}
+
+.medium-condensed {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 300;
+}
+
+.demi-condensed {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 300;
+}
+
+.bold-condensed {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 300;
+}
+
+.sectiongrey-std {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.std {
+    font-size: 30px;
+}
+
+.ultralight-std {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 300;
+}
+
+.book-std {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 300;
+}
+
+.medium-std {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 300;
+}
+
+.demi-std {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 300;
+}
+
+.bold-std {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 300;
+}
