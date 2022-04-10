@@ -42,10 +42,34 @@ body {
     font-weight: 500;
 }
 
+.messagedefilant {
+    overflow: hidden;
+    display: flex;
+    transform: translateY(-50%);
+    padding-top: 70px;
+    margin-right: 50px;
+}
+
+.txt {
+    white-space: nowrap;
+    font-size: 40px;
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 700;
+    animation: scrollTxt 10s linear infinite;
+}
+
+@keyframes scrollTxt {
+    0% {
+        transform: translate(0%, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+
 .title_avantgarde {
     width: 275px;
     height: auto;
-    padding-top: 50px;
 }
 
 .container-arrow {
@@ -173,4 +197,14 @@ body {
 .bold-std {
     font-family: itc-avant-garde-gothic-pro, sans-serif;
     font-weight: 300;
+}
+
+.fonttester-text {
+    /* display: flex;
+    flex-direction: row-reverse; */
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 50px;
 }
