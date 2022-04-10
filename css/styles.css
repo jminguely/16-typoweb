@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  max-width: 380px;
+  max-width: 375px;
   text-align: center;
   margin: auto;
   box-shadow: 0 0 20px rgb(0 0 0 / 30%);
@@ -48,15 +48,18 @@ body {
 
 .header-nav {
   display: flex;
-  justify-content: flex-start;
+  flex-direction:row;
+  align-content: flex-start;
   border-style: solid;
   border-color: #19232F;
+  padding: 0%;
 }
 
 a {
-  display: flex;
-  writing-mode: vertical-rl;
-  text-orientation: sideways;
+  writing-mode: vertical-lr;
+  border-style: solid;
+  border-color: #19232F;
+  padding: 30px 15px 30px 15px;
 }
 
 .background-header-title {
@@ -89,7 +92,7 @@ p {
 }
 
 img {
- max-width: 380px;
+ max-width: 375px;
 }
 
 p strong {
@@ -101,6 +104,7 @@ p strong {
 .footer-dark-card {
   color: #FFFF;
   background-color: #19232F;
+  padding: 15px;
 }
 
 .information-card-design {
