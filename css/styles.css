@@ -99,6 +99,7 @@ body {
     background-color: #e2e2e2;
     height: 667px;
     width: 375px;
+    scroll-snap-align: center;
 }
 
 .sectionblue {
@@ -112,8 +113,6 @@ body {
     justify-items: center;
     align-items: center;
     background-image: url(../img/img_typotext_375x667px.webp);
-    /* height: 667px;
-    width: 375px; */
 }
 
 .sectionblue-text {
