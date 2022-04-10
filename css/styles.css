@@ -12,7 +12,8 @@ h1 {
   font-weight: 700;
   font-style: normal;
   text-align: left;
-  font-size: 55px;
+  font-size: 40px;
+  margin-left: 15px;
   color: var(--white);
 }
 
@@ -31,35 +32,30 @@ body {
 
 .imd12-text-header {
   text-align: end;
-  font-family: roc-grotesk ExtraWide ExtraLight, sans-serif;
+  font-family: roc-grotesk-extrawide, sans-serif;
   font-weight: 100;
   font-style: normal;
 }
 
-.background-header-title {
+h2 {
+  font-family: roc-grotesk-extrawide, sans-serif;
+  font-weight: 200;
+  font-size: 10px;
+}
+
+.card-header {
   border-color: #FFFF;
   border-style: solid;
+  margin: 22px;
+  border-radius: 4px;
 }
 
 .card-header-dark {
   background-color: #19232F;
   color: #FFFF;
-}
-
-.header-nav {
-  display: flex;
-  flex-direction:row;
-  align-content: flex-start;
-  border-style: solid;
-  border-color: #19232F;
-  padding: 0%;
-}
-
-a {
-  writing-mode: vertical-lr;
-  border-style: solid;
-  border-color: #19232F;
-  padding: 30px 15px 30px 15px;
+  margin: 22px;
+  padding: 90px;
+  border-radius: 4px;
 }
 
 .background-header-title {
@@ -69,16 +65,47 @@ a {
   padding-bottom: 28px;
 }
 
+/* nav */
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+
+a {
+  writing-mode: vertical-lr;
+  border-style: solid;
+  border-color: #19232F;
+  border-top: #FFFF;
+  border-left: #FFFF;
+  padding: 30px 20px 70px 15px;
+  vertical-align: text-top;
+  float: left;
+  background-color: #FFFF;
+  font-size: 20px;
+  font-family: roc-grotesk-extrawide, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  
+}
+
+a:hover {
+ background-color: #19232F;
+ color: #FFFF;
+ transition: 0.2s;
+}
+
 .card-text {
 display: flex;
 padding: 10px;
 background-color: #F0838F;
-font-family: roc-grotesk ExtraWide ExtraLight, sans-serif;
+font-family: roc-grotesk-extrawide, sans-serif;
 color: #FFFF;
 }
 
 p {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .information-card-started {
