@@ -1,37 +1,49 @@
 @font-face {
-  font-family: 'essence-light';
-  src: url('../font/EssenceSans.woff') format('woff)'),
-  url('../font/EssenceSans.woff2') format('woff2');
+  font-family: "lato-hairline";
+  src: url("../font/Lato-Hairline.woff") format("woff)"),
+    url("../font/Lato-Hairline.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'essence-light-italic';
-  src: url('../font/EssenceSansLightItalic.woff') format('woff'),
-  url('../font/EssenceSansLightItalic.woff2') format('woff2') ;
+  font-family: "lato-default";
+  src: url("../font/Lato-Regular.woff") format("woff)"),
+    url("../font/Lato-Regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'essence-default';
-  src: url('../font/EssenceSans.woff') format('woff'),
-  url('../font/EssenceSans.woff2') format('woff2') ;
+  font-family: "essence-light";
+  src: url("../font/EssenceSans.woff") format("woff)"),
+    url("../font/EssenceSans.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'essence-default-italic';
-  src: url('../font/EssenceSansItalic.woff') format('woff'),
-  url('../font/EssenceSansItalic.woff2') format('woff2') ;
+  font-family: "essence-light-italic";
+  src: url("../font/EssenceSansLightItalic.woff") format("woff"),
+    url("../font/EssenceSansLightItalic.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'essence-default-bold';
-  src: url('../font/EssenceSansBold.woff') format('woff'),
-  url('../font/EssenceSansBold.woff2') format('woff2') ;
+  font-family: "essence-default";
+  src: url("../font/EssenceSans.woff") format("woff"),
+    url("../font/EssenceSans.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'essence-bold-italic';
-  src: url('../font/EssenceSansBoldItalic.woff') format('woff'),
-  url('../font/EssenceSansBoldItalic.woff2') format('woff2');
+  font-family: "essence-default-italic";
+  src: url("../font/EssenceSansItalic.woff") format("woff"),
+    url("../font/EssenceSansItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "essence-default-bold";
+  src: url("../font/EssenceSansBold.woff") format("woff"),
+    url("../font/EssenceSansBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "essence-bold-italic";
+  src: url("../font/EssenceSansBoldItalic.woff") format("woff"),
+    url("../font/EssenceSansBoldItalic.woff2") format("woff2");
 }
 
 html {
@@ -41,7 +53,7 @@ html {
 body {
   max-width: 320px;
   margin: auto;
-  background-color: #1C1C1E;
+  background-color: #1c1c1e;
 }
 
 header h1 {
@@ -50,15 +62,15 @@ header h1 {
   font-size: 100px;
   text-align: center;
   padding-top: 20px;
-  color: #EECAA2;
+  color: #eecaa2;
   margin-bottom: 0;
   margin-top: 0;
 }
 
 header p {
   font-family: lato-hairline;
-  font-size: 15px;
-  color: #EECAA2;
+  font-size: 20px;
+  color: #eecaa2;
   text-align: center;
   padding-bottom: 150px;
 }
@@ -66,13 +78,12 @@ header p {
 .header-button {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 70px;
-  font-size: 20px;
+  padding-top: 43px;
+  font-size: 25px;
 }
 
 .title-background {
   background-color: black;
-  opacity: 0,50%;
 }
 
 .title-container {
@@ -90,44 +101,58 @@ header p {
 .container-sparkle {
   display: flex;
   flex-direction: row;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   justify-content: center;
 }
 
-main p, h4, h2 {
-  color: #EECAA2;
+main p,
+h4,
+h2 {
+  color: #eecaa2;
+}
+
+main, p {
+  font-size: 20px;
 }
 
 h2 {
-  font-family: essence-light;
-  font-size: 50px;
+  font-family: lato-hairline;
+  font-size: 40px;
 }
 
 h4 {
-  font-size: 30px;
+  font-size: 24px;
+  font-family: lato-default;
+  padding-top: 20px;
 }
 
 .light {
   font-family: essence-light;
+  padding-top: 30px;
 }
 
 .light-italic {
   font-family: essence-light-italic;
+  padding-top: 30px;
 }
 
 .default {
   font-family: essence-default;
+  padding-top: 30px;
 }
 
 .default-italic {
   font-family: essence-default-italic;
+  padding-top: 30px;
 }
 
 .default-bold {
   font-family: essence-default-bold;
+  padding-top: 30px;
 }
 
 .default-bold-italic {
   font-family: essence-bold-italic;
+  padding-top: 30px;
 }
