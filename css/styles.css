@@ -5,7 +5,31 @@
 }
 
 @font-face {
-  font-family: 'essence';
+  font-family: 'essence-light-italic';
+  src: url('../font/EssenceSansLightItalic.woff') format('woff'),
+  url('../font/EssenceSansLightItalic.woff2') format('woff2') ;
+}
+
+@font-face {
+  font-family: 'essence-default';
+  src: url('../font/EssenceSans.woff') format('woff'),
+  url('../font/EssenceSans.woff2') format('woff2') ;
+}
+
+@font-face {
+  font-family: 'essence-default-italic';
+  src: url('../font/EssenceSansItalic.woff') format('woff'),
+  url('../font/EssenceSansItalic.woff2') format('woff2') ;
+}
+
+@font-face {
+  font-family: 'essence-default-bold';
+  src: url('../font/EssenceSansBold.woff') format('woff'),
+  url('../font/EssenceSansBold.woff2') format('woff2') ;
+}
+
+@font-face {
+  font-family: 'essence-bold-italic';
   src: url('../font/EssenceSansBoldItalic.woff') format('woff'),
   url('../font/EssenceSansBoldItalic.woff2') format('woff2');
 }
@@ -69,4 +93,41 @@ header p {
   padding-top: 12px;
   padding-bottom: 12px;
   justify-content: center;
+}
+
+main p, h4, h2 {
+  color: #EECAA2;
+}
+
+h2 {
+  font-family: essence-light;
+  font-size: 50px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+.light {
+  font-family: essence-light;
+}
+
+.light-italic {
+  font-family: essence-light-italic;
+}
+
+.default {
+  font-family: essence-default;
+}
+
+.default-italic {
+  font-family: essence-default-italic;
+}
+
+.default-bold {
+  font-family: essence-default-bold;
+}
+
+.default-bold-italic {
+  font-family: essence-bold-italic;
 }
