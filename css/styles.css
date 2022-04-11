@@ -69,7 +69,13 @@ body{
 
 header{
   background-color: #111111;
-  padding: 30px 25px 60px;
+  padding: 15px 25px 60px;
+}
+
+div{
+  margin: 25px 0 25px;
+  background-color: #111111;
+  padding: 60px 25px 60px;
 }
 
 h1{
@@ -86,7 +92,7 @@ h2{
   font-size: 40px;
   color: white;
   text-align: center;
-  padding: 120px 0 60px;
+  padding: 0 0 60px;
   margin: 0%;
 }
 
@@ -179,15 +185,13 @@ header img{
 }
 
 
-.variant{
+.variant {
   font-family: 'Cabinet Grotesk';
   font-weight: lighter;
   text-align: center;
-  font-size: 60px;
+  font-size: 72px;
   margin: 0 0 60px;
+  word-break: break-word;
 }
 
-.specimen{
-  padding: 0 25px 120px;
-  background-color: #111111;
-}
+
