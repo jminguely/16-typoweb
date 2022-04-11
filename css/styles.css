@@ -61,5 +61,48 @@ header img {
   padding: 3px;
   width: 290px;
   margin: auto; 
-  
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+  margin: auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.typo-button-one {
+  background: #FF7900;
+  border-radius: 40px;
+  margin: 50px 50px 18px 50px;
+  padding: 10px 15px;
+  font-family: 'Cairo', sans-serif;
+}
+
+.typo-button-one :hover {
+  background: #a85c1a;
+}
+
+.typo-button-content-two {
+  background-color: #FF7900;
+  color: white;
+  border-radius: 40px;
+  margin: 0px 50px 18px 50px;
+  padding: 10px 15px;
+  font-family: 'Cairo', sans-serif;
+}
+
+.typo-button-content-three {
+  background-color: #FF7900;
+  color: white;
+  border-radius: 40px;
+  margin: 0px 50px 18px 50px;
+  padding: 10px 15px;
+  font-family: 'Cairo', sans-serif;
 }
