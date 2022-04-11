@@ -1,75 +1,75 @@
 @font-face {
-  font-family: 'Mongo Grotesque';
+  font-family: 'Mango Grotesque';
   src: url('../fonts/MangoGrotesque-Thin.woff2') format('woff2');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Mongo Grotesque';
+  font-family: 'Mango Grotesque';
   src: url('../fonts/MangoGrotesque-ExtraLight.woff2') format('woff2');
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Mongo Grotesque';
-  src: url('../fonts/MangoGrotesque-li.woff2') format('woff2');
+  font-family: 'Mango Grotesque';
+  src: url('../fonts/MangoGrotesque-light.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Mongo Grotesque';
+  font-family: 'Mango Grotesque';
   src: url('../fonts/MangoGrotesque-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Mongo Grotesque';
+  font-family: 'Mango Grotesque';
   src: url('../fonts/MangoGrotesque-Italic.woff2') format('woff2');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Mongo Grotesque';
+  font-family: 'Mango Grotesque';
   src: url('../fonts/MangoGrotesque-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Mongo Grotesque';
+  font-family: 'Mango Grotesque';
   src: url('../fonts/MangoGrotesque-MediumItalic.woff2') format('woff2');
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Mongo Grotesque';
+  font-family: 'Mango Grotesque';
   src: url('../fonts/MangoGrotesque-SemiBold.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Mongo Grotesque';
+  font-family: 'Mango Grotesque';
   src: url('../fonts/MangoGrotesque-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Mongo Grotesque';
+  font-family: 'Mango Grotesque';
   src: url('../fonts/MangoGrotesque-ExtraBold.woff2') format('woff2');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Mongo Grotesque';
+  font-family: 'Mango Grotesque';
   src: url('../fonts/MangoGrotesque-Black.woff2') format('woff2');
   font-weight: 900;
   font-style: normal;
@@ -80,7 +80,7 @@ font-weight: 400;
 font-style: normal;*/
 
 body {
-  background-color: #e8e8e462;
+  background-color: #e8e8e474;
   width: 100%;
   max-width: 380px;
   margin: auto;
@@ -105,7 +105,7 @@ hr {
 
 h1 {
   margin: 0;
-  font-family: 'Mongo Grotesque';
+  font-family: 'Mango Grotesque';
   font-weight: 900;
   font-size: 72px;
   color: #ff532a;
@@ -131,4 +131,149 @@ h2 {
   padding: 75px 85px;
   margin-left: 180px;
 
+}
+
+.introduction {
+  background-color: #004a37;
+  margin-top: 90px;
+  font-family: 'obvia-wide', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  text-align: left;
+}
+
+.introduction p {
+  color: white;
+  padding: 155px 50px;
+}
+
+.review-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+.review{
+  border: #ff532a solid 1px;
+  font-size: 79px;
+  color: #004a37;
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.particularity {
+  color:#ff532a;
+  font-family: 'Mango Grotesque';
+  font-weight: 200;
+  font-style: normal;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: -10px;
+  text-align: left;
+}
+
+h3 {
+  margin: 0;
+}
+
+.thin-review h3 {
+  font-family: 'Mango Grotesque';
+  font-weight: 100;
+  font-style: normal;
+}
+
+.extra-light-review h3 {
+  font-family: 'Mango Grotesque';
+  font-weight: 200;
+  font-style: normal;
+}
+
+.light-review h3 {
+  font-family: 'Mango Grotesque';
+  font-weight: 300;
+  font-style: normal;
+}
+
+.regular-review h3 {
+  font-family: 'Mango Grotesque';
+  font-weight: 400;
+  font-style: normal;
+}
+
+.medium-review h3 {
+  font-family: 'Mango Grotesque';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.semi-bold-review h3 {
+  font-family: 'Mango Grotesque';
+  font-weight: 600;
+  font-style: normal;
+}
+
+.bold-review h3 {
+  font-family: 'Mango Grotesque';
+  font-weight: 700;
+  font-style: normal;
+}
+
+.extra-bold-review h3 {
+  font-family: 'Mango Grotesque';
+  font-weight: 800;
+  font-style: normal;
+}
+
+.black-review h3 {
+  font-family: 'Mango Grotesque';
+  font-weight: 900;
+  font-style: normal;
+}
+
+.review-container .couple-review{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.extra-review {
+  border-radius: 50%;
+  border:#004a37 solid 2px;
+  background-color: #004a37;
+  padding: 65px 35px;
+}
+
+.showcase {
+  background-color: #ff532a;
+  font-family: 'Mango Grotesque';
+  font-weight: 400;
+  font-size: 65px;
+  color: #004a37;
+  padding: 40px 5px;
+}
+
+.showcase p {
+  padding: 25px;
+  margin: 0;
+  text-align: justify;
+
+}
+
+.letter-box {
+  border:#004a37 solid 2px;
+  margin: 20px 10px;
+
+}
+
+.little-showcase {
+  font-size: 48px;
+  box-sizing: border-box;
 }
