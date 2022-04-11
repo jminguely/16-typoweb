@@ -58,7 +58,7 @@ html{
 }
 
 body{
-  font-size: 18px;
+  font-size: 16px;
   color: white;
   font-family: 'Cabinet Grotesk';
   font-weight: 300;
@@ -68,8 +68,8 @@ body{
 }
 
 header{
-  background-color: #003333;
-  padding: 120px 25px 60px;
+  background-color: #111111;
+  padding: 30px 25px 60px;
 }
 
 h1{
@@ -77,7 +77,7 @@ h1{
   font-family: 'Cabinet Grotesk';
   font-weight: bolder;
   color: white;
-  margin: 0 0 120px;
+  margin: 60px 0 60px;
   text-align: center;
 }
 
@@ -90,6 +90,23 @@ h2{
   margin: 0%;
 }
 
+h3{
+  font-family: 'Cabinet Grotesk';
+  font-weight: 200;
+  color: white;
+  text-align: left;
+  font-size: 48px;
+  padding: 0;
+  margin: 0%;
+}
+
+header p{
+  max-height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 0 0 60px;
+}
+
 header a{
   font-family: 'Cabinet Grotesk';
   font-weight: 400;
@@ -98,17 +115,43 @@ header a{
   text-decoration: none;
 }
 
+table{
+  font-family: 'Cabinet Grotesk';
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  margin: 0%;
+}
+
+table, tr, td{
+  border: white solid 0.25px;
+  border-collapse: collapse;
+}
+
+td{
+  padding: 0 15px;
+  width: 100%;
+}
+
+hr{
+  color: white;
+  height: 0.25px;
+  margin: 0 0 30px;
+}
+
 .button-container{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
 .button{
   background-color: #ffffff66;
   padding: 5px 8px;
+  border-left: #11111169 solid 0.75px;
 }
 
 .button:active{
@@ -131,24 +174,10 @@ footer p{
   text-align: center;
 }
 
-.introduction{
-  background-color: #111111;
-  color: white;
-  padding: 0 25px 120px;
-  /* -webkit-clip-path: circle(78.1% at 50% 22%);
-  clip-path: circle(78.1% at 50% 22%); */
-}
-
-.introduction img{
+header img{
   width: 200px;
 }
 
-.introduction p{
-  max-height: 200px;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  margin: 0 0 60px;
-}
 
 .variant{
   font-family: 'Cabinet Grotesk';
@@ -156,4 +185,9 @@ footer p{
   text-align: center;
   font-size: 60px;
   margin: 0 0 60px;
+}
+
+.specimen{
+  padding: 0 25px 120px;
+  background-color: #111111;
 }
