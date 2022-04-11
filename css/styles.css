@@ -25,7 +25,7 @@ header h1 {
   font-weight: lighter;
   font-size: 100px;
   text-align: center;
-  padding-top: 160px;
+  padding-top: 20px;
   color: #EECAA2;
   margin-bottom: 0;
   margin-top: 0;
@@ -37,6 +37,18 @@ header p {
   color: #EECAA2;
   text-align: center;
   padding-bottom: 150px;
+}
+
+.header-button {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 70px;
+  font-size: 20px;
+}
+
+.title-background {
+  background-color: black;
+  opacity: 0,50%;
 }
 
 .title-container {
