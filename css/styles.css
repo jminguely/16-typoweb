@@ -50,15 +50,15 @@ font-style: italic;s
 }
 
 :root {
-  --font-presentation-normal : lust-didone, serif;
-  --font-presentation-fine : lust-didone-fine, sans-serif;
-  --font-presentation-display : lust-display-didone, serif;
-  --font-secondary : nunito-sans, sans-serif;
-  --color-main : rgb(255, 241, 220);
-  --color-secondary : rgb(206, 97, 113);
-  --color-more-transparent :rgba(0, 0, 0, 0.247);
-  --color-transparent :rgba(0, 0, 0, 0.553);
-  --color-visited :rgba(0, 0, 0, 0.72);
+  --font-presentation-normal: lust-didone, serif;
+  --font-presentation-fine: lust-didone-fine, sans-serif;
+  --font-presentation-display: lust-display-didone, serif;
+  --font-secondary: nunito-sans, sans-serif;
+  --color-main: rgb(255, 241, 220);
+  --color-secondary: rgb(206, 97, 113);
+  --color-more-transparent: rgba(0, 0, 0, 0.247);
+  --color-transparent: rgba(0, 0, 0, 0.553);
+  --color-visited: rgba(0, 0, 0, 0.72);
 }
 
 html {
@@ -89,10 +89,10 @@ header h1 {
 
 header p {
   color: var(--color-more-transparent);
-  font-family : var(--font-presentation-normal);
-  font-size : 44px;
-  line-height : 103%;
-  white-space : nowrap;
+  font-family: var(--font-presentation-normal);
+  font-size: 44px;
+  line-height: 103%;
+  white-space: nowrap;
 }
 
 header div {
@@ -105,7 +105,7 @@ header div {
   animation-duration: 100s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-} 
+}
 
 .defiling-text-1 {
   animation-name: ChangeDirection1;
@@ -119,7 +119,7 @@ header div {
   100% {
     transform: translateX(-50%);
   }
-} 
+}
 
 .defiling-text-2 {
   animation-name: ChangeDirection2;
@@ -161,7 +161,7 @@ nav {
 }
 
 hr {
-  border : solid  0.5px;
+  border: solid 0.5px;
 }
 
 nav a {
@@ -171,9 +171,8 @@ nav a {
 
 nav a:visited {
   text-decoration: none;
-  color: var(--color-visited)
+  color: var(--color-visited);
 }
-
 
 /* main */
 
@@ -208,7 +207,7 @@ main h4 {
 
 .introduction hr {
   margin: 10px 0;
-  border : solid  1px var(--color-secondary);
+  border: solid 1px var(--color-secondary);
 }
 
 /* main styles */
@@ -219,12 +218,12 @@ main h4 {
 
 .presentation a {
   font-size: 45px;
-  text-decoration: none; 
+  text-decoration: none;
   color: black;
 }
 .presentation a:visited {
-  text-decoration: none; 
-  color: black
+  text-decoration: none;
+  color: black;
 }
 
 .presentation p {
@@ -293,7 +292,7 @@ input::placeholder {
 
 .try-text {
   border: none;
-  padding:  10px 10px 5px;
+  padding: 10px 10px 5px;
   font-size: 24px;
   max-height: 50px;
   max-width: 291px;
@@ -337,7 +336,6 @@ input::placeholder {
   margin-bottom: 60px;
 }
 
-
 /* footer */
 
 footer {
@@ -348,10 +346,10 @@ footer {
 }
 
 footer a {
-  text-decoration: none; 
   color: black;
 }
+
 footer a:visited {
-  text-decoration: none; 
-  color: var(--color-visited)
+  text-decoration: none;
+  color: var(--color-visited);
 }
