@@ -220,3 +220,45 @@ h1 {
   font-weight: 700;
   font-style: italic;
 }
+
+.alternatives {
+  background-image: url("../img/img_alternatives.svg");
+  padding: 37px;
+  padding-bottom: 0;
+}
+
+.alternatives h2 {
+  font-family: 'Big Shoulders Display';
+  font-weight: 400;
+  font-style: normal; 
+  font-size: 40px;
+  margin: 0;
+  text-align: left;
+}
+
+.alternatives h3{
+  font-family: 'Big Shoulders Display';
+  font-weight: 400;
+  font-style: normal; 
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+.alternatives img {
+  width: 200px;
+  margin-bottom: 50px;
+}
+
+.alternatives-table {
+  margin-left: 25px; 
+  margin-right: 50px;
+}
+
+.alternatives hr {
+  margin-bottom: 70px;
+}
+
+.main-title {
+  color: #9bf57c;
+  border-color: #9bf57c;
+}
