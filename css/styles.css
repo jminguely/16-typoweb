@@ -13,162 +13,82 @@ font-weight: 700;
 font-style: normal; */
 
 @font-face {
-    font-family: 'ITC Avant Garde Gothic Std';
-    src: url('ITCAvantGardeStd-XLtCnObl.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std';
-    src: url('ITCAvantGardeStd-DemiCnObl.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std Demi Condensed';
-    src: url('ITCAvantGardeStd-DemiCn.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std';
-    src: url('ITCAvantGardeStd-MdObl.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std';
-    src: url('ITCAvantGardeStd-BkObl.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std';
-    src: url('ITCAvantGardeStd-BoldObl.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std Book Condensed';
-    src: url('ITCAvantGardeStd-BkCn.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std Demi';
-    src: url('ITCAvantGardeStd-Demi.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std';
-    src: url('ITCAvantGardeStd-BoldCnObl.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std';
-    src: url('ITCAvantGardeStd-DemiObl.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std Book';
-    src: url('ITCAvantGardeStd-Bk.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std';
-    src: url('ITCAvantGardeStd-MdCnObl.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std Bold Condensed';
-    src: url('ITCAvantGardeStd-BoldCn.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std';
-    src: url('ITCAvantGardeStd-Md.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std Extra Light Condensed';
-    src: url('ITCAvantGardeStd-XLtCn.woff') format('woff');
+    src: url('../fonts/ITCAvantGardeStd-XLtCn.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdExtraLightCondensed';
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'ITC Avant Garde Gothic Std Extra';
-    src: url('ITCAvantGardeStd-XLt.woff') format('woff');
-    font-weight: 300;
+    src: url('../fonts/ITCAvantGardeStd-BkCn.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdBookCondensed';
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'ITC Avant Garde Gothic Std';
-    src: url('ITCAvantGardeStd-XLtObl.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std';
-    src: url('ITCAvantGardeStd-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std Medium Condensed';
-    src: url('ITCAvantGardeStd-MdCn.woff') format('woff');
+    src: url('../fonts/ITCAvantGardeStd-MdCn.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdMediumCondensed';
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'ITC Avant Garde Gothic Std';
-    src: url('ITCAvantGardeStd-BkCnObl.woff') format('woff');
+    src: url('../fonts/ITCAvantGardeStd-DemiCn.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdDemiCondensed';
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-BoldCn.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdBoldCondensed';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-XLt.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdExtra';
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-Bk.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdBook';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-Md.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStd';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-Demi.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdDemi';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-Bold.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStd';
+    font-weight: bold;
+    font-style: normal;
     font-display: swap;
 }
 
@@ -297,8 +217,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #e2e2e2;
+    color: white;
     background-color: #0835f2;
+}
+
+h3 {
+    padding-right: 40px;
 }
 
 .condensed {
@@ -306,28 +230,27 @@ body {
 }
 
 .ultralight-condensed {
-    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-family: 'ITCAvantGardeGothicStdExtraLightCondensed';
     font-weight: 300;
 }
 
 .book-condensed {
-    font-family: itc-avant-garde-gothic-pro, sans-serif;
-    font-weight: 300;
+    font-family: 'ITCAvantGardeGothicStdBookCondensed';
 }
 
 .medium-condensed {
-    font-family: itc-avant-garde-gothic-pro, sans-serif;
-    font-weight: 300;
+    font-family: 'ITCAvantGardeGothicStdMediumCondensed';
+    font-weight: 500;
 }
 
 .demi-condensed {
-    font-family: itc-avant-garde-gothic-pro, sans-serif;
-    font-weight: 300;
+    font-family: 'ITCAvantGardeGothicStdDemiCondensed';
+    font-weight: normal;
 }
 
 .bold-condensed {
-    font-family: itc-avant-garde-gothic-pro, sans-serif;
-    font-weight: 300;
+    font-family: 'ITCAvantGardeGothicStdBoldCondensed';
+    font-weight: bold;
 }
 
 .sectiongrey-std {
@@ -341,32 +264,30 @@ body {
 
 .std {
     font-size: 30px;
-    font-family: 'ITC-Avant-Garde-Gothic-Std';
 }
 
 .ultralight-std {
-    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-family: 'ITCAvantGardeGothicStdExtra';
     font-weight: 300;
 }
 
 .book-std {
-    font-family: itc-avant-garde-gothic-pro, sans-serif;
-    font-weight: 300;
+    font-family: 'ITCAvantGardeGothicStdBook';
 }
 
 .medium-std {
-    font-family: itc-avant-garde-gothic-pro, sans-serif;
-    font-weight: 300;
+    font-family: 'ITCAvantGardeGothicStd';
+    font-weight: 500;
 }
 
 .demi-std {
-    font-family: itc-avant-garde-gothic-pro, sans-serif;
-    font-weight: 300;
+    font-family: 'ITCAvantGardeGothicStdDemi';
+    font-weight: normal;
 }
 
 .bold-std {
-    font-family: itc-avant-garde-gothic-pro, sans-serif;
-    font-weight: 300;
+    font-family: 'ITCAvantGardeGothicStd';
+    font-weight: bold;
 }
 
 .sectiongrey-fonttester {
