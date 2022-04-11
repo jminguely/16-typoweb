@@ -15,18 +15,17 @@ body {
 
 .title-web {
   display: flex;
-  background-color: #BBBAE4;
-  box-shadow: 1px 20px 30px black;
-  padding: 5px 0 0 0;
+  background-color: #3A3BD0;
+  padding: 5px 3px 5px 10px
 }
 
 .picture-flower {
-  width: 20px;
-  animation: flower 4s linear infinite;
-
+  width: 30px;
+  animation: flower 4s cubic-bezier(.68,-0.55,.27,1.55) infinite;
 }
 
-.picture-name {
+.logo-font-flower {
+  width: 150px;
   padding: 0 0 0 250px;
 }
 
@@ -37,14 +36,10 @@ body {
   }
 }
 
-.picture-name {
-  width: 100px;
-}
-
 header h1 { 
   font-family: mash;
-  font-size: 90px;
-  font-weight: 555px;
+  font-size: 100px;
+  font-weight: 800;
   text-align: center;
   margin: 0;
   color: #3739D6;
@@ -52,7 +47,11 @@ header h1 {
   background-image: url(../img/header-fleur.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  position: sticky;
+}
+
+.variable {
+  background-image: url(../img/nuage.jpg);
+  height: 210px;
 }
 
 .variable h2 {
@@ -63,15 +62,6 @@ header h1 {
   text-align: center;
   margin: 0 0 70px 0;
   padding-top: 84px;
-}
-
-.variable {
-  background-image: url(../img/nuage.jpg);
-  height: 210px;
-}
-
-.variable h2 {
-  font-weight: 100;
   font-variation-settings: 'wght' 50, 'wdth' 80;
   animation: variable 2s infinite forwards;
 }
@@ -163,4 +153,31 @@ h3 {
 @keyframes defilement-3 {
   from { transform: translateX(-100%);}
   to { transform: translateX(0%);}
+}
+
+
+
+
+
+footer{
+  background-color: #BBBAE4;
+}
+
+footer h1 {
+  font-family: mash;
+  font-size: 90px;
+  font-weight: 555;
+  text-align: center;
+  margin: 0;
+  color: #3739D6;
+  height: 85px;
+}
+
+footer p {
+  font-family: anson;
+  font-size: 15px;
+  color: black;
+  padding: 0 0 0 220px;
+  background-color: #BBBAE4;
+  margin: 0;
 }
