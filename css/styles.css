@@ -60,7 +60,6 @@ html{
 header{
   background-color: #003333;
   padding: 120px 25px 60px;
-  margin-bottom: 10px;
 }
 
 h1{
@@ -70,6 +69,14 @@ h1{
   color: white;
   margin: 0 0 120px;
   text-align: center;
+}
+
+h2{
+  font-family: 'Pilowlava';
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 header a{
@@ -101,12 +108,41 @@ footer{
   background-color: #111111;
   text-align: center;
   padding: 120px 25px 240px;
-  -webkit-clip-path: circle(78.1% at 50% 78%);
-  clip-path: circle(78.1% at 50% 78%);
+  /* -webkit-clip-path: circle(78.1% at 50% 78%);
+  clip-path: circle(78.1% at 50% 78%); */
+  margin-top: 10px;
 }
 
 footer p{
   color: #fc4100;
   font-family: 'Cabinet Grotesk';
   font-weight: lighter;
+}
+
+.introduction{
+  background-color: #111111;
+  text-align: center;
+  color: white;
+  padding: 120px 25px 120px;
+  /* -webkit-clip-path: circle(78.1% at 50% 22%);
+  clip-path: circle(78.1% at 50% 22%); */
+}
+
+.introduction img{
+  width: 200px;
+}
+
+p{
+  font-size: 18px;
+  color: white;
+  font-family: 'Cabinet Grotesk';
+  font-weight: 300;
+  text-align: left;
+}
+
+.introduction p{
+  max-height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 0 0 60px;
 }
