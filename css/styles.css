@@ -264,6 +264,7 @@ input::placeholder {
 .presentation {
   background-image: url(../img/marbre.svg);
   padding: 64px 0px;
+  text-align: center;
 }
 
 .presentation div {
@@ -274,7 +275,7 @@ input::placeholder {
   font-family: semplicitapro, sans-serif;
   font-weight: 400;
   font-style: normal;
-  text-align: center;
+  text-align: left;
   background-color: #bca68fc2;
   margin: auto;
 }
@@ -283,6 +284,7 @@ input::placeholder {
   font-family: rustica, sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin-top: 40px;
 }
 
 footer {
