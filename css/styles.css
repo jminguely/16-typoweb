@@ -19,24 +19,35 @@
   font-display: fallback;
 }
 
+.specimen-button {
+  color: #d1aa37;
+}
+
+.try-button {
+  color: #c0372e;
+}
+
+.glyphs-button {
+  color: #313b8c;
+}
+
+body {
+background-color: #e3d5b6;
+width: 375px;
+}
 
 h1 {
   font-size: 82px;
   font-family: "BauhausStd";
-  color: #33ff41;
-  text-shadow: -0.1em 0.1em #33ff4146;
+  color: #567d4d;
+  text-shadow: -0.1em 0.1em #567d4d50;
   margin: none;
 }
 
 p {
   font-size: 20px;
-  color: #33ff4146;
+  color: #567d4d;
   font-family: "KabelLTStd";
-}
-
-body {
-background-color: black;
-width: 375px;
 }
 
 input {
