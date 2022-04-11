@@ -276,3 +276,24 @@ h1 {
   margin: 0;
   text-align: left;
 }
+
+footer {
+  padding: 37px;
+  padding-bottom: 0;
+  color: #9bf57c;
+  font-size: 18px;
+}
+
+footer p {
+  margin-top: 0;
+}
+
+.font-name {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.signature {
+  text-align: right;
+  margin-top: 18px;
+}
