@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "BauhausStd";
+  font-family: "BauhausStd-Heavy";
   src: url('../fonts/BauhausStd-Heavy.woff2') format('woff2'),
   url('../fonts/BauhausStd-Heavy.woff') format('woff');
   font-display: fallback;
@@ -13,10 +13,35 @@
 }
 
 @font-face {
-  font-family: "KabelLTStd";
+  font-family: "BauhausStd-Demi";
+  src: url('../fonts/BauhausStd-Demi.woff2') format('woff2'),
+  url('../fonts/BauhausStd-Demi.woff') format('woff');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "BauhausStd-Medium";
+  src: url('../fonts/BauhausStd-Medium.woff2') format('woff2'),
+  url('../fonts/BauhausStd-Medium.woff') format('woff');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "BauhausStd-Light";
+  src: url('../fonts/BauhausStd-Light.woff2') format('woff2'),
+  url('../fonts/BauhausStd-Light.woff') format('woff');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "KabelLTStd-Book";
   src: url('../fonts/KabelLTStd-Book.woff2') format('woff2'),
   url('../fonts/KabelLTStd-Book.woff') format('woff');
   font-display: fallback;
+}
+
+.about-bauhaus {
+  color: #d1aa37;
 }
 
 .specimen-button {
@@ -31,6 +56,42 @@
   color: #313b8c;
 }
 
+hr {
+  color: #567d4d;
+  height: 2px;
+}
+
+.specimen-section {
+  color: #d1aa37;
+  font-family: "KabelLTStd-Book";
+  font-size: 60px;
+}
+
+.specimen-heavy {
+  font-family: "BauhausStd-Heavy";
+  font-size: 36px;
+}
+
+.specimen-bold {
+  font-family: "BauhausStd-Bold";
+  font-size: 36px;
+}
+
+.specimen-demi {
+  font-family: "BauhausStd-Demi";
+  font-size: 36px;
+}
+
+.specimen-medium {
+  font-family: "BauhausStd-Medium";
+  font-size: 36px;
+}
+
+.specimen-light {
+  font-family: "BauhausStd-Light";
+  font-size: 36px;
+}
+
 body {
 background-color: #e3d5b6;
 width: 375px;
@@ -38,7 +99,7 @@ width: 375px;
 
 h1 {
   font-size: 82px;
-  font-family: "BauhausStd";
+  font-family: "BauhausStd-Heavy";
   color: #567d4d;
   text-shadow: -0.1em 0.1em #567d4d50;
   margin: none;
@@ -47,7 +108,7 @@ h1 {
 p {
   font-size: 20px;
   color: #567d4d;
-  font-family: "KabelLTStd";
+  font-family: "KabelLTStd-Book";
 }
 
 input {
@@ -60,7 +121,7 @@ input {
 
 .font-tester::placeholder {
   color: black;
-  font-family: "BauhausStd";
+  font-family: "BauhausStd-Heavy";
   font-size: 20px;
   border: none;
 }
