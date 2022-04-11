@@ -123,6 +123,11 @@ font-weight: 700;
 
 font-style: italic; */
 
+body {
+  max-width: 320px;
+  margin: auto;
+}
+
 h1 {
   font-size: 25px;
   color: aquamarine;
