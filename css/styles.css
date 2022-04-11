@@ -91,9 +91,9 @@ main {
 
 .all-in {
   animation-name: all-variable;
-  animation-duration: 10s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0, 2.25, 1, -0.2);
+  animation-timing-function: linear;
   color: var(--color-third);
   font-size: 50px;
   padding: 12px;
