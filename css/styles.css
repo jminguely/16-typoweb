@@ -63,6 +63,13 @@
 
 @font-face {
   font-family: 'Mango Grotesque';
+  src: url('../fonts/MangoGrotesque-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mango Grotesque';
   src: url('../fonts/MangoGrotesque-ExtraBold.woff2') format('woff2');
   font-weight: 800;
   font-style: normal;
@@ -108,7 +115,7 @@ h1 {
   font-family: 'Mango Grotesque';
   font-weight: 900;
   font-size: 72px;
-  color: #ff532a;
+  color: #ff310b;
   padding-top: 10px;
 }
 
@@ -244,12 +251,43 @@ h3 {
   justify-content: center;
 }
 
+.first-review {
+  padding: 25px 40px;
+}
+
+.light-review {
+  padding: 30px 34px;
+}
+
+.regular-review {
+  padding: 30px 4px;
+}
+
+.medium-review {
+  padding: 30px 4px;
+  font-size: 70px;
+}
+
+.semi-bold-review {
+  padding: 30px 35px;
+}
+
+.fourth-review {
+  padding: 30px;
+}
+
+.black-review {
+  padding: 30px 11px;
+}
+
 .extra-review {
   border-radius: 50%;
   border:#004a37 solid 2px;
   background-color: #004a37;
-  padding: 65px 35px;
+  padding: 65px 77px;
+  margin-left: 10px;
 }
+
 
 .showcase {
   background-color: #ff532a;
@@ -270,10 +308,66 @@ h3 {
 .letter-box {
   border:#004a37 solid 2px;
   margin: 20px 10px;
-
+  box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.1);
 }
 
 .little-showcase {
   font-size: 48px;
   box-sizing: border-box;
+}
+
+.traduction-box {
+  margin: 20px;
+  text-align: justify;
+}
+
+h4 {
+  font-family: 'Mango Grotesque';
+  font-weight: 700;
+  font-style: italic;
+  font-size: 65px;
+  margin: 42px 0 10px ;
+}
+
+.traduction-box p {
+  font-family: 'Mango Grotesque';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  margin: 0px;
+}
+
+footer {
+  background-image: url(../ressources/footer.jpg);
+  color: white;
+  font-size: 30px;
+  font-family: 'obvia-wide', sans-serif;
+  font-weight: 400;
+  text-align: left;
+  padding: 20px;
+}
+
+h5 {
+  text-align: right;
+  margin: 10px 0 38px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #ff310b;
+  text-decoration: none;
+}
+
+.website {
+  color:#ff310b;
+}
+
+.info {
+  font-family: 'Mango Grotesque';
+  font-size: 38px;
+  font-weight: 500;
+  font-style: italic;
 }
