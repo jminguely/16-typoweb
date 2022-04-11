@@ -123,6 +123,12 @@ a {
 
 }
 
+.letter-svg {
+width: auto;
+height: 150px;
+
+}
+
 a:hover {
   background-color: #19232F;
   color: #FFFF;
