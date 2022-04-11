@@ -134,6 +134,20 @@ nav {
   justify-content: space-around;
 }
 
+.introduction {
+  background-image: url("../img/img_introduction.svg");
+  text-align: center;
+  padding: 37px;
+  font-size: 18px;
+  font-family: bely, serif;
+}
+
+.introduction p {
+  text-align: center;
+  padding: 23px;
+  margin: 0;
+}
+
 h1 {
   font-size: 25px;
   color: aquamarine;
