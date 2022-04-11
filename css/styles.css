@@ -262,3 +262,17 @@ h1 {
   color: #9bf57c;
   border-color: #9bf57c;
 }
+
+.test {
+  background-color: #9bf57c;
+  padding: 37px;
+}
+
+.test h2 {
+  font-family: 'Big Shoulders Display';
+  font-weight: 400;
+  font-style: normal; 
+  font-size: 40px;
+  margin: 0;
+  text-align: left;
+}
