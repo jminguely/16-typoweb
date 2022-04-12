@@ -89,14 +89,6 @@
   font-style: normal;
 }
 
-/*font-family: 'obvia-wide', sans-serif;
-font-weight: 400;
-font-style: normal;*/
-
-/* font-family: obvia, sans-serif;
-font-style: normal;
-font-weight: 500 */
-
 body {
   background-color: #e8e8e474;
   width: 100%;
@@ -156,7 +148,6 @@ h2:hover {
   border: #ff4518 solid 0px;
   padding: 75px 85px;
   margin-left: 180px;
-
 }
 
 .introduction {
@@ -184,7 +175,7 @@ h2:hover {
   padding: 26px;
 }
 
-.review{
+.review {
   border: #ff4518 solid 1px;
   font-size: 79px;
   color: #004a37;
@@ -371,12 +362,14 @@ h4 {
   margin: 0px;
   color:#1e4b3b;
 }
+
 .try-box {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
   margin: 20px;
 }
+
 input {
   border-color:#1e4b3b;
   border-width: 2px;
