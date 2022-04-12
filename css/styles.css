@@ -1,3 +1,209 @@
+:root {
+  --title-background-color: #c95d5552;
+  --text-font: 'AndaleMono', serif;
+  --text-background-color: #a2cab65e;
+  --text-color: rgba(0, 0, 0, 0.739);
+}
+
 body {
-  font-family:'Sriracha'; 
+  max-width: 375px;
+  text-align: center;
+  font-family: var(--text-font);
+}
+
+.card {
+  background-color: var(--text-background-color);
+  font-family: var(--text-font);
+  padding: 25px;
+  padding: 30px 25px;
+  font-size: 15px;
+  color: var(--text-color);
+  text-align: left;
+}
+
+h2 {
+  font-family: jeanne-moderno,serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 23px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.shoes-line {
+  width: 320px;
+}
+
+h1 {
+  background-color: var(--title-background-color);
+  font-family: var(--text-font);
+  padding: 25px 0;
+  font-size: 25px;
+  margin: 35px 0;
+}
+
+.long-text{
+  padding: 30px 25px;
+  font-size: 15px;
+  color: var(--text-color);
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 35px;
+}
+
+.button {
+  background-color: #a8a8a85a;
+  font-family: var(--text-font);
+  border-radius: 30%;
+  padding: 10px;
+  margin: 10px;
+  width: 70px;
+  font-size: 12px;
+}
+
+.button-one {
+  font-family: jeanne-moderno,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  margin: 0;
+}
+
+.button-two {
+  font-family: jeanne-moderno,serif;
+  font-weight: 400;
+  font-style: italic; 
+  font-size: 35px;
+  margin: 0;
+}
+
+.button-three {
+  font-family: jeanne-moderno,serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 35px;
+  margin: 0;
+}
+
+.button-four {
+  font-family: jeanne-moderno,serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 35px;
+  margin: 0;
+}
+
+.button-five {
+  font-family: jeanne-moderno-geometrique,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 35px;
+  margin: 0;
+}
+
+.button-six {
+  font-family: jeanne-moderno-titling,serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 35px;
+  margin: 0;
+}
+
+.button-seven {
+  font-family: jeanne-moderno-titling,serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 35px;
+  margin: 0;
+}
+
+.button-eight {
+  font-family: jeanne-moderno-ultra,serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 35px;
+  margin: 0;
+}
+
+.button-nine {
+  font-family: jeanne-moderno-ultra,serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 35px;
+  margin: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.exemples {
+  background-color: #fceeb46b;
+  padding: 20px 0;
+}
+
+.font {
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.exemple-one {
+  font-family: jeanne-moderno,serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.exemple-two {
+  font-family: jeanne-moderno,serif;
+  font-weight: 400;
+  font-style: italic; 
+}
+
+.exemple-three {
+  font-family: jeanne-moderno,serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.exemple-four {
+  font-family: jeanne-moderno,serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.exemple-five {
+  font-family: jeanne-moderno-geometrique,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.exemple-six {
+  font-family: jeanne-moderno-titling,serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.exemple-seven {
+  font-family: jeanne-moderno-titling,serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.exemple-eight {
+  font-family: jeanne-moderno-ultra,serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.exemple-nine {
+  font-family: jeanne-moderno-ultra,serif;
+  font-weight: 800;
+  font-style: italic;
 }
