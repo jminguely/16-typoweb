@@ -182,7 +182,7 @@ a {
 }
 
 a:hover {
-  color: #a173c2;
+  color: #a700ff;
 }
 
 .introduction {
@@ -320,7 +320,8 @@ a:hover {
   text-align: left;
 }
 
-.test-box {
+input {
+  outline: #a700ff;
   background-color: #49f271;
   border: 2px solid black;
   width: 240px;
@@ -330,6 +331,15 @@ a:hover {
   font-family: bely, serif;
   font-weight: 400;
   font-style: normal;
+  margin-top: 40px;
+}
+
+input::placeholder {
+  color: black;
+}
+
+input:hover {
+  border-color: #a700ff;
 }
 
 footer {
