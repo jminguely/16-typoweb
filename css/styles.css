@@ -5,7 +5,7 @@ font-family: adobe-jenson-pro, serif;
 
  html {
   scroll-behavior: smooth;
-  background:white;
+  background:grey;
 }
 
  body {
@@ -75,7 +75,8 @@ header h1 strong {
 }
 
 img {
-  width: 85%;
+  width: 75%;
+  margin: 0 0 21px 0;
 }
 
 .alphabet-section {
@@ -92,6 +93,46 @@ h2 {
 
 .alphabet-uppercase {
   text-transform: uppercase;
+}
+
+h3 {
+  font-size: 37px;
+}
+
+.regular-font {
+  font-family: adobe-jenson-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.subhead-font {
+  font-family: adobe-jenson-pro-subhead, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caption-font {
+  font-family: adobe-jenson-pro-caption, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.display-font {
+  font-family: adobe-jenson-pro-display, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.italic-font {
+  font-family: adobe-jenson-pro, serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.bold-font {
+  font-family: adobe-jenson-pro-display, serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 div p {
@@ -125,7 +166,8 @@ textarea {
 }
 
 .in-use-section img {
-width: 100;
+width: 85%;
+margin: 15px 0;
 }
 
 .button {
