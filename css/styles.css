@@ -67,12 +67,11 @@ padding: 20px;
         margin: auto;
     }
     .about {
-        background-color: white;
-        opacity: 40%;
+        
         font-family: 'Milkman';
         text-align: left;
-        font-size: 12px ;
-        padding:78px 45px 80px 48px ;
+        font-size: 20px ;
+        
     }
     .nav {
         background-color: white;
@@ -105,12 +104,16 @@ padding: 20px;
         height: 200px;
         border: 1px solid black;
         overflow: scroll;
-}
+        overflow: auto;
+        
+      }
+
 
 .transition {
     color: black;
     font-family: 'Milkman';
     margin: 0;
+    padding: 0px;
 }
 .light {
     font-weight: lighter;
@@ -141,7 +144,14 @@ padding: 20px;
     border: 1px solid black;
     text-align: center;
     font-family: 'Milkman';
+    padding:78px 45px 80px 48px ;
     
 }
+.logo {
 
-
+}
+.contanair {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
