@@ -37,7 +37,6 @@ background-image: url(file:///Users/berzanurozen/Desktop/finder/site/Sans%20titr
 background-size: cover;
 padding: 20px;
 
-
 }
 
     h1 {
@@ -49,24 +48,28 @@ padding: 20px;
 
        margin: 11px;
     }
+
     h2 {
         font-family: 'AppearsDEMO-Regular';
         font-size: 71px;
         text-align: left;
         color: white;
     }
+
     h3 {
         font-size: 71px;
         text-align: center;
         color: white;
         opacity: 50%;
     }
+
     h4 {
         font-family: 'Milkman';
         font-weight: lighter;
         font-size: 70px;
         margin: auto;
     }
+
     .about {
         
         font-family: 'Milkman';
@@ -74,30 +77,28 @@ padding: 20px;
         font-size: 20px ;
         
     }
+
     .nav {
-        background-color: white;
-        opacity: 40%;
+
         text-align: center;
         color: rgba(0, 0, 0, 0.747);
-        
         font-size: 15px;
-        padding: 13px 16px 18px 13px;
-
-
     }
+
     footer {
         color: white;
         opacity: 50%;
         text-align: center;
         margin: 0px;
-       
     }
+
     .about-me {
     font-size: 13px;
     font-family: 'Milkman';
     font-weight: lighter;
     margin: initial;
     } 
+
     .map {
         background-color: white;
         opacity: 45%;
@@ -106,10 +107,7 @@ padding: 20px;
         border: 1px solid black;
         overflow: scroll;
         overflow: auto;
-        
       }
-
-
 .transition {
     color: black;
     font-family: 'Milkman';
@@ -128,15 +126,6 @@ padding: 20px;
     font-weight: bold;
 }
 
-.logo {
-    font-family: 'Socialico Plus Plus';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 80px;
-    margin: 0;
-    opacity: 70%;
-
-}
 .discoverme {
     background-color: white;
     opacity: 45%;
@@ -145,13 +134,12 @@ padding: 20px;
     border: 1px solid black;
     text-align: center;
     font-family: 'Milkman';
+    font-size: 25px;
    
     
 }
-.logo {
 
-}
-.contanair {
+.container {
     display: flex;
     flex-direction: row;
     justify-content: center;
