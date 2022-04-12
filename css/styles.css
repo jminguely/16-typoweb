@@ -322,19 +322,75 @@ h3 {
 }
 
 h4 {
-  font-family: 'Mango Grotesque';
-  font-weight: 700;
-  font-style: italic;
-  font-size: 65px;
-  margin: 42px 0 10px ;
+  font-family: 'Obvia';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  text-align: left;
+  margin: 42px 0 10px;
+  color:#ff300b;
 }
 
-.traduction-box p {
+.try-box input {
   font-family: 'Mango Grotesque';
-  font-weight: 300;
   font-style: normal;
-  font-size: 20px;
+  font-size: 50px;
   margin: 0px;
+  color:#004a37;
+}
+.try-box {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin: 20px;
+}
+input {
+  border-color:#004a37;
+  border-width: 2px;
+  border-style: solid;
+  background-color: #e8e8e400;
+  padding: 10px 10px 5px;
+  outline:#004a37;
+}
+
+input::placeholder {
+  color:#004a37b4;
+}
+
+.try-box-thin {
+  font-weight: 100;
+}
+
+.try-box-extra-light {
+  font-weight: 200;
+}
+
+.try-box-extra-light {
+  font-weight: 300;
+}
+
+.try-box-regular {
+  font-weight: 400;
+}
+
+.try-box-medium {
+  font-weight: 500;
+}
+
+.try-box-semi-bold {
+  font-weight: 600;
+}
+
+.try-box-bold {
+  font-weight: 700;
+}
+
+.try-box-extra-bold {
+  font-weight: 800;
+}
+
+.try-box-black {
+  font-weight: 900;
 }
 
 footer {
