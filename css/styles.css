@@ -107,6 +107,7 @@ h4 {
 body {
 background-color: #e3d5b6;
 width: 375px;
+scroll-behavior: smooth;
 }
 
 h1 {
@@ -166,6 +167,26 @@ input {
 .glyphs-section {
   color: #313b8c;
   font-size: 60px;
+  font-family: "KabelLTStd-Book";
+}
+
+footer {
+  background-color: #567d4d;
+}
+
+footer h2 {
+  color: #e3d5b6;
+  font-size: 60px;
+  font-family: "KabelLTStd-Book";
+}
+
+footer img {
+  width: 36px;
+}
+
+footer p {
+  color: #e3d5b6;
+  font-size: 18px;
   font-family: "KabelLTStd-Book";
 }
 
