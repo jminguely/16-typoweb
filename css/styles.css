@@ -56,6 +56,13 @@
 
 @font-face {
   font-family: 'Mango Grotesque';
+  src: url('../fonts/MangoGrotesque-SemiBoldItalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mango Grotesque';
   src: url('../fonts/MangoGrotesque-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
@@ -93,6 +100,10 @@ body {
   margin: auto;
   display: block;
   text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 header {
@@ -188,6 +199,11 @@ h2 {
 
 h3 {
   margin: 0;
+}
+
+a {
+  color:#1e4b3b;
+  text-decoration: none;
 }
 
 .thin-review h3 {
@@ -393,6 +409,20 @@ input::placeholder {
   font-weight: 900;
 }
 
+.more-infos {
+  background-color: #ff4518;
+  color:#1e4b3b;
+  font-family: 'Mango Grotesque';
+  font-size: 40px;
+  font-weight: 600;
+  font-style: italic;
+  margin: 20px;
+}
+
+.more-infos p {
+  padding: 15px 0 10px;
+}
+
 footer {
   background-image: url(../ressources/footer.jpg);
   color: white;
@@ -401,6 +431,7 @@ footer {
   font-weight: 400;
   text-align: left;
   padding: 20px;
+  margin-top: 80px;
 }
 
 h5 {
