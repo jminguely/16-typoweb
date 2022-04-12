@@ -157,7 +157,7 @@ video {
 }
 
 h1 {
-  color: #9bf57c;
+  color: #49f271;
   font-family: bely-display, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -181,6 +181,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #a173c2;
+}
+
 .introduction {
   background-image: url("../img/img_introduction.svg");
   text-align: center;
@@ -196,7 +200,7 @@ a {
 }
 
 .styles {
-  background-color: #9bf57c;
+  background-color: #49f271;
   padding: 37px;
   font-size: 20px;
   text-align: center;
@@ -298,12 +302,12 @@ a {
 }
 
 .alternatives .main-title {
-  color: #7df451;
-  border-color: #7df451; 
+  color: #49f271;
+  border-color: #49f271; 
 }
 
 .test {
-  background-color: #9bf57c;
+  background-color: #49f271;
   padding: 37px;
 }
 
@@ -316,10 +320,22 @@ a {
   text-align: left;
 }
 
+.test-box {
+  background-color: #49f271;
+  border: 2px solid black;
+  width: 240px;
+  height: 50px;
+  font-size: 30px;
+  color: black;
+  font-family: bely, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 footer {
   padding: 37px;
   padding-bottom: 0;
-  color: #9bf57c;
+  color: #49f271;
   font-size: 18px;
 }
 
