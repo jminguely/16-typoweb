@@ -328,9 +328,6 @@ input {
   height: 50px;
   font-size: 30px;
   color: black;
-  font-family: bely, serif;
-  font-weight: 400;
-  font-style: normal;
   margin-top: 40px;
 }
 
@@ -340,6 +337,36 @@ input::placeholder {
 
 input:hover {
   border-color: #a700ff;
+}
+
+.test-box-display {
+  font-family: bely-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.test-box-regular {
+  font-family: bely, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.test-box-bold {
+  font-family: bely, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.test-box-italic {
+  font-family: bely, serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.test-box-italic-bold {
+  font-family: bely, serif;
+  font-weight: 700;
+  font-style: italic;
 }
 
 footer {
