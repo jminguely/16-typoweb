@@ -63,7 +63,7 @@ body {
   font-family: 'Cabinet Grotesk';
   font-weight: 300;
   text-align: left;
-  margin: 0%;
+  margin: auto;
   background-color: #003333;
 }
 
@@ -94,6 +94,7 @@ h1 {
   color: white;
   margin: 60px 0 60px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 h2 {
@@ -184,9 +185,6 @@ footer p {
   text-align: center;
 }
 
-
-
-
 ::placeholder {
   color: #ffffff;
   font-family: 'Cabinet Grotesk';
@@ -221,6 +219,25 @@ footer p {
   font-size: 72px;
   margin: 0 0 60px;
   word-break: break-word;
+  animation: fontVariant 1.7s linear infinite;
+}
+
+@keyframes fontVariant {
+  0% {font-weight: 100;}
+  6.5% {font-weight: lighter;}
+  13% {font-weight: 200;}
+  19.5% {font-weight: 300;}
+  26% {font-weight: 400;}
+  32.5% {font-weight: bold;}
+  39% {font-weight: bolder;}
+  45.5% {font-weight: 700;}
+  58.5% {font-weight: bolder;}
+  65% {font-weight: bold;}
+  71.5% {font-weight: 400;}
+  78% {font-weight: 300;}
+  84.5% {font-weight: 200;}
+  91% {font-weight: lighter;}
+  97.5% {font-weight: 100;}
 }
 
 .table {
