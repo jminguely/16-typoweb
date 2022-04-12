@@ -89,7 +89,7 @@ nav a {
   background: #a85c1a;
 }
 
-.typo-button-content-two {
+.typo-button-two {
   background-color: #FF7900;
   color: white;
   border-radius: 40px;
@@ -98,11 +98,137 @@ nav a {
   font-family: 'Cairo', sans-serif;
 }
 
-.typo-button-content-three {
+.typo-button-three {
   background-color: #FF7900;
   color: white;
   border-radius: 40px;
-  margin: 0px 50px 18px 50px;
+  margin: 0px 50px 50px 50px;
   padding: 10px 15px;
   font-family: 'Cairo', sans-serif;
 }
+
+.change-box {
+  background: #FF7900;
+}
+
+.change-box p {
+  text-align: center;
+}
+
+.title-one {
+  font-family: 'Cairo', sans-serif;
+  margin: 10px 290px 10px 10px;
+  padding: 1px 10px;
+  color: #FF7900;
+  background: black;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.typo-one {
+  font-family: aviano-future, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 30px;
+  margin: auto;
+}
+
+.typo-one:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 30px;
+  margin: auto;
+}
+
+.typo-two {
+  font-family: aviano-future, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 30px;
+  margin: auto;
+}
+
+.typo-two:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 30px;
+  margin: auto;
+}
+
+.typo-three {
+  font-family: aviano-future, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 30px;
+  margin: auto;
+}
+
+.typo-three:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  margin: auto;
+}
+
+.typo-four {
+  font-family: aviano-future, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 30px;
+  margin: auto;
+}
+
+.typo-four:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin: auto;
+}
+
+.typo-five {
+  font-family: aviano-future, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 30px;
+  margin: auto;
+}
+
+.typo-five:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
+  margin: auto;
+}
+
+.typo-six {
+  font-family: aviano-future, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 30px;
+  margin: auto;
+}
+
+.typo-six:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 30px;
+  margin: auto;
+}
+
+.explanation {
+  font-family: 'Cairo', sans-serif;
+  font-size: 10px;
+}
+
+
+
+
+
+
+
