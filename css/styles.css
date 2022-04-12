@@ -98,9 +98,10 @@ hr {
   font-family: "KabelLTStd-Book";
 }
 
-.try-title {
+h4 {
   color: #c0372e;
   font-size: 18px;
+  font-family: "KabelLTStd-Book";
 }
 
 body {
@@ -137,9 +138,37 @@ input {
   font-size: 18px;
 }
 
-.font-tester .font-heavy {
-  font-family: "BauhausStd-Bold";
+.font-heavy {
+  font-family: "BauhausStd-Heavy";
+  font-size: 18px;
 }
+
+.font-bold {
+  font-family: "BauhausStd-Bold";
+  font-size: 18px;
+}
+
+.font-demi {
+  font-family: "BauhausStd-Demi";
+  font-size: 18px;
+}
+
+.font-medium {
+  font-family: "BauhausStd-Medium";
+  font-size: 18px;
+}
+
+.font-light {
+  font-family: "BauhausStd-Light";
+  font-size: 18px;
+}
+
+.glyphs-section {
+  color: #313b8c;
+  font-size: 60px;
+  font-family: "KabelLTStd-Book";
+}
+
 
 
 /* font-weight: bold;
