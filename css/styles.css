@@ -179,6 +179,20 @@ p {
     height: auto;
 }
 
+.arrow:hover {
+    animation: rotation 1s 1 linear;
+    cursor: pointer;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
 .section2-presentation {
     display: flex;
     flex-direction: row;
