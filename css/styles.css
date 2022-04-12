@@ -199,3 +199,18 @@ main h2 {
   font-family: Plaster-Regular;
   color: #df0672;
 }
+
+hr {
+  background-color: black;
+  border: none;
+  height: 0.1px;
+
+}
+
+.inter-text {
+  background-color: black;
+  border: none;
+  height: 0.1px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
