@@ -104,7 +104,7 @@ header span {
 }
 
 hr {
-  color: #004a37;
+  color: #1e4b3b;
   border-style: solid;
   border-width: 1px;
   margin: 10px 0 10px 0;
@@ -115,7 +115,7 @@ h1 {
   font-family: 'Mango Grotesque';
   font-weight: 900;
   font-size: 72px;
-  color: #ff310b;
+  color: #ff4518;
   padding-top: 10px;
 }
 
@@ -126,22 +126,22 @@ h2 {
   font-family: 'Mango Grotesque';
   font-weight: 700;
   font-size: 48px;
-  color: #004a37;
+  color: #1e4b3b;
   padding-left: 5px;
 }
 
 .round-button {
-  background-color: #ff532a;
+  background-color: #ff4518;
   background-image: url(../ressources/background.jpg);
   border-radius: 50%;
-  border:#ff532a solid 0px;
+  border: #ff4518 solid 0px;
   padding: 75px 85px;
   margin-left: 180px;
 
 }
 
 .introduction {
-  background-color: #004a37;
+  background-color: #1e4b3b;
   margin-top: 90px;
   font-family: 'obvia-wide', sans-serif;
   font-weight: 400;
@@ -165,7 +165,7 @@ h2 {
 }
 
 .review{
-  border: #ff532a solid 1px;
+  border: #ff4518 solid 1px;
   font-size: 79px;
   color: #004a37;
   margin: 5px;
@@ -176,7 +176,7 @@ h2 {
 }
 
 .particularity {
-  color:#ff532a;
+  color: #ff4518;
   font-family: 'Mango Grotesque';
   font-weight: 200;
   font-style: normal;
@@ -282,19 +282,19 @@ h3 {
 
 .extra-review {
   border-radius: 50%;
-  border:#004a37 solid 2px;
-  background-color: #004a37;
+  border:#1e4b3b solid 2px;
+  background-color: #1e4b3b;
   padding: 65px 77px;
   margin-left: 10px;
 }
 
 
 .showcase {
-  background-color: #ff532a;
+  background-color: #ec5430;
   font-family: 'Mango Grotesque';
   font-weight: 400;
   font-size: 65px;
-  color: #004a37;
+  color: #1e4b3b;
   padding: 40px 5px;
 }
 
@@ -328,7 +328,7 @@ h4 {
   font-size: 30px;
   text-align: left;
   margin: 42px 0 10px;
-  color:#ff300b;
+  color:#ff4618;
 }
 
 .try-box input {
@@ -336,7 +336,7 @@ h4 {
   font-style: normal;
   font-size: 50px;
   margin: 0px;
-  color:#004a37;
+  color:#1e4b3b;
 }
 .try-box {
   display: flex;
@@ -345,16 +345,16 @@ h4 {
   margin: 20px;
 }
 input {
-  border-color:#004a37;
+  border-color:#1e4b3b;
   border-width: 2px;
   border-style: solid;
   background-color: #e8e8e400;
   padding: 10px 10px 5px;
-  outline:#004a37;
+  outline:#1e4b3b;
 }
 
 input::placeholder {
-  color:#004a37b4;
+  color:#1e4b3bb5;
 }
 
 .try-box-thin {
@@ -413,12 +413,12 @@ footer p {
 }
 
 footer a {
-  color: #ff310b;
+  color: #ff4518;
   text-decoration: none;
 }
 
 .website {
-  color:#ff310b;
+  color:#ff4518;
 }
 
 .info {
