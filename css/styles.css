@@ -5,7 +5,7 @@ body {
 }
 
 .title-container {
-  background-color: #3B1E0F;
+  background-color: #743B2C;
   margin-bottom: 20px;
 }
 
@@ -54,15 +54,15 @@ p {
 
 .font-box {
   color: #FDEAE4;
-
   padding: 25px;
+  padding-bottom: 65px;
     
 }
 
 .font-box p {
   color: #FDEAE4;
   margin: auto;
-  padding-bottom: 30px;
+  padding-bottom: fsfjk;
 }
  
 .chocolate-publicity {
@@ -75,13 +75,15 @@ h5 {
   text-align: center;
   font-family: 'ff-carina', sans-serif;
   font-weight: 700;
+  margin: auto;
 }
 
 .chocolate-publicity p {
   margin: auto;
-  padding: 30px;
+  padding-top: 30px;
   text-align: center;
   color: #FBD2B4;
+  padding-bottom: 30px;
 }
 
 img {
@@ -97,18 +99,18 @@ img {
   font-family: 'ff-carina', sans-serif; 
   font-weight: 400;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 
 h6 {
-  font-size: 50px;
-  color: #FDEAE4;
+  font-size: 40px;
+  color: #FBD2B4;
   text-align: center;
   font-family: 'ff-carina', sans-serif; 
   font-weight: 700;
-  padding-bottom: 30px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
+  margin: 15px;
 }
 
 .text-box {
@@ -134,14 +136,10 @@ h6 {
   font-family: 'ff-carina', sans-serif;
   padding: 10px;
   width: 100%;
-  margin-top: 50px;
-  margin-bottom: -90px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   box-sizing: border-box;
   color: #3B1E0F;
-}
-
-.light-card {
-  background-color: #fdeae454;
 }
 
 
@@ -227,19 +225,20 @@ h4  {
 }
 
 .font-test-box h1 {
+  font-family: 'ff-carina', sans-serif;
+  font-weight: 700;
   font-size: 40px;
   text-align: center;
 }
 
-.anchor {
-  text-align: center;
-}
-
-.personal-contact {
-  text-align: center;
-}
-
-.anchor {
+footer {
   text-align: center;
   margin: auto;
+}
+
+.anchor {
+  text-decoration: underline;
+  color: #FBD2B4;
+  font-family: roc-grotesk, sans-serif;
+  padding-bottom: 60px;
 }
