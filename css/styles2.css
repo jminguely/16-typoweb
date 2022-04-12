@@ -22,6 +22,10 @@ body {
   text-align: center;
 }
 
+header {
+  background-image: url("img/background.png");
+}
+
 nav {
   padding: 65px;
   text-align: center;
@@ -78,6 +82,38 @@ table, tr, td{
   text-align: center;
 }
 
+.text-input-countainer {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
 
+.font-tester-regular {
+  font-family: louvette-display,serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  
+.font-tester-italique {
+  font-family: louvette-display, serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.font-tester-seminbold {
+  font-family: louvette-display, serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-tester-bold {
+  font-family: louvette-display, serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.font-tester-ultra {
+  font-family: louvette-display, serif;
+  font-weight: 700;
+  font-style: normal;
+}
