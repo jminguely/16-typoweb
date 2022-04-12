@@ -151,8 +151,15 @@ article {
   padding: 25px;
 }
 
+.sommary figcaption {
+  font-family: rustica, sans-serif;
+  font-weight: 400;
+  font-size: small;
+  font-style: italic;
+}
+
 .sommary a {
-  color: #5B5148;
+  color: #5b5148;
   text-decoration: none;
 }
 
@@ -188,10 +195,10 @@ h2 {
   position: absolute;
   bottom: 10px;
   right: 20px;
-  background-color: #63584E;
+  background-color: #63584e;
   color: #e7d7c4;
   padding: 5px;
-  border: solid #63584E;
+  border: solid #63584e;
   border-radius: 2px;
 }
 
@@ -274,82 +281,80 @@ input {
   font-family: semplicitapro, sans-serif;
 
   font-weight: 400;
-  
+
   font-style: normal;
 }
 
 .writing .element-2 {
- font-family: semplicitapro, sans-serif;
+  font-family: semplicitapro, sans-serif;
 
- font-weight: 700;
+  font-weight: 700;
 
- font-style: normal;
+  font-style: normal;
 }
 
 .writing .element-3 {
- font-family: semplicitapro, sans-serif;
+  font-family: semplicitapro, sans-serif;
 
- font-weight: 700;
+  font-weight: 700;
 
- font-style: italic;
+  font-style: italic;
 }
 
 .writing .element-4 {
- font-family: semplicitapro, sans-serif;
+  font-family: semplicitapro, sans-serif;
 
- font-weight: 400;
+  font-weight: 400;
 
- font-style: italic;
+  font-style: italic;
 }
 
 .writing .element-5 {
- font-family: semplicitapro, sans-serif;
+  font-family: semplicitapro, sans-serif;
 
- font-weight: 300;
+  font-weight: 300;
 
- font-style: normal;
+  font-style: normal;
 }
 
 .writing .element-6 {
   font-family: semplicitapro, sans-serif;
 
   font-weight: 300;
-  
-  font-style: italic;  
+
+  font-style: italic;
 }
 
 .writing .element-7 {
   font-family: semplicitapro, sans-serif;
 
   font-weight: 500;
-  
+
   font-style: normal;
-  
 }
 
 .writing .element-8 {
- font-family: semplicitapro, sans-serif;
+  font-family: semplicitapro, sans-serif;
 
- font-weight: 500;
+  font-weight: 500;
 
- font-style: italic;
+  font-style: italic;
 }
 
 .writing .element-9 {
- font-family: semplicitapro, sans-serif;
+  font-family: semplicitapro, sans-serif;
 
- font-weight: 600;
+  font-weight: 600;
 
- font-style: normal;
+  font-style: normal;
 }
 
 .writing .element-10 {
   font-family: semplicitapro, sans-serif;
 
   font-weight: 600;
-  
-  font-style: italic; 
-  
+
+  font-style: italic;
 }
 
 input::placeholder {
@@ -389,10 +394,10 @@ input::placeholder {
   position: absolute;
   bottom: 10px;
   right: 20px;
-  background-color: #63584E;
+  background-color: #63584e;
   color: #e7d7c4;
   padding: 5px;
-  border: solid #63584E;
+  border: solid #63584e;
   border-radius: 2px;
 }
 
