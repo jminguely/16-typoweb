@@ -81,8 +81,8 @@ padding: 20px;
     .nav {
 
         text-align: center;
-        color: rgba(0, 0, 0, 0.747);
-        font-size: 15px;
+       
+        font-size: 24px;
     }
 
     footer {
@@ -107,6 +107,7 @@ padding: 20px;
         border: 1px solid black;
         overflow: scroll;
         overflow: auto;
+        overflow-x: scroll;
       }
 .transition {
     color: black;
@@ -163,4 +164,20 @@ a {
 a:visited {
     color: white;
     text-decoration: none;
+}
+.logoeikon{
+    width: 300%;
+    
+}
+.menu {
+    background-color:rgba(245, 245, 245, 0.582);
+    margin: 5px;
+   
+}
+.menu:visited {
+    color: black;
+}
+.eikonlogo {
+width: 20px;
+color: white;
 }
