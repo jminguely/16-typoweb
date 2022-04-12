@@ -1,0 +1,378 @@
+/*
+font-family: lust-didone-fine, sans-serif;
+
+font-family: lust-display-didone, serif;
+
+font-family: lust-didone, serif;
+
+font-family: nunito-sans, sans-serif;
+-------
+Lust Didone Regular
+
+font-family: lust-didone,serif;
+font-weight: 700;
+font-style: normal;
+-------
+Lust Didone Italic
+
+font-family: lust-didone,serif;
+font-weight: 700;
+font-style: italic;
+-------
+Lust Didone Fine Italic
+
+font-family: lust-didone-fine,sans-serif;
+font-weight: 100;
+font-style: italic;
+-------
+Lust Didone Fine
+
+font-family: lust-didone-fine,sans-serif;
+font-weight: 100;
+font-style: normal;
+-------
+Lust Didone Display 
+
+font-family: lust-display-didone,serif;
+font-weight: 400;
+font-style: normal;
+-------
+Lust Didone Display Italic
+
+font-family: lust-display-didone,serif;
+font-weight: 400;
+font-style: italic;s
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-presentation-normal: lust-didone, serif;
+  --font-presentation-fine: lust-didone-fine, sans-serif;
+  --font-presentation-display: lust-display-didone, serif;
+  --font-secondary: nunito-sans, sans-serif;
+  --color-main: rgb(255, 241, 220);
+  --color-secondary: rgb(206, 97, 113);
+  --color-more-transparent: rgba(0, 0, 0, 0.247);
+  --color-transparent: rgba(0, 0, 0, 0.553);
+  --color-visited: rgba(0, 0, 0, 0.72);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-main);
+}
+
+body {
+  max-width: 375px;
+  margin: auto;
+}
+
+/* header */
+
+header {
+  background-color: var(--color-secondary);
+  height: 132px;
+  position: relative;
+  overflow: hidden;
+}
+
+header h1 {
+  text-align: center;
+  padding: 40px;
+  font-family: var(--font-presentation-normal);
+  font-size: 40px;
+}
+
+header p {
+  color: var(--color-more-transparent);
+  font-family: var(--font-presentation-normal);
+  font-size: 44px;
+  line-height: 103%;
+  white-space: nowrap;
+}
+
+header div {
+  position: absolute;
+  top: 0;
+  user-select: none;
+}
+
+.defiling {
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.defiling-text-1 {
+  animation-name: ChangeDirection1;
+}
+
+@keyframes ChangeDirection1 {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.defiling-text-2 {
+  animation-name: ChangeDirection2;
+}
+
+@keyframes ChangeDirection2 {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.defiling-text-3 {
+  animation-name: ChangeDirection3;
+}
+
+@keyframes ChangeDirection3 {
+  0% {
+    transform: translateX(-20%);
+  }
+
+  100% {
+    transform: translateX(-70%);
+  }
+}
+
+/* main nav */
+
+nav {
+  font-family: "nunito-sans";
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+hr {
+  border: solid 0.5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:visited {
+  text-decoration: none;
+  color: var(--color-visited);
+}
+
+/* main */
+
+main {
+  font-family: var(--font-secondary);
+}
+
+main h2 {
+  margin: 50px 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+main h3 {
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+main h4 {
+  margin: 20px 0 2px 0;
+  font-weight: 400;
+  font-size: 17px;
+  color: var(--color-transparent);
+}
+
+/* main introduction */
+
+.introduction {
+  margin: 35px 45px;
+}
+
+.introduction hr {
+  margin: 10px 0;
+  border: solid 1px var(--color-secondary);
+}
+
+/* main styles */
+
+.presentation {
+  padding: 0 60px;
+}
+
+.presentation a {
+  font-size: 45px;
+  text-decoration: none;
+  color: black;
+}
+.presentation a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.presentation p {
+  font-size: 13px;
+}
+
+.container-box-styles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.badge {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  font-family: var(--font-secondary);
+}
+
+.icon {
+  background-color: var(--color-secondary);
+  max-width: 95px;
+  max-height: 95px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.icon-regular {
+  font-family: var(--font-presentation-normal);
+}
+
+.icon-italic {
+  font-family: var(--font-presentation-normal);
+  font-style: italic;
+}
+
+.icon-display {
+  font-family: var(--font-presentation-display);
+}
+
+.icon-display-italic {
+  font-family: var(--font-presentation-display);
+  font-style: italic;
+}
+
+.icon-fine {
+  font-family: var(--font-presentation-fine);
+}
+
+.icon-fine-italic {
+  font-family: var(--font-presentation-fine);
+  font-style: italic;
+}
+
+/* main tester */
+
+.try {
+  padding: 0 45px;
+}
+
+input {
+  outline: none;
+}
+
+input::placeholder {
+  color: var(--color-more-transparent);
+}
+
+.try-text {
+  border: none;
+  padding: 10px 10px 5px;
+  font-size: 24px;
+  max-height: 50px;
+  max-width: 265px;
+  text-overflow: ellipsis;
+}
+
+.try-text-regular {
+  font-family: var(--font-presentation-normal);
+}
+
+.try-text-italic {
+  font-family: var(--font-presentation-normal);
+  font-style: italic;
+}
+
+.try-text-fine {
+  font-family: var(--font-presentation-fine);
+}
+
+.try-text-fine-italic {
+  font-family: var(--font-presentation-fine);
+  font-style: italic;
+}
+
+.try-text-display {
+  font-family: var(--font-presentation-display);
+}
+
+.try-text-display-italic {
+  font-family: var(--font-presentation-display);
+  font-style: italic;
+}
+
+/* main alternatives */
+
+.caracters-map {
+  padding: 0 45px;
+}
+
+.caracters-map img {
+  margin-bottom: 60px;
+}
+
+.caracters-map img:last-of-type {
+  margin-bottom: 0;
+}
+
+/* footer */
+
+footer {
+  font-family: var(--font-secondary);
+  text-align: center;
+  background-color: var(--color-secondary);
+  padding: 20px 0;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:visited {
+  text-decoration: none;
+  color: var(--color-visited);
+}
+
+/* arrow */
+
+.scroll-top-container {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.scroll-top img {
+  max-width: 40px;
+  margin: 0 0 0 330px;
+
+}
