@@ -46,6 +46,14 @@ nav p {
   margin: 30px;
 }
 
+.title-container {
+  margin: 30px;
+  height: 450px;
+  background-image: url(../img/N.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .title-container h1 {
   font-family: niagara-engraved, sans-serif;
   font-style: normal;
@@ -58,10 +66,6 @@ nav p {
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
-}
-
-.title-container {
-  margin: 30px;
 }
 
 /* main */
