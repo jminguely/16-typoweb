@@ -92,6 +92,17 @@ hr {
   font-size: 36px;
 }
 
+.try-section {
+  color: #c0372e;
+  font-size: 60px;
+  font-family: "KabelLTStd-Book";
+}
+
+.try-title {
+  color: #c0372e;
+  font-size: 18px;
+}
+
 body {
 background-color: #e3d5b6;
 width: 375px;
@@ -116,14 +127,14 @@ input {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  background-color: #33ff41;
+  background-color: #c0372e50;
+  border: none;
 }
 
-.font-tester::placeholder {
-  color: black;
+.try-section::placeholder {
+  color: #c0372e;
   font-family: "BauhausStd-Heavy";
-  font-size: 20px;
-  border: none;
+  font-size: 18px;
 }
 
 .font-tester .font-heavy {
