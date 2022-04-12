@@ -26,8 +26,8 @@ p {
 }
 
 hr {
-  border: none;
-  border-top: 6px solid #00FEFE;
+  border-color: #00FEFE;
+  min-height: 6px;
 }
 
 /* header */
@@ -59,9 +59,6 @@ nav p {
   font-style: normal;
   font-weight: 400;
   font-size: 90px;
-  padding-top: 120px;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .site-description {
@@ -69,8 +66,6 @@ nav p {
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
-  margin-top: 0px;
-  margin-bottom: 45px;
 }
 
 /* main */
