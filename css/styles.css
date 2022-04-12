@@ -1,0 +1,477 @@
+@font-face {
+  font-family: 'Mango Grotesque';
+  src: url('../fonts/MangoGrotesque-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mango Grotesque';
+  src: url('../fonts/MangoGrotesque-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mango Grotesque';
+  src: url('../fonts/MangoGrotesque-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mango Grotesque';
+  src: url('../fonts/MangoGrotesque-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mango Grotesque';
+  src: url('../fonts/MangoGrotesque-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mango Grotesque';
+  src: url('../fonts/MangoGrotesque-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mango Grotesque';
+  src: url('../fonts/MangoGrotesque-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mango Grotesque';
+  src: url('../fonts/MangoGrotesque-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mango Grotesque';
+  src: url('../fonts/MangoGrotesque-SemiBoldItalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mango Grotesque';
+  src: url('../fonts/MangoGrotesque-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mango Grotesque';
+  src: url('../fonts/MangoGrotesque-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mango Grotesque';
+  src: url('../fonts/MangoGrotesque-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mango Grotesque';
+  src: url('../fonts/MangoGrotesque-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  background-color: #e8e8e474;
+  width: 100%;
+  max-width: 380px;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  padding: 20px 10px 10px 10px;
+}
+
+header span {
+  background-color: #d6e2e9;
+}
+
+hr {
+  color: #1e4b3b;
+  border-style: solid;
+  border-width: 1px;
+  margin: 10px 0 10px 0;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Mango Grotesque';
+  font-weight: 900;
+  font-size: 72px;
+  color: #ff4518;
+  padding-top: 10px;
+}
+
+h2 {
+  margin: -5px 0 0 0;
+  margin-bottom: 80px;
+  text-align: left;
+  font-family: 'Mango Grotesque';
+  font-weight: 700;
+  font-size: 48px;
+  color: #1e4b3b;
+  padding-left: 5px;
+}
+
+h2:hover {
+  color: #ff4518;
+}
+
+.round-button {
+  background-color: #ff4518;
+  background-image: url(../img/background.webp);
+  border-radius: 50%;
+  border: #ff4518 solid 0px;
+  padding: 75px 85px;
+  margin-left: 180px;
+}
+
+.introduction {
+  background-color: #1e4b3b;
+  margin-top: 90px;
+  font-family: 'obvia', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 28px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.introduction p {
+  color: white;
+  padding: 155px 50px;
+}
+
+.review-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+.review {
+  border: #ff4518 solid 1px;
+  font-size: 79px;
+  color: #004a37;
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.particularity {
+  color: #ff4518;
+  font-family: 'Mango Grotesque';
+  font-weight: 200;
+  font-style: normal;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: -10px;
+  text-align: left;
+}
+
+h3 {
+  margin: 0;
+}
+
+a h3{
+  color:#1e4b3b;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.thin-review h3 {
+  font-family: 'Mango Grotesque';
+  font-weight: 100;
+  font-style: normal;
+}
+
+.extra-light-review .first-extra {
+  font-family: 'Mango Grotesque';
+  font-weight: 200;
+  font-style: normal;
+}
+
+.light-review h3 {
+  font-family: 'Mango Grotesque';
+  font-weight: 300;
+  font-style: normal;
+}
+
+.regular-review h3 {
+  font-family: 'Mango Grotesque';
+  font-weight: 400;
+  font-style: normal;
+}
+
+.medium-review h3 {
+  font-family: 'Mango Grotesque';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.semi-bold-review .second-extra {
+  font-family: 'Mango Grotesque';
+  font-weight: 600;
+  font-style: normal;
+}
+
+.bold-review h3 {
+  font-family: 'Mango Grotesque';
+  font-weight: 700;
+  font-style: normal;
+}
+
+.extra-bold-review .third-extra {
+  font-family: 'Mango Grotesque';
+  font-weight: 800;
+  font-style: normal;
+}
+
+.black-review h3 {
+  font-family: 'Mango Grotesque';
+  font-weight: 900;
+  font-style: normal;
+}
+
+.review-container .couple-review{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.first-review {
+  padding: 25px 40px;
+}
+
+.light-review {
+  padding: 30px 34px;
+}
+
+.regular-review {
+  padding: 30px 4px;
+}
+
+.medium-review {
+  padding: 30px 4px;
+  font-size: 70px;
+}
+
+.semi-bold-review {
+  padding: 30px 35px;
+}
+
+.fourth-review {
+  padding: 30px;
+}
+
+.black-review {
+  padding: 30px 11px;
+}
+
+.extra-review {
+  border-radius: 50%;
+  border:#1e4b3b solid 2px;
+  background-color: #1e4b3b;
+  padding: 65px 77px;
+  margin-left: 10px;
+}
+
+.extra-review:hover {
+  background-color: #ec5430;
+  border: #ec5430 solid 2px;
+}
+
+.showcase {
+  background-color: #ec5430;
+  font-family: 'Mango Grotesque';
+  font-weight: 400;
+  font-size: 65px;
+  color: #1e4b3b;
+  padding: 40px 5px;
+}
+
+.showcase p {
+  padding: 25px;
+  margin: 0;
+  text-align: justify;
+
+}
+
+.letter-box {
+  border:#004a37 solid 2px;
+  margin: 20px 10px;
+  box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.1);
+}
+
+.little-showcase {
+  font-size: 48px;
+  box-sizing: border-box;
+}
+
+.traduction-box {
+  margin: 20px;
+  text-align: justify;
+}
+
+h4 {
+  font-family: 'Obvia', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  text-align: left;
+  margin: 42px 0 10px;
+  color:#ff4618;
+}
+
+.try-box input {
+  font-family: 'Mango Grotesque';
+  font-style: normal;
+  font-size: 50px;
+  margin: 0px;
+  color:#1e4b3b;
+}
+
+.try-box {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin: 20px;
+}
+
+input {
+  border-color:#1e4b3b;
+  border-width: 2px;
+  border-style: solid;
+  background-color: #e8e8e400;
+  padding: 10px 10px 5px;
+  outline:#1e4b3b;
+}
+
+input::placeholder {
+  color:#1e4b3bb5;
+}
+
+.try-box-thin {
+  font-weight: 100;
+}
+
+.try-box-extra-light {
+  font-weight: 200;
+}
+
+.try-box-extra-light {
+  font-weight: 300;
+}
+
+.try-box-regular {
+  font-weight: 400;
+}
+
+.try-box-medium {
+  font-weight: 500;
+}
+
+.try-box-semi-bold {
+  font-weight: 600;
+}
+
+.try-box-bold {
+  font-weight: 700;
+}
+
+.try-box-extra-bold {
+  font-weight: 800;
+}
+
+.try-box-black {
+  font-weight: 900;
+}
+
+.more-infos {
+  background-color: #ff4518;
+  color:#1e4b3b;
+  font-family: 'Mango Grotesque';
+  font-size: 40px;
+  font-weight: 600;
+  font-style: italic;
+  margin: 20px;
+}
+
+.more-infos p {
+  padding: 15px 0 10px;
+}
+
+.more-infos p:hover {
+  color: white;
+  background-color: #1e4b3b;
+}
+
+footer {
+  background-image: url(../img/footer.webp);
+  background-size: cover;
+  color: white;
+  font-size: 30px;
+  font-family: 'obvia', sans-serif;
+  font-weight: 500;
+  text-align: left;
+  padding: 20px;
+  margin-top: 80px;
+}
+
+h5 {
+  text-align: right;
+  margin: 10px 0 38px;
+  color: white;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #ff4518;
+  text-decoration: none;
+}
+
+.website {
+  color:#ff4518;
+}
+
+.info {
+  font-family: 'Mango Grotesque';
+  font-size: 38px;
+  font-weight: 500;
+  font-style: italic;
+}
