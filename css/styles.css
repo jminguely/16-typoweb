@@ -216,7 +216,7 @@ a {
   font-style: normal;
 }
 
-.extra-light-review h3 {
+.extra-light-review .first-extra {
   font-family: 'Mango Grotesque';
   font-weight: 200;
   font-style: normal;
@@ -240,7 +240,7 @@ a {
   font-style: normal;
 }
 
-.semi-bold-review h3 {
+.semi-bold-review .second-extra {
   font-family: 'Mango Grotesque';
   font-weight: 600;
   font-style: normal;
@@ -252,7 +252,7 @@ a {
   font-style: normal;
 }
 
-.extra-bold-review h3 {
+.extra-bold-review .third-extra {
   font-family: 'Mango Grotesque';
   font-weight: 800;
   font-style: normal;
