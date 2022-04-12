@@ -141,6 +141,7 @@ body {
 
 header h1 {
   font-family: Plaster-Regular;
+  text-shadow: 3px 3px #87531b;
 }
 
 header nav {
@@ -198,6 +199,7 @@ header nav {
 main h2 {
   font-family: Plaster-Regular;
   color: #df0672;
+  text-shadow: 2px 2px #d34c8f;
 }
 
 hr {
@@ -210,10 +212,14 @@ hr {
   background-color: black;
   border: none;
   height: 0.1px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 main div {
   font-family: Boska-Medium;
+}
+
+.symbol {
+  margin: 40px;
 }
