@@ -204,7 +204,6 @@ hr {
   background-color: black;
   border: none;
   height: 0.1px;
-
 }
 
 .inter-text {
@@ -213,4 +212,8 @@ hr {
   height: 0.1px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+main div {
+  font-family: Boska-Medium;
 }
