@@ -107,7 +107,7 @@ body {
 }
 
 .menu {
-    background-color: #e2e2e2;
+    background-color: white;
     writing-mode: vertical-rl;
     display: flex;
     flex-direction: row;
@@ -117,7 +117,7 @@ body {
     width: 40px;
     height: 667px;
     position: fixed;
-    border-left: solid 1px #0835f27a;
+    border-left: solid 1px white;
 }
 
 .text-appointed a {
@@ -174,14 +174,14 @@ body {
     width: 375px;
 }
 
-.sectiongrey {
+.section2 {
     color: #0835f2;
-    background-color: #e2e2e2;
+    background-color: white;
     height: 667px;
     width: 375px;
 }
 
-.sectionblue {
+.section1 {
     background-color: #0835f2;
     color: white;
 }
@@ -194,7 +194,7 @@ body {
     background-image: url(../img/img_typotext_375x667px.webp);
 }
 
-.sectionblue-text {
+.section1-text {
     display: flex;
     flex-direction: row;
     justify-items: center;
@@ -211,7 +211,7 @@ body {
     padding: 0 80px 0 40px;
 }
 
-.sectionblue-condensed {
+.section1-condensed {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -252,13 +252,13 @@ h3 {
     font-weight: bold;
 }
 
-.sectiongrey-std {
+.section2-std {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #0835f2;
-    background-color: #e2e2e2;
+    background-color: white;
 }
 
 .std {
@@ -289,12 +289,12 @@ h3 {
     font-weight: bold;
 }
 
-.sectiongrey-fonttester {
+.section2-fonttester {
     color: #0835f2;
-    background-color: #e2e2e2;
+    background-color: white;
 }
 
-.sectionblue-mapcharacter {
+.section1-mapcharacter {
     background-color: #0835f2;
     display: flex;
     flex-direction: column;
@@ -318,7 +318,7 @@ h3 {
     padding-top: 50px;
 }
 
-.footer-sectionblue {
+.footer-section1 {
     color: #e2e2e2;
     background-color: #0835f2;
 }
