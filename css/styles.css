@@ -286,6 +286,10 @@ main h4 {
   padding: 0 45px;
 }
 
+input {
+  outline: none;
+}
+
 input::placeholder {
   color: var(--color-more-transparent);
 }
