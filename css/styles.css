@@ -31,6 +31,7 @@
     font-display: swap;
 }
 
+
 body {
 background-image: url(file:///Users/berzanurozen/Desktop/finder/site/Sans%20titre/16-typoweb/img/Noe%CC%81%20Cotter.jpg);
 background-size: cover;
@@ -144,7 +145,7 @@ padding: 20px;
     border: 1px solid black;
     text-align: center;
     font-family: 'Milkman';
-    padding:78px 45px 80px 48px ;
+   
     
 }
 .logo {
@@ -154,4 +155,24 @@ padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-family: 'Socialico Plus Plus';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 80px;
+    margin: 0;
+    opacity: 70%;
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
 }
