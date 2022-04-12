@@ -109,6 +109,8 @@ nav a {
 
 .change-box {
   background: #FF7900;
+
+
 }
 
 .change-box p {
@@ -224,9 +226,35 @@ nav a {
 .explanation {
   font-family: 'Cairo', sans-serif;
   font-size: 10px;
+  margin: 0;
+  padding: 20px 0px 15px 0px;
 }
 
+.presentation-box {
+  background: black;
+  margin: 0;
+}
 
+.presentation-box img {
+  height: 300px;
+  margin: 30px 55px 0px 55px;
+  max-width: 100%;
+  height: auto;
+}
+
+.presentation-box-two {
+  background: black;
+  margin: 0;
+  padding-top: 30px;
+}
+
+.presentation-box-two img {
+  margin-bottom: 34px;
+}
+
+.glyphs-box {
+  background: black;
+}
 
 
 
