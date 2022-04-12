@@ -295,7 +295,7 @@ input::placeholder {
   padding: 10px 10px 5px;
   font-size: 24px;
   max-height: 50px;
-  max-width: 291px;
+  max-width: 265px;
   text-overflow: ellipsis;
 }
 
@@ -336,6 +336,10 @@ input::placeholder {
   margin-bottom: 60px;
 }
 
+.caracters-map img:last-of-type {
+  margin-bottom: 0;
+}
+
 /* footer */
 
 footer {
@@ -352,4 +356,19 @@ footer a {
 footer a:visited {
   text-decoration: none;
   color: var(--color-visited);
+}
+
+/* arrow */
+
+.scroll-top-container {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.scroll-top img {
+  max-width: 40px;
+  margin: 0 0 0 330px;
+
 }
