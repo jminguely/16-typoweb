@@ -35,7 +35,13 @@ p {
   flex-wrap: wrap;
 }
 
-.fonderie-presentation {
+.element-flag,
+.element-style-name,
+.element-eight-g {
+  flex-grow: 1;
+}
+
+.card {
   background-color: #0c35c3;
   margin: 0px;
   padding: 30px;
@@ -46,7 +52,7 @@ p {
 }
 
 .flag-img-presentation {
-  width: 97px;
+  width: 65px;
 }
 
 .font-style-name {
@@ -56,5 +62,5 @@ p {
 
 .font-style-presentation p {
   color: black;
-  font-size: 37px;
+  font-size: 18px;
 }
