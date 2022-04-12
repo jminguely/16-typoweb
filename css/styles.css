@@ -63,12 +63,22 @@ h2 {
 }
 
 .card-header-dark {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   background-color: #19232F;
   color: #FFFF;
   margin: 22px;
   padding: 10px;
   padding-top: 6px;
   border-radius: 4px;
+}
+
+.symbole {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-items: end;
+  width: 250px;
 }
 
 h3 {
@@ -124,8 +134,8 @@ a {
 }
 
 .letter-svg {
-width: auto;
-height: 150px;
+  width: auto;
+  height: 150px;
 
 }
 
@@ -147,19 +157,25 @@ a:hover {
   width: 250px;
 }
 
+.animation-text {
+  margin-top: 50px;
+  height: 200px;
+}
+
 .messagedefilant {
   overflow: hidden;
   display: flex;
   transform: translateY(-50%);
   width: 100%;
+  padding-top: 10px;
 }
 
 .txt {
   white-space: nowrap;
   font-size: 100px;
   font-family: roc-grotesk-extrawide, sans-serif;
+  line-height: 70px;
   font-weight: 700;
-  line-height: 75px;
   animation: scrollTxt 10s linear infinite;
 }
 
@@ -303,4 +319,27 @@ footer p {
   padding: 10px;
   border-radius: 8px;
   margin: 22px;
+}
+
+.letter-svg {
+  width: 100px;
+  height: auto;
+}
+
+.text-flexbox {
+  display: flex;
+  flex-wrap: no-wrap;
+  flex-direction: row;
+}
+
+.where-card-box {
+  width: auto;
+  height: auto;
+}
+
+.letter-container {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
 }
