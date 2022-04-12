@@ -49,18 +49,20 @@ p {
   font-family: roc-grotesk, sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin: 30px;
 }
 
 .font-box {
-  background-color: #FDEAE4;
-  border-radius: 20px;
-  margin: 20px;
+  color: #FDEAE4;
+
   padding: 25px;
     
 }
 
 .font-box p {
-  color: black;
+  color: #FDEAE4;
+  margin: auto;
+  padding-bottom: 30px;
 }
  
 .chocolate-publicity {
@@ -85,13 +87,9 @@ h5 {
 img {
   margin: auto;
   display: block;
+  padding-top: 30px;
 }
 
-.card-quote {
-  background-color: #3B1E0F;
-  margin: auto;
-  padding: 20px;
-}
 
 .card-quote p {
   color: #FBD2B4;
@@ -99,6 +97,7 @@ img {
   font-family: 'ff-carina', sans-serif; 
   font-weight: 400;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 
@@ -145,10 +144,6 @@ h6 {
   background-color: #fdeae454;
 }
 
-.lettrine::first-letter {
-  font-size: 100px;
-  float: left;
-}
 
 .text-bold {
   font-family: 'ff-carina', sans-serif; 
@@ -177,7 +172,8 @@ h4  {
 }
 
 .defiling-container {
-  background-color: #FDEAE4;
+  background-color: #743B2C;
+  color: #FDEAE4;
   display: flex;
   flex-direction: row;
   overflow: hidden;
@@ -185,9 +181,10 @@ h4  {
 }
 
 .defiling-container-reverse {
-  background-color: #FDEAE4;
+  background-color: #743B2C;
+  color: #FDEAE4;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row-reverse; 
   overflow: hidden;
   width: 100%;
 }
@@ -231,8 +228,7 @@ h4  {
 
 .font-test-box h1 {
   font-size: 40px;
-  text-align: left;
-  margin-left: 20px;
+  text-align: center;
 }
 
 .anchor {
