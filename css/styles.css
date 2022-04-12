@@ -25,12 +25,25 @@ p {
   font-family: 'Avenir-Book';
 }
 
+hr {
+  border-color: #00FEFE;
+  min-height: 6px;
+}
+
 /* header */
+
+nav p {
+  font-size: 12px;
+  font-family: 'Avenir-Black';
+  text-transform: uppercase;
+  letter-spacing: .100rem;
+}
 
 .site-header nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 30px;
 }
 
 .title-container h1 {
@@ -47,8 +60,40 @@ p {
   font-size: 26px;
 }
 
+.title-container {
+  margin: 30px;
+}
+
 /* main */
+
+h2 {
+  font-size: 26px;
+  font-family: 'Avenir-Black';
+  text-transform: uppercase;
+  letter-spacing: .100rem;
+}
+
+h3 {
+  font-size: 16px;
+  font-family: 'Avenir-Book';
+  color: #571D8A;
+}
+
+/* présentation */
+
+.presentation {
+  margin: 30px;
+}
+
+.presentation p {
+  text-align: justify;
+}
+
 /* spécimen */
+
+.specimen {
+  margin: 30px;
+}
 
 .font-regular-big {
   font-family: niagara, sans-serif;
@@ -120,4 +165,28 @@ p {
   font-size: 16px;
 }
 
+/* tester */
+
+.try {
+  margin: 30px;
+}
+
+/* caractères */
+
+.font {
+  margin: 30px;
+}
+
+.font p {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: justify;
+}
+
 /* footer */
+
+footer {
+  margin: 30px;
+}
