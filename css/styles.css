@@ -377,6 +377,23 @@ input::placeholder {
   text-align: left;
   background-color: #bca68fc2;
   margin: auto;
+  transition: height 0.3s;
+  position: relative;
+}
+
+.all-glyphes.is-open {
+  height: 4500px;
+}
+
+.a-glyphes-view {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  background-color: #63584E;
+  color: #e7d7c4;
+  padding: 5px;
+  border: solid #63584E;
+  border-radius: 2px;
 }
 
 .presentation h3 {
