@@ -2,9 +2,10 @@ body{
   font-family: "coolvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
-  scroll-behavior: smooth;
   color: black;
   font-size: 14px;
+  margin: auto;
+  max-width: 375px;
 }
 nav {
   margin: 5px;
