@@ -135,6 +135,30 @@ table{
   padding: 15px  0;
 }
 
+textarea{
+  background-color: transparent;
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color: white;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 7px;
+  font-size: 36px;
+  font-family: 'Cabinet Grotesk';
+  color: #fc4100;
+}
+
+::placeholder{
+  color: #ffffff;
+  font-family: 'Cabinet Grotesk';
+  font-size: 36px;
+  user-select: text;
+}
+
 .table{
   padding: 15px 0;
 }
@@ -186,6 +210,7 @@ footer p{
 
 header img{
   width: 200px;
+  margin: auto;
 }
 
 .variant {
@@ -224,4 +249,44 @@ header img{
 
 .specimen h3{
   padding: 0 25px;
+}
+
+.try-font-thin{
+  font-weight: 100;
+  font-family: 'Cabinet Grotesk';
+}
+
+.try-font-extralight{
+  font-weight: lighter;
+  font-family: 'Cabinet Grotesk';
+}
+
+.try-font-light{
+  font-weight: 200;
+  font-family: 'Cabinet Grotesk';
+}
+
+.try-font-regular{
+  font-weight: 300;
+  font-family: 'Cabinet Grotesk';
+}
+
+.try-font-medium{
+  font-weight: 400;
+  font-family: 'Cabinet Grotesk';
+}
+
+.try-font-bold{
+  font-weight: bold;
+  font-family: 'Cabinet Grotesk';
+}
+
+.try-font-extrabold{
+  font-weight: bolder;
+  font-family: 'Cabinet Grotesk';
+}
+
+.try-font-black{
+  font-weight: 700;
+  font-family: 'Cabinet Grotesk';
 }
