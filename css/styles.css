@@ -1,0 +1,123 @@
+/* appel de la fonte de caractères F37 Bella Pro en version book */
+
+@font-face {
+  font-family: 'Avenir-Book';
+  src: url('../fonts/AvenirLTStd-Book.woff2');
+  src: url('../fonts/AvenirLTStd-Book.woff');
+}
+
+/* appel de la fonte de caractères F37 Bella Pro en version black */
+
+@font-face {
+  font-family: 'Avenir-Black';
+  src: url('../fonts/AvenirLTStd-Black.woff2');
+  src: url('../fonts/AvenirLTStd-Black.woff');
+}
+
+body {
+  width: 380px;
+  margin: auto;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Avenir-Book';
+}
+
+/* header */
+
+.site-header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title-container h1 {
+  font-family: niagara-engraved, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+}
+
+.site-description {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+/* main */
+/* spécimen */
+
+.font-regular-big {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.font-regular-small {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.font-light-big {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.font-light-small {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.font-thin-big {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 36px;
+}
+
+.font-thin-small {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.font-engraved-regular-big {
+  font-family: niagara-engraved, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.font-engraved-regular-small {
+  font-family: niagara-engraved, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.font-engraved-light-big {
+  font-family: niagara-engraved, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.font-engraved-light-small {
+  font-family: niagara-engraved, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+/* footer */
