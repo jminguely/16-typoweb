@@ -176,6 +176,17 @@ h2 {
   padding: 25px;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.774);
   text-align: justify;
+  transition: height 0.3s;
+  position: relative;
+}
+
+.history.is-open {
+  height: 784px;
+}
+.history-more {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
 }
 
 .type-face h1 {
