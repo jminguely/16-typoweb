@@ -40,6 +40,10 @@
   font-display: fallback;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .about-bauhaus {
   color: #d1aa37;
 }
@@ -107,7 +111,6 @@ h4 {
 body {
 background-color: #e3d5b6;
 width: 375px;
-scroll-behavior: smooth;
 }
 
 h1 {
@@ -190,6 +193,9 @@ footer p {
   font-family: "KabelLTStd-Book";
 }
 
+a {
+  text-decoration: none;
+}
 
 
 /* font-weight: bold;
