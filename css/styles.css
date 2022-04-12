@@ -169,6 +169,19 @@ body {
     height: auto;
 }
 
+.section2-presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentationcondensed {
+    width: auto;
+    height: 580px;
+    padding-right: 30px;
+}
+
 .section {
     height: 667px;
     width: 375px;
