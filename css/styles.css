@@ -93,6 +93,10 @@
 font-weight: 400;
 font-style: normal;*/
 
+/* font-family: obvia, sans-serif;
+font-style: normal;
+font-weight: 500 */
+
 body {
   background-color: #e8e8e474;
   width: 100%;
@@ -141,9 +145,13 @@ h2 {
   padding-left: 5px;
 }
 
+h2:hover {
+  color: #ff4518;
+}
+
 .round-button {
   background-color: #ff4518;
-  background-image: url(../ressources/background.jpg);
+  background-image: url(../img/background.webp);
   border-radius: 50%;
   border: #ff4518 solid 0px;
   padding: 75px 85px;
@@ -154,10 +162,11 @@ h2 {
 .introduction {
   background-color: #1e4b3b;
   margin-top: 90px;
-  font-family: 'obvia-wide', sans-serif;
-  font-weight: 400;
+  font-family: 'obvia', sans-serif;
+  font-weight: 500;
   font-style: normal;
-  font-size: 18px;
+  line-height: 28px;
+  font-size: 20px;
   text-align: left;
 }
 
@@ -172,7 +181,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  padding: 30px;
+  padding: 26px;
 }
 
 .review{
@@ -201,8 +210,12 @@ h3 {
   margin: 0;
 }
 
-a {
+a h3{
   color:#1e4b3b;
+  text-decoration: none;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -304,6 +317,10 @@ a {
   margin-left: 10px;
 }
 
+.extra-review:hover {
+  background-color: #ec5430;
+  border: #ec5430 solid 2px;
+}
 
 .showcase {
   background-color: #ec5430;
@@ -338,8 +355,8 @@ a {
 }
 
 h4 {
-  font-family: 'Obvia';
-  font-weight: 400;
+  font-family: 'Obvia', sans-serif;
+  font-weight: 500;
   font-style: normal;
   font-size: 30px;
   text-align: left;
@@ -423,12 +440,18 @@ input::placeholder {
   padding: 15px 0 10px;
 }
 
+.more-infos p:hover {
+  color: white;
+  background-color: #1e4b3b;
+}
+
 footer {
-  background-image: url(../ressources/footer.jpg);
+  background-image: url(../img/footer.webp);
+  background-size: cover;
   color: white;
   font-size: 30px;
-  font-family: 'obvia-wide', sans-serif;
-  font-weight: 400;
+  font-family: 'obvia', sans-serif;
+  font-weight: 500;
   text-align: left;
   padding: 20px;
   margin-top: 80px;
@@ -437,6 +460,7 @@ footer {
 h5 {
   text-align: right;
   margin: 10px 0 38px;
+  color: white;
 }
 
 footer p {
