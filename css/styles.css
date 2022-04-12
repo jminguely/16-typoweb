@@ -188,7 +188,8 @@ hr{
   border-left: #11111169 solid 0.75px;
 }
 
-.button:active{
+.button:active,
+.button:hover{
   color: #fc4100;
 }
 
