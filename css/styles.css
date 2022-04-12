@@ -123,6 +123,10 @@ font-weight: 700;
 
 font-style: italic; */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 320px;
   margin: auto;
@@ -290,8 +294,12 @@ a {
 }
 
 .main-title {
-  color: #9bf57c;
-  border-color: #9bf57c;
+  border-width: 2px;
+}
+
+.alternatives .main-title {
+  color: #7df451;
+  border-color: #7df451; 
 }
 
 .test {
