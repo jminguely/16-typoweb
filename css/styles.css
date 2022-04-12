@@ -366,7 +366,7 @@ input::placeholder {
   margin-left: 70px;
 }
 
-.presentation div {
+.presentation .all-glyphes {
   width: 250px;
   height: 400px;
   overflow: hidden;

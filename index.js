@@ -4,3 +4,4 @@ var open = function(){
   documentation.classList.toggle("is-open")
 }
 button.addEventListener("click",open)
+
