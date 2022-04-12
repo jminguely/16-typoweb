@@ -109,8 +109,6 @@ nav a {
 
 .change-box {
   background: #FF7900;
-
-
 }
 
 .change-box p {
@@ -250,10 +248,21 @@ nav a {
 
 .presentation-box-two img {
   margin-bottom: 34px;
+  background: #FF7900;
 }
 
 .glyphs-box {
   background: black;
+}
+
+.title-two {
+  font-family: 'Cairo', sans-serif;
+  margin: 10px 290px 10px 10px;
+  padding: 1px 10px;
+  color: black;
+  background: #FF7900;
+  font-size: 20px;
+  display: inline-block;
 }
 
 
