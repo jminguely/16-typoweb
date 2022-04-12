@@ -4,27 +4,134 @@ html{
 
 @font-face {
   font-family: "Plaster-Regular";
-  src: url('../Plaster-Regular.woff2') format('woff2'),
-  url('../Plaster-Regular.woff') format('woff');
+  src: url('../Plaster-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Boska-Black" "Boska-BlackItalic" "Boska-Bold" "Boska-BoldItalic" "Boska-Extralight" "Boska-ExtralightItalic" "Boska-Italic" "Boska-Light" "Boska-LightItalic" "Boska-Medium" "Boska-MediumItalic" "BoskaRegular" "Boska-RegularItalic" "Boska-Variable" "Boska-VariableItalic";
-  src: url('../Boska-Black.woff2') format('woff2'),
-  url('../Boska-Black.woff') format('woff');
-  src: url('../Boska-BlackItalic.woff2') format('woff2'),
-  url('../Boska-BlackItalic.woff') format('woff');
+  font-family: "Boska-Black";
+  src: url('../Boska-Black.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Boska-BlackItalic";
+  src: url('../Boska-BlackItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-Bold";
+  src: url('../Boska-Bold.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-BoldItalic";
+  src: url('../Boska-BoldItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-Extralight";
+  src: url('../Boska-Extralight.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-ExtralightItalic";
+  src: url('../Boska-ExtralightItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-Italict";
+  src: url('../Boska-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-Lightt";
+  src: url('../Boska-Light.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-LightItalic";
+  src: url('../Boska-LightItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-Medium";
+  src: url('../Boska-Medium.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-MediumItalic";
+  src: url('../Boska-MediumItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-Regular";
+  src: url('../Boska-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-Extralight";
+  src: url('../Boska-Extralight.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-Variable";
+  src: url('../Boska-Variable.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-VariableItalic";
+  src: url('../Boska-VariableItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 body {
-  font-family: "Plaster-Regular";
+  font-family: "Boska-Regular";
   background-color: #eb8029;
   text-align: center;
   max-width: 320px;
@@ -32,50 +139,58 @@ body {
   padding: 20px;
 }
 
+header h1 {
+  font-family: Plaster-Regular;
+}
+
 header nav {
-  border-width: 2px;
-  border-color: black;
-  background: black;
-  border-style: solid;
+  font-family: Plaster-Regular;
   color: #df0672;
 }
 
-main h2 {
-  color: #df0672;
+.A-1 {
+  font-family: Boska-Extralight;
 }
 
-main div  {
-  border-width: 2px;
-  border-color: black;
-  background: black;
-  border-style: solid;
-  color: white;
+.A-2 {
+  font-family: Boska-ExtralightItalic;
 }
 
-hr {
-  background: black;
+.A-3 {
+  font-family: Boska-Light;
 }
 
-h4 {
-  color: #8774aa;
+.A-4 {
+  font-family: Boska-LightItalic;
 }
 
-.A {
-  color: #8774aa;
+.A-5 {
+  font-family: Boska-Regular;
 }
 
-footer {
-  border-width: 2px;
-  border-color: black;
-  background: black;
-  border-style: solid;
-  color: white;
+.A-6 {
+  font-family: Boska-Italic;
+}
+.A-7 {
+  font-family: Boska-Medium;
 }
 
-.hr {
-  margin: 20px;
+.A-8 {
+  font-family: Boska-MediumItalic;
 }
 
-.Boska-color {
-  color: white;
+.A-9 {
+  font-family: Boska-Bold;
+}
+
+.A-10 {
+  font-family: Boska-BoldItalic;
+}
+
+.A-11 {
+  font-family: Boska-Black;
+}
+
+.A-12 {
+  font-family: Boska-BlackItalic;
 }
