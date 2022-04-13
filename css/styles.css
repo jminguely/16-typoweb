@@ -274,15 +274,16 @@ main {
   border: inset var(--color-third) 2px;
 }
 
-.editable-space input {
+.editable-space .editable-content {
   font-family: var(--font-main);
-  font-variation-settings: "wdth" 200, "wght" 800, "ital" 1;
+  font-variation-settings: "wdth" 200, "wght" var(--text-weight), "ital" 1;
   padding: 15px;
   border: none;
   width: 331px;
   appearance: none;
   outline: none;
 }
+
 
 ::placeholder {
   color: var(--color-main);
