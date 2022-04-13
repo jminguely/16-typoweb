@@ -33,14 +33,58 @@
   src: url('../fonts/KabelLTStd-Book.woff2') format('woff2'),
   url('../fonts/KabelLTStd-Book.woff') format('woff');
   font-display: fallback;
+  font-weight: 400;
 }
+@font-face {
+  font-family: "KabelLTStd-Light";
+  src: url('../fonts/KabelLTStd-Light.woff2') format('woff2'),
+  url('../fonts/KabelLTStd-Light.woff') format('woff');
+  font-display: fallback;
+}
+@font-face {
+  font-family: "KabelLTStd-Heavy";
+  src: url('../fonts/KabelLTStd-Heavy.woff2') format('woff2'),
+  url('../fonts/KabelLTStd-Heavy.woff') format('woff');
+  font-display: fallback;
+}
+
 
 html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #e3d5b6;
+  width: 375px;
+  text-align: center;
+  margin: none;
+}
+
+h1 {
+  font-size: 82px;
+  font-family: "BauhausStd-Heavy";
+  color: #567d4d;
+  text-shadow: -0.1em 0.1em #567d4d50;
+  margin: none;
+}
+
+p {
+  font-size: 20px;
+  color: #567d4d;
+  font-family: "KabelLTStd-Light";
+}
+
 .about-bauhaus {
   color: #d1aa37;
+  font-family: "KabelLTStd-Heavy";
+}
+
+nav {
+  font-family: "KabelLTStd-Heavy";
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
 }
 
 .specimen-button {
@@ -56,13 +100,14 @@ html {
 }
 
 hr {
-  color: #567d4d;
+  background-color: #567d4d;
   height: 2px;
+  border: none;
 }
 
 .specimen-section {
   color: #d1aa37;
-  font-family: "KabelLTStd-Book";
+  font-family: "KabelLTStd-Light";
   font-size: 60px;
 }
 
@@ -94,7 +139,7 @@ hr {
 .try-section {
   color: #c0372e;
   font-size: 60px;
-  font-family: "KabelLTStd-Book";
+  font-family: "KabelLTStd-Light";
 }
 
 h4 {
@@ -105,33 +150,7 @@ h4 {
 .try-title {
   color: #c0372e;
   font-size: 18px;
-  font-family: "KabelLTStd-Book";
-}
-
-.glyphs-title {
-  color: #313b8c;
-  font-size: 18px;
-  font-family: "KabelLTStd-Book";
-}
-
-body {
-background-color: #e3d5b6;
-width: 375px;
-text-align: center;
-}
-
-h1 {
-  font-size: 82px;
-  font-family: "BauhausStd-Heavy";
-  color: #567d4d;
-  text-shadow: -0.1em 0.1em #567d4d50;
-  margin: none;
-}
-
-p {
-  font-size: 20px;
-  color: #567d4d;
-  font-family: "KabelLTStd-Book";
+  font-family: "KabelLTStd-Heavy";
 }
 
 input {
@@ -140,12 +159,41 @@ input {
   margin: 8px 0;
   box-sizing: border-box;
   background-color: #c0372e50;
-  border: none;
+  border: 2px solid transparent;
 }
 
-.try-section::placeholder {
+input:focus {
+  outline: none;
+  border-color: #c0372e;
+}
+
+.font-heavy::placeholder {
   color: #c0372e;
   font-family: "BauhausStd-Heavy";
+  font-size: 18px;
+}
+
+.font-bold::placeholder {
+  color: #c0372e;
+  font-family: "BauhausStd-Bold";
+  font-size: 18px;
+}
+
+.font-demi::placeholder {
+  color: #c0372e;
+  font-family: "BauhausStd-Demi";
+  font-size: 18px;
+}
+
+.font-medium::placeholder {
+  color: #c0372e;
+  font-family: "BauhausStd-Medium";
+  font-size: 18px;
+}
+
+.font-light::placeholder {
+  color: #c0372e;
+  font-family: "BauhausStd-Light";
   font-size: 18px;
 }
 
@@ -177,7 +225,7 @@ input {
 .glyphs-section {
   color: #313b8c;
   font-size: 60px;
-  font-family: "KabelLTStd-Book";
+  font-family: "KabelLTStd-Light";
 }
 
 h3 {
@@ -186,8 +234,23 @@ h3 {
   font-size: 28px;
 }
 
-.glyphs-section h4 {
+.glyphs-title {
   color: #313b8c;
+  font-size: 18px;
+  font-family: "KabelLTStd-Heavy";
+}
+
+.glyphs-text {
+  color: #313b8c;
+}
+
+table {
+  padding: 15px 0;
+  width: 100%;
+}
+
+td {
+  width: 11.11%;
 }
 
 footer {
@@ -197,28 +260,104 @@ footer {
 footer h2 {
   color: #e3d5b6;
   font-size: 60px;
-  font-family: "KabelLTStd-Book";
+  font-family: "KabelLTStd-Light";
+}
+
+footer p {
+  color: #e3d5b6;
+  font-size: 18px;
+  font-family: "KabelLTStd-Light";
 }
 
 footer img {
   width: 36px;
 }
 
-footer p {
-  color: #e3d5b6;
-  font-size: 18px;
-  font-family: "KabelLTStd-Book";
-}
-
 a {
   text-decoration: none;
 }
 
-.glyphs-text {
-  color: #313b8c;
+
+
+
+/* .test {
+  position: relative;
+} */
+
+/* .test span {
+  color: red;
+  font-size: 150px;
+  transition: 0.5s;
+  font-weight: 100;
+  will-change: transform;
+  display: inline-block;
+} */
+/* 
+.s1 span {
+  transform-origin: bottom;
+}
+
+.s2 span {
+  transform-origin: top;
+  transform: translateY(100%)
+  rotateX(-90deg);
+}
+
+.s2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.button-test:hover .s1 span {
+  transform: translateY(-100%)
+  rotateX(-90deg)
+}
+
+.button-test:hover .s2 span {
+  transform: translateY(0%)
+  rotateX(0deg)
+} */
+
+.button-test {
+  position: relative;
+}
+
+.button-test {
+  color: red;
+  font-size: 150px;
+  transition: 0.5s;
+  font-weight: 100;
+  will-change: transform;
+  display: inline-block;
 }
 
 
+.s1 span {
+  transform-origin: bottom;
+}
+
+.s2 span {
+  transform-origin: top;
+  transform: translateY(100%)
+  rotateX(-90deg);
+}
+
+.s2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.button-test:hover .s1 span {
+  transform: translateY(-100%)
+  rotateX(-90deg)
+}
+
+.button-test:hover .s2 span {
+  transform: translateY(0%)
+  rotateX(0deg)
+}
 
 
 /* font-weight: bold;
