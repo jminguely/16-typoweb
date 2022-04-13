@@ -254,7 +254,7 @@ footer h2 {
   text-decoration: none;
   color: black;
   background-color: #f8ede3;
-  padding: 15px 15px 15px 15px;
+  padding: 15px;
   margin-bottom: 15px;
 }
 
@@ -311,4 +311,21 @@ input::placeholder {
   font-weight: 400;
   padding-left: 15px;
   border: solid lightgray 1px;
+}
+
+.typetester-buttons {
+  padding: 0px 125px 15px 125px;
+}
+
+.typetest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  background-color: #f8ede3;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  font-size: 14px;
 }
