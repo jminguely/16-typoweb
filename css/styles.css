@@ -490,6 +490,8 @@ footer {
   margin: 0 0 0 25px;
   height: 50px;
   line-height: 48px;
+  color: var(--color-third);
+  text-decoration: none;
 }
 
 .bottom-bar a svg{
