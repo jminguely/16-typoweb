@@ -76,8 +76,6 @@ footer {
   background-color: #111111;
   text-align: center;
   padding: 120px 25px 240px;
-  /* -webkit-clip-path: circle(78.1% at 50% 78%);
-  clip-path: circle(78.1% at 50% 78%); */
   margin-top: 10px;
 }
 
@@ -106,13 +104,13 @@ h2 {
   margin: 0%;
 }
 
-h3 {
+label {
   font-family: 'Cabinet Grotesk';
   font-weight: 200;
   color: white;
   text-align: left;
-  font-size: 36px;
-  padding: 0;
+  font-size: 30px;
+  padding: 0 25px;
   margin: 0%;
 }
 
@@ -121,24 +119,23 @@ table {
   font-weight: 100;
   color: white;
   text-align: center;
-  font-size: 36px;
+  font-size: 30px;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: center;
   background-color: #003333;
-  padding: 15px 0;
+  padding: 15px 0 ;
+  margin: 0;
 }
 
 td {
   padding: 0 15px;
-  width: 100%;
 }
 
 hr {
   color: white;
   height: 0.25px;
-  margin: 0 0 30px;
 }
 
 textarea {
@@ -176,6 +173,10 @@ header a {
   color: #111111;
   font-size: 14px;
   text-decoration: none;
+}
+
+label:hover{
+  color: #fc3f00;
 }
 
 footer p {
@@ -242,6 +243,7 @@ footer p {
 
 .table {
   padding: 15px 0;
+  margin: 0;
 }
 
 .specimen {
@@ -259,18 +261,6 @@ footer p {
 
 .specimen h2 {
   padding: 60px 25px 120px;
-}
-
-.specimen h3 {
-  padding: 0 25px;
-}
-
-.specimen-category {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
 }
 
 .try-font-thin {
@@ -303,4 +293,67 @@ footer p {
 
 .try-font-black {
   font-weight: 700;
+}
+
+.accordion{
+  max-width: 400px;
+  overflow: hidden;
+  background: #111111;
+  margin: 0;
+  padding: 0;
+}
+
+.accordion__label,
+.accordion__content{
+  padding: 15px 25px;
+}
+
+.accordion__label{
+  display: block;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.1s;
+}
+
+.accordion__label::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 25px;
+  width: 15px;
+  height: 7.5px;
+  background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
+  background-size: contain;
+  transition: transform 0.4s;
+}
+
+.accordion__content{
+  background: #003333;
+  display: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.accordion__input{
+  display: none;
+}
+
+.accordion__input:checked ~ .accordion__content {
+  display: block;
+}
+
+.accordion__input:checked ~ .accordion__label::after {
+  transform: translateY(-50%) rotate(0.5turn);
+}
+
+.accordion-items{
+  margin: 0;
+  padding: 0;
+}
+
+.table :last-child{
+  margin-bottom: 25px;
 }
