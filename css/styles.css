@@ -1,183 +1,302 @@
 @font-face {
-  font-family: mash;
-  src: url(../fonts/Mash-VariableVF.woff);
-  src: url(../fonts/Mash-VariableVF.woff2);
+    font-family: mash;
+    src: url(../fonts/Mash-VariableVF.woff);
+    src: url(../fonts/Mash-VariableVF.woff2);
 }
 
 @font-face {
-  font-family: anson;
-  src: url(../fonts/anson-regular-webfont.woff);
+    font-family: anson;
+    src: url(../fonts/anson-regular-webfont.woff);
 }
 
 body {
-  margin: auto;
+    margin: auto;
+    background-color: #CACBE6;
 }
 
 .title-web {
-  display: flex;
-  background-color: #3A3BD0;
-  padding: 5px 3px 5px 10px
+    display: flex;
+    background-color: #3A3BD0;
+    padding: 5px 3px 5px 10px;
+    position: sticky;
+    top: 0px;
 }
 
 .picture-flower {
-  width: 30px;
-  animation: flower 4s cubic-bezier(.68,-0.55,.27,1.55) infinite;
+    width: 30px;
+    animation: flower 4s cubic-bezier(.68, -0.55, .27, 1.55) infinite;
 }
 
 .logo-font-flower {
-  width: 150px;
-  padding: 0 0 0 250px;
+    width: 150px;
+    padding: 0 0 0 250px;
 }
 
 @keyframes flower {
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        transform-origin: center;
+    }
 }
 
-header h1 { 
-  font-family: mash;
-  font-size: 100px;
-  font-weight: 800;
-  text-align: center;
-  margin: 0;
-  color: #3739D6;
-  padding: 43px 23px 56px 23px;
-  background-image: url(../img/header-fleur.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.navigation-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    font-family: anson;
+    font-size: 22px;
+    background-color: #CACBE6;
+}
+
+.navigation-header a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.navigation-header a:active {
+    color: #5152D5;
+}
+
+header h1 {
+    font-family: mash;
+    font-size: 100px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0;
+    color: #3739D6;
+    padding: 43px 23px 56px 23px;
+    background-image: url(../img/header-fleur.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .variable {
-  background-image: url(../img/nuage.jpg);
-  height: 210px;
+    background-image: url(../img/nuage.svg);
+    height: 210px;
+    margin-bottom: 42px;
+    background-color: #CACBE6;
 }
 
 .variable h2 {
-  font-family: mash;
-  font-size: 47px;
-  font-weight: 400;
-  color: white;
-  text-align: center;
-  margin: 0 0 70px 0;
-  padding-top: 84px;
-  font-variation-settings: 'wght' 50, 'wdth' 80;
-  animation: variable 2s infinite forwards;
+    font-family: mash;
+    font-size: 47px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin: 0 0 70px 0;
+    padding-top: 84px;
+    font-variation-settings: 'wght' 50, 'wdth' 80;
+    animation: variable 2s infinite forwards;
 }
 
 @keyframes variable {
-  20%{
-    font-variation-settings: 'wght' 90, 'wdth' 700;
-  }
-  60% {
-    font-variation-settings: 'wght' 700, 'wdth' 100;
-  }
-  100% {
-    font-variation-settings: 'wght' 100, 'wdth' 10;
-  }
+    20% {
+        font-variation-settings: 'wght' 90, 'wdth' 700;
+    }
+    60% {
+        font-variation-settings: 'wght' 700, 'wdth' 100;
+    }
+    100% {
+        font-variation-settings: 'wght' 100, 'wdth' 10;
+    }
 }
 
 .presentation-font {
-  font-family: anson;
-  font-size: 15px;
-  color: black;
-  padding: 23px;
-  background-color: #BBBAE4;
-  margin: 0;
+    font-family: anson;
+    font-size: 15px;
+    color: black;
+    padding: 50px 23px 50px 23px;
+    background-color: #CACBE6;
+    margin: 0;
 }
 
 h3 {
-  font-family: anson;
-  font-size: 15px;
-  color: black;
-  text-align: center;
-  background-color: #BBBAE4;
-  padding: 28px 0 15px 0 ;
-  margin: 0%;
+    font-family: anson;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    background-color: #CACBE6;
+    padding: 28px 0 15px 0;
+    margin: 0%;
 }
 
 .defiling {
-  background-color: #AEB1DB;
+    background-color: #CACBE6;
+    overflow: hidden;
 }
 
 .defiling-1 {
-  font-family: mash;
-  font-weight: 800;
-  font-size: 60px;
-  margin: 0;
-  color: #7375D3;
-  animation: defilement 5s linear infinite;
-  animation-name: defilement-1;
-  white-space: nowrap;
-  animation-direction: alternate;
-  letter-spacing: 1px;
+    font-family: mash;
+    font-weight: 800;
+    font-size: 60px;
+    margin: 0;
+    color: #5152D5;
+    animation: defilement 5s linear infinite;
+    animation-name: defilement-1;
+    white-space: nowrap;
+    animation-direction: alternate;
+    letter-spacing: 1px;
 }
 
 @keyframes defilement-1 {
-  from { transform: translateX(-200%);}
-  to { transform: translateX(0%);}
+    from {
+        transform: translateX(-200%);
+    }
+    to {
+        transform: translateX(0%);
+    }
 }
 
 .defiling-2 {
-  font-family: mash;
-  font-size: 40px;
-  font-weight: 300;
-  margin: 0;
-  color: #8888EA;
-  animation: defilement 5s linear infinite;
-  animation-name: defilement-2;
-  white-space: nowrap;
-  letter-spacing: 1px;
-  animation-direction: alternate;
+    font-family: mash;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 0;
+    color: #5152D5;
+    animation: defilement 5s linear infinite;
+    animation-name: defilement-2;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    animation-direction: alternate;
 }
 
 @keyframes defilement-2 {
-  from { transform: translateX(0%);}
-  to { transform: translateX(-200%);}
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
 }
 
 .defiling-3 {
-  font-family: mash;
-  font-size: 20px;
-  font-weight: 100;
-  margin: 0;
-  color: #8888EA;
-  animation: defilement 5s linear infinite;
-  animation-name: defilement-3;
-  white-space: nowrap;
-  letter-spacing: 1px;
-  animation-direction: alternate;
+    font-family: mash;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0;
+    color: #5152D5;
+    animation: defilement 5s linear infinite;
+    animation-name: defilement-3;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    animation-direction: alternate;
 }
 
 @keyframes defilement-3 {
-  from { transform: translateX(-100%);}
-  to { transform: translateX(0%);}
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
 }
 
+.textarea {
+    font-family: mash;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
 
+.overview {
+    align-items: center;
+    justify-content: space-around;
+    background-color: #C1C1E3;
+    padding: 0px;
+    padding-top: 1px;
+    margin: 100px 10px 0;
+}
 
+.overview-2 {
+    align-items: center;
+    justify-content: space-around;
+    background-color: #C1C1E3;
+    padding: 0px;
+    padding-top: 1px;
+    margin: 10px 10px 0;
+}
 
+.title-numbers {
+    font-family: mash;
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 18px;
+    font-weight: 600;
+}
 
-footer{
-  background-color: #BBBAE4;
+.numbers {
+    font-family: mash;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 0px;
+    letter-spacing: 4px;
+    padding: 0 0 0 6px;
+}
+
+.title-lowercase {
+    color: #000000;
+    font-family: mash;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 18px;
+    font-weight: 600;
+}
+
+.lowercase {
+    font-family: mash;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 0px;
+    letter-spacing: 4px;
+    padding: 0 0 0 6px;
+}
+
+.title-uppercase {
+    color: #000000;
+    font-family: mash;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 18px;
+    font-weight: 600;
+}
+
+.uppercase {
+    font-family: mash;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 0px 0 100px 0;
+    letter-spacing: 4px;
+    padding: 0 0 0 6px;
+}
+
+.mash-gift {
+    width: 375px;
+}
+
+footer {
+    background-color: #BBBAE4;
 }
 
 footer h1 {
-  font-family: mash;
-  font-size: 90px;
-  font-weight: 555;
-  text-align: center;
-  margin: 0;
-  color: #3739D6;
-  height: 85px;
+    font-family: mash;
+    font-size: 90px;
+    font-weight: 555;
+    text-align: center;
+    margin: 0;
+    color: #3739D6;
+    height: 85px;
 }
 
 footer p {
-  font-family: anson;
-  font-size: 15px;
-  color: black;
-  padding: 0 0 0 220px;
-  background-color: #BBBAE4;
-  margin: 0;
+    font-family: anson;
+    font-size: 15px;
+    color: black;
+    padding: 0 0 0 220px;
+    background-color: #BBBAE4;
+    margin: 0;
 }
