@@ -3,9 +3,40 @@
   padding: 0;
 }
 
+body {
+  max-width: 375px;
+  margin: auto;
+}
+
+.title-card {
+  box-shadow: 0px 3px 10px grey;
+}
+
 .sentence-ex {
-  border-bottom: 2px lightgrey solid;
-  padding: 20px 60px 20px 60px;
+  border-bottom: 1px lightgrey solid;
+  padding: 20px 30px 20px 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sentence-ex p {
+  font-family: Neco;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.introduction-text {
+  background-image: url(../img/Lighter.svg);
+}
+
+.introduction-text p {
+  font-size: 15px;
+  font-family: neue-kabel, sans-serif;
+  font-weight: 300;
+  font-style: normal; 
+  padding: 43px 104px 38px 31px;
 }
 
 @font-face { 
@@ -76,6 +107,8 @@ h2 {
   font-weight: 600;
   font-style: normal; 
   text-align: center;
+  padding-bottom: 30px;
+  padding-top: 50px;
 }
 
 .overview-ex {
@@ -143,6 +176,8 @@ h2 {
 .scrolling-text {
   background-color: #f8ede3;
   color: #004a7c;
+  position: relative;
+  overflow: hidden;
 }
 
 .scrolling-text .font-italic {
@@ -150,12 +185,106 @@ h2 {
   font-family: Neco;
   font-weight: 700;
   font-style: italic;
+  padding-top: 30px;
 }
 
 .scrolling-text .font-black {
+  font-size: 15px;
   font-family: Neco;
   font-weight: 800;
-  font-size: ;
+  padding-top: 15px;
 }
 
+.scrolling-text .font-medium {
+  font-size: 30px;
+  font-family: Neco;
+  font-weight: 500;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
+.defiling {
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  white-space: nowrap;
+}
+
+.defiling-text-1 {
+  animation-name: defiling-left;
+}
+
+@keyframes defiling-left {
+  0% {
+    transform: translateX(0%);
+  }
+  
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.glyph-title {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+footer {
+  background-color: #004a7c;
+}
+
+footer h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: neue-kabel, sans-serif;
+  font-weight: 600;
+  font-style: normal; 
+  color: #f8ede3;
+  padding: 75px 65px 50px 65px;
+}
+
+.contact-buttons {
+  font-size: 20px;
+  font-family: neue-kabel, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+}
+
+.instagram-button {
+  background-color: #f8ede3;
+  margin: 0px 90px 20px 90px;
+  text-decoration: none;
+  color: black;
+  padding: 15px 65px 15px 65px;
+  border-radius: 15px;
+}
+
+.fontshare-button {
+  background-color: #f8ede3;
+  margin: 0px 90px 20px 90px;
+  text-decoration: none;
+  color: black;
+  padding: 15px 65px 15px 65px;
+  border-radius: 15px;
+}
+
+.fontshare-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.website-button {
+  background-color: #f8ede3;
+  margin: 0px 90px 20px 90px;
+  text-decoration: none;
+  color: black;
+  padding: 15px 65px 15px 65px;
+  border-radius: 15px;
+}
+
+.instagram-button a {
+  text-decoration: none;
+  color: black;
+}
