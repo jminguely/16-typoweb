@@ -65,47 +65,56 @@ header img {
 
 nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
   text-align: center;
   background-color: black;
-  margin: auto;
 }
 
 nav a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 10px;
 }
 
-.typo-button-one {
+.button-fats {
   background: #FF7900;
   border-radius: 40px;
-  margin: 50px 50px 18px 50px;
-  padding: 10px 15px;
+  margin-bottom: 10px;
+  padding: 5px 40px;
   font-family: 'Cairo', sans-serif;
 }
 
-.typo-button-one:hover {
-  background: #a85c1a;
+.button-fats:hover {
+  background: #d06b12;
 }
 
-.typo-button-two {
+.button-glyphs {
   background-color: #FF7900;
   color: white;
   border-radius: 40px;
-  margin: 0px 50px 18px 50px;
-  padding: 10px 15px;
+  margin-bottom: 10px;
+  padding: 5px 40px;
   font-family: 'Cairo', sans-serif;
 }
 
-.typo-button-three {
+.button-glyphs:hover {
+  background: #d06b12;
+} 
+
+.button-text {
   background-color: #FF7900;
   color: white;
   border-radius: 40px;
-  margin: 0px 50px 50px 50px;
-  padding: 10px 15px;
+  margin-bottom: 10px;
+  padding: 5px 40px;
   font-family: 'Cairo', sans-serif;
 }
+
+.button-text:hover {
+  background: #d06b12;
+} 
 
 .change-box {
   background: #FF7900;
