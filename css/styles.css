@@ -240,8 +240,30 @@ input::placeholder {
 .special-character {
   font-family: "essence-default-bold";
   text-align: center;
+  font-size: 17px;
+  background-color: #1b2c2969;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  margin: 28px;
+}
+
+.green-box {
   background-color: #1B2C29;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  margin: 10px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin: 28px;
+}
+
+.green-box p {
+  color: #1B2C29;
+  text-align: center;
+}
+
+.arrow-up {
+  width: 50px;
+}
+
+.element {
+  display: flex;
+  justify-content: flex-end;
 }
