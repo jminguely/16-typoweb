@@ -250,7 +250,7 @@ img {
 .main-colored-card {
   background-image: url(../img/background_colored_image.webp);
   background-size: cover;
-  height: 400px;
+  height: 320px;
   width: auto;
   padding-top: 8px;
 }
@@ -431,7 +431,6 @@ footer p {
 .music-text {
   font-family: roc-grotesk, sans-serif;
   font-weight: 300;
-  padding: 40px;
   font-size: 20px;
   text-align: left;
   display: flex;
@@ -467,4 +466,13 @@ line-height: 5px;
   padding-top: 80px;
   padding-left: 35px;
   width: 90%;
+}
+
+input {
+  font-size: 23px;
+  font-family: roc-grotesk-ExtraWide, ExtraBold;
+  padding: 20px;
+  width: 280px;
+  padding-bottom: 60px;
+  margin-bottom: 90px;
 }
