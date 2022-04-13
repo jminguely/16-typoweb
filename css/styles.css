@@ -70,7 +70,7 @@ font-style: normal; */
 
 @font-face {
     src: url('../fonts/ITCAvantGardeStd-Md.woff') format('woff');
-    font-family: 'ITCAvantGardeGothicStd';
+    font-family: 'ITCAvantGardeGothicStdMd';
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -86,9 +86,65 @@ font-style: normal; */
 
 @font-face {
     src: url('../fonts/ITCAvantGardeStd-Bold.woff') format('woff');
-    font-family: 'ITCAvantGardeGothicStd';
+    font-family: 'ITCAvantGardeGothicStdBold';
     font-weight: bold;
     font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-XLtCnObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdExtraCondensedObl';
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-BkCnObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdBookCondensedObl';
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-MdObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdMdObl';
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-MdCnObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdMdCondensedObl';
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-DemiCnObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdDeminCondensedObl';
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-BoldCnObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdBoldCondensedObl';
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-XLtObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdExtraObl';
+    font-weight: 300;
+    font-style: italic;
     font-display: swap;
 }
 
@@ -118,6 +174,11 @@ body {
     height: 667px;
     position: fixed;
     border-left: solid 1px white;
+}
+
+.text-appointed {
+    flex-grow: 1;
+    text-align: center;
 }
 
 .text-appointed a {
@@ -309,11 +370,14 @@ h3 {
 
 .book-std {
     font-family: 'ITCAvantGardeGothicStdBook';
+    font-weight: normal;
+    font-style: normal;
 }
 
 .medium-std {
-    font-family: 'ITCAvantGardeGothicStd';
+    font-family: 'ITCAvantGardeGothicStdMd';
     font-weight: 500;
+    font-style: normal;
 }
 
 .demi-std {
@@ -322,8 +386,9 @@ h3 {
 }
 
 .bold-std {
-    font-family: 'ITCAvantGardeGothicStd';
+    font-family: 'ITCAvantGardeGothicStdBold';
     font-weight: bold;
+    font-style: normal;
 }
 
 .section2-fonttester {
@@ -358,4 +423,70 @@ h3 {
 .footer-section1 {
     color: #e2e2e2;
     background-color: #0835f2;
+}
+
+.ultralight-condensed::after {
+    content: "Nike"
+}
+
+.ultralight-condensed:hover::after {
+    content: "Avnier";
+    font-family: 'ITCAvantGardeGothicStdExtraCondensedObl';
+    font-weight: 300;
+    font-style: italic;
+}
+
+.book-condensed::after {
+    content: "Adidas"
+}
+
+.book-condensed:hover::after {
+    content: "Lacost";
+    font-family: 'ITCAvantGardeGothicStdBookCondensedObl';
+    font-weight: normal;
+    font-style: italic;
+}
+
+.medium-condensed::after {
+    content: "Reebok";
+}
+
+.medium-condensed:hover::after {
+    content: "Vans";
+    font-family: 'ITCAvantGardeGothicStdMdCondensedObl';
+    font-weight: 500;
+    font-style: italic;
+}
+
+.demi-condensed::after {
+    content: "Levis";
+}
+
+.demi-condensed:hover::after {
+    content: "Carhartt";
+    font-family: 'ITCAvantGardeGothicStdDeminCondensedObl';
+    font-weight: normal;
+    font-style: italic;
+}
+
+.bold-condensed::after {
+    content: "Converse";
+}
+
+.bold-condensed:hover::after {
+    content: "Supreme";
+    font-family: 'ITCAvantGardeGothicStdBoldCondensedObl';
+    font-weight: bold;
+    font-style: italic;
+}
+
+.ultralight-std::after {
+    content: "Henniest";
+}
+
+.ultralight-std:hover::after {
+    content: "Test";
+    font-family: 'ITCAvantGardeGothicStdExtraObl';
+    font-weight: 300;
+    font-style: italic;
 }
