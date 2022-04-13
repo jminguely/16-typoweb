@@ -483,7 +483,7 @@ footer {
   height: 50px;
 }
 
-.bottom-bar p {
+.bottom-bar .bar-action {
   font-family: var(--font-secondary);
   font-size: 30px;
   letter-spacing: 20px;
