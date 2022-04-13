@@ -216,7 +216,13 @@ h3 {
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
-  text-align: justify;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.font h3 {
+  margin-top: 60px;
+  margin-bottom: 15px;
 }
 
 /* footer */
