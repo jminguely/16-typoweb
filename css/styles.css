@@ -15,6 +15,8 @@ font-family: adobe-jenson-pro, serif;
   color: white;
 }
 
+/* header */
+
 header {
   background-image: url(../img/header-background.webp);
   padding: 130px 60px;
@@ -47,12 +49,6 @@ header h1 strong {
   padding: 10px 50px;
 }
 
-.gif-font-presentation {
-  padding: 0;
-  width: 100%;
-  border-bottom: 2px solid white;
-}
-
 .informations-section p {
   font-family: adobe-jenson-pro, serif;
   font-weight: 400;
@@ -79,10 +75,6 @@ img {
   margin: 0 0 21px 0;
 }
 
-.alphabet-section {
-padding: 0px 50px 0px 50px;
-}
-
 h1, 
 h2 {
   font-family: garamond-atf-subhead, serif;
@@ -90,6 +82,12 @@ h2 {
   font-style: normal;
   font-size: 33px;
 }
+
+/* Demonstration */
+
+.alphabet-section {
+  padding: 0px 50px 0px 50px;
+  }
 
 .alphabet-uppercase {
   text-transform: uppercase;
@@ -135,12 +133,7 @@ h3 {
   font-style: normal;
 }
 
-div p {
-  font-family: adobe-jenson-pro-display, serif;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 30px;
-}
+/* textarea */
 
 .test-section {
   background-image: url(../img/text-area-background.webp);
@@ -160,6 +153,8 @@ textarea {
   font-size: 18px;
 }
 
+/* in use */
+
 .in-use-section {
   padding: 50px 0px 50px 50px;
   border-top: 2px solid white;
@@ -168,6 +163,21 @@ textarea {
 .in-use-section img {
 width: 85%;
 margin: 15px 0;
+}
+
+/* footer */
+
+.gif-font-presentation {
+  padding: 0;
+  width: 100%;
+  border-bottom: 2px solid white;
+}
+
+div p {
+  font-family: adobe-jenson-pro-display, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 30px;
 }
 
 .button {
