@@ -181,10 +181,6 @@ header p {
   background: #111111;
 }
 
-/* ::-webkit-scrollbar{
-  background-color: transparent;
-} */
-
 header a {
   font-family: 'Cabinet Grotesk';
   font-weight: 400;
@@ -231,7 +227,7 @@ footer p {
   color: #fc4100;
 }
 
-.variant {
+.variant-text {
   font-family: 'Cabinet Grotesk';
   font-weight: lighter;
   text-align: center;
@@ -239,6 +235,7 @@ footer p {
   margin: 0 0 60px;
   word-break: break-word;
   animation: fontVariant 1.7s linear infinite;
+  background-image: url(../img/SVG/background-img.svg);
 }
 
 @keyframes fontVariant {
