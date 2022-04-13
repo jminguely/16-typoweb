@@ -246,7 +246,7 @@ footer h2 {
 .contact-buttons {
   font-size: 20px;
   font-family: neue-kabel, sans-serif;
-  font-weight: 400;
+  font-weight: 100;
   font-style: normal;
   padding: 15px 65px 50px 65px;
 }
@@ -273,4 +273,14 @@ footer h2 {
   font-style: normal;
   color: #f8ede3;
   padding-bottom: 40px;
+}
+
+.font-ex {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-right: 30px;
+  font-family: Neco;
+  font-weight: 300;
 }
