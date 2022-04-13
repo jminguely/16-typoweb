@@ -248,43 +248,29 @@ footer h2 {
   font-family: neue-kabel, sans-serif;
   font-weight: 400;
   font-style: normal;
-  text-decoration: none;
-  text-align: center;
+  padding: 15px 65px 50px 65px;
 }
 
-.instagram-button {
-  background-color: #f8ede3;
-  margin: 0px 90px 20px 90px;
-  text-decoration: none;
-  color: black;
-  padding: 15px 65px 15px 65px;
+.contact-buttons a {
   border-radius: 15px;
-}
-
-.fontshare-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
   background-color: #f8ede3;
-  margin: 0px 90px 20px 90px;
-  text-decoration: none;
-  color: black;
-  padding: 15px 65px 15px 65px;
-  border-radius: 15px;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 15px;
 }
 
-.fontshare-button a {
-  text-decoration: none;
-  color: black;
-}
-
-.website-button {
-  background-color: #f8ede3;
-  margin: 0px 90px 20px 90px;
-  text-decoration: none;
-  color: black;
-  padding: 15px 65px 15px 65px;
-  border-radius: 15px;
-}
-
-.instagram-button a {
-  text-decoration: none;
-  color: black;
+.trademark-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  font-family: neue-kabel, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #f8ede3;
+  padding-bottom: 40px;
 }
