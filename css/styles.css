@@ -1,0 +1,215 @@
+body{
+  font-family: "coolvetica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 14px;
+  margin: auto;
+  max-width: 375px;
+}
+nav {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 5px;
+}
+a{
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+  justify-content: space-between;
+  display: block;
+}
+a:hover {
+  background: linear-gradient(to right, black, rgb(0, 0, 0) 50%, rgb(255, 0, 136) 50%);
+  transition: background-position 275ms ease;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+}
+h1{
+  font-family: "coolvetica", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  font-style: normal;
+  padding: 0px;
+  margin: 2px;
+}
+strong{
+  color: black;
+}
+:hover strong{
+  color: hotpink;
+  font-style: italic;
+}
+.light{
+  font-family: "coolvetica", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  padding-top: 2px;
+  margin-top: 2px;
+}
+.verticalLine {
+  border-left: solid black;
+  padding-bottom: 15px;
+}
+p{
+  font-family: "mrs-eaves", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 15px;
+}
+.container{
+  padding-top: 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.created-by{
+  font-family: "coolvetica", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  margin: 10px;
+  align-items: center;
+}
+.author{
+  display: flex;
+  font-weight: 700;
+  font-family: "coolvetica", sans-serif;
+  font-style: normal;
+  margin: 10px;
+  align-items: center;
+  margin-right: 35px;
+}
+.styles{
+  text-align: center;
+  padding-bottom: 10px;
+}
+.styles h2 {
+  font-family:"coolvetica", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+h3{
+  font-family:"coolvetica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+.slider-container{
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  height: 130px;
+  border: solid black 2px;
+  flex-direction: column;
+}
+.caracter-map{
+  font-family: "coolvetica", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  padding-top: 10px;
+}
+.lettres{
+  font-family: "coolvetica", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-style: italic;
+  font-size: 35px;
+  display: flex;
+  margin: 10px;
+  align-items: center;
+}
+.verticalLine-map{
+  border-left: solid black;
+  padding-bottom: 25px;
+  margin: 10px;
+}
+.slider img {
+  height: 100px;
+  padding-left: 0px;
+  padding-top: 10px;
+}
+input{
+  border: solid black 2px;
+  width: 350px;
+  display: flex;
+  height: 130px;
+  font-family: "coolvetica", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 60px;
+  outline-color: rgb(255, 0, 136);
+}
+::placeholder{
+  font-family: "coolvetica", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  padding-left: 7px;
+}
+.font-type{
+  border: solid black 1px;
+  font-family: "coolvetica", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  float: right;
+  padding: 2px;
+}
+.font-name p{
+  padding: 15px;
+}
+footer{
+  background-color: black;
+  color:white;
+  min-height: 100%;
+  max-height: 100%; 
+}
+.font-name{
+  font-family: "coolvetica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding: 15px 15px 5px;
+  margin: 15px 15px 0 0;
+}
+footer p{
+  font-family: "coolvetica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.me{
+  font-family: "coolvetica", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: right;
+}
+.scroll-left{
+  left:0px; 
+  animation-name: scroll-left;
+  animation-duration: 7s;
+  font-family: "coolvetica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+@keyframes scroll-left{
+  from {transform: translateX(375px);}
+  to {transform: translateX(-375px); }
+}
