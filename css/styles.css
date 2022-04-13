@@ -116,31 +116,44 @@ hr {
   color: #d1aa37;
   font-family: "KabelLTStd-Light";
   font-size: 60px;
+  margin: 0;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .specimen-heavy {
   font-family: "BauhausStd-Heavy";
   font-size: 36px;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .specimen-bold {
   font-family: "BauhausStd-Bold";
   font-size: 36px;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .specimen-demi {
   font-family: "BauhausStd-Demi";
   font-size: 36px;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .specimen-medium {
   font-family: "BauhausStd-Medium";
   font-size: 36px;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .specimen-light {
   font-family: "BauhausStd-Light";
   font-size: 36px;
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 .try-section {
