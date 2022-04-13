@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Milkman';
-    src: url('MilkmanLight.woff2') format('woff2'),
-        url('MilkmanLight.woff') format('woff'),;
+    src: url('../fonts/MilkmanLight.woff2') format('woff2'),
+        url('../fonts/MilkmanLight.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'Milkman';
-    src: url('MilkmanBold.woff2') format('woff2'),
-        url('MilkmanBold.woff') format('woff'),;
+    src: url('../fonts/MilkmanBold.woff2') format('woff2'),
+        url('../fonts/MilkmanBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -18,12 +18,22 @@
 
 @font-face {
     font-family: 'Milkman';
-    src: url('MilkmanRegular.woff2') format('woff2'),
-        url('MilkmanRegular.woff') format('woff'),;
+    src: url('../fonts/MilkmanRegular.woff2') format('woff2'),
+        url('../fonts/MilkmanRegular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Royal Lodge';
+    src: url('../fonts/RoyalLodgeRegular.woff2') format('woff2'),
+        url('../fonts/RoyalLodgeRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 body {
 background-image: url(file:///Users/berzanurozen/Desktop/finder/site/Sans%20titre/16-typoweb/img/Noe%CC%81%20Cotter.jpg);
 background-size: cover;
@@ -37,31 +47,42 @@ padding: 20px;
         font-size: 71px;
         text-align: center;
         color: rgba(0, 0, 0, 0.603);
-
-       margin: 11px;
+        margin: 11px;
+        
     }
 
     h2 {
-        font-family: 'AppearsDEMO-Regular';
+        font-family: 'Milkman';
         font-size: 71px;
         text-align: left;
         color: white;
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
     }
+      
+    
 
     h3 {
+        font-family: 'Royal Lodge';
         font-size: 71px;
         text-align: center;
         color: white;
         opacity: 50%;
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+        
     }
-
+    
     h4 {
         font-family: 'Milkman';
         font-weight: lighter;
         font-size: 70px;
         margin: auto;
+       
     }
-
+    
     .about {
         
         font-family: 'Milkman';
@@ -162,12 +183,14 @@ a:visited {
     
 }
 .menu {
-    background-color:rgba(245, 245, 245, 0.308);
+    background-color:rgba(245, 245, 245, 0.377);
     margin: 5px;
    
 }
 .menu a:visited {
     color: white;
+    font-family: 'Royal Lodge';
+   
 }
 .eikonlogo {
 width: 50px;
