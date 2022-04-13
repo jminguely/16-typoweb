@@ -267,3 +267,27 @@ input::placeholder {
   display: flex;
   justify-content: flex-end;
 }
+
+.light-green {
+  background-color: #3E635C;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin: 28px;
+}
+
+.light-green p {
+  color: #3E635C;
+  text-align: center;
+}
+
+.light-blue {
+  background-color: #327274;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin: 40px;
+}
+
+.light-blue p {
+  color: #327274;
+  text-align: center;
+}
