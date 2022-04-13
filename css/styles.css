@@ -148,12 +148,45 @@ font-style: normal; */
     font-display: swap;
 }
 
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-BkObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdBookObl';
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-DemiObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdDemiObl';
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-BoldObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdBoldObl';
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
+    margin: auto;
+    width: 375px;
+}
+
+em {
+    font-family: 'ITCAvantGardeGothicStdBookObl';
+}
+
+strong {
+    font-family: 'ITCAvantGardeGothicStdBoldCondensed';
 }
 
 .position-menu {
@@ -171,9 +204,18 @@ body {
     align-items: center;
     justify-content: space-around;
     width: 40px;
-    height: 667px;
+    height: 100vh;
     position: fixed;
-    border-left: solid 1px white;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu:hover {
+    background-color: #0835f2;
+    color: white;
+}
+
+.menu a:hover {
+    color: white;
 }
 
 .text-appointed {
@@ -189,9 +231,11 @@ body {
 }
 
 .messagedefilant {
+    background-color: #0835f2;
     overflow: hidden;
     display: flex;
     transform: translateY(-50%);
+    padding-top: 50px;
     margin-top: 50px;
     margin-right: 40px;
 }
@@ -268,15 +312,17 @@ p {
 }
 
 .section {
-    height: 667px;
-    width: 375px;
+    height: 100vh;
+    min-height: 667px;
+    min-width: 375px;
 }
 
 .section2 {
     color: #0835f2;
     background-color: white;
-    height: 667px;
     width: 375px;
+    min-height: 667;
+    height: 100vh;
 }
 
 .section1 {
@@ -432,8 +478,6 @@ h3 {
 .ultralight-condensed:hover::after {
     content: "Avnier";
     font-family: 'ITCAvantGardeGothicStdExtraCondensedObl';
-    font-weight: 300;
-    font-style: italic;
 }
 
 .book-condensed::after {
@@ -443,8 +487,6 @@ h3 {
 .book-condensed:hover::after {
     content: "Lacost";
     font-family: 'ITCAvantGardeGothicStdBookCondensedObl';
-    font-weight: normal;
-    font-style: italic;
 }
 
 .medium-condensed::after {
@@ -454,8 +496,6 @@ h3 {
 .medium-condensed:hover::after {
     content: "Vans";
     font-family: 'ITCAvantGardeGothicStdMdCondensedObl';
-    font-weight: 500;
-    font-style: italic;
 }
 
 .demi-condensed::after {
@@ -465,8 +505,6 @@ h3 {
 .demi-condensed:hover::after {
     content: "Carhartt";
     font-family: 'ITCAvantGardeGothicStdDeminCondensedObl';
-    font-weight: normal;
-    font-style: italic;
 }
 
 .bold-condensed::after {
@@ -476,8 +514,6 @@ h3 {
 .bold-condensed:hover::after {
     content: "Supreme";
     font-family: 'ITCAvantGardeGothicStdBoldCondensedObl';
-    font-weight: bold;
-    font-style: italic;
 }
 
 .ultralight-std::after {
@@ -485,8 +521,42 @@ h3 {
 }
 
 .ultralight-std:hover::after {
-    content: "Test";
+    content: "Athène";
     font-family: 'ITCAvantGardeGothicStdExtraObl';
-    font-weight: 300;
-    font-style: italic;
+}
+
+.book-std::after {
+    content: "Sociables";
+}
+
+.book-std:hover::after {
+    content: "Rio";
+    font-family: 'ITCAvantGardeGothicStdBookObl';
+}
+
+.medium-std::after {
+    content: "Chickees";
+}
+
+.medium-std:hover::after {
+    content: "London";
+    font-family: 'ITCAvantGardeGothicStdMdObl';
+}
+
+.demi-std::after {
+    content: "Quadriennia";
+}
+
+.demi-std:hover::after {
+    content: "Tokyo";
+    font-family: 'ITCAvantGardeGothicStdDemiObl';
+}
+
+.bold-std::after {
+    content: "Contrist";
+}
+
+.bold-std:hover::after {
+    content: "Bern";
+    font-family: 'ITCAvantGardeGothicStdBoldObl';
 }
