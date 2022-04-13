@@ -8,22 +8,17 @@ function ItalicToggle() {
 
 function WidthModifier(e) {
   console.log('width', e);
-  // if (e = 25) {
-  //  document.getElementById("editable-content").style.fontWeight('25')
-  // }
+  document.getElementById("editable-content").style.setProperty(`--text-width`, e);
 }
 
-function WeightModifier(e) {
-  console.log('weight', e);
-  document.getElementById("editable-content").style.setProperty(`--text-weight`, e);
-  if (e = 120) {
-    // document.getElementById("editable-content").classList.toggle('weight-120');
-  }
+function WeightModifier(a) {
+  console.log('weight', a);
+  document.getElementById("editable-content").style.setProperty(`--text-weight`, a);
 }
 
-function ItalicModifier(e) {
-  console.log('italic', e);
-  // document.getElementById("editable-content").style.fontVariationSettings('"wdth" 10')
+function ItalicModifier(l) {
+  console.log('italic', l);
+  document.getElementById("editable-content").style.setProperty(`--text-italic`, l);
 }
 
 function MenuSliderOpen() {

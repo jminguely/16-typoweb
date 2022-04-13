@@ -276,7 +276,8 @@ main {
 
 .editable-space .editable-content {
   font-family: var(--font-main);
-  font-variation-settings: "wdth" 200, "wght" var(--text-weight), "ital" 1;
+  font-variation-settings: "wdth" var(--text-width), "wght" var(--text-weight), "ital" var(--text-italic);
+  font-size: 20px;
   padding: 15px;
   border: none;
   width: 331px;
