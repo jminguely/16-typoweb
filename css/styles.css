@@ -149,51 +149,63 @@ header nav {
   color: #df0672;
 }
 
-.A-1 {
+.extralight {
   font-family: Boska-Extralight;
+  text-align: center;
 }
 
-.A-2 {
+.extralightitalic {
   font-family: Boska-ExtralightItalic;
+  text-align: center;
 }
 
-.A-3 {
+.light {
   font-family: Boska-Light;
+  text-align: center;
 }
 
-.A-4 {
+.lightitalic {
   font-family: Boska-LightItalic;
+  text-align: center;
 }
 
-.A-5 {
+.regular {
   font-family: Boska-Regular;
+  text-align: center;
 }
 
-.A-6 {
+.italic {
   font-family: Boska-Italic;
+  text-align: center;
 }
-.A-7 {
+.medium {
   font-family: Boska-Medium;
+  text-align: center;
 }
 
-.A-8 {
+.mediumitalic {
   font-family: Boska-MediumItalic;
+  text-align: center;
 }
 
-.A-9 {
+.bold {
   font-family: Boska-Bold;
+  text-align: center;
 }
 
-.A-10 {
+.bolditalic {
   font-family: Boska-BoldItalic;
+  text-align: center;
 }
 
-.A-11 {
+.black {
   font-family: Boska-Black;
+  text-align: center;
 }
 
-.A-12 {
+.blackitalic {
   font-family: Boska-BlackItalic;
+  text-align: center;
 }
 
 main h2 {
@@ -222,4 +234,32 @@ main div {
 
 .symbol {
   margin: 40px;
+}
+
+strong {
+  font-family: Plaster-Regular;
+}
+
+input {
+  width: 100%;
+  padding: 8px 8px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 6px solid transparent;
+}
+
+input:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+input::placeholder {
+  color: black;
+  background-color: #eb8029;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
 }
