@@ -134,9 +134,10 @@ body {
   font-family: "Boska-Regular";
   background-color: #eb8029;
   text-align: center;
-  max-width: 320px;
+  max-width: 380px;
   margin: auto;
-  padding: 20px;
+  padding: 40px;
+  box-shadow: 0 0 50px rgb(0 0 0 / 20%);
 }
 
 header h1 {
@@ -224,16 +225,24 @@ hr {
   background-color: black;
   border: none;
   height: 0.1px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 main div {
   font-family: Boska-Medium;
+  text-align: justify;
+}
+
+.text-justify {
+  text-align: justify;
+  margin: 30px;
 }
 
 .symbol {
-  margin: 40px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 strong {
@@ -259,3 +268,13 @@ input::placeholder {
   background-color: #eb8029;
 }
 
+.background-color {
+  background-color: #ec9f61;
+  margin: 5px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.numbers {
+  font-family: boska-medium;
+}
