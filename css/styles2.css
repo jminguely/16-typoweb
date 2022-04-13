@@ -11,8 +11,14 @@ body {
   font-size: 20px;
 }
 
-.site-header { 
-  padding: 30px;
+/*header {
+  background-image: url("../img/background.png");
+  padding: 50px;
+} */
+
+img {
+  max-width: 100%;
+  height:auto ;
 }
 
 .site-header p {
@@ -118,4 +124,30 @@ table, tr, td{
   display: flex;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+section {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB );
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 10s ease-in-out infinite;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
