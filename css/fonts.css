@@ -1,55 +1,29 @@
+
 @font-face {
-  font-family: 'Trap';
-  src: url('../fonts/Trap-Light.woff')
-       url('../fonts/Trap-Light.woff2');
-       font-weight: 300;
+     font-family: 'Helvetica';
+     src: url('../fonts/HelveticaLTStd-Light.woff')
+     url('../fonts/HelveticaLTStd-Light.woff2');
+     font-weight: 300;
+     font-style: normal;
 }
 
 @font-face {
-  font-family: 'Trap';
-  src: url('../fonts/Trap-Regular.woff') format('woff2')
-       url('../fonts/Trap-Regular.woff2') format('woff');
+  font-family: 'Helvetica';
+  src: url('../fonts/HelveticaLTStd-Roman.woff')
+       url('../fonts/HelveticaLTStd-Roman.woff2');
        font-weight: 400;
        font-style: normal;
 }
 
 @font-face {
-  font-family: 'Trap';
-  src: url('../fonts/Trap-Medium.woff')
-       url('../fonts/Trap-Medium.woff2');
-      }
-      
-@font-face {
- font-family: 'Trap';
- src: url('../fonts/Trap-Bold.woff')
-      url('../fonts/Trap-Bold.woff2');
-      font-weight: 500;
-      font-style: normal;
-}
-      
-@font-face {
- font-family: 'Trap';
- src: url('../fonts/Trap-ExtraBold.woff')
-      url('../fonts/Trap-ExtraBold.woff2');
-      font-weight: 600;
-      font-style: normal;
-}
+     font-family: 'Helvetica';
+     src: url('../fonts/HelveticaLTStd-Bold.woff')
+          url('../fonts/HelveticaLTStd-Bold.woff2');
+          font-weight: 500;
+          font-style: normal;
+   }
 
 
-@font-face {
-  font-family: 'Trap';
-  src: url('../fonts/Trap-SemiBold.woff')
-       url('../fonts/Trap-SemiBold.woff2');
-       font-weight: 800;
-      font-style: normal;
-}
-
-@font-face {
-  font-family: 'Trap';
-  src: url('../fonts/Trap-Black.woff')
-       url('../fonts/Trap-Black.woff2');
-       font-weight: 900;
-}
 /* Garamond Premier Pro Regular
 
 font-family: garamond-premier-pro, serif;

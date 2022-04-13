@@ -1,17 +1,28 @@
 body {
   max-width: 320px;
   margin: auto;
-  background-color: #fcf8ec;
+  background-color: #fcf7ea;
 }
 
 h1 {
-  font-family: ApolloMTStd, italic;
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
   color: black;
-  margin: 30pxpx;
 }
+
 
 h2 {
   color: white;
+}
+
+.caracter-map-name {
+  color: black;
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
 }
 
 p {
@@ -63,4 +74,15 @@ p {
 .font-style-presentation p {
   color: black;
   font-size: 18px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  border: 2px solid red;
+  width: 11%;
+  text-align: center;
+  padding: 9px;
 }
