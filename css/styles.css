@@ -51,5 +51,35 @@ main {
 }
 
 .presentation-font {
+  font-weight: lighter;
   font-family: sans-serif;
+  font-size: 12px;
+}
+
+.alphabet {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: capitol, sans-serif;
+}
+
+.alphabet p {
+  font-size: 50px;
+}
+
+.font-tester::placeholder {
+
+  color:#2d3446 ;
+  background-color: #edbeb8 ;
+}
+
+.test-font-categorie {
+  color:#2d3446 ;
+  background-color: #edbeb8 ;
+}
+
+.capitol-light {
+  font-family: capitol, sans-serif;
+  font-weight: lighter;
 }
