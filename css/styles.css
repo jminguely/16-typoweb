@@ -80,6 +80,7 @@ h2 {
   font-family: 'Avenir-Black';
   text-transform: uppercase;
   letter-spacing: .100rem;
+  margin: 0px;
 }
 
 h3 {
@@ -98,10 +99,19 @@ h3 {
   text-align: justify;
 }
 
+.presentation img {
+  margin-bottom: 60px;
+}
+
 /* spécimen */
 
 .specimen {
   margin: 30px;
+}
+
+.specimen h3 {
+  margin-top: 60px;
+  margin-bottom: 15px;
 }
 
 .font-regular-big {
@@ -109,6 +119,7 @@ h3 {
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
+  margin: 0px;
 }
 
 .font-regular-small {
@@ -116,6 +127,8 @@ h3 {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 .font-light-big {
@@ -123,6 +136,7 @@ h3 {
   font-style: normal;
   font-weight: 300;
   font-size: 36px;
+  margin: 0px;
 }
 
 .font-light-small {
@@ -130,6 +144,8 @@ h3 {
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 .font-thin-big {
@@ -137,6 +153,7 @@ h3 {
   font-style: normal;
   font-weight: 200;
   font-size: 36px;
+  margin: 0px;
 }
 
 .font-thin-small {
@@ -144,6 +161,8 @@ h3 {
   font-style: normal;
   font-weight: 200;
   font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 .font-engraved-regular-big {
@@ -151,6 +170,7 @@ h3 {
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
+  margin: 0px;
 }
 
 .font-engraved-regular-small {
@@ -158,6 +178,8 @@ h3 {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 .font-engraved-light-big {
@@ -165,6 +187,7 @@ h3 {
   font-style: normal;
   font-weight: 300;
   font-size: 36px;
+  margin: 0px;
 }
 
 .font-engraved-light-small {
@@ -172,6 +195,8 @@ h3 {
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 /* tester */
