@@ -231,7 +231,22 @@ img {
   font-family: roc-grotesk-extrawide, sans-serif;
 }
 
-/* weight-chartt */
+/* Lyrics card */
+
+.music-text-box {
+  background-color: white;
+  margin: 25px;
+}
+
+.main-colored-card {
+  background-image: url(../img/background_colored_image.webp);
+  background-size: cover;
+  height: 400px;
+  width: auto;
+  padding-top: 8px;
+}
+
+/* weight-chart */
 
 .weight-chart {
   background-image: url(../img/background_colored_image.webp);
@@ -270,9 +285,10 @@ img {
   color: #FFFF;
   padding: 10px;
   padding-bottom: 90px;
+  margin-top: 17px;
 }
 
-/* Card-gosh */
+/* ////////////  Card-gosh  ////////////*/
 
 .gosh-light {
   font-family: roc-grotesk-Condensed Bold, sans-serif;
@@ -391,4 +407,23 @@ footer p {
   color: #FFFF;
   background-color: #19232F;
   padding: 15px;
+}
+
+.music-text {
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 300;
+  padding: 40px;
+  font-size: 20px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+
+.variable_caracter {
+  font-size: 30px;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 300;
 }
