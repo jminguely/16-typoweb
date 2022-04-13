@@ -1,0 +1,268 @@
+/* 
+font-family: garamond-atf-subhead, serif;
+font-family: adobe-jenson-pro, serif;
+ */
+
+ html {
+  scroll-behavior: smooth;
+  background:grey;
+}
+
+ body {
+  max-width: 380px;
+  margin: auto;
+  background:black;
+  color: white;
+}
+
+/* header */
+
+header {
+  background-image: url(../img/header-background.webp);
+  padding: 130px 60px;
+  border-bottom: 2px solid white;
+}
+
+header h1 {
+  font-family: adobe-jenson-pro-subhead, serif;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 45px;
+  text-align: center;
+  line-height: 55px;
+}
+
+header p { 
+  font-family: adobe-jenson-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+header h1 strong {
+  font-size: 80px;
+}
+
+.informations-section h1,
+.informations-section p {
+  padding: 10px 50px;
+}
+
+.informations-section p {
+  font-family: adobe-jenson-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-image: url(../img/ornement-background.webp);
+  border-top: 2px solid white;
+  border-bottom: 2px solid white ;
+  padding: 0 0 40px 40px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.ornaments .signs {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 75%;
+  margin: 0 0 21px 0;
+}
+
+h1, 
+h2 {
+  font-family: garamond-atf-subhead, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 33px;
+}
+
+/* Demonstration */
+
+.alphabet-section {
+  padding: 0 50px;
+  }
+
+.alphabet-uppercase {
+  text-transform: uppercase;
+}
+
+.font p {
+  font-size: 37px;
+}
+
+.regular-font {
+  font-family: adobe-jenson-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.subhead-font {
+  font-family: adobe-jenson-pro-subhead, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caption-font {
+  font-family: adobe-jenson-pro-caption, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.display-font {
+  font-family: adobe-jenson-pro-display, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.italic-font {
+  font-family: adobe-jenson-pro, serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.bold-font {
+  font-family: adobe-jenson-pro-display, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* textarea */
+
+.test-section {
+  background-image: url(../img/text-area-background.webp);
+  padding: 75px 75px;
+  border-top: 2px solid white;
+}
+
+textarea {
+  padding: 40px 20px 40px 0;
+  background: black;
+  border: 2px solid white;
+  text-align: center;
+  color: white;
+  font-family: adobe-jenson-pro, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+}
+
+/* in use */
+
+.in-use-section {
+  padding: 50px 0 50px 50px;
+  border-top: 2px solid white;
+}
+
+.in-use-section img {
+width: 85%;
+margin: 15px 0;
+}
+
+/* footer */
+
+.gif-font-presentation {
+  padding: 0;
+  width: 100%;
+  border-bottom: 2px solid white;
+}
+
+div p {
+  font-family: adobe-jenson-pro-display, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.button {
+  margin: 65px 0;
+  padding: 15px 50px;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  font-family: adobe-jenson-pro-subhead, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 33px;
+}
+
+.link-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.link-container img {
+  width: 100%;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.footer-container {
+  display: flex;
+  padding: 0px 50px;
+}
+
+.footer-container .usage-section {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-img {
+  width: 29%;
+}
+
+.footer-img-video {
+  width: 66%;
+}
+
+footer img {
+  width: 65%;
+}
+
+.footer-container p {
+  font-family: garamond-atf-subhead, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+}
+
+footer .informations {
+  padding: 40px 50px;
+}
+
+footer .main-font,
+.author {
+  font-family: adobe-jenson-pro, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+}
+
+footer .subhead-font {
+  font-family: garamond-atf-subhead, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+}
+
+footer strong {
+  text-transform: uppercase;
+}
+
+.logo-eikon {
+  margin: 30px 100px;
+  width: 27%;
+}
+
+
