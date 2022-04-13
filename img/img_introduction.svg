@@ -3,11 +3,17 @@
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 320 273" style="enable-background:new 0 0 320 273;" xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:0.3;fill:#7DF451;}
-	.st1{font-family:'Bely-Bold';}
-	.st2{font-size:337.0181px;}
-	.st3{font-size:303.126px;}
+	.st0{opacity:0.3;enable-background:new    ;}
+	.st1{fill:#7DF451;}
 </style>
-<text transform="matrix(1 0 0 1 -20.8334 230.5408)" class="st0 st1 st2">B</text>
-<text transform="matrix(1 0 0 1 244.3038 263.6487)" class="st0 st1 st3">!</text>
+<g class="st0">
+	<path class="st1" d="M175.7,165.2c0,36.4-33.4,65.4-88.6,65.4H-5.7V208h25.3l1.7-1.7V36.8L-9,16.5v-5.1h92.3
+		c47.9,0,81.2,19.2,81.2,49.9c0,24.3-16.5,41.8-44.5,50.2C155.4,119.3,175.7,139.5,175.7,165.2z M63.4,35.1v68.8h15.5
+		c25.6,0,41.5-12.8,41.5-36.4c0-22.2-14.5-32.4-40.1-32.4H63.4z M131.5,166.5c0-23.6-14.8-39.1-47.9-39.1H63.4v79.5h19.9
+		C113,206.9,131.5,191.8,131.5,166.5z"/>
+</g>
+<g class="st0">
+	<path class="st1" d="M262.5,66.6H314l-21.2,141.6h-9.1L262.5,66.6z M265.5,245.5c0-12.4,10.3-22.7,22.7-22.7
+		c12.7,0,22.7,10.3,22.7,22.7c0,12.4-10,22.7-22.7,22.7C275.8,268.2,265.5,257.9,265.5,245.5z"/>
+</g>
 </svg>
