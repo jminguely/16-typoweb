@@ -92,7 +92,7 @@ h3 {
 /* présentation */
 
 .presentation {
-  margin: 30px;
+  margin: 60px 30px;
 }
 
 .presentation p {
@@ -106,7 +106,7 @@ h3 {
 /* spécimen */
 
 .specimen {
-  margin: 30px;
+  margin: 60px 30px;
 }
 
 .specimen h3 {
@@ -202,13 +202,13 @@ h3 {
 /* tester */
 
 .try {
-  margin: 30px;
+  margin: 60px 30px;
 }
 
 /* caractères */
 
 .font {
-  margin: 30px;
+  margin: 60px 30px;
 }
 
 .font p {
@@ -229,4 +229,38 @@ h3 {
 
 footer {
   margin: 30px;
+}
+
+.footer-title {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 41px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.footer-subtitle {
+  font-size: 16px;
+  font-family: 'Avenir-Book';
+  color: #00FEFE;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.footer-marina {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  margin: 30px 0px 5px 0px;
+}
+
+footer nav p {
+  font-size: 16px;
+  font-family: 'Avenir-Book';
+  text-transform: none;
+  letter-spacing: normal;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
