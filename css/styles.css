@@ -234,5 +234,14 @@ input::placeholder {
   padding-top: 0;
   font-size: 36px;
   text-align: center;
-  text-decoration: underline§;
+  text-decoration: underline;
+}
+
+.special-character {
+  font-family: "essence-default-bold";
+  text-align: center;
+  background-color: #1B2C29;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin: 10px;
 }
