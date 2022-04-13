@@ -156,8 +156,8 @@ textarea {
 }
 
 header img {
-  width: 200px;
   margin: auto;
+  text-align: center;
 }
 
 header p {
@@ -166,6 +166,24 @@ header p {
   overflow-x: hidden;
   margin: 0 0 60px;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(90, 90, 90);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+
+/* ::-webkit-scrollbar{
+  background-color: transparent;
+} */
 
 header a {
   font-family: 'Cabinet Grotesk';
