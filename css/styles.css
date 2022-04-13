@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'HeavyHeapRg-Regular';
+  src: url('../fonts/HeavyHeapRg-Regular.woff') format('woff'),
+   url('../fonts/HeavyHeapRg-Regular.woff2') format('woff2');
+}
+
+body {
+max-width: 375px;
+text-align: center;
+  margin: 0px;
+}
+
+header {
+    background-color:#edbeb8 ;
+}
+.categorie-page {
+  padding: 5px;
+  font-size: 15px;
+  background-color: #2d3446;
+  color: #edbeb8 ;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+}
+.numero {
+  margin: 0px;
+  text-align: center;
+  font-size: 40px;
+  color: #2d3446 ;
+  background-color: #d4777f;
+}
+header .alphabet {
+  margin: 0px;
+  text-align: center;
+  font-size: 40px;
+  color: #d4777f ;
+  background-color: #2d3446;
+}
+.caracteres-speciaux {
+  margin: 0px;
+  text-align: center;
+  font-size: 40px;
+  font-family: capitol, sans-serif;
+  color: #edbeb8 ;
+  background-color: #594c60;
+}
+h1 {
+  margin: 0px;
+  text-align: center;
+  font-size: 100px;
+  font-weight: lighter;
+  font-family: capitol, sans-serif;
+  color: #594c60 ;
+}
+header p {
+  font-family: capitol, sans-serif;
+}
+
+header img {
+}
+main {
+  color:#edbeb8 ;
+  padding: 20px;
+  background-color: #2d3446;
+}
+h2 {
+  font-size: 36px;
+  font-weight: lighter;
+  text-align: center;
+  font-family: sans-serif;
+}
+main p {
+  font-size: 27px;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+.presentation-font {
+  font-weight: lighter;
+  font-family: capitol, sans-serif;
+  font-size: 60px;
+  margin: 10px -20px -20px -20px;
+  padding: 20px;
+  color: #2d3446;
+  background-color:#edbeb8  ;
+  display: flex;
+  flex-direction: column;
+}
+.font-tester::placeholder {
+  color:#edbeb8  ;
+  background-color: #2d3446;
+}
+
+.light {
+  font-family: capitol, sans-serif;
+  font-weight: lighter;
+}
+.medium {
+  font-family: capitol, sans-serif;
+  font-weight:normal;
+}
+.DemiBold{
+  font-family: capitol, sans-serif;
+  font-weight: bold;
+}
+.bold {
+  font-family: capitol, sans-serif;
+  font-weight: bolder;
+}
+.info-licences {
+  margin: 20px -20px 0 -20px;
+  padding: 20px;
+  color: #2d3446;
+  background-color:#edbeb8
+}
+.info-licences h2 {
+  text-align: left;
+}
+h3 {
+  font-size: 27px;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+.info-licences p {
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  margin: -35px 0 0 0;
+  padding: 20px;
+  color:#edbeb8  ;
+  background-color: #2d3446;
+}
+a {
+  color:#edbeb8  ; 
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+}
