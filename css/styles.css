@@ -7,6 +7,7 @@ body {
   text-align: center;
   color: black;
   font-family: 'Source-Serif';
+  max-width: 380px;
 }
 
 @font-face {
@@ -80,6 +81,13 @@ header {
   padding: 20px 50px;
 }
 
+footer {
+  background-color: #919ECE;
+  color: white;
+  padding: 60px 10px 80px 10px;
+  font-size: 20px;
+}
+
 img {
   width: 100%;
 }
@@ -94,12 +102,11 @@ strong {
 }
 
 hr {
-  color: #778edf;
   margin-top: 50px;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 39px;
   font-family: 'Engage';
   color: white;
 }
@@ -112,7 +119,7 @@ h2 {
 }
 
 h3 {
-  font-size: 50px;
+  font-size: 60px;
   font-family: 'Regular';
 }
 
@@ -122,13 +129,13 @@ h4 {
 }
 
 textarea {
-  margin: 20px 0 60px 0;
-  font-family: 'Lato';
+  margin: 10px 0 80px 0;
   font-size: 15px;
   text-align: left;
+  font-family: 'Lato';
 }
 
-::placeholder{
+::placeholder {
   font-family: 'Lato';
 }
 
@@ -165,7 +172,7 @@ textarea {
 }
 
 .button {
-  background-color: #919ECE;
+  background-color: #929CCA;
   border-radius: 50%;
   padding: 25px;
   margin: 20px 10px; 
@@ -182,9 +189,9 @@ textarea {
 }
 
 .background-variante {
-  background: rgba(188, 191, 212, 0.3);
+  background: rgba(181, 181, 181, 0.3);
   text-align: left;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 .background-titre {
@@ -194,7 +201,7 @@ textarea {
 }
 
 .specimen-caractere {
-  border: 2px solid #919ECE;
+  border: 2px solid #59669F;
   border-radius: 100px;
   padding: 30px 40px;
   margin: 60px 0 40px 0;
@@ -213,7 +220,7 @@ textarea {
 
 .grille {
   padding-top: 30px;
-  border: 5px solid rgb(119, 160, 243);
+  border: 5px solid #92A5E4;
   border-radius: 5px;
   background-color: rgba(121, 145, 225, 0.211); 
   font-size: 25px;
@@ -239,6 +246,18 @@ textarea {
 .button-scroll img {
   width: 50px;
 } 
+
+.credit {
+  margin: 20px;
+}
+
+.name {
+  margin: 20px;
+}
+
+.fonderie{
+  margin: 20px;
+}
 
 .regular {
   font-family: 'Regular';
