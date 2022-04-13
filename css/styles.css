@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 375px;
+  margin: auto;
+}
+
+.title-card {
+  box-shadow: 0px 3px 10px grey;
+}
+
+.sentence-ex {
+  border-bottom: 1px lightgrey solid;
+  padding: 20px 30px 20px 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sentence-ex p {
+  font-family: Neco;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.introduction-text {
+  background-image: url(../img/Lighter.svg);
+}
+
+.introduction-text p {
+  font-size: 15px;
+  font-family: neue-kabel, sans-serif;
+  font-weight: 300;
+  font-style: normal; 
+  padding: 43px 104px 38px 31px;
+}
+
+@font-face { 
+  font-family: 'Neco'; 
+  src:  url('../fonts/Neco-Medium.woff2');
+  font-weight: 500;
+} 
+
+@font-face { 
+  font-family: 'Neco'; 
+  src:  url('../fonts/Neco-Regular.woff2');
+  font-weight: 400;
+} 
+
+@font-face { 
+  font-family: 'Neco'; 
+  src:  url('../fonts/Neco-Italic.woff2');
+  font-weight: 400;
+  font-style: italic;
+} 
+
+@font-face { 
+  font-family: 'Neco'; 
+  src:  url('../fonts/Neco-MediumItalic.woff2');
+  font-weight: 500;
+  font-style: italic;
+} 
+
+@font-face { 
+  font-family: 'Neco'; 
+  src:  url('../fonts/Neco-Black.woff2');
+  font-weight: 800;
+} 
+
+@font-face { 
+  font-family: 'Neco'; 
+  src:  url('../fonts/Neco-BlackItalic.woff2');
+  font-weight: 800;
+  font-style: italic;
+} 
+
+@font-face { 
+  font-family: 'Neco'; 
+  src:  url('../fonts/Neco-BoldItalic.woff2');
+  font-weight: 700;
+  font-style: italic;
+} 
+
+@font-face { 
+  font-family: 'Neco'; 
+  src:  url('../fonts/Neco-Bold.woff2');
+  font-weight: 700;
+} 
+
+h2 {
+  font-family: Neco;
+  font-style: italic;
+}
+
+.typeface-title {
+  font-size: 30px;
+  font-family: neue-kabel, sans-serif;
+  font-weight: 600;
+  font-style: normal; 
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+
+.overview-ex {
+  background-color: #f9f9f9;
+  padding: 80px 0px 0px 25px;
+}
+
+.overview-ex p {
+  padding-bottom: 80px;
+  font-size: 25px;
+}
+
+.font-regular {
+  font-family: Neco;
+  font-weight: 400;
+}
+
+.font-bold {
+  font-family: Neco;
+  font-weight: 700;
+}
+
+.font-medium {
+  font-family: Neco;
+  font-weight: 500;
+}
+
+.font-italic {
+  font-family: Neco;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.font-black-italic {
+  font-family: Neco;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.font-medium-italic {
+  font-family: Neco;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.font-bold-italic {
+  font-family: Neco;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.font-black {
+  font-family: Neco;
+  font-weight: 800;
+}
+
+.glyphs h2 {
+  font-size: 30px;
+  font-family: neue-kabel, sans-serif;
+  font-weight: 600;
+  font-style: normal; 
+  text-align: center;
+}
+
+.scrolling-text {
+  background-color: #f8ede3;
+  color: #004a7c;
+  position: relative;
+  overflow: hidden;
+}
+
+.scrolling-text .font-italic {
+  font-size: 60px;
+  font-family: Neco;
+  font-weight: 700;
+  font-style: italic;
+  padding-top: 30px;
+}
+
+.scrolling-text .font-black {
+  font-size: 15px;
+  font-family: Neco;
+  font-weight: 800;
+  padding-top: 15px;
+}
+
+.scrolling-text .font-medium {
+  font-size: 30px;
+  font-family: Neco;
+  font-weight: 500;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.defiling {
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  white-space: nowrap;
+}
+
+.defiling-text-1 {
+  animation-name: defiling-left;
+}
+
+@keyframes defiling-left {
+  0% {
+    transform: translateX(0%);
+  }
+  
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.glyph-title {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+footer {
+  background-color: #004a7c;
+}
+
+footer h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: neue-kabel, sans-serif;
+  font-weight: 600;
+  font-style: normal; 
+  color: #f8ede3;
+  padding: 75px 65px 50px 65px;
+}
+
+.contact-buttons {
+  font-size: 20px;
+  font-family: neue-kabel, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  padding: 15px 65px 50px 65px;
+}
+
+.contact-buttons a {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  background-color: #f8ede3;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.trademark-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  font-family: neue-kabel, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #f8ede3;
+  padding-bottom: 40px;
+}
+
+.font-ex {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-right: 30px;
+  font-family: Neco;
+  font-weight: 300;
+}
+
+.type-tester-title {
+  font-size: 30px;
+  font-family: neue-kabel, sans-serif;
+  font-weight: 600;
+  font-style: normal; 
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+
+.type-tester {
+  color: black;
+  background-color: white;
+  font-family: Neco;
+  font-weight: 400;
+  padding: 0px 30px 30px 30px;
+}
+
+input::placeholder {
+  font-family: Neco;
+  font-weight: 400;
+  color: lightgray;
+}
+
+.typetester {
+  width: 300px;
+  font-size: 40px;
+  font-family: Neco;
+  font-weight: 400;
+  padding-left: 15px;
+  border: solid lightgray 1px;
+}
+
+.typetester-buttons {
+  padding: 0px 125px 15px 125px;
+}
+
+.typetest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  background-color: #f8ede3;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  font-size: 14px;
+}
