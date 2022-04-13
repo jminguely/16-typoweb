@@ -5,6 +5,8 @@
 }
 
 body {
+max-width: 375px;
+text-align: center;
   margin: 0px;
 }
 
@@ -73,17 +75,68 @@ main p {
   font-weight: lighter;
   font-family: sans-serif;
 }
+.presentation-font {
+  font-weight: lighter;
+  font-family: capitol, sans-serif;
+  font-size: 60px;
+  margin: 10px -20px -20px -20px;
+  padding: 20px;
+  color: #2d3446;
+  background-color:#edbeb8  ;
+  display: flex;
+  flex-direction: column;
+}
 .font-tester::placeholder {
-  color:#2d3446 ;
-  background-color: #edbeb8 ;
+  color:#edbeb8  ;
+  background-color: #2d3446;
 }
 
-.test-font-categorie {
-  color:#2d3446 ;
-  background-color: #edbeb8 ;
-}
-
-.capitol-light {
+.light {
   font-family: capitol, sans-serif;
   font-weight: lighter;
+}
+.medium {
+  font-family: capitol, sans-serif;
+  font-weight:normal;
+}
+.DemiBold{
+  font-family: capitol, sans-serif;
+  font-weight: bold;
+}
+.bold {
+  font-family: capitol, sans-serif;
+  font-weight: bolder;
+}
+.info-licences {
+  margin: 20px -20px 0 -20px;
+  padding: 20px;
+  color: #2d3446;
+  background-color:#edbeb8
+}
+.info-licences h2 {
+  text-align: left;
+}
+h3 {
+  font-size: 27px;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+.info-licences p {
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  margin: -35px 0 0 0;
+  padding: 20px;
+  color:#edbeb8  ;
+  background-color: #2d3446;
+}
+a {
+  color:#edbeb8  ; 
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 20px;
 }
