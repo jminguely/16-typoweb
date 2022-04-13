@@ -39,6 +39,14 @@ nav p {
   letter-spacing: .100rem;
 }
 
+nav a {
+  color: #000000;
+}
+
+a:hover {
+  color: #571D8A;
+}
+
 .site-header nav {
   display: flex;
   flex-direction: row;
