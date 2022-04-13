@@ -213,6 +213,35 @@ h3 {
   margin: 60px 30px;
 }
 
+.try h3 {
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 320px;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  border-color: #000000;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.try-niagara {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.try-niagara-engraved {
+  font-family: niagara-engraved, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+}
+
 /* caractères */
 
 .font {
