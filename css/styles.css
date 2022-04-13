@@ -68,6 +68,7 @@ header h1 {
 }
 
 header p {
+  text-decoration: none;
   font-family: lato-hairline;
   font-size: 20px;
   color: #eecaa2;
@@ -75,11 +76,10 @@ header p {
   padding-bottom: 150px;
 }
 
-.header-button {
+.header-button-container{
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 43px;
-  font-size: 25px;
 }
 
 .title-background {
@@ -241,7 +241,7 @@ input::placeholder {
   font-family: "essence-default-bold";
   text-align: center;
   font-size: 17px;
-  background-color: #1b2c2969;
+  background-color: #1b2c299e;
   padding-bottom: 40px;
   padding-top: 40px;
   margin: 28px;
@@ -290,4 +290,25 @@ input::placeholder {
 .light-blue p {
   color: #327274;
   text-align: center;
+}
+
+.download-text {
+  font-family: essence-default;
+  color: #eecaa2;
+  font-size: 22px;
+  text-align: center;
+}
+
+.text-footer {
+  color: #eecaa2;
+  font-family: essence-default;
+  font-size: 38px;
+  text-align: center;
+}
+
+.footer-img {
+  background-image: url(../img/footer.svg);
+  background-position: center;
+  background-size: 100%;
+  background-size: cover;
 }
