@@ -255,8 +255,13 @@ textarea {
   margin: 20px;
 }
 
-.fonderie{
+.fonderie {
   margin: 20px;
+}
+
+.lieu-url {
+  text-decoration: underline;
+  color: #59669F;
 }
 
 .regular {
