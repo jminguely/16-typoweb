@@ -23,11 +23,18 @@ body {
 }
 
 header {
-  background-image: url("img/background.png");
+  background-image: var(--gradient);
+  background-size: 400%;
 }
 
+@keyframes animation {
+  0% {background-position: left;
+  }
+  100% {background-position: right;
+  }
+}
 nav {
-  padding: 65px;
+  padding: 30px;
   text-align: center;
   font-size: 15px;
 }
@@ -41,24 +48,22 @@ h2 {
   font-size: 15px;
 }
 
-.button {
-  border: 1px solid;
-  border-color: black;
+.nav {
   border-radius: 45px;
-  padding: 10px 15px;
-  margin-bottom: 5px;
   text-decoration: none;
   transition: all 0.2s ease;
   text-align: center;
+  font-size: 12px;
 }
 
-.button {
+.nav-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.button:hover {
+.nav:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background: #E6E6FA;
 }
@@ -117,3 +122,9 @@ table, tr, td{
   font-weight: 700;
   font-style: normal;
 }
+
+.footer-countainer {
+  display: flex;
+}
+
+
