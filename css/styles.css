@@ -1,0 +1,430 @@
+/* Semplicita Pro Bold
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Semplicita Pro Bold Italic
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Semplicita Pro Italic
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Semplicita Pro Light
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+
+
+Semplicita Pro Light Italic
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 300;
+
+font-style: italic;
+
+
+Semplicita Pro Medium
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+
+
+Semplicita Pro Medium Italic
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 500;
+
+font-style: italic;
+
+
+Semplicita Pro Regular
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Semplicita Pro Semibold
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 600;
+
+font-style: normal;
+
+
+Semplicita Pro Semibold Italic
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 600;
+
+font-style: italic; */
+
+/* Rustica Semi Light
+
+font-family: rustica, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Rustica Semi Light Italic
+
+font-family: rustica, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Rustica Bold
+
+font-family: rustica, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Rustica Bold Italic
+
+font-family: rustica, sans-serif;
+
+font-weight: 700;
+
+font-style: italic; */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 400px;
+  margin: auto;
+  background-color: #e7d7c4;
+  color: black;
+  font-family: rustica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  align-items: left;
+}
+
+article {
+  margin-top: 50px;
+}
+
+.sommary {
+  background-color: #bca68f;
+  color: #e7d7c4;
+  width: 370px;
+  padding: 25px;
+}
+
+.sommary figcaption {
+  margin-top: 20px;
+  font-family: rustica, sans-serif;
+  font-weight: 400;
+  font-size: small;
+  font-style: italic;
+}
+
+.sommary a {
+  color: #5b5148;
+  text-decoration: none;
+}
+
+.sommary ul {
+  list-style-type: none;
+}
+
+.sommary img {
+  box-shadow: 4px 10px 16px 4px rgba(0,0,0,0.75);
+}
+
+h1,
+h2 {
+  font-family: rustica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.history {
+  height: 380px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #bca68f;
+  padding: 25px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.774);
+  text-align: justify;
+  transition: height 0.3s;
+  position: relative;
+}
+
+.history.is-open {
+  height: 784px;
+}
+
+.history-more {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  background-color: #63584e;
+  color: #e7d7c4;
+  padding: 5px;
+  border: solid #63584e;
+  border-radius: 2px;
+}
+
+.type-face h1 {
+  border-bottom: 8px solid #bca68f;
+  padding-left: 10px;
+}
+
+.type-face {
+  border-left: 8px solid #bca68f;
+}
+
+.overview {
+  font-family: semplicitapro, sans-serif;
+}
+
+.type-face .element-1 {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.type-face .element-2 {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.type-face .element-3 {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.type-face .element-4 {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.type-face .element-5 {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.type-face .element-6 {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.type-face .element-7 {
+  font-weight: 300;
+  font-style: normal;
+}
+
+.type-face .element-8 {
+  font-weight: 500;
+  font-style: normal;
+}
+
+.type-face .element-9 {
+  font-weight: 600;
+  font-style: normal;
+}
+
+.type-face .element-10 {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.test {
+  text-align: left;
+}
+
+input {
+  text-align: left;
+  width: 100%;
+  height: 50px;
+  background-color: #bca68f;
+  border: none;
+}
+
+.writing .element-1 {
+  font-family: semplicitapro, sans-serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+.writing .element-2 {
+  font-family: semplicitapro, sans-serif;
+
+  font-weight: 700;
+
+  font-style: normal;
+}
+
+.writing .element-3 {
+  font-family: semplicitapro, sans-serif;
+
+  font-weight: 700;
+
+  font-style: italic;
+}
+
+.writing .element-4 {
+  font-family: semplicitapro, sans-serif;
+
+  font-weight: 400;
+
+  font-style: italic;
+}
+
+.writing .element-5 {
+  font-family: semplicitapro, sans-serif;
+
+  font-weight: 300;
+
+  font-style: normal;
+}
+
+.writing .element-6 {
+  font-family: semplicitapro, sans-serif;
+
+  font-weight: 300;
+
+  font-style: italic;
+}
+
+.writing .element-7 {
+  font-family: semplicitapro, sans-serif;
+
+  font-weight: 500;
+
+  font-style: normal;
+}
+
+.writing .element-8 {
+  font-family: semplicitapro, sans-serif;
+
+  font-weight: 500;
+
+  font-style: italic;
+}
+
+.writing .element-9 {
+  font-family: semplicitapro, sans-serif;
+
+  font-weight: 600;
+
+  font-style: normal;
+}
+
+.writing .element-10 {
+  font-family: semplicitapro, sans-serif;
+
+  font-weight: 600;
+
+  font-style: italic;
+}
+
+input::placeholder {
+  color: #0000006e;
+}
+
+.presentation {
+  background-image: url(../img/marbre.svg);
+  padding: 64px 0px;
+  text-align: left;
+}
+
+.presentation h1 {
+  margin-left: 70px;
+}
+
+.presentation .all-glyphes {
+  width: 250px;
+  height: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: semplicitapro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  background-color: #bca68fc2;
+  margin: auto;
+  transition: height 0.3s;
+  position: relative;
+}
+
+.all-glyphes.is-open {
+  height: 4500px;
+}
+
+.a-glyphes-view {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  background-color: #63584e;
+  color: #e7d7c4;
+  padding: 5px;
+  border: solid #63584e;
+  border-radius: 2px;
+}
+
+.presentation h3 {
+  font-family: rustica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 40px;
+}
+
+footer {
+  font-family: semplicitapro, sans-serif;
+  font-weight: 300;
+  font-size: x-small;
+  font-style: normal;
+  background-color: #837565;
+  color: #e7d7c4;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+footer a {
+  color: #e7d7c4;
+  text-decoration: none;
+}
