@@ -12,12 +12,16 @@ h1 {
   color: black;
 }
 
-
 h2 {
-  color: white;
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: black;
 }
 
-.caracter-map-name {
+
+.character-map-name {
   color: black;
   font-family: 'Helvetica';
   font-weight: 400;
@@ -26,8 +30,9 @@ h2 {
 }
 
 p {
-  font-family: 'Trap';
+  font-family: 'Helvetica';
   font-weight: 400;
+  font-style: normal;
   color: white;
 }
 
@@ -44,13 +49,24 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
 }
 
-.element-flag,
-.element-style-name,
-.element-eight-g {
-  flex-grow: 1;
+.font-style-presentation-container p {
+  margin-top: 8px;
 }
+
+.wave_placement {
+  margin-bottom: -5px;
+  margin-top: 20px;
+}
+
+/* .element-flag,
+.element-style-name,
+.element-test-font {
+  width: 100%;
+} */
 
 .card {
   background-color: #0c35c3;
@@ -58,25 +74,45 @@ p {
   padding: 30px;
 }
 
+.card h1 {
+  color: white;
+}
+
 .font-style-presentation {
   border: 2px solid #0c35c3;
+  margin-top: 33px;
 }
 
 .flag-img-presentation {
-  width: 65px;
+  width: 84px;
+  height: 71px;
 }
 
 .font-style-name {
-  border: 2px solid #0c35c3;
+  text-align: center;
+  border-bottom: 2px solid #0c35c3;
   padding: 15px;
+  width: 202px;
+  height: 39px;
 }
 
 .font-style-presentation p {
   color: black;
-  font-size: 18px;
+  font-size: 20px;
 }
 
-table {
+input {
+  font-family: garamond-premier-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 37px;
+  color: black;
+  background-color: #fcf7ea;
+  border: none;
+  width: 100%;
+}
+
+/* table {
   width: 100%;
 }
 
@@ -85,4 +121,18 @@ td {
   width: 11%;
   text-align: center;
   padding: 9px;
+} */
+
+.footer-card {
+  background-color: #0c35c3;
+ padding: 10px;
+}
+
+span {
+  font-size: 24px;
+}
+
+footer div {
+  background-color: red;
+  padding: 10px;
 }
