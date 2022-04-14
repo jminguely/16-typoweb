@@ -16,8 +16,7 @@ body {
   box-shadow: 0 0 20px rgb(0 0 0 / 30%);
 }
 
-
-/* Title/ h1, h2 */
+/* //////////// H1, h2, h3 ////////////*/
 
 h1 {
   font-family: roc-grotesk-extrawide, sans-serif;
@@ -59,7 +58,7 @@ h4 {
   margin: 0px
 }
 
-/* header */
+/* //////////// Header ////////////*/
 
 .imd12-text-header {
   text-align: end;
@@ -105,7 +104,7 @@ h4 {
   padding-bottom: 5px;
 }
 
-/* nav */
+/* //////////// Nav  ////////////*/
 
 .header-nav {
   display: flex;
@@ -147,7 +146,7 @@ a:hover {
   transition: 0.2s;
 }
 
-/* moving-text */
+/* //////////// Moving-text ////////////*/
 
 .messagedefilant {
   overflow: hidden;
@@ -214,7 +213,7 @@ img {
   max-width: 375px;
 }
 
-/* Big-text */
+/* ////////////  Big-Text  ////////////*/
 
 .big-text {
   font-family: roc-grotesk, sans-serif;
@@ -241,7 +240,7 @@ img {
   font-family: roc-grotesk-extrawide, sans-serif;
 }
 
-/* Lyrics card */
+/* ////////////  Lyrics-Card  ////////////*/
 
 .music-text-box {
   background-color: white;
@@ -256,7 +255,7 @@ img {
   padding-top: 8px;
 }
 
-/* weight-chart */
+/* ////////////  Weight-Chart  ////////////*/
 
 .weight-chart {
   background-image: url(../img/background_main.svg);
@@ -269,44 +268,32 @@ img {
   line-height: 5px;
 }
 
-.when-light {
-  font-family: roc-grotesk-Compressed;
-  font-weight: 100;
+.when {
   color: #FFFF;
   text-decoration: underline;
   text-decoration-thickness: 2px;
   margin-bottom: 12px;
   padding-left: 30px;
+}
+
+.when-light {
+  font-family: roc-grotesk-Compressed;
+  font-weight: 100;
 }
 
 .when-normal {
   font-family: roc-grotesk-Compressed;
   font-weight: 300;
-  color: #FFFF;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  margin-bottom: 12px;
-  padding-left: 30px;
 }
 
 .when-bold {
   font-family: roc-grotesk-Compressed;
   font-weight: 400;
-  color: #FFFF;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  margin-bottom: 12px;
-  padding-left: 30px;
 }
 
 .when-extra {
   font-family: roc-grotesk-Compressed;
   font-weight: 500;
-  color: #FFFF;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  margin-bottom: 12px;
-  padding-left: 30px;
 }
 
 .main-dark-variable {
@@ -320,34 +307,32 @@ img {
 
 /* ////////////  Card-gosh  ////////////*/
 
+.gosh {
+  padding-top: 40px;
+  line-height: 30px;
+  margin: 0px;
+}
+
 .gosh-light {
   font-family: roc-grotesk-Condensed;
   font-weight: bold;
-  margin: 0px;
-  padding-top: 40px;
-  line-height: 30px;
   font-size: 70px;
 }
 
 .gosh-normal {
   font-family: roc-grotesk-Wide;
   font-weight: 800;
-  margin: 0px;
   font-size: 40px;
-  line-height: 30px;
 }
 
 .gosh-extra {
   font-family: roc-grotesk-Wide;
   font-weight: 100;
-  margin: 0px;
-  line-height: 30px;
 }
 
 .gosh-bold {
   font-family: roc-grotesk-ExtraWide;
   font-weight: thin;
-  margin: 0px;
   line-height: 30px;
 }
 
@@ -523,26 +508,30 @@ a {
   padding-left: 12px;
 }
 
+.input {
+  font-size: 40px;
+}
+
 .extra-input {
   font-family: roc-grotesk-Compressed;
   font-weight: 700;
-  font-size: 40px;
 }
 
 .light-input {
   font-family: roc-grotesk-Compressed;
   font-weight: 100;
-  font-size: 40px;
 }
 
 .bold-input {
   font-family: roc-grotesk-Compressed;
   font-weight: 500;
-  font-size: 40px;
 }
 
 .normal-input {
   font-family: roc-grotesk-Compressed;
   font-weight: 400;
-  font-size: 40px;
+}
+
+::placeholder {
+  color:rgb(203, 203, 203);
 }
