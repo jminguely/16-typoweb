@@ -1,7 +1,6 @@
 body {
   width: 400px;
   margin: auto;
-  margin-top: 0;
 }
 
 header {
@@ -383,6 +382,61 @@ nav a {
   display: inline-block;
 }
 
+.heavy-zone {
+  margin: 5px 0 45px 0;
+}
+
+.heavy-zone .text-test {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 10px 85px 5px 10px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.heavy-zone .text-fast {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 0 85px 0 3px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.black-zone {
+  margin: 5px 0 45px 0;
+}
+
+.black-zone .text-test {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 10px 85px 5px 15px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.black-zone .text-fast {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 0 85px 0 11px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
 
 
 
