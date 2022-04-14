@@ -278,3 +278,9 @@ input::placeholder {
 .numbers {
   font-family: boska-medium;
 }
+
+main img {
+  display: block;
+  margin-right: 10px;
+  object-position: left bottom;
+}
