@@ -260,9 +260,9 @@ img {
 .weight-chart {
   background-image: url(../img/background_main.svg);
   background-size: cover;
-  padding: 28px;
+
   color:#19232F;
-  margin-top: 17px;
+  padding-top: 17px;
   font-size: 60px;
   line-height: 5px;
 }
@@ -273,6 +273,7 @@ img {
   color: #FFFF;
   text-decoration: underline;
   text-decoration-thickness: 2px;
+  margin-bottom: 12px;
 }
 
 .when-normal {
@@ -281,6 +282,7 @@ img {
   color: #FFFF;
   text-decoration: underline;
   text-decoration-thickness: 2px;
+  margin-bottom: 12px;
 }
 
 .when-bold {
@@ -289,6 +291,7 @@ img {
   color: #FFFF;
   text-decoration: underline;
   text-decoration-thickness: 2px;
+  margin-bottom: 12px;
 }
 
 .when-extra {
@@ -297,6 +300,7 @@ img {
   color: #FFFF;
   text-decoration: underline;
   text-decoration-thickness: 2px;
+  margin-bottom: 12px;
 }
 
 .main-dark-variable {
@@ -472,7 +476,6 @@ input {
   font-size: 23px;
   font-family: roc-grotesk-ExtraWide, ExtraBold;
   padding: 20px;
-  width: 280px;
-  padding-bottom: 60px;
-  margin-bottom: 90px;
+  width: 331px;
+  border-color: #FFFF;
 }
