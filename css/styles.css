@@ -12,8 +12,8 @@
 
 @font-face {
   font-family: "essence-light";
-  src: url("../font/EssenceSans.woff") format("woff)"),
-    url("../font/EssenceSans.woff2") format("woff2");
+  src: url("../font/EssenceSansLight.woff") format("woff)"),
+    url("../font/EssenceSansLight.woff") format("woff2");
 }
 
 @font-face {
