@@ -123,6 +123,10 @@ td {
   padding: 9px;
 } */
 
+.charactere-table {
+  margin-top: 30px;
+}
+
 .footer-card {
   background-color: #0c35c3;
  padding: 10px;
@@ -135,4 +139,27 @@ span {
 footer div {
   background-color: red;
   padding: 10px;
+}
+
+.presented-by {
+  font-family: 'Helvetica';
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.element-email,
+.element-intagram {
+  height: 37px;
+  margin-left: 4px;
+}
+
+.g-overview {
+  margin-top: 30px;
 }
