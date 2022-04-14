@@ -1,17 +1,24 @@
 body {
-  max-width: 370px;
+  width: 400px;
   margin: auto;
-  border-top: solid 8px black;
+  margin-top: 0;
 }
 
 header {
   background: #FF7900;
-  padding-bottom: 15px;
+}
+
+.container-imgheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 105px 0 15px 30px;
 }
 
 header img {
-  height: 230px;
-  padding: 13px 96px 30px 105px;
+  width: 250px;
+  height: auto;
+
 }
 
 .title-aviano {
@@ -60,11 +67,20 @@ header img {
   margin: 0;
 }
 
+.container-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
   justify-content: space-evenly;
+  position: fixed;
+  width: 400px;
+  height: 50px;
   text-align: center;
   background-color: black;
 }
@@ -74,42 +90,26 @@ nav a {
   color: white;
 }
 
-.button-fats {
-  background: #FF7900;
-  border-radius: 40px;
-  margin-bottom: 10px;
-  padding: 5px 40px;
-  font-family: 'Cairo', sans-serif;
-  font-size: 10px;
-}
-
-.button-fats:hover {
+.button-nav:hover {
   background: #d06b12;
 }
 
-.button-glyphs {
+.button-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   background-color: #FF7900;
   color: white;
   border-radius: 40px;
-  margin-bottom: 10px;
-  padding: 5px 40px;
+  height: 25px;
+  padding: 0 40px;
   font-family: 'Cairo', sans-serif;
   font-size: 10px;
 }
 
-.button-glyphs:hover {
+.button-nav:hover {
   background: #d06b12;
 } 
-
-.button-text {
-  background-color: #FF7900;
-  color: white;
-  border-radius: 40px;
-  margin-bottom: 10px;
-  padding: 5px 40px;
-  font-family: 'Cairo', sans-serif;
-  font-size: 10px;
-}
 
 .button-text:hover {
   background: #d06b12;
@@ -141,7 +141,7 @@ nav a {
   margin: auto;
 }
 
-.typo-one:hover {
+.heavy:hover {
   font-family: aviano-future, sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -244,7 +244,7 @@ nav a {
 .presentation-box img {
   height: 300px;
   margin: 30px 55px 0px 55px;
-  max-width: 100%;
+  /* max-width: 100%; */
   height: auto;
 }
 
