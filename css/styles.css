@@ -25,13 +25,14 @@
     font-display: swap;
 }
 @font-face {
-    font-family: 'Royal Lodge';
-    src: url('../fonts/RoyalLodgeRegular.woff2') format('woff2'),
-        url('../fonts/RoyalLodgeRegular.woff') format('woff');
+    font-family: 'Appears DEMO';
+    src: url('../fonts/AppearsDEMO-Regular.woff2') format('woff2'),
+        url('../fonts/AppearsDEMO-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+
 
 
 body {
@@ -52,7 +53,7 @@ padding: 20px;
     }
 
     h2 {
-        font-family: 'Milkman';
+        font-family: 'Appears DEMO';
         font-size: 71px;
         text-align: left;
         color: white;
@@ -64,7 +65,7 @@ padding: 20px;
     
 
     h3 {
-        font-family: 'Royal Lodge';
+        font-family: 'Appears DEMO';
         font-size: 71px;
         text-align: center;
         color: white;
@@ -185,11 +186,13 @@ a:visited {
 .menu {
     background-color:rgba(245, 245, 245, 0.377);
     margin: 5px;
+    font-family: 'Appears DEMO';
+
    
 }
 .menu a:visited {
     color: white;
-    font-family: 'Royal Lodge';
+    
    
 }
 .eikonlogo {
