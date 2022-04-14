@@ -57,7 +57,7 @@ body {
 }
 
 header h1 {
-  font-family: essence-light;
+  font-family: "essence-light";
   font-weight: lighter;
   font-size: 100px;
   text-align: center;
@@ -69,7 +69,7 @@ header h1 {
 
 header p {
   text-decoration: none;
-  font-family: lato-hairline;
+  font-family: "lato-hairline";
   font-size: 20px;
   color: #eecaa2;
   text-align: center;
@@ -117,48 +117,48 @@ main, p {
 }
 
 h2 {
-  font-family: lato-hairline;
+  font-family: "lato-hairline";
   font-size: 36px;
 }
 
 h4 {
   font-size: 20px;
-  font-family: lato-hairline;
+  font-family: "lato-hairline";
   padding-top: 20px;
 }
 
 .light {
-  font-family: essence-light;
+  font-family: "essence-light";
   padding-top: 0px;
   font-size: 25px;
 }
 
 .light-italic {
-  font-family: essence-light-italic;
+  font-family: "essence-light-italic";
   padding-top: 0px;
   font-size: 25px;
 }
 
 .default {
-  font-family: essence-default;
+  font-family: "essence-default";
   padding-top: 0px;
   font-size: 25px;
 }
 
 .default-italic {
-  font-family: essence-default-italic;
+  font-family: "essence-default-italic";
   padding-top: 0px;
   font-size: 25px;
 }
 
 .default-bold {
-  font-family: essence-default-bold;
+  font-family: "essence-default-bold";
   padding-top: 0px;
   font-size: 25px;
 }
 
 .default-bold-italic {
-  font-family: essence-bold-italic;
+  font-family: "essence-bold-italic";
   padding-top: 0px;
   font-size: 25px;
 }
@@ -198,27 +198,27 @@ input::placeholder {
 }
 
 .text-box-light {
-  font-family: essence-light;
+  font-family: "essence-light";
 }
 
 .text-box-light-italic {
-  font-family: essence-light-italic;
+  font-family: "essence-light-italic";
 }
 
 .text-box-regular {
-  font-family: essence-default;
+  font-family: "essence-default";
 }
 
 .text-box-italic {
-  font-family: essence-default-italic;
+  font-family: "essence-default-italic";
 }
 
 .text-box-bold {
-  font-family: essence-default-bold;
+  font-family: "essence-default-bold";
 }
 
 .text-box-italic-bold {
-  font-family: essence-bold-italic;
+  font-family: "essence-bold-italic";
 }
 
 .test-section {
@@ -229,7 +229,7 @@ input::placeholder {
 }
 
 .special-character-section h2 {
-  font-family: essence-light;
+  font-family: "essence-light";
   font-weight: lighter;
   padding-top: 0;
   font-size: 36px;
@@ -293,17 +293,19 @@ input::placeholder {
 }
 
 .download-text {
-  font-family: essence-default;
+  font-family: "essence-default";
   color: #eecaa2;
   font-size: 22px;
   text-align: center;
+  
 }
 
 .text-footer {
   color: #eecaa2;
-  font-family: essence-default;
+  font-family: "essence-default";
   font-size: 38px;
   text-align: center;
+  padding-top: 30px;
 }
 
 .footer-img {
@@ -311,4 +313,5 @@ input::placeholder {
   background-position: center;
   background-size: 100%;
   background-size: cover;
+  padding-bottom: 30px;
 }
