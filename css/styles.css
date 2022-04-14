@@ -258,7 +258,7 @@ img {
 /* ////////////  Weight-Chart  ////////////*/
 
 .weight-chart {
-  background-image: url(../img/background_main.svg);
+  background-image: url(../img/background_colored_2.webp);
   background-size: cover;
   color:#19232F;
   margin-top: 20px;
@@ -359,7 +359,7 @@ em {
 }
 
 
-/* Letter */
+/* ////////////  Letter  ////////////*/
 
 .letter-container {
   display: flex;
@@ -392,7 +392,7 @@ em {
   font-size: 14px;
 }
 
-/* Card-left-colored */
+/* ////////////  Card-left-colored  ////////////*/
 
 .card-when,
 .card-where {
@@ -415,7 +415,7 @@ em {
   width: 250px;
 }
 
-/* Footer */
+/* ////////////  Footer  ////////////*/
 
 footer p {
   font-family: roc-grotesk-extrawide, sans-serif;
@@ -434,7 +434,7 @@ footer p {
 
 .music-text {
   font-family: roc-grotesk, sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 20px;
   text-align: left;
   display: flex;
@@ -490,7 +490,7 @@ line-height: 5px;
   padding-left: 200px;
 }
 
-/* input */
+/* ////////////  Input  ////////////*/
 
 input {
   font-size: 23px;
