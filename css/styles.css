@@ -1,0 +1,537 @@
+:root {
+  --blue: #19232F;
+  --green: #CFE5CC;
+  --pink: #F0838F;
+  --white: #FFFF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 375px;
+  text-align: center;
+  margin: auto;
+  box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+}
+
+/* //////////// H1, h2, h3 ////////////*/
+
+h1 {
+  font-family: roc-grotesk-extrawide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  font-size: 40px;
+  margin-left: 12px;
+  color: var(--white);
+  line-height: 35px;
+  padding-top: 40px;
+  margin-bottom: 0;
+}
+
+h1 strong {
+  font-size: 70px;
+}
+
+h2 {
+  font-family: roc-grotesk-extrawide, sans-serif;
+  font-weight: 200;
+  font-size: 10px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+h3 {
+  writing-mode: vertical-rl;
+  font-family: roc-grotesk-extrawide, sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 0px;
+  line-height: 35px;
+  padding-top: 10px;
+}
+
+h4 {
+  font-family: roc-grotesk-extrawide, sans-serif;
+  margin: 0px
+}
+
+/* //////////// Header ////////////*/
+
+.imd12-text-header {
+  text-align: end;
+  font-family: roc-grotesk-extrawide, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 10px;
+  padding-right: 15px;
+  margin: auto;
+}
+
+.card-header {
+  border-color: #FFFF;
+  border-style: solid;
+  border-width: thin;
+  margin: 22px;
+  border-radius: 4px;
+}
+
+.card-header-dark {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: #19232F;
+  color: #FFFF;
+  margin: 22px;
+  padding: 10px;
+  padding-top: 6px;
+  border-radius: 4px;
+}
+
+.symbole {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-items: end;
+  width: 250px;
+}
+
+.background-header-title {
+  background-image: url(../img/background_colored_image.webp);
+  background-size: cover;
+  padding-top: 1px;
+  padding-bottom: 5px;
+}
+
+/* //////////// Nav  ////////////*/
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+
+.button-header {
+  writing-mode: vertical-lr;
+  border-style: solid;
+  border-color: #19232F;
+  border-top: #FFFF;
+  border-left: #FFFF;
+  padding: 30px 20px 20px 15px;
+  vertical-align: text-top;
+  text-align: left;
+  margin: 0;
+  padding: 5px 20px 20px 20px;
+  float: left;
+  background-color: #FFFF;
+  font-size: 20px;
+  font-family: roc-grotesk-extrawide, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  border-width: thin;
+  color: black;
+
+}
+
+.letter-svg {
+  width: auto;
+  height: 150px;
+
+}
+
+a:hover {
+  background-color: #19232F;
+  color: #FFFF;
+  transition: 0.2s;
+}
+
+/* //////////// Moving-text ////////////*/
+
+.messagedefilant {
+  overflow: hidden;
+  display: flex;
+  transform: translateY(-50%);
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  background-color: #19232F;
+  color: #FFFF;
+}
+
+.t3 {
+  color: #CFE5CC;
+}
+
+.txt {
+  white-space: nowrap;
+  font-size: 100px;
+  font-family: roc-grotesk-extrawide, sans-serif;
+  line-height: 60px;
+  font-weight: 700;
+  animation: scrollTxt 10s linear infinite;
+}
+
+@keyframes scrollTxt {
+  0% {
+    transform: translate(0%, 0);
+  }
+
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+.animation-text {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  height: 200px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  text-align: left;
+}
+
+p strong {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #19232F;
+  font-size: 120px;
+}
+
+.information-card-started {
+  border-color: #19232F;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 4px;
+  margin: 22px;
+  margin-top: 15px;
+}
+
+img {
+  max-width: 375px;
+}
+
+/* ////////////  Big-Text  ////////////*/
+
+.big-text {
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: Heavy;
+  text-align: left;
+  font-size: 100px;
+  line-height: 90px;
+  padding-left: 25px;
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+.information-card-design {
+  border-color: #19232F;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 4px;
+  margin: 22px;
+}
+
+.information-card-design h2 {
+  border-color: #19232F;
+  font-family: roc-grotesk-extrawide, sans-serif;
+}
+
+/* ////////////  Lyrics-Card  ////////////*/
+
+.music-text-box {
+  background-color: white;
+  margin: 25px;
+}
+
+.main-colored-card {
+  background-image: url(../img/background_colored_image.webp);
+  background-size: cover;
+  height: 330px;
+  width: auto;
+  padding-top: 8px;
+}
+
+/* ////////////  Weight-Chart  ////////////*/
+
+.weight-chart {
+  background-image: url(../img/background_colored_2.webp);
+  background-size: cover;
+  color:#19232F;
+  margin-top: 20px;
+  padding-top: 17px;
+  padding-bottom: 90px;
+  font-size: 60px;
+  line-height: 5px;
+}
+
+.when {
+  color: #FFFF;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  margin-bottom: 12px;
+  padding-left: 30px;
+}
+
+.when-light {
+  font-family: roc-grotesk-Compressed;
+  font-weight: 100;
+}
+
+.when-normal {
+  font-family: roc-grotesk-Compressed;
+  font-weight: 300;
+}
+
+.when-bold {
+  font-family: roc-grotesk-Compressed;
+  font-weight: 400;
+}
+
+.when-extra {
+  font-family: roc-grotesk-Compressed;
+  font-weight: 500;
+}
+
+.main-dark-variable {
+  background-color: #19232F;
+  color: #FFFF;
+  padding: 10px;
+  margin-top: 17px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+/* ////////////  Card-gosh  ////////////*/
+
+.gosh {
+  padding-top: 40px;
+  line-height: 30px;
+  margin: 0px;
+}
+
+.gosh-light {
+  font-family: roc-grotesk-Condensed;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.gosh-normal {
+  font-family: roc-grotesk-Wide;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.gosh-extra {
+  font-family: roc-grotesk-Wide;
+  font-weight: 100;
+}
+
+.gosh-bold {
+  font-family: roc-grotesk-ExtraWide;
+  font-weight: thin;
+  line-height: 30px;
+}
+
+.border-gosh {
+  border-style: solid;
+  border-color: #FFFF;
+  border-radius: 5px;
+  border-width: thin;
+}
+
+.card-font-weight {
+  background-color: #19232F;
+  color: #FFFF;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 22px;
+  font-size: 30px;
+  border-style: solid;
+  margin-top: 70px;
+}
+
+em {
+  font-size: 15px;
+}
+
+
+/* ////////////  Letter  ////////////*/
+
+.letter-container {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+.letter-svg {
+  width: 100px;
+  height: auto;
+}
+
+.text-flexbox {
+  display: flex;
+  flex-wrap: no-wrap;
+  flex-direction: row;
+}
+
+.where-card-box h2 {
+  text-decoration: underline;
+  text-decoration-color:#19232F;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 8px;
+}
+
+.card-box-text {
+  font-size: 14px;
+}
+
+/* ////////////  Card-left-colored  ////////////*/
+
+.card-when,
+.card-where {
+ background-color: #19232F;
+}
+
+.card-who,
+.card-how {
+  background-color: #F0838F;
+ }
+
+.card {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding: 7px;
+  font-family: roc-grotesk-extrawide, sans-serif;
+  color: #FFFF;
+  font-size: 37px;
+  width: 250px;
+}
+
+/* ////////////  Footer  ////////////*/
+
+footer p {
+  font-family: roc-grotesk-extrawide, sans-serif;
+  font-weight: 100px;
+  font-size: 10px;
+  text-align: left;
+  color: #FFFF;
+}
+
+.footer-dark-card {
+  color: #FFFF;
+  background-color: #19232F;
+  padding: 15px;
+  margin-top: 60px;
+}
+
+.music-text {
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.variable_caracter {
+  font-size: 53px;
+  font-family: roc-grotesk-ExtraWide, ExtraBold;
+  font-weight: 600;
+  text-align: left;
+  margin: 0px;
+  line-height: 50px;
+}
+
+.date-svg {
+margin: 17px;
+margin-top: 0px;
+align-content: center;
+width: 60%;
+line-height: 5px;
+}
+
+.out-text {
+  color: #F0838F;
+  font-size: 90px;
+  font-style: normal;
+}
+
+.number-svg {
+  padding-top: 80px;
+  padding-left: 35px;
+  width: 90%;
+}
+
+.main-dark-title {
+  font-size: 20px;
+}
+
+.download-text {
+  text-align: left;
+  font-size: 14px;
+  width: 275px;
+  margin-left: 10px;
+  padding-top: 40px;
+}
+
+.eikon-logo {
+  width: 90px;
+  height: auto;
+  padding-left: 200px;
+}
+
+/* ////////////  Input  ////////////*/
+
+input {
+  font-size: 23px;
+  font-family: roc-grotesk-ExtraWide, ExtraBold;
+  padding: 20px;
+  width: 280px;
+  border-color: #FFFF;
+  border-style: none;
+}
+
+a {
+  font-family: roc-grotesk-ExtraWide;
+  font-weight: 200;
+  text-decoration: none;
+  padding-left: 12px;
+}
+
+.input {
+  font-size: 40px;
+}
+
+.extra-input {
+  font-family: roc-grotesk-Compressed;
+  font-weight: 700;
+}
+
+.light-input {
+  font-family: roc-grotesk-Compressed;
+  font-weight: 100;
+}
+
+.bold-input {
+  font-family: roc-grotesk-Compressed;
+  font-weight: 500;
+}
+
+.normal-input {
+  font-family: roc-grotesk-Compressed;
+  font-weight: 400;
+}
+
+::placeholder {
+  color:rgb(203, 203, 203);
+}
