@@ -117,6 +117,7 @@ nav a {
 
 .change-box {
   background: #FF7900;
+  padding: 50px 0 20px 0;
 }
 
 .change-box p {
@@ -125,7 +126,7 @@ nav a {
 
 .title-fats {
   font-family: 'Cairo', sans-serif;
-  margin: 10px 290px 10px 10px;
+  margin: 10px 10px 5px 157px;
   padding: 1px 10px;
   color: #FF7900;
   background: black;
@@ -133,108 +134,110 @@ nav a {
   display: inline-block;
 }
 
-.heavy {
-  font-family: aviano-future, sans-serif;
-  font-weight: 900;
-  font-style: italic;
-  font-size: 30px;
-  margin: auto;
-}
-
-.heavy:hover {
-  font-family: aviano-future, sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  font-size: 30px;
-  margin: auto;
-}
-
-.typo-two {
-  font-family: aviano-future, sans-serif;
-  font-weight: 800;
-  font-style: italic;
-  font-size: 30px;
-  margin: auto;
-}
-
-.typo-two:hover {
-  font-family: aviano-future, sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  font-size: 30px;
-  margin: auto;
-}
-
-.typo-three {
-  font-family: aviano-future, sans-serif;
-  font-weight: 700;
-  font-style: italic;
-  font-size: 30px;
-  margin: auto;
-}
-
-.typo-three:hover {
-  font-family: aviano-future, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 30px;
-  margin: auto;
-}
-
-.typo-four {
-  font-family: aviano-future, sans-serif;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 30px;
-  margin: auto;
-}
-
-.typo-four:hover {
-  font-family: aviano-future, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 30px;
-  margin: auto;
-}
-
-.typo-five {
-  font-family: aviano-future, sans-serif;
-  font-weight: 300;
-  font-style: italic;
-  font-size: 30px;
-  margin: auto;
-}
-
-.typo-five:hover {
-  font-family: aviano-future, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 30px;
-  margin: auto;
-}
-
-.typo-six {
-  font-family: aviano-future, sans-serif;
-  font-weight: 100;
-  font-style: italic;
-  font-size: 30px;
-  margin: auto;
-}
-
-.typo-six:hover {
-  font-family: aviano-future, sans-serif;
-  font-weight: 100;
-  font-style: normal;
-  font-size: 30px;
-  margin: auto;
-}
-
 .explanation {
   font-family: 'Cairo', sans-serif;
   font-size: 10px;
   margin: 0;
-  padding: 20px 0px 15px 0px;
+  padding: 5px 0px 10px 8px;
 }
+
+.heavy-fast {
+  font-family: aviano-future, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 30px;
+  margin: auto;
+}
+
+
+.heavy-fast:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 30px;
+  margin: auto;
+}
+
+.black-fast {
+  font-family: aviano-future, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 30px;
+  margin: auto;
+}
+
+.black-fast:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 30px;
+  margin: auto;
+}
+
+.bold-fast {
+  font-family: aviano-future, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 30px;
+  margin: auto;
+}
+
+.bold-fast:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  margin: auto;
+}
+
+.regular-fast {
+  font-family: aviano-future, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 30px;
+  margin: auto;
+}
+
+.regular-fast:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin: auto;
+}
+
+.light-fast {
+  font-family: aviano-future, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 30px;
+  margin: auto;
+}
+
+.light-fast:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
+  margin: auto;
+}
+
+.thin-fast {
+  font-family: aviano-future, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 30px;
+  margin: auto;
+}
+
+.thin-fast:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 30px;
+  margin: auto;
+}
+
 
 .presentation-box {
   background: #FF7900;
@@ -248,27 +251,27 @@ nav a {
   height: auto;
 }
 
-.presentation-box-two {
-  background: black;
+.presentation-diagram {
+  background: #FF7900;
+  padding-top: 15px;
   margin: 0;
-  padding-top: 30px;
 }
 
-.presentation-box-two img {
-  margin-bottom: 34px;
+.presentation-diagram img {
   background: #FF7900;
 }
 
 .glyphs-box {
-  background: black;
+  background: white;
+  padding: 50px 0 20px 0;
 }
 
-.title-two {
+.title-glyphs {
   font-family: 'Cairo', sans-serif;
-  margin: 10px 290px 10px 10px;
+  margin: 10px 10px 5px 157px;
   padding: 1px 10px;
-  color: black;
-  background: #FF7900 ;
+  color: white;
+  background: #FF7900;
   font-size: 20px;
   display: inline-block;
 }
