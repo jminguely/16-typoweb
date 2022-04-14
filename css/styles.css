@@ -1,0 +1,357 @@
+@font-face {
+  font-family: "BauhausStd-Heavy";
+  src: url('../fonts/BauhausStd-Heavy.woff2') format('woff2'),
+  url('../fonts/BauhausStd-Heavy.woff') format('woff');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "BauhausStd-Bold";
+  src: url('../fonts/BauhausStd-Bold.woff2') format('woff2'),
+  url('../fonts/BauhausStd-Bold.woff') format('woff');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "BauhausStd-Demi";
+  src: url('../fonts/BauhausStd-Demi.woff2') format('woff2'),
+  url('../fonts/BauhausStd-Demi.woff') format('woff');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "BauhausStd-Medium";
+  src: url('../fonts/BauhausStd-Medium.woff2') format('woff2'),
+  url('../fonts/BauhausStd-Medium.woff') format('woff');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "BauhausStd-Light";
+  src: url('../fonts/BauhausStd-Light.woff2') format('woff2'),
+  url('../fonts/BauhausStd-Light.woff') format('woff');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "KabelLTStd-Book";
+  src: url('../fonts/KabelLTStd-Book.woff2') format('woff2'),
+  url('../fonts/KabelLTStd-Book.woff') format('woff');
+  font-display: fallback;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "KabelLTStd-Light";
+  src: url('../fonts/KabelLTStd-Light.woff2') format('woff2'),
+  url('../fonts/KabelLTStd-Light.woff') format('woff');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "KabelLTStd-Heavy";
+  src: url('../fonts/KabelLTStd-Heavy.woff2') format('woff2'),
+  url('../fonts/KabelLTStd-Heavy.woff') format('woff');
+  font-display: fallback;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #e3d5b6;
+  width: 375px;
+  text-align: center;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "BauhausStd-Heavy";
+  color: #567d4d;
+  text-shadow: -0.1em 0.1em #567d4d50;
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.form-title {
+  margin-bottom: 0;
+}
+
+.and-title {
+  margin: 0;
+}
+
+.function-title {
+  margin-top: 0;
+}
+
+p {
+  font-size: 18px;
+  color: #567d4d;
+  font-family: "KabelLTStd-Book";
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+.about-bauhaus {
+  color: #d1aa37;
+  font-family: "KabelLTStd-Heavy";
+}
+
+nav {
+  font-family: "KabelLTStd-Heavy";
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.specimen-button {
+  color: #d1aa37;
+}
+
+.try-button {
+  color: #c0372e;
+}
+
+.glyphs-button {
+  color: #313b8c;
+}
+
+hr {
+  background-color: #567d4d;
+  height: 2px;
+  border: none;
+}
+
+.specimen-section {
+  color: #d1aa37;
+  font-family: "KabelLTStd-Light";
+  font-size: 60px;
+  margin: 0;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.specimen-heavy {
+  font-family: "BauhausStd-Heavy";
+  font-size: 32px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.specimen-bold {
+  font-family: "BauhausStd-Bold";
+  font-size: 32px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.specimen-demi {
+  font-family: "BauhausStd-Demi";
+  font-size: 32px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.specimen-medium {
+  font-family: "BauhausStd-Medium";
+  font-size: 32px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.specimen-light {
+  font-family: "BauhausStd-Light";
+  font-size: 32px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.try-section {
+  color: #c0372e;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.try-section-title {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  color: #c0372e;
+  font-size: 60px;
+  font-family: "KabelLTStd-Light";
+}
+
+h4 {
+  font-size: 18px;
+  font-family: "KabelLTStd-Heavy";
+}
+
+.try-title {
+  color: #c0372e;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  box-sizing: border-box;
+  background-color: #c0372e50;
+  border: 2px solid transparent;
+  margin: 0;
+}
+
+input:focus {
+  outline: none;
+  border-color: #c0372e;
+}
+
+.font-heavy::placeholder {
+  color: #c0372e;
+  font-family: "BauhausStd-Heavy";
+  font-size: 18px;
+}
+
+.font-bold::placeholder {
+  color: #c0372e;
+  font-family: "BauhausStd-Bold";
+  font-size: 18px;
+}
+
+.font-demi::placeholder {
+  color: #c0372e;
+  font-family: "BauhausStd-Demi";
+  font-size: 18px;
+}
+
+.font-medium::placeholder {
+  color: #c0372e;
+  font-family: "BauhausStd-Medium";
+  font-size: 18px;
+}
+
+.font-light::placeholder {
+  color: #c0372e;
+  font-family: "BauhausStd-Light";
+  font-size: 18px;
+}
+
+.font-heavy {
+  font-family: "BauhausStd-Heavy";
+  font-size: 18px;
+}
+
+.font-bold {
+  font-family: "BauhausStd-Bold";
+  font-size: 18px;
+}
+
+.font-demi {
+  font-family: "BauhausStd-Demi";
+  font-size: 18px;
+}
+
+.font-medium {
+  font-family: "BauhausStd-Medium";
+  font-size: 18px;
+}
+
+.font-light {
+  font-family: "BauhausStd-Light";
+  font-size: 18px;
+}
+
+.glyphs-section {
+  color: #313b8c;
+  font-family: "KabelLTStd-Light";
+}
+
+.glyphs-section-title {
+  color: #313b8c;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 60px;
+  font-family: "KabelLTStd-Light";
+}
+
+h3 {
+  color: #313b8c;
+  font-family: "KabelLTStd-Book";
+  font-size: 28px;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.glyphs-title {
+  color: #313b8c;
+  font-size: 18px;
+  font-family: "KabelLTStd-Heavy";
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+table {
+  font-family: "BauhausStd-Heavy";
+  padding-bottom: 14px;
+  width: 100%;
+  color: #313b8c;
+  font-size: 18px;
+}
+
+td {
+  width: 11.11%;
+  padding-bottom: 26px;
+}
+
+footer {
+  background-color: #567d4d;
+  padding-top: 60px; 
+  padding-bottom: 60px;
+}
+
+footer h2 {
+  color: #e3d5b6;
+  font-size: 60px;
+  font-family: "KabelLTStd-Light";
+  margin: 0px;
+  margin-bottom: 40px;
+}
+
+footer p {
+  color: #e3d5b6;
+  font-size: 18px;
+  font-family: "KabelLTStd-Book";
+  margin: 0px;
+  margin-bottom: 40px;
+}
+
+footer img {
+  width: 36px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 115px;
+  margin: auto;
+}
+
+
+/* font-weight: bold;
+font-style: normal; */ 
