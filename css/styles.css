@@ -118,6 +118,7 @@ nav a {
 .change-box {
   background: #FF7900;
   padding: 50px 0 20px 0;
+  cursor: pointer;
 }
 
 .change-box p {
@@ -268,7 +269,7 @@ nav a {
 
 .title-glyphs {
   font-family: 'Cairo', sans-serif;
-  margin: 10px 10px 5px 157px;
+  margin: 10px 10px 10px 157px;
   padding: 1px 10px;
   color: white;
   background: #FF7900;
@@ -276,6 +277,111 @@ nav a {
   display: inline-block;
 }
 
+.explanation-glhyps {
+  font-family: 'Cairo', sans-serif;
+  font-size: 10px;
+  margin: 0;
+  padding: 0 0 10px 155px;
+}
+
+.thin-text {
+  font-family: aviano-future, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 35px;
+  margin: 0 40px 0 40px;
+}
+
+.thin-text:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.light-text {
+  font-family: aviano-future, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 35px;
+  margin: 30px 40px 0 40px;
+}
+
+.light-text:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.regular-text {
+  font-family: aviano-future, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  margin: 30px 40px 0 40px;
+}
+
+.regular-text:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.bold-text {
+  font-family: aviano-future, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 35px;
+  margin: 30px 40px 0 40px;
+}
+
+.bold-text:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.black-text {
+  font-family: aviano-future, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 35px;
+  margin: 30px 40px 0 40px;
+}
+
+.black-text:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.heavy-text {
+  font-family: aviano-future, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 35px;
+  margin: 30px 40px 0 40px;
+}
+
+.heavy-text:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.textarea-box {
+  background: black;
+  padding: 50px 0 20px 0;
+}
+
+.title-textarea {
+  font-family: 'Cairo', sans-serif;
+  margin: 10px 10px 10px 157px;
+  padding: 1px 10px;
+  color: black;
+  background: #FF7900;
+  font-size: 20px;
+  display: inline-block;
+}
 
 
 
