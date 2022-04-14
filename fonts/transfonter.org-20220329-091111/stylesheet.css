@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Ubahn';
-    src: url('Ubahn-Light.woff2') format('woff2'),
-        url('Ubahn-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
