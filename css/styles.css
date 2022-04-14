@@ -1,0 +1,305 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F8FDFF;
+  text-align: center;
+  color: black;
+  font-family: 'Source-Serif';
+  max-width: 380px;
+}
+
+@font-face {
+  font-family: 'Engage';
+  src: url('../fonts/Engage-Regular.woff') format('woff'),
+       url('../fonts/Engage-Regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: 'Regular';
+src: url('../fonts/Lato-Regular.woff') format('woff'),
+     url('../fonts/Lato-Regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: 'Black';
+src: url('../fonts/Lato-Black.woff') format('woff'),
+     url('../fonts/Lato-Black.woff2') format('woff2');
+}
+
+@font-face {
+font-family: 'Black-italic';
+src: url('../fonts/Lato-BlackItalic.woff') format('woff'),
+     url('../fonts/Lato-BlackItalic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: 'Bold';
+src: url('../fonts/Lato-Bold.woff') format('woff'),
+     url('../fonts/Lato-Bold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: 'Bold-italic';
+src: url('../fonts/Lato-BoldItalic.woff') format('woff'),
+     url('../fonts/Lato-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: 'Italic';
+src: url('../fonts/Lato-Italic.woff') format('woff'),
+     url('../fonts/Lato-Italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: 'Light';
+src: url('../fonts/Lato-Light.woff') format('woff'),
+     url('../fonts/Lato-Light.woff2') format('woff2');
+}
+
+@font-face {
+font-family: 'Light-italic';
+src: url('../fonts/Lato-LightItalic.woff') format('woff'),
+     url('../fonts/Lato-LightItalic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: 'Source-serif';
+src: url('../fonts/SourceSerifPro-Regular.woff') format('woff'),
+     url('../fonts/SourceSerifPro-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Source-serif-bold';
+  src: url('../fonts/SourceSerifPro-Bold.woff') format('woff'),
+       url('../fonts/SourceSerifPro-Bold.woff2') format('woff2');
+  }
+
+header {
+  background-color: #919ECE;
+  padding: 20px 50px;
+}
+
+footer {
+  background-color: #919ECE;
+  color: white;
+  padding: 60px 10px 80px 10px;
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+strong {
+  font-family: 'Source-serif-bold';
+}
+
+hr {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 39px;
+  font-family: 'Engage';
+  color: white;
+}
+
+h2 {
+  font-family: 'Engage';
+  font-size: 30px;
+  padding: 10px 0;
+  color: white;
+}
+
+h3 {
+  font-size: 60px;
+  font-family: 'Regular';
+}
+
+h4 {
+  text-align: left;
+  font-size: 18px;
+}
+
+textarea {
+  margin: 10px 0 80px 0;
+  font-size: 15px;
+  text-align: left;
+  font-family: 'Lato';
+}
+
+::placeholder {
+  font-family: 'Lato';
+}
+
+.intro {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.414); 
+  padding: 60px 0;
+}
+
+.intro img {
+  width: 80px;
+}
+
+.sous-titre {
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  padding: 0 40px;
+}
+
+.description {
+  background-image: url(../img/background.webp);
+  background-size: 100%;
+  background-size: cover;
+  padding: 5px;
+  margin: 10px 0;
+  color: white;
+}
+
+.background-description {
+  background: rgba(246, 248, 255, 0.3);
+  margin: 40px;
+  padding: 20px 10px;
+}
+
+.button {
+  background-color: #929CCA;
+  border-radius: 50%;
+  padding: 25px;
+  margin: 20px 10px; 
+  cursor: pointer;
+}
+
+.slogan {
+  border: 2px solid #919ECE;
+  border-radius: 50px;
+  margin: 20px 10px 30px 10px;
+  padding : 20px  20px;
+  font-family: 'regular';
+  font-size: 25px;
+}
+
+.background-variante {
+  background: rgba(181, 181, 181, 0.3);
+  text-align: left;
+  padding: 5px 0;
+}
+
+.background-titre {
+  border-radius: 30px;
+  background-color: rgba(148, 171, 247, 0.411); 
+  margin-bottom: 40px;
+}
+
+.specimen-caractere {
+  border: 2px solid #59669F;
+  border-radius: 100px;
+  padding: 30px 40px;
+  margin: 60px 0 40px 0;
+}
+
+.specimen {
+  font-size: 32px;
+  font-family: 'regular';
+}
+
+.grille {
+  display: grid;
+  grid-template-columns:  60px 60px 60px 60px 60px 60px;
+  grid-template-rows: 50px 50px 50px 50px 50px;
+}
+
+.grille {
+  padding-top: 30px;
+  border: 5px solid #92A5E4;
+  border-radius: 5px;
+  background-color: rgba(121, 145, 225, 0.211); 
+  font-size: 25px;
+}
+
+.espace-trying {
+  background-image: url(../img/background.webp);
+  background-size: 100%;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+  color: white;
+}
+
+.button-scroll img {
+  width: 50px;
+} 
+
+.credit {
+  margin: 20px;
+}
+
+.name {
+  margin: 20px;
+}
+
+.fonderie {
+  margin: 20px;
+}
+
+.lieu-url {
+  text-decoration: underline;
+  color: #59669F;
+}
+
+.regular {
+  font-family: 'Regular';
+  font-size: 30px;
+}
+
+.light {
+  font-family: 'Light';
+  font-size: 30px;
+}
+
+.light-italic {
+  font-family: 'Light-italic';
+  font-size: 30px;
+}
+
+.black {
+  font-family: 'Black';
+  font-size: 30px;
+}
+
+.black-italic {
+  font-family: 'Black-italic';
+  font-size: 30px;
+}
+
+.bold {
+  font-family: 'Bold';
+  font-size: 30px;
+}
+
+.bold-italic {
+  font-family: 'Bold-italic';
+  font-size: 30px;
+}
+
+.italic {
+  font-family: 'Italic';
+  font-size: 30px;
+}
