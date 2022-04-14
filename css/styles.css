@@ -1,0 +1,317 @@
+@font-face {
+  font-family: "lato-hairline";
+  src: url("../font/Lato-Hairline.woff") format("woff)"),
+    url("../font/Lato-Hairline.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "lato-default";
+  src: url("../font/Lato-Regular.woff") format("woff)"),
+    url("../font/Lato-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "essence-light";
+  src: url("../font/EssenceSansLight.woff") format("woff)"),
+    url("../font/EssenceSansLight.woff") format("woff2");
+}
+
+@font-face {
+  font-family: "essence-light-italic";
+  src: url("../font/EssenceSansLightItalic.woff") format("woff"),
+    url("../font/EssenceSansLightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "essence-default";
+  src: url("../font/EssenceSans.woff") format("woff"),
+    url("../font/EssenceSans.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "essence-default-italic";
+  src: url("../font/EssenceSansItalic.woff") format("woff"),
+    url("../font/EssenceSansItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "essence-default-bold";
+  src: url("../font/EssenceSansBold.woff") format("woff"),
+    url("../font/EssenceSansBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "essence-bold-italic";
+  src: url("../font/EssenceSansBoldItalic.woff") format("woff"),
+    url("../font/EssenceSansBoldItalic.woff2") format("woff2");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 320px;
+  margin: auto;
+  background-color: #1c1c1e;
+}
+
+header h1 {
+  font-family: "essence-light";
+  font-weight: lighter;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 20px;
+  color: #eecaa2;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+header p {
+  text-decoration: none;
+  font-family: "lato-hairline";
+  font-size: 20px;
+  color: #eecaa2;
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+.header-button-container{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 43px;
+}
+
+.title-background {
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.title-container {
+  background-image: url(../img/header-monsterra-size.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-size: cover;
+  background-color: aqua;
+}
+
+.element {
+  width: 180px;
+}
+
+.container-sparkle {
+  display: flex;
+  flex-direction: row;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  justify-content: center;
+}
+
+main p,
+h4,
+h2 {
+  color: #eecaa2;
+}
+
+main, p {
+  font-size: 20px;
+}
+
+h2 {
+  font-family: "lato-hairline";
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: "lato-hairline";
+  padding-top: 20px;
+}
+
+.light {
+  font-family: "essence-light";
+  padding-top: 0px;
+  font-size: 25px;
+}
+
+.light-italic {
+  font-family: "essence-light-italic";
+  padding-top: 0px;
+  font-size: 25px;
+}
+
+.default {
+  font-family: "essence-default";
+  padding-top: 0px;
+  font-size: 25px;
+}
+
+.default-italic {
+  font-family: "essence-default-italic";
+  padding-top: 0px;
+  font-size: 25px;
+}
+
+.default-bold {
+  font-family: "essence-default-bold";
+  padding-top: 0px;
+  font-size: 25px;
+}
+
+.default-bold-italic {
+  font-family: "essence-bold-italic";
+  padding-top: 0px;
+  font-size: 25px;
+}
+
+.font-styles {
+  background-color: rgba(0, 0, 0, 0.43);
+  margin: 9px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+}
+
+.test-section h4 {
+  font-size: 85%;
+}
+
+input {
+  background-color: #0C0C0C;
+  border: none;
+  outline: none;
+  width: 258px;
+  height: 100px;
+  font-size: 30px;
+  color: #eecaa2;
+}
+
+input::placeholder {
+  color: #eecaa29a;
+}
+
+.text-box-light {
+  font-family: "essence-light";
+}
+
+.text-box-light-italic {
+  font-family: "essence-light-italic";
+}
+
+.text-box-regular {
+  font-family: "essence-default";
+}
+
+.text-box-italic {
+  font-family: "essence-default-italic";
+}
+
+.text-box-bold {
+  font-family: "essence-default-bold";
+}
+
+.text-box-italic-bold {
+  font-family: "essence-bold-italic";
+}
+
+.test-section {
+  background-color: #0C0C0C;
+  margin: 29px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.special-character-section h2 {
+  font-family: "essence-light";
+  font-weight: lighter;
+  padding-top: 0;
+  font-size: 36px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.special-character {
+  font-family: "essence-default-bold";
+  text-align: center;
+  font-size: 17px;
+  background-color: #1b2c299e;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  margin: 28px;
+}
+
+.green-box {
+  background-color: #1B2C29;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin: 28px;
+}
+
+.green-box p {
+  color: #1B2C29;
+  text-align: center;
+}
+
+.arrow-up {
+  width: 50px;
+}
+
+.element {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.light-green {
+  background-color: #3E635C;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin: 28px;
+}
+
+.light-green p {
+  color: #3E635C;
+  text-align: center;
+}
+
+.light-blue {
+  background-color: #327274;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin: 40px;
+}
+
+.light-blue p {
+  color: #327274;
+  text-align: center;
+}
+
+.download-text {
+  font-family: "essence-default";
+  color: #eecaa2;
+  font-size: 22px;
+  text-align: center;
+  
+}
+
+.text-footer {
+  color: #eecaa2;
+  font-family: "essence-default";
+  font-size: 38px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footer-img {
+  background-image: url(../img/footer.svg);
+  background-position: center;
+  background-size: 100%;
+  background-size: cover;
+  padding-bottom: 30px;
+}
