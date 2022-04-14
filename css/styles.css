@@ -1,7 +1,8 @@
 body {
-  max-width: 320px;
+  max-width: 375px;
   margin: auto;
   background-color: #fcf7ea;
+  width: 100%;
 }
 
 h1 {
@@ -10,6 +11,7 @@ h1 {
   font-style: normal;
   font-size: 26px;
   color: black;
+  margin: 30px 30px 21px;
 }
 
 h2 {
@@ -18,8 +20,8 @@ h2 {
   font-style: normal;
   font-size: 20px;
   color: black;
+  margin: 0px 30px 4px;
 }
-
 
 .character-map-name {
   color: black;
@@ -59,7 +61,6 @@ p {
 
 .wave_placement {
   margin-bottom: -5px;
-  margin-top: 20px;
 }
 
 /* .element-flag,
@@ -71,16 +72,17 @@ p {
 .card {
   background-color: #0c35c3;
   margin: 0px;
-  padding: 30px;
+  padding: 10px 30px;
 }
 
 .card h1 {
   color: white;
+  margin: 0px 0px 21px;
 }
 
 .font-style-presentation {
   border: 2px solid #0c35c3;
-  margin-top: 33px;
+  margin: 30px 30px;
 }
 
 .flag-img-presentation {
@@ -92,7 +94,7 @@ p {
   text-align: center;
   border-bottom: 2px solid #0c35c3;
   padding: 15px;
-  width: 202px;
+  width: 197px;
   height: 39px;
 }
 
@@ -123,13 +125,17 @@ td {
   padding: 9px;
 } */
 
-.charactere-table {
-  margin-top: 30px;
+.character-table {
+  margin: 30px;
+}
+
+.character-table-under-title {
+  margin: 0px 30px;
 }
 
 .footer-card {
   background-color: #0c35c3;
- padding: 10px;
+  padding: 16px 30px 12px;
 }
 
 span {
@@ -138,13 +144,14 @@ span {
 
 footer div {
   background-color: red;
-  padding: 10px;
+  padding: 10px 15px 1px 30px;
 }
 
 .presented-by {
   font-family: 'Helvetica';
   font-weight: 300;
   font-style: normal;
+  font-size: 15px;
   color: black;
 }
 
@@ -161,5 +168,9 @@ footer div {
 }
 
 .g-overview {
-  margin-top: 30px;
+  margin: 30px;
+}
+
+.footer-name-fonderie {
+  margin: 0px;
 }
