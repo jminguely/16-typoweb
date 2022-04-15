@@ -390,7 +390,7 @@ nav a {
   text-align: center;
   color: white;
   background: none;
-  margin: 10px 85px 5px 10px;
+  margin: 10px 28px 5px 10px;
   border-color: #FF7900;
   font-size: 20px;
   font-family: aviano-future, sans-serif;
@@ -402,7 +402,7 @@ nav a {
   text-align: center;
   color: white;
   background: none;
-  margin: 0 85px 0 3px;
+  margin: 0 28px 0 3px;
   border-color: #FF7900;
   font-size: 20px;
   font-family: aviano-future, sans-serif;
@@ -418,7 +418,7 @@ nav a {
   text-align: center;
   color: white;
   background: none;
-  margin: 10px 85px 5px 15px;
+  margin: 10px 28px 5px 15px;
   border-color: #FF7900;
   font-size: 20px;
   font-family: aviano-future, sans-serif;
@@ -430,7 +430,7 @@ nav a {
   text-align: center;
   color: white;
   background: none;
-  margin: 0 85px 0 11px;
+  margin: 0 28px 0 11px;
   border-color: #FF7900;
   font-size: 20px;
   font-family: aviano-future, sans-serif;
@@ -438,5 +438,114 @@ nav a {
   font-style: italic;
 }
 
+.bold-zone {
+  margin: 5px 0 45px 0;
+}
 
+.bold-zone .text-test {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 10px 28px 5px 20px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
+.bold-zone .text-fast {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 0 28px 0 15px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.regular-zone {
+  margin: 5px 0 45px 0;
+}
+
+.regular-zone .text-test {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 10px 28px 5px 25px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.regular-zone .text-fast {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 0 28px 0 25px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.light-zone {
+  margin: 5px 0 45px 0;
+}
+
+.light-zone .text-test {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 10px 28px 5px 28px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.light-zone .text-fast {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 0 28px 0 25px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.thin-zone {
+  margin: 5px 0 45px 0;
+}
+
+.thin-zone .text-test {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 10px 28px 5px 30px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.thin-zone .text-fast {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 0 28px 0 30px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
