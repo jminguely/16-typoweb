@@ -599,3 +599,16 @@ h1 {
 .ITCAvantGardeGothicStdBold {
     font-family: 'ITCAvantGardeGothicStdBold';
 }
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.footer-container img {
+    width: 250px;
+    height: auto;
+    padding: 15px 0;
+}
