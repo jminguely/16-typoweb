@@ -245,8 +245,8 @@ nav a {
 }
 
 .presentation-box img {
-  height: 300px;
-  margin: 30px 55px 0px 55px;
+  height: 100px;
+  margin: 30px 20px 0px 20px;
   /* max-width: 100%; */
   height: auto;
 }
