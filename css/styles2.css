@@ -16,10 +16,6 @@ body {
   padding: 50px;
 } */
 
-img {
-  max-width: 100%;
-  height:auto ;
-}
 
 .site-header p {
   font-family: "louvette-display", serif;
@@ -28,33 +24,42 @@ img {
   text-align: center;
 }
 
-.visual-header {
+h2 {
   display: flex;
   font-size: 60px;
   flex-flow: column wrap;
   align-content: flex-start;
+  padding: 30px;
+  text-align: left;
+  font-family: "louvette-display", serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 50px;
 }
 
 }
+
 nav {
   padding: 30px;
   text-align: center;
-  font-size: 15px;
+  font-size: 12px;
+  text-decoration: none;
+  transition: all 0.2s ease;
 }
+
 h1  {
   font-family: "louvette-display", serif;
   font-size: 50px;
   text-align: center;
 }
 
-h2 {
+h3 {
   font-family: "real head pro", serif;
   font-size: 15px;
   padding: 30px;
 }
 
 .nav {
-  border-radius: 45px;
   text-decoration: none;
   transition: all 0.2s ease;
   text-align: center;
@@ -70,7 +75,6 @@ h2 {
 
 .nav:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background: #E6E6FA;
 }
 
 /*main {
@@ -86,11 +90,12 @@ p {
   text-align: justify;
 }
 
-table, tr, td{
-  width: 100%;
-  border: 1px solid;
-  border-color: black;
-  border-collapse: collapse;
+.caracter-countainer {
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: center;
+}
+.caracter-countainer p {
   text-align: center;
 }
 
@@ -177,3 +182,50 @@ hr {
   border: none;
   background-color: #97d6f6;
 }
+
+.text {
+  font-family: louvette-display,serif;
+  font-size: 30px;
+}
+.regular {
+  font-weight: 400;
+  font-style: normal;
+}
+.italic {
+  font-weight: 400;
+  font-style: italic;
+}
+.semi-bold {
+  font-weight: 500;
+  font-style: normal;
+}
+.semi-bold-italic {
+  font-weight: 500;
+  font-style: italic;
+}
+.bold {
+  font-weight: 600;
+  font-style: normal;
+}
+.bold-italic {
+  font-weight: 600;
+  font-style: italic;
+}
+.black {
+  font-weight: 700;
+  font-style: normal;
+}
+.black-italic {
+  font-weight: 700;
+  font-style: italic;
+}
+.ultra {
+  font-weight: 800;
+  font-style: normal;
+}
+
+.ultra-italic {
+  font-weight: 800;
+  font-style: italic;
+}
+
