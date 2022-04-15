@@ -28,6 +28,13 @@ img {
   text-align: center;
 }
 
+.visual-header {
+  display: flex;
+  font-size: 60px;
+  flex-flow: column wrap;
+  align-content: flex-start;
+}
+
 }
 nav {
   padding: 30px;
@@ -65,15 +72,17 @@ h2 {
   background: #E6E6FA;
 }
 
-main {
+/*main {
   padding: 30px;
-}
+}*/
 
 p {
-  font-size: 18px;
+  font-size: 15px;
   font-family: "real headline pro",sans-serif;
   font-weight: 100;
   font-style: normal;
+  padding: 30px;
+  text-align: justify;
 }
 
 table, tr, td{
@@ -150,4 +159,13 @@ section {
   100% {
     background-position: 0 50%;
   }
+}
+.main-background {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #97d6f6, #bbe2eb, #e3ddef, #edcce3 );
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 5s ease-in-out infinite;
 }
