@@ -176,6 +176,7 @@ div {
 header img {
   margin: auto;
   text-align: center;
+  width: 50%;
 }
 
 header p {
@@ -242,6 +243,12 @@ footer a{
 .button:active,
 .button:hover {
   color: #fc4100;
+}
+
+.header-img{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .variant-text {
