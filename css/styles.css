@@ -158,28 +158,38 @@ hr {
 
 .try-section {
   color: #c0372e;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.try-section-title {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  color: #c0372e;
   font-size: 60px;
   font-family: "KabelLTStd-Light";
 }
 
 h4 {
   font-size: 18px;
-  font-family: "KabelLTStd-Book";
+  font-family: "KabelLTStd-Heavy";
 }
 
 .try-title {
   color: #c0372e;
   font-size: 18px;
-  font-family: "KabelLTStd-Heavy";
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 input {
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding-top: 4px;
+  padding-bottom: 2px;
   box-sizing: border-box;
   background-color: #c0372e50;
   border: 2px solid transparent;
+  margin: 0;
 }
 
 input:focus {
