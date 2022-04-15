@@ -1,0 +1,363 @@
+:root {
+  --title-background-color: #c95d5552;
+  --text-font: "auto-pro-new", sans-serif;
+  --text-background-color: #A2CAB6;
+  --text-color: white;
+}
+
+body {
+  max-width: 375px;
+  margin: auto;
+  text-align: center;
+  font-family: var(--text-font);
+}
+
+nav{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 50px 0 30px;
+}
+
+.principal-nav{
+  color: black;
+  text-decoration: none;
+  border-bottom: solid 1px #C95D55;
+  padding: 0 5px;
+  font-family: auto-pro-small-caps, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.card {
+  background-color: var(--text-background-color);
+  font-family: var(--text-font);
+  padding: 25px;
+  padding: 30px 20px;
+  font-size: 15px;
+  color: var(--text-color);
+  text-align: left;
+}
+
+h2 {
+  font-family: jeanne-moderno,serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 0 0;
+  margin: 25px 0 15px;
+}
+
+.shoes-line {
+  width: 320px;
+}
+
+h1 {
+  font-family: auto-pro-small-caps, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  padding: 30px;
+  border-bottom: solid 1px #C95D55;
+  font-size: 25px;
+  margin: 0 25px;
+}
+
+.first-text{
+  padding: 30px 25px 50px;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  text-align: justify;
+  width: 280px;
+  line-height: 120%;
+}
+
+span {
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.button {
+  background-color: #a8a8a85a;
+  font-family: var(--text-font);
+  border-radius: 30%;
+  padding: 10px;
+  margin: 10px;
+  width: 70px;
+  font-size: 12px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  border: none;
+}
+
+.text {
+  margin: 10px 0;
+  font-family: auto-pro-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120%;
+  text-align: center;
+}
+
+.description {
+  border-bottom: solid 1px #AAC9B7;
+  margin: 0 25px;
+  padding: 0 0 25px 0;
+}
+
+.exception {
+  margin: 0 25px;
+  padding: 0 0 25px 0;
+  border: none;
+}
+
+.button-roman {
+  font-family: jeanne-moderno,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  margin: 5px 0 0 0;
+  text-align: center;
+}
+
+.button-italic {
+  font-family: jeanne-moderno,serif;
+  font-weight: 400;
+  font-style: italic; 
+  font-size: 35px;
+  margin: 5px 0 0 0;
+  text-align: center;
+}
+
+.button-bold {
+  font-family: jeanne-moderno,serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 35px;
+  margin: 5px 0 0 0;
+  text-align: center;
+}
+
+.button-bold-italic {
+  font-family: jeanne-moderno,serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 35px;
+  margin: 5px 0 5px 0;
+  text-align: center;
+}
+
+.button-geometrique {
+  font-family: jeanne-moderno-geometrique,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 35px;
+  margin: 5px 0 0 0;
+  text-align: center;
+}
+
+.button-titling {
+  font-family: jeanne-moderno-titling,serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 35px;
+  margin: 5px 0 0 0;
+  text-align: center;
+}
+
+.button-titling-italic {
+  font-family: jeanne-moderno-titling,serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 35px;
+  margin: 5px 0 0 0;
+  text-align: center;
+}
+
+.button-ultra {
+  font-family: jeanne-moderno-ultra,serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 35px;
+  margin: 5px 0 5px 0;
+  text-align: center;
+}
+
+.button-ultra-italic {
+  font-family: jeanne-moderno-ultra,serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 35px;
+  margin: 5px 0 0 0;
+  text-align: center;
+}
+
+.exemples {
+  background-color: #fceeb46b;
+  padding: 10px 0 16px;
+}
+
+.font {
+  margin: 10px 10px 0 10px;
+  padding: 15px 15px 0 15px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.exemple-roman {
+  font-family: jeanne-moderno,serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.exemple-italic {
+  font-family: jeanne-moderno,serif;
+  font-weight: 400;
+  font-style: italic; 
+}
+
+.exemple-bold {
+  font-family: jeanne-moderno,serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.exemple-bold-italic {
+  font-family: jeanne-moderno,serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.exemple-geometrique {
+  font-family: jeanne-moderno-geometrique,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.exemple-titling {
+  font-family: jeanne-moderno-titling,serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.exemple-titling-italic {
+  font-family: jeanne-moderno-titling,serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.exemple-ultra {
+  font-family: jeanne-moderno-ultra,serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.exemple-ultra-italic {
+  font-family: jeanne-moderno-ultra,serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+img {
+  width: 375px;
+}
+
+.alternatives {
+  width: 300px;
+  text-align: center;
+}
+
+.glyphs {
+  width: 300px;
+  text-align: center;
+  margin: 20px 0 40px;
+}
+
+p {
+  text-align: left;
+  font-family: auto-pro-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  margin: 0 35px;
+}
+
+.button-buy {
+  background-color: #F4B06E;
+  border-radius: 50%;
+  font-family: auto-pro-small-caps, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 48px;
+  color: white;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.characters {
+  margin: 0 0 60px 0;
+}
+
+.last-text {
+  padding: 10px 0 60px;
+  font-family: auto-pro-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  margin: 0 25px;
+  text-align: justify;
+  line-height: 120%;
+}
+
+.title {
+  text-align: center;
+  border: none;
+}
+
+.brand {
+  width: 150px;
+  text-align: center;
+}
+
+.informations {
+  text-align: center;
+  font-family: auto-pro-small-caps, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.contacts {
+  padding: 35px 0;
+  font-size: 15px;
+}
+
+.tester {
+  color: black;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  width: 325px;
+  height: 80px;
+}
+
