@@ -4,30 +4,35 @@
   url('../fonts/BauhausStd-Heavy.woff') format('woff');
   font-display: fallback;
 }
+
 @font-face {
   font-family: "BauhausStd-Bold";
   src: url('../fonts/BauhausStd-Bold.woff2') format('woff2'),
   url('../fonts/BauhausStd-Bold.woff') format('woff');
   font-display: fallback;
 }
+
 @font-face {
   font-family: "BauhausStd-Demi";
   src: url('../fonts/BauhausStd-Demi.woff2') format('woff2'),
   url('../fonts/BauhausStd-Demi.woff') format('woff');
   font-display: fallback;
 }
+
 @font-face {
   font-family: "BauhausStd-Medium";
   src: url('../fonts/BauhausStd-Medium.woff2') format('woff2'),
   url('../fonts/BauhausStd-Medium.woff') format('woff');
   font-display: fallback;
 }
+
 @font-face {
   font-family: "BauhausStd-Light";
   src: url('../fonts/BauhausStd-Light.woff2') format('woff2'),
   url('../fonts/BauhausStd-Light.woff') format('woff');
   font-display: fallback;
 }
+
 @font-face {
   font-family: "KabelLTStd-Book";
   src: url('../fonts/KabelLTStd-Book.woff2') format('woff2'),
@@ -35,19 +40,20 @@
   font-display: fallback;
   font-weight: 400;
 }
+
 @font-face {
   font-family: "KabelLTStd-Light";
   src: url('../fonts/KabelLTStd-Light.woff2') format('woff2'),
   url('../fonts/KabelLTStd-Light.woff') format('woff');
   font-display: fallback;
 }
+
 @font-face {
   font-family: "KabelLTStd-Heavy";
   src: url('../fonts/KabelLTStd-Heavy.woff2') format('woff2'),
   url('../fonts/KabelLTStd-Heavy.woff') format('woff');
   font-display: fallback;
 }
-
 
 html {
   scroll-behavior: smooth;
@@ -76,12 +82,12 @@ h1 {
   margin-bottom: 0;
 }
 
-.function-title {
-  margin-top: 0;
-}
-
 .and-title {
   margin: 0;
+}
+
+.function-title {
+  margin-top: 0;
 }
 
 p {
@@ -105,6 +111,10 @@ nav {
   flex-wrap: nowrap;
   justify-content: space-around;
   margin-bottom: 60px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .specimen-button {
@@ -340,10 +350,6 @@ footer img {
   justify-content: space-between;
   width: 115px;
   margin: auto;
-}
-
-a {
-  text-decoration: none;
 }
 
 
