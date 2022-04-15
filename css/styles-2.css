@@ -1,11 +1,25 @@
-@font-face {
-  font-family:'Andale Mono'; 
-  src: url('../fonts/AndaleMono.woff2') format('woff2'), 
-       url('../fonts/AndaleMono.woff') format('woff');
-  font-weight: 400; 
-  font-style: normal; 
-  font-display: fallback; 
-}
+/*
+Auto Pro Light
+font-family: auto-pro-new, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Auto Pro Regular
+font-family: auto-pro-new, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Auto Pro Bold
+font-family: auto-pro-new, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Auto Pro Light Small Caps
+font-family: auto-pro-small-caps, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+/*
 
 /*
 font-family: jeanne-moderno,serif;

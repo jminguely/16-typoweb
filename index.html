@@ -4,146 +4,169 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="https://use.typekit.net/bif4kgo.css">
-    <link rel="stylesheet" href="css/styles-2.css"/>
     <link rel="stylesheet" href="css/styles.css"/>
     <title>Jeanne Moderno Font</title>
   </head>
   <body>
     <header>
-      <img src="" alt="Animation exemples avec la fonte">
+      <nav>
+        <a class="principal-nav" href="#font">Font</a>
+        <a class="principal-nav" href="#glyphs">Glyphs</a>
+        <a class="principal-nav" href="#history">History</a>
+      </nav>
+      <img src="img/animation_couleurs.png" alt="Animation exemples avec la fonte">
       <div class="card">
         <h2>Jeanne Moderno</h2>
-        <p class="long-text">Lorsque Steve Mehallo développe une police, c’est 
-          généralement pour résoudre un problème de conception, sortir d’un 
-          dilemme historique ou trouver la police parfaitement adaptée à un 
-          projet. Toutes ses polices se distinguent par des bases profondes et 
-          une recherche créative très marquée.</p>
-        <img class="shoes-line" src ="img/shoes-row.png" alt="Shoes row">
+        <p class="first-text">When <span>Steve Mehallo</span> develops a 
+          typeface, it's usually to solve a <span>design problem</span>, get out
+           of a historical dilemma, or find the <span>perfect typeface</span> 
+           for a project. All his fonts are <span>distinguished</span> by deep 
+           bases and a very marked <span>creative research</span>.</p>
+        <img class="shoes-line" src ="img/shoes-row-white.png" alt="Shoes row">
       </div>
     </header>
     <main>
-      <h1>Overview</h1>
+      <h1 id="font">Overview</h1>
       <nav class="container">
         <a  href="#Roman" class="button">
-          <p class="button-one">Ag</p>
-          <p>Roman</p>
+          <p class="button-roman">Ag</p>
+          <p class="text">Roman</p>
         </a>
         <a href="#Italic" class="button">
-          <p class="button-two">Ag</p>
-          <p>Italic</p>
+          <p class="button-italic">Ag</p>
+          <p class="text">Italic</p>
         </a>
         <a href="#Bold" class="button">
-          <p class="button-three">Ag</p>
-          <p>Bold</p>
+          <p class="button-bold">Ag</p>
+          <p class="text">Bold</p>
         </a>
         <a href="#Bold-Italic" class="button">
-          <p class="button-four">Ag</p>
-          <p>Bold<br/>Italic</p>
+          <p class="button-bold-italic">Ag</p>
+          <p class="text">Bold<br/>Italic</p>
         </a>
         <a href="#Geometrique" class="button">
-          <p class="button-five">Ag</p>
-          <p>Geome-<br/>trique</p>
+          <p class="button-geometrique">Ag</p>
+          <p class="text">Geome-<br/>trique</p>
         </a>
         <a href="#Titling" class="button">
-          <p class="button-six">Ag</p>
-          <p>Titling</p>
+          <p class="button-titling">Ag</p>
+          <p class="text">Titling</p>
         </a>
         <a href="#Titling-Italic" class="button">
-          <p class="button-seven">Ag</p>
-          <p>Titling<br/>Italic</p>
+          <p class="button-titling-italic">Ag</p>
+          <p class="text">Titling<br/>Italic</p>
         </a>
         <a href="#Ultra" class="button">
-          <p class="button-eight">Ag</p>
-          <p>Ultra</p>
+          <p class="button-ultra">Ag</p>
+          <p class="text">Ultra</p>
         </a>
         <a href="#Ultra-Italic" class="button">
-          <p class="button-nine">Ag</p>
-          <p>Ultra<br/>Italic</p>
+          <p class="button-ultra-italic">Ag</p>
+          <p class="text">Ultra<br/>Italic</p>
         </a>
       </nav>
-      <img src="" alt="Animation changement de graisses">
+      <img src="img/animation_graisses.png" alt="Animation changement de graisses">
       <div class="exemples">
-        <div>
-          <p class="font exemple-one">Revisionary Type Family</p>
+        <div id="Roman">
+          <textarea class="font tester exemple-roman" placeholder="Type Family"></textarea>
+          <p class="text description">OT Roman</p>
         </div>
-        <p id="Roman">OT Roman</p>
-        <div>
-          <p class="font exemple-two">19th Century</p>
+        <div id="Italic">
+          <textarea class="font tester exemple-italic" placeholder="19th Century"></textarea>
+          <p class="text description">OT Italic</p>
         </div>
-        <p id="Italic">OT Italic</p>
-        <div>
-          <p class="font exemple-three">Voici le texte</p>
+        <div id="Bold">
+          <textarea class="font tester exemple-bold" placeholder="Cultural Movement"></textarea>
+          <p class="text description">OT Bold</p>
         </div>
-        <p id="Bold">OT Bold</p>
-        <div>
-          <p class="font exemple-four">Voici le texte</p>
+        <div id="Bold-Italic">
+          <textarea class="font tester exemple-bold-italic" placeholder="Revolutionary"></textarea>
+          <p class="text description">OT Bold Italic</p>
         </div>
-        <p id="Bold-Italic">OT Bold Italic</p>
-        <div>
-          <p class="font exemple-five">Voici le texte</p>
+        <div id="Geometrique">
+          <textarea class="font tester exemple-geometrique" placeholder="Magazines"></textarea>
+          <p class="text description">OT Geometrique</p>
         </div>
-        <p id="Geometrique">OT Geometrique</p>
-        <div>
-          <p class="font exemple-six">Voici le texte</p>
+        <div id="Titling">
+          <textarea class="font tester exemple-titling" placeholder="The Bahaus"></textarea>
+          <p class="text description">OT Titling</p>
         </div>
-        <p id="Titling">OT Titling</p>
-        <div>
-          <p class="font exemple-seven">Voici le texte</p>
+        <div id="Titling-Italic">
+          <textarea class="font tester exemple-titling-italic" placeholder="Futur"></textarea>
+          <p class="text description">OT Titling Italic</p>
         </div>
-        <p id="Titling-Italic">OT Titling Italic</p>
-        <div>
-          <p class="font exemple-eight">Voici le texte</p>
+        <div id="Ultra">
+          <textarea class="font tester exemple-ultra" placeholder="Geometry"></textarea>
+          <p class="text description">OT Ultra</p>
         </div>
-        <p id="Ultra">OT Ultra</p>
-        <div>
-          <p class="font exemple-nine">Voici le texte</p>
+        <div id="Ultra-Italic">
+          <textarea class="font tester exemple-ultra-italic" placeholder="Revisionist"></textarea>
+          <p class="text description exception">OT Ultra Italic</p>
         </div>
-        <p id="Ultra-Italic">OT Ultra Italic</p>
       </div>
-      <h1>Editable</h1>
       <div>
-
+        <img src="img/animation_round.png" alt="Animation">
+        <img src="img/animation_star.png" alt="Animation">
+        <img src="img/animation_corner.png" alt="Animation">
       </div>
-      <img src="" alt="Animation d'images">
-      <h1>History of Jeanne Moderno</h1>
-      <p class="long-text">Jeanne Moderno is a revisionary type family.The font is a synthesis of 
-        Bodoni Italic and 19th Century Ultra-Bold "Fat Faces", distilled with 
-        personality taken from early 20th Century Modernists: the Futurists, 
-        Dadaists, Suprematists, Constructivists. <br/> Historically, Jeanne 
-        Moderno could have appeared on the scene around 1918, after the First 
-        World War, when new cultural movements, manifestos, theories and 
-        countertheories shaped art, industry and society.<br/> Spatter in a few 
-        later influences, from De Stijl, the Bauhaus, the types of Herbert 
-        Bayer, Josef Albers, Paul Renner; plus a twist of Art Deco and High 
-        Fashion. Jeanne Moderno is a remanifestation of 19th + 20th Century 
-        Modernist thinking; traditional + revisionist, raw and elegant!<br/> 
-        Jeanne Moderno is best used for magazines, advertising, posters, flyers, 
-        fashion reports, letterpress experiments, silkscreen endeavors and 
-        exhibitions; not to mention DMV signage, paper money, revolutionary 
-        political statements and formal declarations of peace or war.<br/> 
-        The font is about the future, about the past. The Avant-Garde. Humanist 
-        geometry + vintage footwear. Form, function, style, art and life. The 
-        Jeanne Moderno fonts include: Western and Eastern European characters, 
-        Stylistic Alternates, ligatures, and more.</p>
-      <h1>Caracter Map</h1>
-      <img src="" alt="">
-      <h1>Alternatives</h1>
-      <div class="alternatives">
+      <div>
         <p>Alternates</p>
-        <img class="button alternates" src="img/Fichier 12.svg" alt="Alternates">
+        <img class="alternatives" src="img/animation_alternates.png" alt="Alternates">
         <p>Long Stem</p>
-        <img class="button long-stem" src="img/Fichier 13.svg" alt="Long stem">
+        <img class="alternatives" src="img/animation_long-stem.png" alt="Long stem">
         <p>Ligatures</p>
-        <img class="button ligatures" src="img/Fichier 14.svg" alt="Ligatures">
+        <img class="alternatives" src="img/animation_ligatures.png" alt="Ligatures">
         <p>European characters</p>
-        <img class="button european" src="img/Fichier 15.svg" alt="European characters">
+        <img class="alternatives" src="img/animation_european-characters.png" alt="European Characters">
+        <p>Extras</p>
+        <img class="alternatives" src="img/shoes.png" alt="Extras">
+      </div>
+      <img src="img/animation_exemples.png" alt="animation d'exemples">
+      <div class="characters" >
+        <h1 id="glyphs" >Characters Map</h1>
+        <img class="glyphs" src="img/glyphs_map.png" alt="glyphs">
+        <br/>
+        <a class="button-buy" href="https://www.myfonts.com/fonts/steve-mehallo/jeanne-moderno/">Buy</a>
+      </div>
+      <div class="card">
+        <h1 class="title" id="history">History</h1>
+        <p class="last-text">Jeanne Moderno is a revisionary type family.The font is a synthesis of 
+          Bodoni Italic and 19th Century Ultra-Bold "Fat Faces", distilled with 
+          personality taken from early 20th Century Modernists: the Futurists, 
+          Dadaists, Suprematists, Constructivists. <br/><br/> Historically, Jeanne 
+          Moderno could have appeared on the scene around 1918, after the First 
+          World War, when new cultural movements, manifestos, theories and 
+          countertheories shaped art, industry and society.<br/><br/> Spatter in a few 
+          later influences, from De Stijl, the Bauhaus, the types of Herbert 
+          Bayer, Josef Albers, Paul Renner; plus a twist of Art Deco and High 
+          Fashion. Jeanne Moderno is a remanifestation of 19th + 20th Century 
+          Modernist thinking; traditional + revisionist, raw and elegant!<br/><br/> 
+          Jeanne Moderno is best used for magazines, advertising, posters, flyers, 
+          fashion reports, letterpress experiments, silkscreen endeavors and 
+          exhibitions; not to mention DMV signage, paper money, revolutionary 
+          political statements and formal declarations of peace or war.<br/><br/> 
+          The font is about the future, about the past. The Avant-Garde. Humanist 
+          geometry + vintage footwear. Form, function, style, art and life. The 
+          Jeanne Moderno fonts include: Western and Eastern European characters, 
+          Stylistic Alternates, ligatures, and more.</p>
       </div>
     </main>
     <footer>
+    <div>
       <h1>Contact us</h1>
-      <p>Maria Reis<br/> Jeanne moderno<br/> Adobe Fonts</p>
-      <img src="img/logo-eikon.png" alt="Logo Eikon">
-      <img class="shoes-line" src ="img/shoes-row.png" alt="Shoes row">
+      <div class="contacts">
+        <p class="informations">Maria Reis</p>
+        <a href="https://www.instagram.com/maria_sjournals/?hl=fr">Instagram</a>
+        <p class="informations">Jeanne moderno</p>
+        <a href="https://fonts.adobe.com/foundries/steve-mehallo">Foundry</a>
+        <p class="informations">Adobe Fonts</p>
+        <a href="https://fonts.adobe.com/fonts/jeanne-moderno#recommendations-section">Jeanne Moderno</a>
+        <br/>
+        <a href="https://fonts.adobe.com/fonts/auto">Auto</a>
+      </div>
+    </div>
+      <img class ="brand" src="img/logo-eikon.png" alt="Logo Eikon">
+      <img class="shoes-line" src ="img/shoes-row-black.png" alt="Shoes row">
     </footer>
   </body>
 </html>
