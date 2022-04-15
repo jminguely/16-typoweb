@@ -253,6 +253,7 @@ footer a{
   word-break: break-word;
   animation: fontVariant 1.7s linear infinite;
   background-image: url(../img/SVG/background-img.svg);
+  color: #fc3f00;
 }
 
 @keyframes fontVariant {
