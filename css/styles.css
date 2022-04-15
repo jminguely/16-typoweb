@@ -219,8 +219,8 @@ footer p {
 
 footer a{
   font-family: 'Cabinet Grotesk';
-  font-weight: lighter;
-  color: #ffffff;
+  font-weight: 400;
+  color: #ffffffa0;
   font-size: 14px;
   cursor: pointer;
 }
