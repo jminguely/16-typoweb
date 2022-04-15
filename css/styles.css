@@ -1,0 +1,303 @@
+/* appel de la fonte de caractères F37 Bella Pro en version book */
+
+@font-face {
+  font-family: 'Avenir-Book';
+  src: url('../fonts/AvenirLTStd-Book.woff2');
+  src: url('../fonts/AvenirLTStd-Book.woff');
+}
+
+/* appel de la fonte de caractères F37 Bella Pro en version black */
+
+@font-face {
+  font-family: 'Avenir-Black';
+  src: url('../fonts/AvenirLTStd-Black.woff2');
+  src: url('../fonts/AvenirLTStd-Black.woff');
+}
+
+body {
+  width: 380px;
+  margin: auto;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Avenir-Book';
+}
+
+hr {
+  border: none;
+  border-top: 6px solid #00FEFE;
+}
+
+/* header */
+
+nav p {
+  font-size: 12px;
+  font-family: 'Avenir-Black';
+  text-transform: uppercase;
+  letter-spacing: .100rem;
+}
+
+nav a {
+  color: #000000;
+}
+
+a:hover {
+  color: #571D8A;
+}
+
+.site-header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.title-container {
+  margin: 30px;
+  height: 450px;
+  background-image: url(../img/N.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title-container h1 {
+  font-family: niagara-engraved, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  padding-top: 120px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.site-description {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  margin-top: 0px;
+  margin-bottom: 45px;
+}
+
+/* main */
+
+h2 {
+  font-size: 26px;
+  font-family: 'Avenir-Black';
+  text-transform: uppercase;
+  letter-spacing: .100rem;
+  margin: 0px;
+}
+
+h3 {
+  font-size: 16px;
+  font-family: 'Avenir-Book';
+  color: #571D8A;
+}
+
+/* présentation */
+
+.presentation {
+  margin: 60px 30px;
+}
+
+.presentation p {
+  text-align: justify;
+}
+
+.presentation img {
+  margin-bottom: 60px;
+}
+
+/* spécimen */
+
+.specimen {
+  margin: 60px 30px;
+}
+
+.specimen h3 {
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+
+.font-regular-big {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  margin: 0px;
+}
+
+.font-regular-small {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.font-light-big {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  margin: 0px;
+}
+
+.font-light-small {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.font-thin-big {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 36px;
+  margin: 0px;
+}
+
+.font-thin-small {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.font-engraved-regular-big {
+  font-family: niagara-engraved, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  margin: 0px;
+}
+
+.font-engraved-regular-small {
+  font-family: niagara-engraved, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.font-engraved-light-big {
+  font-family: niagara-engraved, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  margin: 0px;
+}
+
+.font-engraved-light-small {
+  font-family: niagara-engraved, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+/* tester */
+
+.try {
+  margin: 60px 30px;
+}
+
+.try h3 {
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 320px;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  border-color: #000000;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.try-niagara {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.try-niagara-engraved {
+  font-family: niagara-engraved, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+/* caractères */
+
+.font {
+  margin: 60px 30px;
+}
+
+.font p {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.font h3 {
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+
+/* footer */
+
+footer {
+  margin: 30px;
+}
+
+.footer-title {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 41px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.footer-subtitle {
+  font-size: 16px;
+  font-family: 'Avenir-Book';
+  color: #00FEFE;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.footer-marina {
+  font-family: niagara, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  margin: 30px 0px 5px 0px;
+}
+
+footer nav p {
+  font-size: 16px;
+  font-family: 'Avenir-Book';
+  text-transform: none;
+  letter-spacing: normal;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
