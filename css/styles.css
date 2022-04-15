@@ -466,8 +466,7 @@ h3 {
     font-family: itc-avant-garde-gothic-pro, sans-serif;
     font-weight: 700;
     margin: 0;
-    padding-left: 40px;
-    padding-top: 50px;
+    padding: 50px 0 10px 40px;
 }
 
 .footer-section1 {
@@ -563,4 +562,40 @@ h3 {
 .bold-std:hover::after {
     content: "Bern";
     font-family: 'ITCAvantGardeGothicStdBoldObl';
+}
+
+.fonttester-container {
+    padding: 0 70px 0 40px;
+}
+
+.fonttester-container p {
+    font-size: 20px;
+}
+
+h1 {
+    margin-top: 40px;
+    padding-bottom: 10px;
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-size: 10px;
+    border-bottom: solid 2px #0835f2;
+}
+
+.ITCAvantGardeGothicStdExtra {
+    font-family: 'ITCAvantGardeGothicStdExtra';
+}
+
+.ITCAvantGardeGothicStdBook {
+    font-family: 'ITCAvantGardeGothicStdBook';
+}
+
+.ITCAvantGardeGothicStdMd {
+    font-family: 'ITCAvantGardeGothicStdMd';
+}
+
+.ITCAvantGardeGothicStdDemi {
+    font-family: 'ITCAvantGardeGothicStdDemi';
+}
+
+.ITCAvantGardeGothicStdBold {
+    font-family: 'ITCAvantGardeGothicStdBold';
 }
