@@ -111,6 +111,9 @@ p {
   display: flex;
   flex-direction: column;
   justify-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 30px;
 }
 
 .font-tester-regular {
