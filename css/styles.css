@@ -222,11 +222,12 @@ hr {
 }
 
 .inter-text {
-  background-color: black;
+  background-color: #ec9f61;
   border: none;
   height: 0.1px;
   margin-left: 80px;
   margin-right: 80px;
+
 }
 
 main div {
@@ -283,4 +284,16 @@ main img {
   display: block;
   margin-right: 10px;
   object-position: left bottom;
+}
+
+.about-boska {
+  color:#884208
+}
+
+.about-specimen {
+
+}
+
+.about-glyphs {
+
 }
