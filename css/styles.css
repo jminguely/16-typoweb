@@ -211,6 +211,9 @@ strong {
 
 .menu:hover {
     background-color: #0835f2;
+}
+
+.menu nav:hover {
     color: white;
 }
 
@@ -228,6 +231,7 @@ strong {
     color: #0835f2;
     font-family: itc-avant-garde-gothic-pro, sans-serif;
     font-weight: 500;
+    padding: 20px 10px;
 }
 
 .messagedefilant {
