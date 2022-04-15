@@ -75,8 +75,7 @@ header {
 footer {
   background-color: #111111;
   text-align: center;
-  padding: 120px 25px 240px;
-  margin-top: 10px;
+  padding: 60px 25px 60px;
 }
 
 h1 {
@@ -207,6 +206,17 @@ footer p {
   font-family: 'Cabinet Grotesk';
   font-weight: lighter;
   text-align: center;
+  padding: 120px 0 30px;
+  margin: 0;
+}
+
+footer a{
+  font-family: 'Cabinet Grotesk';
+  font-weight: lighter;
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .button-container {
