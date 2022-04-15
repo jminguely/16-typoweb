@@ -296,22 +296,37 @@ td {
 
 footer {
   background-color: #567d4d;
+  padding-top: 60px; 
+  padding-bottom: 60px;
 }
 
 footer h2 {
   color: #e3d5b6;
   font-size: 60px;
   font-family: "KabelLTStd-Light";
+  margin: 0px;
+  margin-bottom: 20px;
 }
 
 footer p {
   color: #e3d5b6;
   font-size: 18px;
-  font-family: "KabelLTStd-Light";
+  font-family: "KabelLTStd-Book";
+  margin: 0px;
+  margin-bottom: 40px;
 }
 
 footer img {
   width: 36px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 115px;
+  margin: auto;
 }
 
 a {
