@@ -125,6 +125,8 @@ table {
   background-color: #003333;
   padding: 15px 0 ;
   margin: 0;
+  box-shadow: inset 0px 10px 20px 2px rgba(0,0,0,0.1),inset 0px -10px 20px -2px rgba(0,0,0,0.1);
+
 }
 
 td {
