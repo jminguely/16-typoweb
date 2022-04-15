@@ -254,6 +254,13 @@ input:focus {
 
 .glyphs-section {
   color: #313b8c;
+  font-family: "KabelLTStd-Light";
+}
+
+.glyphs-section-title {
+  color: #313b8c;
+  margin-top: 60px;
+  margin-bottom: 20px;
   font-size: 60px;
   font-family: "KabelLTStd-Light";
 }
@@ -262,25 +269,29 @@ h3 {
   color: #313b8c;
   font-family: "KabelLTStd-Book";
   font-size: 28px;
+  margin: 0;
+  margin-bottom: 60px;
 }
 
 .glyphs-title {
   color: #313b8c;
   font-size: 18px;
   font-family: "KabelLTStd-Heavy";
-}
-
-.glyphs-text {
-  color: #313b8c;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 table {
-  padding: 15px 0;
+  font-family: "BauhausStd-Heavy";
+  padding-bottom: 14px;
   width: 100%;
+  color: #313b8c;
+  font-size: 18px;
 }
 
 td {
   width: 11.11%;
+  padding-bottom: 26px;
 }
 
 footer {
