@@ -1,0 +1,287 @@
+html{
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Plaster-Regular";
+  src: url('../Plaster-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-Black";
+  src: url('../Boska-Black.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-BlackItalic";
+  src: url('../Boska-BlackItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-Bold";
+  src: url('../Boska-Bold.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-BoldItalic";
+  src: url('../Boska-BoldItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-Extralight";
+  src: url('../Boska-Extralight.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-ExtralightItalic";
+  src: url('../Boska-ExtralightItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-Italict";
+  src: url('../Boska-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-Lightt";
+  src: url('../Boska-Light.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-LightItalic";
+  src: url('../Boska-LightItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-Medium";
+  src: url('../Boska-Medium.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-MediumItalic";
+  src: url('../Boska-MediumItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-Regular";
+  src: url('../Boska-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-Extralight";
+  src: url('../Boska-Extralight.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-Variable";
+  src: url('../Boska-Variable.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boska-VariableItalic";
+  src: url('../Boska-VariableItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Boska-Regular";
+  background-color: #eb8029;
+  text-align: center;
+  max-width: 380px;
+  margin: auto;
+  padding: 40px;
+  box-shadow: 0 0 50px rgb(0 0 0 / 20%);
+}
+
+header h1 {
+  font-family: Plaster-Regular;
+  text-shadow: 3px 3px #87531b;
+}
+
+header nav {
+  font-family: Plaster-Regular;
+  color: #df0672;
+}
+
+.extralight {
+  font-family: Boska-Extralight;
+  text-align: center;
+}
+
+.extralightitalic {
+  font-family: Boska-ExtralightItalic;
+  text-align: center;
+}
+
+.light {
+  font-family: Boska-Light;
+  text-align: center;
+}
+
+.lightitalic {
+  font-family: Boska-LightItalic;
+  text-align: center;
+}
+
+.regular {
+  font-family: Boska-Regular;
+  text-align: center;
+}
+
+.italic {
+  font-family: Boska-Italic;
+  text-align: center;
+}
+.medium {
+  font-family: Boska-Medium;
+  text-align: center;
+}
+
+.mediumitalic {
+  font-family: Boska-MediumItalic;
+  text-align: center;
+}
+
+.bold {
+  font-family: Boska-Bold;
+  text-align: center;
+}
+
+.bolditalic {
+  font-family: Boska-BoldItalic;
+  text-align: center;
+}
+
+.black {
+  font-family: Boska-Black;
+  text-align: center;
+}
+
+.blackitalic {
+  font-family: Boska-BlackItalic;
+  text-align: center;
+}
+
+main h2 {
+  font-family: Plaster-Regular;
+  color: #df0672;
+  text-shadow: 2px 2px #d34c8f;
+}
+
+hr {
+  background-color: black;
+  border: none;
+  height: 0.1px;
+}
+
+.inter-text {
+  background-color: #ec9f61;
+  border: none;
+  height: 0.1px;
+  margin-left: 80px;
+  margin-right: 80px;
+
+}
+
+main div {
+  font-family: Boska-Medium;
+  text-align: justify;
+}
+
+.text-justify {
+  text-align: justify;
+  margin: 30px;
+}
+
+.symbol {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+strong {
+  font-family: Plaster-Regular;
+}
+
+input {
+  width: 100%;
+  padding: 8px 8px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 6px solid transparent;
+}
+
+input:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+input::placeholder {
+  color: black;
+  background-color: #eb8029;
+}
+
+.background-color {
+  background-color: #ec9f61;
+  margin: 5px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.numbers {
+  font-family: boska-medium;
+}
+
+main img {
+  display: block;
+  margin-right: 10px;
+  object-position: left bottom;
+}
