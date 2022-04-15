@@ -63,12 +63,6 @@ p {
   margin-bottom: -5px;
 }
 
-/* .element-flag,
-.element-style-name,
-.element-test-font {
-  width: 100%;
-} */
-
 .card {
   background-color: #0c35c3;
   margin: 0px;
@@ -114,23 +108,16 @@ input {
   width: 100%;
 }
 
-/* table {
-  width: 100%;
-}
-
-td {
-  border: 2px solid red;
-  width: 11%;
-  text-align: center;
-  padding: 9px;
-} */
-
 .character-table {
   margin: 30px;
 }
 
 .character-table-under-title {
   margin: 0px 30px;
+}
+
+.character-table-placement {
+  margin: 0px 30px 30px;
 }
 
 .footer-card {
