@@ -70,12 +70,16 @@ body {
 header {
   background-color: #111111;
   padding: 15px 25px 60px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 footer {
   background-color: #111111;
   text-align: center;
   padding: 60px 25px 60px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 h1 {
@@ -165,6 +169,7 @@ div {
   margin: 25px 0 25px;
   background-color: #111111;
   padding: 60px 25px 60px;
+  border-radius: 20px;
 }
 
 header img {
