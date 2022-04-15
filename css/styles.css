@@ -1,0 +1,614 @@
+/* font-family: itc-avant-garde-gothic-pro, sans-serif;
+font-weight: 500;
+font-style: normal; */
+
+
+/* font-family: itc-avant-garde-gothic-pro, sans-serif;
+font-weight: 300;
+font-style: normal; */
+
+
+/* font-family: itc-avant-garde-gothic-pro, sans-serif;
+font-weight: 700;
+font-style: normal; */
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-XLtCn.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdExtraLightCondensed';
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-BkCn.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdBookCondensed';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-MdCn.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdMediumCondensed';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-DemiCn.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdDemiCondensed';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-BoldCn.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdBoldCondensed';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-XLt.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdExtra';
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-Bk.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdBook';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-Md.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdMd';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-Demi.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdDemi';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-Bold.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdBold';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-XLtCnObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdExtraCondensedObl';
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-BkCnObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdBookCondensedObl';
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-MdObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdMdObl';
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-MdCnObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdMdCondensedObl';
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-DemiCnObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdDeminCondensedObl';
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-BoldCnObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdBoldCondensedObl';
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-XLtObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdExtraObl';
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-BkObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdBookObl';
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-DemiObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdDemiObl';
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../fonts/ITCAvantGardeStd-BoldObl.woff') format('woff');
+    font-family: 'ITCAvantGardeGothicStdBoldObl';
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: auto;
+    width: 375px;
+}
+
+em {
+    font-family: 'ITCAvantGardeGothicStdBookObl';
+}
+
+strong {
+    font-family: 'ITCAvantGardeGothicStdBoldCondensed';
+}
+
+.position-menu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items: flex-end;
+}
+
+.menu {
+    background-color: white;
+    writing-mode: vertical-rl;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 40px;
+    height: 100vh;
+    position: fixed;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu:hover {
+    background-color: #0835f2;
+}
+
+.menu nav:hover {
+    color: white;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+.text-appointed {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.text-appointed a {
+    text-decoration: none;
+    color: #0835f2;
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 500;
+    padding: 20px 10px;
+}
+
+.messagedefilant {
+    background-color: #0835f2;
+    overflow: hidden;
+    display: flex;
+    transform: translateY(-50%);
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+.txt {
+    white-space: nowrap;
+    font-size: 40px;
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 700;
+    animation: scrollTxt 10s linear infinite;
+}
+
+@keyframes scrollTxt {
+    0% {
+        transform: translate(0%, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+
+.accueil-container {
+    padding-left: 30px;
+}
+
+p {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal
+}
+
+.title_avantgarde {
+    width: 275px;
+    height: auto;
+}
+
+.container-arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 30px 0 0;
+}
+
+.arrow {
+    width: 200px;
+    height: auto;
+}
+
+.arrow:hover {
+    animation: rotation 1s 1 linear;
+    cursor: pointer;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.section2-presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentationcondensed {
+    width: auto;
+    height: 580px;
+    padding-right: 30px;
+}
+
+.section {
+    height: 100vh;
+    min-height: 667px;
+    min-width: 375px;
+}
+
+.section2 {
+    color: #0835f2;
+    background-color: white;
+    width: 375px;
+    min-height: 667;
+    height: 100vh;
+}
+
+.section1 {
+    background-color: #0835f2;
+    color: white;
+}
+
+.section-img {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    background-image: url(../img/img_typotext_375x667px.webp);
+}
+
+.section1-text {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    color: #e2e2e2;
+    background-color: #0835f2;
+}
+
+.container-text {
+    padding: 0 80px 0 40px;
+}
+
+.backgroundarchitecture {
+    padding: 0 80px 0 40px;
+}
+
+.section1-condensed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #0835f2;
+}
+
+h3 {
+    padding-right: 40px;
+}
+
+.condensed {
+    font-size: 30px;
+}
+
+.ultralight-condensed {
+    font-family: 'ITCAvantGardeGothicStdExtraLightCondensed';
+    font-weight: 300;
+}
+
+.book-condensed {
+    font-family: 'ITCAvantGardeGothicStdBookCondensed';
+}
+
+.medium-condensed {
+    font-family: 'ITCAvantGardeGothicStdMediumCondensed';
+    font-weight: 500;
+}
+
+.demi-condensed {
+    font-family: 'ITCAvantGardeGothicStdDemiCondensed';
+    font-weight: normal;
+}
+
+.bold-condensed {
+    font-family: 'ITCAvantGardeGothicStdBoldCondensed';
+    font-weight: bold;
+}
+
+.section2-std {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0835f2;
+    background-color: white;
+}
+
+.std {
+    font-size: 30px;
+}
+
+.ultralight-std {
+    font-family: 'ITCAvantGardeGothicStdExtra';
+    font-weight: 300;
+}
+
+.book-std {
+    font-family: 'ITCAvantGardeGothicStdBook';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.medium-std {
+    font-family: 'ITCAvantGardeGothicStdMd';
+    font-weight: 500;
+    font-style: normal;
+}
+
+.demi-std {
+    font-family: 'ITCAvantGardeGothicStdDemi';
+    font-weight: normal;
+}
+
+.bold-std {
+    font-family: 'ITCAvantGardeGothicStdBold';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.section2-fonttester {
+    color: #0835f2;
+    background-color: white;
+}
+
+.section1-mapcharacter {
+    background-color: #0835f2;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.mapcharacter {
+    width: 250px;
+    height: auto;
+    padding-right: 30px;
+}
+
+.fonttester-text {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 50px 0 10px 40px;
+}
+
+.footer-section1 {
+    color: #e2e2e2;
+    background-color: #0835f2;
+}
+
+.ultralight-condensed::after {
+    content: "Nike"
+}
+
+.ultralight-condensed:hover::after {
+    content: "Avnier";
+    font-family: 'ITCAvantGardeGothicStdExtraCondensedObl';
+}
+
+.book-condensed::after {
+    content: "Adidas"
+}
+
+.book-condensed:hover::after {
+    content: "Lacost";
+    font-family: 'ITCAvantGardeGothicStdBookCondensedObl';
+}
+
+.medium-condensed::after {
+    content: "Reebok";
+}
+
+.medium-condensed:hover::after {
+    content: "Vans";
+    font-family: 'ITCAvantGardeGothicStdMdCondensedObl';
+}
+
+.demi-condensed::after {
+    content: "Levis";
+}
+
+.demi-condensed:hover::after {
+    content: "Carhartt";
+    font-family: 'ITCAvantGardeGothicStdDeminCondensedObl';
+}
+
+.bold-condensed::after {
+    content: "Converse";
+}
+
+.bold-condensed:hover::after {
+    content: "Supreme";
+    font-family: 'ITCAvantGardeGothicStdBoldCondensedObl';
+}
+
+.ultralight-std::after {
+    content: "Henniest";
+}
+
+.ultralight-std:hover::after {
+    content: "Athène";
+    font-family: 'ITCAvantGardeGothicStdExtraObl';
+}
+
+.book-std::after {
+    content: "Sociables";
+}
+
+.book-std:hover::after {
+    content: "Rio";
+    font-family: 'ITCAvantGardeGothicStdBookObl';
+}
+
+.medium-std::after {
+    content: "Chickees";
+}
+
+.medium-std:hover::after {
+    content: "London";
+    font-family: 'ITCAvantGardeGothicStdMdObl';
+}
+
+.demi-std::after {
+    content: "Quadriennia";
+}
+
+.demi-std:hover::after {
+    content: "Tokyo";
+    font-family: 'ITCAvantGardeGothicStdDemiObl';
+}
+
+.bold-std::after {
+    content: "Contrist";
+}
+
+.bold-std:hover::after {
+    content: "Bern";
+    font-family: 'ITCAvantGardeGothicStdBoldObl';
+}
+
+.fonttester-container {
+    padding: 0 70px 0 40px;
+}
+
+.fonttester-container p {
+    font-size: 20px;
+}
+
+h1 {
+    margin-top: 40px;
+    padding-bottom: 10px;
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-size: 10px;
+    border-bottom: solid 2px #0835f2;
+}
+
+.ITCAvantGardeGothicStdExtra {
+    font-family: 'ITCAvantGardeGothicStdExtra';
+}
+
+.ITCAvantGardeGothicStdBook {
+    font-family: 'ITCAvantGardeGothicStdBook';
+}
+
+.ITCAvantGardeGothicStdMd {
+    font-family: 'ITCAvantGardeGothicStdMd';
+}
+
+.ITCAvantGardeGothicStdDemi {
+    font-family: 'ITCAvantGardeGothicStdDemi';
+}
+
+.ITCAvantGardeGothicStdBold {
+    font-family: 'ITCAvantGardeGothicStdBold';
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.footer-container img {
+    width: 250px;
+    height: auto;
+    padding: 15px 0;
+}
