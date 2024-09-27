@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'Milkman';
+    src: url('../fonts/MilkmanLight.woff2') format('woff2'),
+        url('../fonts/MilkmanLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milkman';
+    src: url('../fonts/MilkmanBold.woff2') format('woff2'),
+        url('../fonts/MilkmanBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milkman';
+    src: url('../fonts/MilkmanRegular.woff2') format('woff2'),
+        url('../fonts/MilkmanRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Appears DEMO';
+    src: url('../fonts/AppearsDEMO-Regular.woff2') format('woff2'),
+        url('../fonts/AppearsDEMO-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body {
+background-image: url(file:///Users/berzanurozen/Desktop/finder/site/Sans%20titre/16-typoweb/img/Noe%CC%81%20Cotter.jpg);
+background-size: cover;
+padding: 20px;
+
+}
+
+    h1 {
+        font-family: 'Milkman';
+        font-weight: 300;
+        font-size: 71px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.603);
+        margin: 11px;
+        
+    }
+
+    h2 {
+        font-family: 'Appears DEMO';
+        font-size: 71px;
+        text-align: left;
+        color: white;
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+      
+    
+
+    h3 {
+        font-family: 'Appears DEMO';
+        font-size: 71px;
+        text-align: center;
+        color: white;
+        opacity: 50%;
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+        
+    }
+    
+    h4 {
+        font-family: 'Milkman';
+        font-weight: lighter;
+        font-size: 70px;
+        margin: auto;
+       
+    }
+    
+    .about {
+        
+        font-family: 'Milkman';
+        text-align: left;
+        font-size: 20px ;
+        
+    }
+
+    .nav {
+
+        text-align: center;
+       
+        font-size: 24px;
+    }
+
+    footer {
+        color: white;
+        opacity: 50%;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .about-me {
+    font-size: 13px;
+    font-family: 'Milkman';
+    font-weight: lighter;
+    margin: initial;
+    } 
+
+    .map {
+        background-color: white;
+        opacity: 45%;
+        width: 300px;
+        height: 200px;
+        border: 1px solid black;
+        overflow: scroll;
+        overflow: auto;
+        overflow-x: scroll;
+      }
+.transition {
+    color: black;
+    font-family: 'Milkman';
+    margin: 0;
+    padding: 0px;
+}
+.light {
+    font-weight: lighter;
+    font-size: 48px;
+}
+.regular {
+    font-size: 58px;
+}
+.bold {
+    font-size: 78px;
+    font-weight: bold;
+}
+
+.discoverme {
+    background-color: white;
+    opacity: 45%;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Milkman';
+    font-size: 25px;
+   
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Socialico Plus Plus';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 80px;
+    margin: 0;
+    opacity: 70%;
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+.logoeikon{
+    width: 300%;
+    
+}
+.menu {
+    background-color:rgba(245, 245, 245, 0.377);
+    margin: 5px;
+    font-family: 'Appears DEMO';
+
+   
+}
+.menu a:visited {
+    color: white;
+    
+   
+}
+.eikonlogo {
+width: 50px;
+background-color: rgba(255, 255, 255, 0.623);
+margin: 5px;
+}
