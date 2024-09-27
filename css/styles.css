@@ -1,0 +1,163 @@
+body {
+  max-width: 375px;
+  margin: auto;
+  background-color: #fcf7ea;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+  color: black;
+  margin: 30px 30px 21px;
+}
+
+h2 {
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: black;
+  margin: 0px 30px 4px;
+}
+
+.character-map-name {
+  color: black;
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.flag-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flag-img {
+  width: 40px;
+}
+
+.font-style-presentation-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.font-style-presentation-container p {
+  margin-top: 8px;
+}
+
+.wave_placement {
+  margin-bottom: -5px;
+}
+
+.card {
+  background-color: #0c35c3;
+  margin: 0px;
+  padding: 10px 30px;
+}
+
+.card h1 {
+  color: white;
+  margin: 0px 0px 21px;
+}
+
+.font-style-presentation {
+  border: 2px solid #0c35c3;
+  margin: 30px 30px;
+}
+
+.flag-img-presentation {
+  width: 84px;
+  height: 71px;
+}
+
+.font-style-name {
+  text-align: center;
+  border-bottom: 2px solid #0c35c3;
+  padding: 15px;
+  width: 197px;
+  height: 39px;
+}
+
+.font-style-presentation p {
+  color: black;
+  font-size: 20px;
+}
+
+input {
+  font-family: garamond-premier-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 37px;
+  color: black;
+  background-color: #fcf7ea;
+  border: none;
+  width: 100%;
+}
+
+.character-table {
+  margin: 30px;
+}
+
+.character-table-under-title {
+  margin: 0px 30px;
+}
+
+.character-table-placement {
+  margin: 0px 30px 30px;
+}
+
+.footer-card {
+  background-color: #0c35c3;
+  padding: 16px 30px 12px;
+}
+
+span {
+  font-size: 24px;
+}
+
+footer div {
+  background-color: red;
+  padding: 10px 15px 1px 30px;
+}
+
+.presented-by {
+  font-family: 'Helvetica';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  color: black;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.element-email,
+.element-intagram {
+  height: 37px;
+  margin-left: 4px;
+}
+
+.g-overview {
+  margin: 30px;
+}
+
+.footer-name-fonderie {
+  margin: 0px;
+}
