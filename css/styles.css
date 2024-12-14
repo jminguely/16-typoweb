@@ -1,0 +1,577 @@
+body {
+  width: 400px;
+  margin: auto;
+}
+
+header {
+  background: #FF7900;
+}
+
+.container-imgheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 105px 0 15px 30px;
+}
+
+header img {
+  width: 250px;
+  height: auto;
+
+}
+
+.title-aviano {
+  text-align: center;
+  font-family: aviano-future, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  margin: 0px 20px;
+  font-size: 50px;
+}
+
+.description {
+  text-align: center;
+  font-family: 'Cairo', sans-serif;
+  font-size: 20px;
+  margin: 0px 30px 0px 30px;
+  background: #FF7900;
+  padding: 1px;
+}
+
+.description strong {
+  font-family: aviano-future, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.description-font {
+  background-color: black;
+}
+
+.title-description-font {
+  font-family: 'Cairo', sans-serif;
+  color: #FF7900;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0;
+}
+
+.description-font-content {
+  text-align: center;
+  font-family: 'Cairo', sans-serif;
+  color: white;
+  padding: 15px 40px 50px 40px;
+  margin: 0;
+}
+
+.container-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  background-color: black;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.button-nav:hover {
+  background: #d06b12;
+}
+
+.button-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #FF7900;
+  color: white;
+  border-radius: 40px;
+  height: 25px;
+  padding: 0 40px;
+  font-family: 'Cairo', sans-serif;
+  font-size: 10px;
+}
+
+.button-nav:hover {
+  background: #d06b12;
+} 
+
+.button-text:hover {
+  background: #d06b12;
+} 
+
+.change-box {
+  background: #FF7900;
+  padding: 50px 0 20px 0;
+  cursor: pointer;
+}
+
+.change-box p {
+  text-align: center;
+}
+
+.title-fats {
+  font-family: 'Cairo', sans-serif;
+  margin: 10px 10px 5px 157px;
+  padding: 1px 10px;
+  color: #FF7900;
+  background: black;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.explanation {
+  font-family: 'Cairo', sans-serif;
+  font-size: 10px;
+  margin: 0;
+  padding: 5px 0px 10px 8px;
+}
+
+.heavy-fast {
+  font-family: aviano-future, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 30px;
+  margin: auto;
+}
+
+
+.heavy-fast:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 30px;
+  margin: auto;
+}
+
+.black-fast {
+  font-family: aviano-future, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 30px;
+  margin: auto;
+}
+
+.black-fast:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 30px;
+  margin: auto;
+}
+
+.bold-fast {
+  font-family: aviano-future, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 30px;
+  margin: auto;
+}
+
+.bold-fast:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  margin: auto;
+}
+
+.regular-fast {
+  font-family: aviano-future, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 30px;
+  margin: auto;
+}
+
+.regular-fast:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin: auto;
+}
+
+.light-fast {
+  font-family: aviano-future, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 30px;
+  margin: auto;
+}
+
+.light-fast:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
+  margin: auto;
+}
+
+.thin-fast {
+  font-family: aviano-future, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 30px;
+  margin: auto;
+}
+
+.thin-fast:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 30px;
+  margin: auto;
+}
+
+
+.presentation-box {
+  background: #FF7900;
+  margin: 0;
+}
+
+.presentation-box img {
+  height: 100px;
+  margin: 30px 20px 0px 20px;
+  /* max-width: 100%; */
+  height: auto;
+}
+
+.presentation-diagram {
+  background: #FF7900;
+  padding-top: 15px;
+  margin: 0;
+}
+
+.presentation-diagram img {
+  background: #FF7900;
+}
+
+.glyphs-box {
+  background: white;
+  padding: 50px 0 20px 0;
+}
+
+.title-glyphs {
+  font-family: 'Cairo', sans-serif;
+  margin: 10px 10px 10px 157px;
+  padding: 1px 10px;
+  color: white;
+  background: #FF7900;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.explanation-glhyps {
+  font-family: 'Cairo', sans-serif;
+  font-size: 10px;
+  margin: 0;
+  padding: 0 0 10px 155px;
+}
+
+.thin-text {
+  font-family: aviano-future, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 35px;
+  margin: 0 40px 0 40px;
+}
+
+.thin-text:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.light-text {
+  font-family: aviano-future, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 35px;
+  margin: 30px 40px 0 40px;
+}
+
+.light-text:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.regular-text {
+  font-family: aviano-future, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  margin: 30px 40px 0 40px;
+}
+
+.regular-text:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.bold-text {
+  font-family: aviano-future, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 35px;
+  margin: 30px 40px 0 40px;
+}
+
+.bold-text:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.black-text {
+  font-family: aviano-future, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 35px;
+  margin: 30px 40px 0 40px;
+}
+
+.black-text:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.heavy-text {
+  font-family: aviano-future, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 35px;
+  margin: 30px 40px 0 40px;
+}
+
+.heavy-text:hover {
+  font-family: aviano-future, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.textarea-box {
+  background: black;
+  padding: 50px 0 20px 0;
+}
+
+.title-textarea {
+  font-family: 'Cairo', sans-serif;
+  margin: 10px 10px 10px 157px;
+  padding: 1px 10px;
+  color: black;
+  background: #FF7900;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.heavy-zone {
+  margin: 5px 0 45px 0;
+}
+
+.heavy-zone .text-test {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 10px 28px 5px 10px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.heavy-zone .text-fast {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 0 28px 0 3px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.black-zone {
+  margin: 5px 0 45px 0;
+}
+
+.black-zone .text-test {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 10px 28px 5px 15px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.black-zone .text-fast {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 0 28px 0 11px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.bold-zone {
+  margin: 5px 0 45px 0;
+}
+
+.bold-zone .text-test {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 10px 28px 5px 20px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bold-zone .text-fast {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 0 28px 0 15px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.regular-zone {
+  margin: 5px 0 45px 0;
+}
+
+.regular-zone .text-test {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 10px 28px 5px 25px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.regular-zone .text-fast {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 0 28px 0 25px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.light-zone {
+  margin: 5px 0 45px 0;
+}
+
+.light-zone .text-test {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 10px 28px 5px 28px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.light-zone .text-fast {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 0 28px 0 25px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.thin-zone {
+  margin: 5px 0 15px 0;
+}
+
+.thin-zone .text-test {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 10px 28px 5px 30px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.thin-zone .text-fast {
+  text-align: center;
+  color: white;
+  background: none;
+  margin: 0 28px 0 30px;
+  border-color: #FF7900;
+  font-size: 20px;
+  font-family: aviano-future, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+footer {
+  background: #FF7900;
+  font-family: 'Cairo', sans-serif;
+}
+
+footer h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 25px;
+}
+
+footer img {
+  height: 70px;
+  margin-left: 300px;
+}
+
+footer a {
+  color: gold;
+}
+
+.contact-box {
+  display: flex;
+  justify-content: space-around;
+}
+
